@@ -378,9 +378,10 @@
 
             {%- when 'product_swatches' -%}
               {% render 'product-swatches', block: block %}
-
+{% comment %}
             {%- when 'boka_subs_widget' -%}
               {% render 'custom-subscription-widget', block: block, product: product %}
+{% endcomment %}
 
             {%- when 'variant_picker' -%}
               {% if block.settings.color_names != blank and block.settings.color_hex != blank %}
