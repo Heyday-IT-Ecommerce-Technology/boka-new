@@ -1,0 +1,46 @@
+<div class="scroll-menu">
+    {% for block in section.blocks %}
+        <div class="scroll-menu-item">
+            <a href="{{block.settings.category}}">
+                <img src="{{ block.settings.image | img_url: '200x' }}" width="70" height="70" alt="{{block.settings.heading}}" class="category-mobile-image" loading="lazy">
+                <div>{{ block.settings.heading }}</div>
+            </a>
+        </div>
+    {% endfor %}
+</div>
+
+{% schema %}
+    {
+        "name": "Categories Menu (Mobile)",
+        "tag": "section",
+        "blocks": [
+            {
+                "type": "categories",
+                "name": "Categories",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "url",
+                        "id": "category",
+                        "label": "Category"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+        {
+            "name": "Categories Menu (Mobile)"
+        }
+        ]
+    }
+{% endschema %}
+

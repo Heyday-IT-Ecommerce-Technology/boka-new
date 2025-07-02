@@ -1,0 +1,45 @@
+<fieldset class="js product-form__input hide-sticky-atc">
+    <legend class="form__label">{{ block.settings.heading }}</legend>
+
+    {% assign current_selected = '' %}
+    {% assign product_match = block.settings.reference_collection.products | where: 'handle', product.handle | size %}
+    {% if product_match > 0 %}
+        {% assign prod_match = block.settings.reference_collection.products | where: 'handle', product.handle | first %}
+        {% assign prod_title = prod_match.title %}
+        {% assign prod_title_slug = prod_match.title | handleize | append: '.png' %}
+        {% if prod_match.metafields.cultivated.alternate_product_name %}
+            {% assign prod_title = prod_match.metafields.cultivated.alternate_product_name %}
+            {% assign prod_title_slug = prod_title | handleize | append: '.png' %}
+        {% endif %}
+
+        {% capture current_selected =  %}{{ prod_title_slug | file_img_url | img_tag }} {{ prod_title }}{% endcapture %}
+    {% endif %}
+
+    <details class="product-swatch">
+        <summary>
+            <span>
+            {% if current_selected %}
+                {{ current_selected }}
+            {% else %}
+                Select {{ block.settings.heading }}
+            {% endif %}
+            </span>
+
+            {% render 'icon-caret' %}
+        </summary>
+        <div>
+            {% for prod in block.settings.reference_collection.products %}
+                {% assign prod_title = prod.title %}
+                {% assign prod_title_slug = prod.handle | append: '.png' %}
+                {% if prod.metafields.cultivated.alternate_product_name %}
+                    {% assign prod_title = prod.metafields.cultivated.alternate_product_name %}
+                    {% assign prod_title_slug = prod_title | handleize | append: '.png' %}
+                {% endif %}
+
+                <a href="{{ prod.url }}">{{ prod_title_slug | file_img_url | img_tag }} {{ prod_title }}</a>
+            {% endfor %}
+        </div>
+    </details>
+</fieldset>
+
+{{ 'product-swatches.js' | asset_url | script_tag }}

@@ -1,0 +1,452 @@
+<custom-subscription-widget>
+  {% assign has_subscription = false %}
+  {% for variant in product.variants %}
+    {% if variant.selling_plan_allocations.size > 0 %}
+      {% assign has_subscription = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if has_subscription %}
+    {% for variant in product.variants %}
+      <div
+        data-variant-id="{{ variant.id }}"
+        data-selling-plan-ids="{% for selling_plan_allocation in variant.selling_plan_allocations %}{{ selling_plan_allocation.selling_plan.id }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+        data-old-price="{{ variant.compare_at_price | money }}"
+        data-variant-price="{{ variant.price | money }}"
+        data-subscription-prices="{% for selling_plan_allocation in variant.selling_plan_allocations %}{{ selling_plan_allocation.price | money }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+        data-selling-plan-names="{% for selling_plan_allocation in variant.selling_plan_allocations %}{{ selling_plan_allocation.selling_plan.name }}{% unless forloop.last %},{% endunless %}{% endfor %}"
+        data-subs-only="{{ variant.requires_selling_plan }}"
+      ></div>
+    {% endfor %}
+
+    <div class="custom_subscription_container">
+      <div class="custom_onetimepurchase_group custom_subscription_item">
+        <div class="custom_subscription_inner">
+          <input
+            id="custom_onetimepurchase"
+            type="radio"
+            class="custom_onetimepurchase"
+            name="purchase_option"
+            value="onetimepurchase"
+            {% if block.settings.default_selection == 'otp' %}
+              checked
+            {% endif %}>
+          <label for="custom_onetimepurchase">
+            {{- block.settings.otp_label | default: 'One-time purchase' -}}
+            <span class="subscription-price"></span>
+          </label>
+        </div>
+      </div>
+      <div class="custom_subscription_group custom_subscription_item">
+        <div class="custom_subscription_inner">
+          <input
+            id="custom_subscription"
+            type="radio"
+            class="custom_subscription"
+            name="purchase_option"
+            value="subscription"
+            {% if block.settings.default_selection == 'subs' %}
+              checked
+            {% endif %}>
+          <label for="custom_subscription">
+            {{- block.settings.subscription_label | default: 'Subscribe & Save' -}}
+            <span class="subscription-price"></span>
+          </label>
+        </div>
+        <div class="custom_subs_selector">
+          <span>{{ block.settings.subscription_sub_label | default: 'Save 20% on every subscription' }}</span>
+          <select></select>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</custom-subscription-widget>
+
+<style>
+  custom-subscription-widget .custom_subscription_item {
+    position: relative;
+    cursor: pointer;
+    border: 1.5px solid {{ block.settings.border_color }};
+    padding: 1.25rem 3rem 1.25rem 1.5rem;
+    gap: 1rem;
+    align-items: center;
+    color: rgba(var(--color-foreground), 0.75);
+  }
+  .product.sticky-addToCart custom-subscription-widget .custom_subscription_item {
+    min-width: 330px;
+    padding: 1rem;
+  }
+  .product.sticky-addToCart custom-subscription-widget .custom_subscription_item select {
+    cursor: pointer;
+    padding-left: 1.5rem !important;
+  }
+  .product.sticky-addToCart custom-subscription-widget .custom_subscription_item .subscription-price {
+    right: 1.2rem;
+  }
+  .product.sticky-addToCart custom-subscription-widget .custom_subs_selector.active {
+    padding-left: 2.8rem;
+    gap: 0;
+  }
+  .product.sticky-addToCart custom-subscription-widget .custom_subscription_item input[type="radio"] {
+    margin-right: 0.7rem;
+  }
+  .product.sticky-addToCart custom-subscription-widget .custom_subscription_item {
+    gap: 0.5rem
+  }
+  custom-subscription-widget .custom_subscription_inner {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  custom-subscription-widget .custom_subscription_item input[type="radio"] {
+    cursor: pointer;
+    height: 17px;
+    width: 17px;
+    margin: 0;
+    margin-right: 2rem;
+  }
+  custom-subscription-widget .custom_subscription_item select {
+    cursor: pointer;
+    font-size: calc(var(--font-body-scale) * 1.8rem);
+    font-family: 'CeraProRegular';
+    padding: 1.4rem 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='15' height='9' viewBox='0 0 15 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L7.5 7.5L14 1' stroke='black' stroke-width='1.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 13px;
+  }
+  custom-subscription-widget .custom_subscription_item label {
+    font-size: calc(var(--font-body-scale) * 1.8rem);
+    font-weight: 700;
+    font-family: 'CeraProMedium';
+    cursor: pointer;
+    margin-bottom: 0;
+    line-height: 20px;
+  }
+  custom-subscription-widget .custom_subscription_item .subscription-price {
+    font-size: calc(var(--font-body-scale) * 1.8rem);
+    font-family: 'CeraProMedium';
+    position: absolute;
+    top: 1.2rem;
+    right: 3rem;
+  }
+  custom-subscription-widget .custom_subscription_item label span {
+    font-family: 'CeraProRegular';
+    font-size: calc(var(--font-body-scale) * 1.4rem);
+    padding-left: 0.5rem;
+    color: rgba(var(--color-foreground), 0.75);
+  }
+  custom-subscription-widget .custom_subscription_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+  custom-subscription-widget .custom_subs_selector {
+    display: none;
+  }
+  custom-subscription-widget .custom_subs_selector.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-left: 4.4rem;
+  }
+  custom-subscription-widget .selected-subscription-option {
+    background-color: {{ block.settings.selected_bgcolor }};
+    border: 1.5px solid {{ block.settings.selected_border }};
+    color: rgba(var(--color-foreground), 1);
+  }
+  custom-subscription-widget .selected-subscription-option .subscription-price {
+    color: rgba(var(--color-foreground), 1);
+  }
+  custom-subscription-widget .custom_subscription_item input[type="radio"]:checked {
+    accent-color: #231F20;
+  }
+  @media (max-width: 749px) {
+    custom-subscription-widget .custom_subscription_item {
+      padding: 0.85rem 1.5rem 0.85rem 1rem;
+    }
+    custom-subscription-widget .custom_subscription_item label,
+    custom-subscription-widget .custom_subscription_item .subscription-price {
+      font-size: calc(var(--font-body-scale) * 1.6rem);
+    }
+    custom-subscription-widget .custom_subscription_item .subscription-price {
+      top: 0.85rem;
+      right: 1.5rem;
+    }
+    custom-subscription-widget .custom_subscription_item input[type="radio"] {
+      margin-right: 1rem;
+    }
+    custom-subscription-widget .custom_subscription_item label span {
+      font-size: calc(var(--font-body-scale) * 1.2rem);
+    }
+    custom-subscription-widget .custom_subs_selector.active {
+      padding-left: 3.2rem;
+    }
+    custom-subscription-widget .custom_subscription_item select {
+      padding: 1.6rem 2rem;
+      font-size: calc(var(--font-body-scale) * 1.4rem);
+      margin-top: 0;
+    }
+    custom-subscription-widget .custom_subs_selector > span {
+      line-height: 22px;
+    }
+  }
+</style>
+
+<script>
+  class CustomSubscriptionWidget extends HTMLElement {
+    constructor() {
+      super();
+    }
+  
+    connectedCallback() {
+      this.WaitForElement('.product-form form[action="/cart/add"]').then((elm) => {
+        let product_form = document.querySelector('.product-form form[action="/cart/add"]');
+        let variant_id_element = product_form.querySelector('input[name="id"]');
+        const sellingPlanInput = product_form.querySelector('input[name="selling_plan"]');
+
+        setTimeout(() => {
+          const variant_id = product_form.querySelector('input[name="id"]').value;
+          const original_price = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-variant-price');
+          const subs_options_price = this.querySelector(`[data-variant-id="${variant_id}"]`)
+            .getAttribute('data-subscription-prices')
+            .split(',')[0];
+          
+          this.updateStickyCart(original_price, subs_options_price);
+        }, 500);
+        
+  
+        if (variant_id_element) {
+          variant_id_element.addEventListener('change', (e) => {
+            let variant_id = variant_id_element.value;
+            this.UpdateSubscriptionSelection(product_form, variant_id);
+          });
+        }
+  
+        if (!sellingPlanInput) {
+          variant_id_element.insertAdjacentHTML('afterend', '<input type="hidden" name="selling_plan" value="">');
+        }
+        this.UpdateSubscriptionSelection(product_form, variant_id_element.value);
+  
+        this.querySelector('.custom_subs_selector select').addEventListener('change', (e) => {
+          product_form.querySelector('input[name="selling_plan"]').value =
+            this.querySelector('.custom_subs_selector select').value;
+          this.querySelector('.custom_subscription_group .subscription-price').innerText =
+            this.querySelector('.custom_subs_selector select').options[
+              this.querySelector('.custom_subs_selector select').selectedIndex
+            ].getAttribute('data-price');
+
+          const variant_id = product_form.querySelector('input[name="id"]').value;
+          const original_price = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-variant-price');
+          const subs_options_price = this.querySelector(`[data-variant-id="${variant_id}"]`)
+            .getAttribute('data-subscription-prices')
+            .split(',')[0];
+          
+          this.updateStickyCart(original_price, subs_options_price);
+
+        });
+  
+        this.querySelector('custom-subscription-widget #custom_onetimepurchase').addEventListener('change', (e) => {
+          product_form.querySelector('input[name="selling_plan"]').value = '';
+          this.updateSelectedState();
+
+          const variant_id = product_form.querySelector('input[name="id"]').value;
+          const original_price = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-variant-price');
+          const subs_options_price = this.querySelector(`[data-variant-id="${variant_id}"]`)
+            .getAttribute('data-subscription-prices')
+            .split(',')[0];
+          
+          this.updateStickyCart(original_price, subs_options_price);
+        });
+  
+        this.querySelector('custom-subscription-widget #custom_subscription').addEventListener('change', (e) => {
+          product_form.querySelector('input[name="selling_plan"]').value =
+          this.querySelector('.custom_subs_selector select').value;
+          this.updateSelectedState();
+
+          const variant_id = product_form.querySelector('input[name="id"]').value;
+          const original_price = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-variant-price');
+          const subs_options_price = this.querySelector(`[data-variant-id="${variant_id}"]`)
+            .getAttribute('data-subscription-prices')
+            .split(',')[0];
+          
+          this.updateStickyCart(original_price, subs_options_price);
+          this.updateSelectedState();
+        });
+  
+        this.querySelectorAll('.custom_subscription_item').forEach(item => {
+          item.addEventListener('click', (e) => {
+            const radioInput = item.querySelector('input[type="radio"]');
+            if (radioInput) {
+              radioInput.checked = true;
+              radioInput.dispatchEvent(new Event('change'));
+            }
+          });
+        });
+        
+        this.updateSelectedState();
+      });
+    }
+  
+    updateSelectedState() {
+      const selectedClass = 'selected-subscription-option';
+      const activeClass = 'active';
+      const items = this.querySelectorAll('.custom_subscription_item');
+      items.forEach(item => {
+        item.classList.remove(selectedClass);
+        const subsSelector = item.querySelector('.custom_subs_selector');
+        if (subsSelector) {
+          subsSelector.classList.remove(activeClass);
+        }
+      });
+  
+      const checkedInput = this.querySelector('input[name="purchase_option"]:checked');
+      if (checkedInput) {
+        const subscriptionItem = checkedInput.closest('.custom_subscription_item');
+        if (subscriptionItem) {
+          subscriptionItem.classList.add(selectedClass);
+          const subsSelector = subscriptionItem.querySelector('.custom_subs_selector');
+          if (subsSelector) {
+            subsSelector.classList.add(activeClass);
+          }
+        }
+      }
+    }
+  
+    WaitForElement(selector) {
+      return new Promise((resolve) => {
+        if (document.querySelector(selector)) {
+          return resolve(document.querySelector(selector));
+        }
+  
+        const observer = new MutationObserver((mutations) => {
+          if (document.querySelector(selector)) {
+            observer.disconnect();
+            resolve(document.querySelector(selector));
+          }
+        });
+  
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true,
+        });
+      });
+    }
+
+    updateStickyCart(originalPrice, subsOptionsPrice) {
+      const desktopStickyAtc = document.querySelector('.desktop-sticky-atc');
+      const mobileStickyDetails = document.querySelector('.mobile-sticky-atc-product-details');
+      const checkedInput = this.querySelector('input[name="purchase_option"]:checked');
+      const intervalUnitType = `{{ product.metafields.subscriptions.shipping_interval_unit_type }}`;
+    
+      if (checkedInput) {
+        const isOneTimePurchase = checkedInput.value === 'onetimepurchase';
+    
+        if (desktopStickyAtc) {
+          const stickySubsPrice = desktopStickyAtc.querySelector('.subscription-price');
+          const stickyOneTimePrice = desktopStickyAtc.querySelector('.one-time-price');
+          const deliveryInterval = desktopStickyAtc.querySelector('.delivery-interval span:last-of-type');
+    
+          if (isOneTimePurchase) {
+            stickySubsPrice.innerText = originalPrice;
+            stickyOneTimePrice.innerText = '';
+            if (deliveryInterval) deliveryInterval.innerText = '';
+          } else {
+            stickySubsPrice.innerText = subsOptionsPrice;
+            stickyOneTimePrice.innerText = originalPrice;
+            if (deliveryInterval) {
+              const subsSelector = this.querySelector('.custom_subs_selector select');
+              const selectedOptionText = subsSelector.options[subsSelector.selectedIndex].innerText;
+              const monthMatch = selectedOptionText.match(/(\d+)\s*month/i);
+              if (monthMatch) {
+                const months = monthMatch[1];
+                deliveryInterval.innerText = `${months} ${intervalUnitType} supply`;
+              }
+            }
+          }
+        }
+    
+        if (mobileStickyDetails) {
+          const mobileSubsPrice = mobileStickyDetails.querySelector('.subscription-price');
+          const mobileOneTimePrice = mobileStickyDetails.querySelector('.original-one-time-price');
+          const mobileDeliveryInterval = mobileStickyDetails.querySelector('.delivery-interval span:last-of-type');
+    
+          if (isOneTimePurchase) {
+            mobileSubsPrice.innerText = originalPrice;
+            mobileOneTimePrice.style.display = 'none';
+            if (mobileDeliveryInterval) mobileDeliveryInterval.innerText = '';
+          } else {
+            mobileSubsPrice.innerText = subsOptionsPrice;
+            mobileOneTimePrice.innerText = originalPrice;
+            mobileOneTimePrice.style.display = 'flex';
+            if (mobileDeliveryInterval) {
+              const subsSelector = this.querySelector('.custom_subs_selector select');
+              const selectedOptionText = subsSelector.options[subsSelector.selectedIndex].innerText;
+              const monthMatch = selectedOptionText.match(/(\d+)\s*month/i);
+              if (monthMatch) {
+                const months = monthMatch[1];
+                mobileDeliveryInterval.innerText = `${months} ${intervalUnitType} supply`;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    UpdateSubscriptionSelection(product_form, variant_id) {
+      let selling_plan_ids = this.querySelector(`[data-variant-id="${variant_id}"]`)
+        .getAttribute('data-selling-plan-ids')
+        .split(',');
+      let selling_plan_names = this.querySelector(`[data-variant-id="${variant_id}"]`)
+        .getAttribute('data-selling-plan-names')
+        .split(',');
+      let selling_plan_prices = this.querySelector(`[data-variant-id="${variant_id}"]`)
+        .getAttribute('data-subscription-prices')
+        .split(',');
+      let original_price = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-variant-price');
+      
+      let compareAtPrice = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-old-price');
+      let subs_only = this.querySelector(`[data-variant-id="${variant_id}"]`).getAttribute('data-subs-only');
+  
+      if (subs_only == 'true') {
+        this.querySelector('#custom_subscription').click();
+        this.querySelector('.custom_onetimepurchase_group').style.display = 'none';
+      } else {
+        this.querySelector('.custom_onetimepurchase_group').style.display = 'flex';
+      }
+  
+      if (selling_plan_ids.length >= 1 && selling_plan_ids[0] != '') {
+        this.querySelector('.custom_subscription_container').style.display = 'flex';
+        this.querySelector('.custom_onetimepurchase_group .subscription-price').innerText = original_price;
+
+        let subs_options = '';
+        let subs_options_price = '';
+        selling_plan_ids.forEach((value, x) => {
+          subs_options += `<option value="${value}" data-price="${selling_plan_prices[x]}">${selling_plan_names[x]}</option>`;
+          this.querySelector('.custom_subscription_group .subscription-price').innerText = selling_plan_prices[x];
+          subs_options_price = selling_plan_prices[x];
+        });
+  
+        this.querySelector('.custom_subs_selector select').innerHTML = subs_options;
+        this.querySelector('.custom_subs_selector select').selectedIndex = 0;
+
+        this.updateStickyCart(original_price, subs_options_price);
+    
+        if (this.querySelector('custom-subscription-widget #custom_onetimepurchase').checked) {
+          product_form.querySelector('input[name="selling_plan"]').value = '';
+        } else {
+          product_form.querySelector('input[name="selling_plan"]').value = selling_plan_ids[0];
+        }
+      }
+    }
+  }
+  
+  customElements.define('custom-subscription-widget', CustomSubscriptionWidget);
+</script>

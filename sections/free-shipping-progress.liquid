@@ -1,0 +1,50 @@
+{% comment %} <div id="free-shipping-message">
+  <div class="free-shipping-message">
+    {% assign minFreeShipping = settings.free_shipping_minimum | times: 100.00 %}
+    {%- assign freeShippingAmount = minFreeShipping | minus: cart.total_price -%}
+    {%- assign freeShippingAmountMoney = freeShippingAmount | money -%}
+    {%- assign currentTotal = cart.total_price | divided_by: minFreeShipping | times: 100  -%}
+    {%- if minFreeShipping <= cart.total_price -%}
+      <span>{{ settings.dynamic_free_shipping_success }}</span>
+    {%- else -%}
+      <span>{{ settings.dynamic_free_shipping_alert | replace: '[amount]', freeShippingAmountMoney }}</span>
+    {%- endif -%}
+    <progress class="free-shipping-progress" value="{{ currentTotal }}" max="100"></progress>
+  </div>
+</div> {% endcomment %}
+<div id="free-shipping-message">
+  <div class="free-shipping-message">
+    {% comment %}
+      1. Detect market
+      2. Assign the matching threshold (in dollars)
+      3. Convert to cents for comparison against cart.total_price
+    {% endcomment %}
+
+    {% assign market_handle = request.market.handle %}
+
+    {% case market_handle %}
+      {% when "us" %}
+        {% assign threshold_dollars = settings.free_shipping_minimum_us %}
+      {% when "ca" %}
+        {% assign threshold_dollars = settings.free_shipping_minimum_ca %}
+      {% else %}
+        {% assign threshold_dollars = settings.free_shipping_minimum_default %}
+    {% endcase %}
+
+    {%- assign minFreeShipping = threshold_dollars | times: 100 -%}
+    {%- assign freeShippingAmount = minFreeShipping | minus: cart.total_price -%}
+    {%- assign freeShippingAmountMoney = freeShippingAmount | money -%}
+    {%- assign currentTotal = cart.total_price | times: 100 | divided_by: minFreeShipping -%}
+
+    {% if cart.total_price >= minFreeShipping %}
+      <span>{{ settings.dynamic_free_shipping_success }}</span>
+    {% else %}
+      <span>
+        {{ settings.dynamic_free_shipping_alert
+           | replace: '[amount]', freeShippingAmountMoney }}
+      </span>
+    {% endif %}
+
+    <progress class="free-shipping-progress" value="{{ currentTotal }}" max="100"></progress>
+  </div>
+</div>

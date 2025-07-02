@@ -1,0 +1,11 @@
+{% if product.metafields.custom.badge %}
+<div class="card__badge {{ settings.badge_position }}">
+    <span
+      id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+      class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }} badge--{{ product.metafields.custom.badge.value.badge_type | handleize }}"
+      style="background-color: {{ product.metafields.custom.badge.value.background_color }}; border: 0; color: {{ product.metafields.custom.badge.value.font_color }};"
+    >
+      {{ product.metafields.custom.badge.value.badge_text }}
+    </span>
+</div>
+{% endif %}

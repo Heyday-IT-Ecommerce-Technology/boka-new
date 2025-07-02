@@ -1,0 +1,44 @@
+<div
+  id="sticky-atc"
+  class="sticky-atc hidden"
+  data-subscription-interval="{{ section.settings.subscription_interval }}"
+>
+  <div class="sticky-atc__inner page-width">
+    <!-- LEFT BLOCK: image + title + variant + change link -->
+    <div class="sticky-atc__left">
+      <img
+        id="sticky-atc-media"
+        class="sticky-atc__media"
+        src="{{ product.featured_or_first_available_variant.featured_media | img_url: 'compact' }}"
+        alt="{{ product.title }}"
+      >
+      <div class="sticky-atc__texts">
+        <div id="sticky-atc-title" class="sticky-atc__title">{{ product.title }}</div>
+        <div class="sticky-atc__variant-wrapper">
+          <span id="sticky-atc-variant" class="sticky-atc__variant">
+            {{ product.selected_or_first_available_variant.options | join: ', ' }}
+          </span>
+          <a href="#variant-selects-{{ section.id }}" class="sticky-atc__change-link" style= "color:#006FCF !important;">Change</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT BLOCK: price + delivery + button -->
+    <div class="sticky-atc__right">
+      <div class="sticky-atc__price-wrapper">
+        <div id="sticky-atc-price" class="sticky-atc__price">
+          {{ product.selected_or_first_available_variant.price | money }}
+          {% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}
+            <span class="sticky-atc__compare">{{ product.selected_or_first_available_variant.compare_at_price | money }}</span>
+          {% endif %}
+        </div>
+        <div id="sticky-atc-sub" class="sticky-atc__sub">
+          Delivery every {{ section.settings.subscription_interval }}
+        </div>
+      </div>
+      <div id="sticky-atc__button">
+          {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,77 @@
+{%- liquid
+  if card_columns == "one"
+    assign card_columns = 1
+  elsif card_columns == "two"
+    assign card_columns = 2
+  endif
+-%}
+
+<div id="merchandising-card" class="merchandising-card__wrapper grid grid--{{ card_columns }}-col-desktop grid--1-col-tablet-down">
+  {%- if image_as_bg -%}
+  {% style %}
+  .section-{{ section.id }}-padding .merchandising-card__image-bg {
+    background-image: url( {{ card_image_mobile | image_url: width: 500 }} );
+    background-position: {{ bg_image_position }};
+  }
+  @media only screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding .merchandising-card__image-bg {
+      background-image: url( {{ card_image_desktop | image_url: width: 900 }} );
+    }
+  }
+  {% endstyle %}
+  <!-- <a href="{{ bg_image_link | default: '#' }}" class="merchandising-card__image-link" style="display: block; text-decoration: none;">
+  <div class="merchandising-card__image-bg">
+    <span class="hidden">BG Image</span>
+  </div>
+  </a> -->
+<div 
+  class="merchandising-card__image-bg clickable-bg" 
+  data-link="{{ bg_image_link | default: '#' }}">
+  <span class="visually-hidden">Background Image</span>
+</div>
+  {%- endif -%}
+  <div class="grid__item merchandising-card__content-wrapper">
+    <div class="merchandising-card__title">
+      {{ card_title }}
+    </div>
+    {% if card_text != blank or button_text != blank %}
+    <div class="merchandising-card__content">
+      {% if card_text %}{{ card_text }}{% endif %}
+      {% if button_text %}
+      <a class="merchandising-card__button button button--primary" href="{{ button_url }}">{{ button_text }}</a>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  {%- if card_columns == 2 and image_as_bg == false -%}
+  <div class="grid__item merchandising-card__content-image">
+    {% if card_image_url %}
+    <a href="{{ card_image_url }}">
+    {% endif %}
+      <img class="merchandising-card__image-desktop medium-hide small-hide" 
+        src="{{ card_image_desktop | image_url: width: 400 }}"
+        alt="{{ card_image_desktop.alt }}" loading="lazy"
+      />
+      <img class="merchandising-card__image-mobile large-up-hide"
+        src="{{ card_image_mobile | image_url: width: 400 }}"
+        alt="{{ card_image_mobile.alt }}" loading="lazy"
+      />
+    {% if card_image_url %}
+    </a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+  document.querySelectorAll('.clickable-bg').forEach(function (element) {
+    element.addEventListener('click', function () {
+      const url = this.dataset.link;
+      if (url && url !== '#') {
+        window.location.href = url;
+      }
+    });
+  });
+});
+</script>

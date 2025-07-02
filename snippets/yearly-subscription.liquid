@@ -1,0 +1,60 @@
+<yearly-subs-people>
+    <fieldset class="product-form__input product-form__input--dropdown">
+      <label class="form__label" for="no_people-{{ section.id }}">
+        How Many People Are You Purchasing For? (4 tubes per person)
+      </label>
+      <div class="select">
+        <select class="select__select" id="people__quantities">
+            <option value="4">1 person</option>
+            <option value="8">2 people</option>
+            <option value="12">3 people</option>
+            <option value="16">4 people</option>
+            <option value="20">5 people</option>
+        </select>
+        {% render 'icon-caret' %}
+      </div>
+      <table id="variant__quantities">
+          {% for variant in product.variants %}
+            {% if variant.available %}
+            <tr>
+                <td>
+                  <div class="variant__quantities-variant">
+                    <div>
+                      {{ variant.image | img_url: '50x' | img_tag }}
+                    </div>
+                    <div>
+                      <div><strong>{{ variant.title }}</strong></div>
+                      <div><s>{{ variant.price | money }}</s> {{ variant.metafields.subscriptions.discount_variant_price | times: 100 | money }}</div>
+                    </div>
+                  </div>
+                </td>
+                <td>
+                    <div class="variant__quantities-div">
+                        <div class="variant__quantities-minus">-</div>
+                        <input type="number" data-variant-id="{{ variant.metafields.subscriptions.discount_variant_id }}" data-price="{{ variant.metafields.subscriptions.discount_variant_price }}" data-price-original="{{ variant.price | money_without_currency }}" value="0" min="0" max="{{ variant.inventory_quantity }}" class="variant__quantity">
+                        <div class="variant__quantities-plus">+</div>
+                    </div>
+                </td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+      </table>
+      <div id="quantity__message"></div>
+      <div id="subscription__message">
+          <strong>Subscribe & Save ({{ product.metafields.subscriptions.discount_percentage | floor }}%)</strong>
+      </div>
+      <button class="product-form__submit button button--full-width button--primary" id="subscribe__button" disabled>
+          Add to cart
+          <div class="loading-overlay__spinner hidden">
+            <svg aria-hidden="true" focusable="false" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+              <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+            </svg>
+          </div>
+      </button>
+    </fieldset>
+</yearly-subs-people>
+<style>
+    .sticky-price {
+        display: none !important;
+    }
+</style>

@@ -1,0 +1,332 @@
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .section-{{ section.id }} iframe {
+    border: none;
+  }
+
+  .section-{{ section.id }} .yt-shorts__cover-image {
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .section-{{ section.id }} .title-wrapper-with-link {
+    justify-content: center;
+  }
+
+  .section-{{ section.id }} .multicolumn-list__item--empty {
+    display: none;
+  }
+  li.multicolumn-list__item.grid__item.slider__slide.center {
+    margin: 0px;
+  }
+  .yt-custom-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  @media screen and (min-width: 750px) {
+   {% if section.settings.auto_center %}
+      .section-{{ section.id }} .multicolumn-list {
+        justify-content: center;
+      }
+    {% endif %}
+    .section-{{ section.id }} .multicolumn-card-spacing {
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
+    .section-{{ section.id }} .media {
+      height: 455px !important;
+      width: 250px !important;
+    }
+  }
+
+  @media only screen and (max-width: 751px) {
+    .section-{{ section.id }} .slider__slide {
+      flex: 0 0 75%; /* 80% of the screen width for the current video */
+      scroll-snap-align: start;
+      margin-right: 3%; /* Space to show 20% of the next video */
+    }
+    .section-{{ section.id }}.multicolumn-list__item {
+      width: -webkit-fill-available !important;
+      margin-left: 0px !important;
+    }
+    .section-{{ section.id }} .multicolumn-card-spacing {
+      text-align: -webkit-center !important;
+      margin-left: 0rem;
+      margin-right: 0rem;
+    }
+    .section-{{ section.id }} .media {
+      height: 515px;
+      width: 290px !important;
+    }
+    .slider-buttons.no-js-hidden.medium-hide {
+      display: none;
+    }
+  }
+{% endstyle %}
+
+<div class="section-{{ section.id }} multicolumn color-{{ section.settings.color_scheme }} gradient{% if section.settings.yt_shorts_title == blank %} no-heading{% endif %}">
+  <div class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    {% if settings.animations_reveal_on_scroll %}
+      data-cascade
+    {% endif %}
+  >
+    {%- unless section.settings.yt_shorts_title == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+        <h2 class="title inline-richtext {{ section.settings.heading_size }}">
+          {{ section.settings.yt_shorts_title }}
+        </h2>
+      </div>
+    {%- endunless -%}
+    <slider-component class="yt-shorts slider-mobile-gutter">
+      <ul
+        class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--{% if section.settings.auto_center %}4{% else %}{{ section.settings.columns }}{% endif %}-col-desktop slider slider--mobile"
+        id="Slider-{{ section.id }}"
+        role="list"
+      >
+        {% for block in section.blocks %}
+          {% assign empty_column = '' %}
+          {% if block.settings.yt_shorts_link == blank %}
+            {% assign empty_column = ' multicolumn-list__item--empty' %}
+          {% endif %}
+          {% if block.settings.cover_image != blank %}
+            {% assign cover_image_present = true %}
+          {% endif %}
+          <li
+            id="Slide-{{ section.id }}-{{ forloop.index }}"
+            class="multicolumn-list__item grid__item slider__slide center{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
+          >
+            <div class="multicolumn-card content-container yt-custom-container">
+              {%- if block.settings.yt_shorts_link != blank -%}
+                <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width multicolumn-card-spacing">
+                  <div class="media media--transparent media--adapt">
+                    {% if cover_image_present %}
+                      {% capture sizes -%}
+                        (min-width: {{ settings.page_width }}px)
+                        {% if section.blocks.size == 1 -%}
+                          calc({{ settings.page_width }}px - 100px)
+                        {% else %}
+                          {{- settings.page_width | minus: 100 | times: 0.67 | round }}px
+                        {% endif %}
+                        , (min-width: 750px)
+                        {% if section.blocks.size == 1 %} calc(100vw - 100px){% else %} 500px{% endif %}
+                        , calc(100vw - 30px)
+                      {% endcapture %}
+                      {{
+                        block.settings.cover_image
+                        | image_url: width: 3000
+                        | image_tag: sizes: sizes, widths: '550, 720, 990, 1100, 1500, 2200, 3000', class: 'yt-shorts__cover-image'
+                      }}
+                    {% endif %}
+                    {% assign video_id = block.settings.yt_shorts_link | split: '/' %}
+                    <iframe
+                      src="https://youtube.com/embed/{{ video_id.last }}"
+                      class="js-youtube"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen
+                      title="{{ block.settings.description | escape }} Youtube video {% increment variable_name %}"
+                    ></iframe>
+                  </div>
+                </div>
+              {%- endif -%}
+            </div>
+          </li>
+        {%- endfor -%}
+      </ul>
+
+      <div class="slider-buttons no-js-hidden medium-hide">
+        <button
+          type="button"
+          class="slider-button slider-button--prev"
+          name="previous"
+          aria-label="{{ 'general.slider.previous_slide' | t }}"
+        >
+          {% render 'icon-caret' %}
+        </button>
+        <div class="slider-counter caption">
+          <span class="slider-counter--current">1</span>
+          <span aria-hidden="true"> / </span>
+          <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+          <span class="slider-counter--total">{{ section.blocks.size }}</span>
+        </div>
+        <button
+          type="button"
+          class="slider-button slider-button--next"
+          name="next"
+          aria-label="{{ 'general.slider.next_slide' | t }}"
+        >
+          {% render 'icon-caret' %}
+        </button>
+      </div>
+    </slider-component>
+
+    {% if section.settings.button_label != blank and section.settings.button_link != blank %}
+      <div class="center">
+        <a class="button button--primary" href="{{ section.settings.button_link }}">
+          {{ section.settings.button_label | escape }}
+        </a>
+      </div>
+    {% endif %} 
+  </div>
+</div>
+
+{% if cover_image_present %}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const coverImages = document.querySelectorAll('.yt-shorts__cover-image');
+      coverImages.forEach((coverImage) => {
+        coverImage.addEventListener('click', () => {
+          coverImage.style.zIndex = '-1';
+        });
+      });
+    });
+  </script>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.yt-shorts.name",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "inline_richtext",
+      "id": "yt_shorts_title",
+      "default": "UGC Videos",
+      "label": "t:sections.yt-shorts.settings.title.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "auto_center",
+      "label": "t:sections.yt-shorts.settings.auto_center.label",
+      "info": "t:sections.yt-shorts.settings.auto_center.info",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "columns",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "default": 4,
+      "label": "t:sections.yt-shorts.settings.columns.label"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "default": "Button label",
+      "label": "t:sections.yt-shorts.settings.button_label.label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:sections.yt-shorts.settings.button_link.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "video",
+      "name": "t:sections.yt-shorts.blocks.video.name",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "cover_image",
+          "label": "t:sections.collage.blocks.video.settings.cover_image.label"
+        },
+        {
+          "type": "url",
+          "id": "yt_shorts_link",
+          "label": "t:sections.yt-shorts.blocks.video.settings.yt_shorts_link.label",
+          "info": "t:sections.yt-shorts.blocks.video.settings.yt_shorts_link.info"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "default": "Describe the video",
+          "label": "t:sections.yt-shorts.blocks.video.settings.description.label",
+          "info": "t:sections.yt-shorts.blocks.video.settings.description.info"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.yt-shorts.presets.name",
+      "blocks": [
+        {
+          "type": "video"
+        },
+        {
+          "type": "video"
+        },
+        {
+          "type": "video"
+        },
+        {
+          "type": "video"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
