@@ -33,13 +33,6 @@
           "disabled": true,
           "settings": {}
         },
-        "recharge_subscriptions_subscription_widget_McHaMN": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "boka_subs_widget_yUbeNT": {
           "type": "boka_subs_widget",
           "settings": {
@@ -140,7 +133,6 @@
         "yotpo_product_reviews_star_rating_thfdFD",
         "price",
         "quantity_selector",
-        "recharge_subscriptions_subscription_widget_McHaMN",
         "boka_subs_widget_yUbeNT",
         "buy_buttons",
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
