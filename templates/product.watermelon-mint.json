@@ -44,6 +44,10 @@
             "product": "{{product}}"
           }
         },
+        "recharge_subscriptions_subscription_widget_v2_BLiPVC": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {}
+        },
         "boka_subs_widget_P6KFmT": {
           "type": "boka_subs_widget",
           "settings": {
@@ -130,6 +134,7 @@
         "price",
         "variant_picker",
         "recharge_subscriptions_subscription_widget_7hTLVV",
+        "recharge_subscriptions_subscription_widget_v2_BLiPVC",
         "boka_subs_widget_P6KFmT",
         "quantity_selector",
         "buy_buttons",
