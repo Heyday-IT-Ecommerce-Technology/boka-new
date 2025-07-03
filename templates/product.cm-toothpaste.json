@@ -37,13 +37,6 @@
             "color_hex": "#FFFFFF, #46627B, #D5EBCD, #F4B6B7"
           }
         },
-        "recharge_subscriptions_subscription_widget_J47iy4": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
-          "disabled": true,
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
         "recharge_subscriptions_subscription_widget_v2_haKXEy": {
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
@@ -133,7 +126,6 @@
         "yotpo_product_reviews_star_rating_MRDffP",
         "price",
         "variant_picker",
-        "recharge_subscriptions_subscription_widget_J47iy4",
         "recharge_subscriptions_subscription_widget_v2_haKXEy",
         "boka_subs_widget_DLzx3K",
         "quantity_selector",
