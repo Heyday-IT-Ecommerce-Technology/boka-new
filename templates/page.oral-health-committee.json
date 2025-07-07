@@ -297,7 +297,7 @@
         "color_scheme": "custom",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
-        "columns_tablet": "1",
+        "columns_tablet": "2",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 45,
