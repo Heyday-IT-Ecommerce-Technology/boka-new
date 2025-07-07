@@ -166,7 +166,7 @@
         "heading_KkNApT": {
           "type": "heading",
           "settings": {
-            "heading": "How it works",
+            "heading": "How it <em>works</em>",
             "heading_size": "h1",
             "heading_tag": "default"
           }
