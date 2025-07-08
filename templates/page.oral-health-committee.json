@@ -191,6 +191,18 @@
           "type": "member",
           "settings": {
             "photo": "shopify://shop_images/Raj_1.webp",
+            "quote": "“Oral hygiene is considered a tedious chore by many. Boka products provide consumers a choice that they find pleasurable to use. This leads to not only oral health, but overall well-being.”",
+            "name": "Raj Kohli, PhD",
+            "short_bio": "",
+            "full_bio": "An accomplished senior Executive, with forty years of R&D experience in the Consumer-Packaged Goods industry. Recently retired from Colgate Palmolive as Executive Vice President of Global R&D and Technology Strategy. Lead teams and programs across the world, covering several product categories including Oral Care, Personal Care, Skin Health, and Home Care.",
+            "cta_link": "",
+            "cta_label": "Clickable Link"
+          }
+        },
+        "member_K3mtjf": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
             "quote": "",
             "name": "",
             "short_bio": "",
@@ -203,7 +215,8 @@
       "block_order": [
         "member_rcCqpD",
         "member_YAfRq4",
-        "member_wf4JkE"
+        "member_wf4JkE",
+        "member_K3mtjf"
       ],
       "disabled": true,
       "name": "Custom Multicolumn",
