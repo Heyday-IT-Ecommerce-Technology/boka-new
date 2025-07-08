@@ -174,10 +174,22 @@
             "cta_link": "",
             "cta_label": "Clickable Link"
           }
+        },
+        "member_YAfRq4": {
+          "type": "member",
+          "settings": {
+            "quote": "",
+            "name": "",
+            "short_bio": "",
+            "full_bio": "",
+            "cta_link": "",
+            "cta_label": "Clickable Link"
+          }
         }
       },
       "block_order": [
-        "member_rcCqpD"
+        "member_rcCqpD",
+        "member_YAfRq4"
       ],
       "disabled": true,
       "name": "Custom Multicolumn",
