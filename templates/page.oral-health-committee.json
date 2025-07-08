@@ -183,6 +183,18 @@
             "name": "Dr. Foti Panagakos",
             "short_bio": "",
             "full_bio": "Dr. Panagakos received his DMD from UMDNJ-New Jersey Dental School and his Ph.D. in Biochemistry and Molecular Biology from UMDNJ-Graduate School of Biomedical in 1992. In 1999, he received his Master’s in Education from Seton Hall University; in 2007, he received his Master’s in Business Administration from Lehigh University.  Since May 2022, Dr. Panagakos has been the Founding Dean of the School of Dental Medicine at Pacific Northwest University of Health Sciences in Yakima, WA.",
+            "cta_link": "https://www.pnwu.edu/academics/school-of-dental-medicine/",
+            "cta_label": "Link"
+          }
+        },
+        "member_wf4JkE": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Raj_1.webp",
+            "quote": "",
+            "name": "",
+            "short_bio": "",
+            "full_bio": "",
             "cta_link": "",
             "cta_label": "Clickable Link"
           }
@@ -190,7 +202,8 @@
       },
       "block_order": [
         "member_rcCqpD",
-        "member_YAfRq4"
+        "member_YAfRq4",
+        "member_wf4JkE"
       ],
       "disabled": true,
       "name": "Custom Multicolumn",
