@@ -219,6 +219,9 @@
         "member_wf4JkE",
         "member_K3mtjf"
       ],
+      "custom_css": [
+        ".custom-multicolumn-wrapper {background-color: #FAFAF5;}"
+      ],
       "name": "Custom Multicolumn",
       "settings": {
         "headline": "Meet the members",
