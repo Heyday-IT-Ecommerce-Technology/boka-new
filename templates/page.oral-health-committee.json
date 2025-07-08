@@ -126,6 +126,7 @@
         "column_VBPCQq",
         "column_nP6MrD"
       ],
+      "disabled": true,
       "custom_css": [
         ".inline-richtext {margin: auto;}",
         ".multicolumn .slider-buttons {font-size: 1.5rem; gap: 0.5rem;}",
@@ -218,7 +219,6 @@
         "member_wf4JkE",
         "member_K3mtjf"
       ],
-      "disabled": true,
       "name": "Custom Multicolumn",
       "settings": {
         "headline": "Meet the members",
