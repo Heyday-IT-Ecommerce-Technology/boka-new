@@ -812,6 +812,32 @@ document.addEventListener('DOMContentLoaded', function() {
   const priceEl = document.getElementById('sticky-atc-price');
   const mediaEl = document.getElementById('sticky-atc-media');
   const subEl = document.getElementById('sticky-atc-sub');
+  const changeLinkEl = document.getElementById('sticky-atc-change-link');
+
+  // Function to check if Recharge subscription widget exists
+  function hasRechargeWidget() {
+    const rechargeSelectors = [
+      'input[name*="subscription"]',
+      'select[name*="subscription"]',
+      'input[name*="selling_plan"]',
+      'select[name*="selling_plan"]',
+      '.rc-selling-plan',
+      '.rc-subscription',
+      '.rc-widget',
+      '[data-subscription-widget]',
+      '.subscription-widget',
+      '.subscription-options',
+      '.recharge-subscription-widget',
+      '.subscription-selector'
+    ];
+
+    for (const selector of rechargeSelectors) {
+      if (document.querySelector(selector)) {
+        return true;
+      }
+    }
+    return false;
+  }
 
   // Function to get current Recharge subscription settings
   function getRechargeSubscriptionInfo() {
@@ -975,11 +1001,25 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  // Function to update delivery message based on subscription selection
+  // Function to update delivery message and visibility based on subscription selection
   function updateDeliveryMessage() {
+    const hasWidget = hasRechargeWidget();
+    
+    if (!hasWidget) {
+      // Hide both delivery text and change link if no Recharge widget
+      subEl.style.display = 'none';
+      changeLinkEl.style.display = 'none';
+      return;
+    }
+
+    // Show change link if Recharge widget exists
+    changeLinkEl.style.display = 'inline';
+    
     const subscriptionInfo = getRechargeSubscriptionInfo();
     
     if (subscriptionInfo.isSubscription) {
+      subEl.style.display = 'block';
+      
       if (subscriptionInfo.interval) {
         let intervalText = subscriptionInfo.interval.toLowerCase().trim();
         
@@ -1003,6 +1043,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     } else {
+      subEl.style.display = 'block';
       subEl.textContent = 'One-time purchase';
     }
   }
