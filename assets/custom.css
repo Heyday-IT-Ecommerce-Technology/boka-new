@@ -24,7 +24,7 @@ strong {
 .rich-text__heading em,
 .section-collection-list em,
 em {
-    font-family: IvarDisplayItalic;
+    font-family: IvarDisplay;
 }
 .absolute-position {
     position: absolute;
