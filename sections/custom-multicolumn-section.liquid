@@ -1,6 +1,447 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Multicolumn",
+  "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Section Headline",
+      "default": "Meet the members"
+    },
+    {
+      "type": "range",
+      "id": "headline_font_size_desktop",
+      "label": "Headline Font Size - Desktop (px)",
+      "min": 16,
+      "max": 72,
+      "step": 1,
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "headline_font_size_mobile",
+      "label": "Headline Font Size - Mobile (px)",
+      "min": 12,
+      "max": 48,
+      "step": 1,
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding (px)",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding (px)",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "member",
+      "name": "Column",
+      "settings": [
+        { "type": "image_picker", "id": "photo", "label": "Photo" },
+        { "type": "textarea", "id": "quote", "label": "Quote" },
+        { "type": "text", "id": "name", "label": "Name" },
+        { "type": "text", "id": "short_bio", "label": "Short Bio" },
+        { "type": "textarea", "id": "full_bio", "label": "Full Bio" },
+        { "type": "url", "id": "cta_link", "label": "CTA Link" },
+        { "type": "text", "id": "cta_label", "label": "CTA Label", "default": "Clickable Link" }
+      ]
+    }
+  ],
+  "max_blocks": 9,
+  "presets": [
+    {
+      "name": "Custom Multicolumn",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+<div class="custom-multicolumn-wrapper"
+     style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
+  <h2 class="custom-multicolumn-headline"
+      style="font-size: {{ section.settings.headline_font_size_desktop }}px; text-align: center;">
+    {{ section.settings.headline }}
+  </h2>
+
+  <div class="custom-slider-container">
+    <button class="slider-arrow left" aria-label="Previous">&#60;</button>
+    <div class="custom-multicolumn-grid" id="custom-multicolumn-slider">
+      <div class="slider-spacer"></div>
+      {% for block in section.blocks %}
+        {% assign id = 'quote-' | append: forloop.index %}
+        {% assign modal_id = 'modal-' | append: forloop.index %}
+        <div class="custom-multicolumn-card" data-index="{{ forloop.index }}">
+          {% if block.settings.photo %}
+            <img src="{{ block.settings.photo | image_url: width: 600 }}" alt="{{ block.settings.name }}">
+          {% endif %}
+          <div class="custom-multicolumn-quote-wrapper">
+            <p class="custom-multicolumn-quote" id="{{ id }}">{{ block.settings.quote }}</p>
+            <button class="custom-multicolumn-toggle-quote" data-target="{{ id }}"></button>
+          </div>
+          <div class="custom-multicolumn-member-info">
+            <p class="custom-multicolumn-member-name">{{ block.settings.name }}</p>
+            <p class="custom-multicolumn-member-bio">{{ block.settings.short_bio }}</p>
+          </div>
+          <button class="custom-multicolumn-modal-trigger" data-modal="{{ modal_id }}">+</button>
+        </div>
+
+        <div class="custom-multicolumn-modal" id="{{ modal_id }}">
+          <div class="custom-multicolumn-modal-content">
+            <button class="custom-multicolumn-modal-close" data-modal="{{ modal_id }}">×</button>
+            {% if block.settings.photo %}
+              <img src="{{ block.settings.photo | image_url: width: 300 }}" class="custom-multicolumn-modal-photo" alt="{{ block.settings.name }}">
+            {% endif %}
+            <p class="custom-multicolumn-modal-name">{{ block.settings.name }}</p>
+            <div class="custom-multicolumn-modal-full-bio">{{ block.settings.full_bio }}</div>
+            {% if block.settings.cta_link %}
+              <a href="{{ block.settings.cta_link }}" class="custom-multicolumn-modal-cta" target="_blank" rel="noopener noreferrer">
+                {{ block.settings.cta_label }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      <div class="slider-spacer"></div>
+    </div>
+    <button class="slider-arrow right" aria-label="Next">&#62;</button>
+    <div class="slider-pagination" id="custom-multicolumn-pagination">
+      <span id="slider-current">1</span>/<span id="slider-total">{{ section.blocks.size }}</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .custom-multicolumn-headline {
+    margin-bottom: 32px;
+  }
+  .custom-slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  .custom-multicolumn-grid {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    padding-left: 16px;
+  }
+  .slider-spacer {
+    flex: 0 0 16px;
+  }
+  .custom-multicolumn-card {
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    width: 311px;
+    margin-right: 16px;
+    background: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .custom-multicolumn-card img {
+    width: 100%;
+    height: 268px;
+    object-fit: cover;
+  }
+  .custom-multicolumn-quote-wrapper {
+    padding: 16px;
+    position: relative;
+    overflow: hidden;
+  }
+  .custom-multicolumn-quote {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 25px;
+    height: 120px;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+  }
+  .custom-multicolumn-quote.expanded {
+    -webkit-line-clamp: unset;
+    height: auto;
+  }
+  .custom-multicolumn-toggle-quote {
+    background: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+    padding: 0;
+  }
+  .custom-multicolumn-toggle-quote::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #333;
+    border-bottom: 2px solid #333;
+    transform: rotate(45deg);
+    margin: auto;
+    transition: transform 0.3s ease;
+  }
+  .custom-multicolumn-toggle-quote.expanded::before {
+    transform: rotate(-135deg);
+  }
+  .custom-multicolumn-member-info {
+    padding: 0 16px 16px;
+    text-align: left;
+  }
+  .custom-multicolumn-member-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0 -5px;
+    text-align: left;
+  }
+  .custom-multicolumn-member-bio {
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
+  }
+  .custom-multicolumn-modal-trigger {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 32px;
+    height: 32px;
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  .custom-multicolumn-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .custom-multicolumn-modal.open {
+    display: flex;
+  }
+  .custom-multicolumn-modal-content {
+    background: #fff;
+    padding: 32px;
+    max-width: 650px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  .custom-multicolumn-modal-photo {
+    width: 126px;
+    height: 126px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .custom-multicolumn-modal-name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 12px;
+  }
+  .custom-multicolumn-modal-full-bio {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  .custom-multicolumn-modal-cta {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 12px;
+  }
+  .custom-multicolumn-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .slider-arrow {
+    display: none !important;
+  }
+  .slider-pagination {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    .slider-pagination {
+      display: none;
+    }
+  .custom-multicolumn-grid {
+    overflow-x: auto !important;
+    scroll-snap-type: x mandatory;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  /* optional: ensure the outer container still hides any overflow */
+  .custom-slider-container {
+    overflow: hidden;
+  }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .custom-slider-container {
+      overflow: visible;
+    }
+    .custom-multicolumn-grid {
+      overflow-x: visible;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0 16px;
+      scroll-snap-type: none;
+    }
+    .custom-multicolumn-card {
+      margin-left: 16px;
+      margin-right: 16px;
+      margin-bottom: 32px;
+    }
+    .slider-spacer {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .custom-multicolumn-headline {
+      font-size: {{ section.settings.headline_font_size_mobile }}px !important;
+    }
+    .custom-multicolumn-quote {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .custom-multicolumn-member-name {
+      font-size: 16px;
+    }
+    .custom-multicolumn-member-bio {
+      font-size: 14px;
+    }
+    .custom-multicolumn-modal-name {
+      font-size: 16px;
+    }
+    .custom-multicolumn-modal-full-bio {
+      font-size: 14px;
+      line-height: 22px;
+    }
+    .custom-multicolumn-modal-cta {
+      font-size: 14px;
+    }
+    .custom-multicolumn-modal-content {
+      max-width: 325px;
+    }
+  }
+</style>
+
+
+<script>
+  const grid = document.getElementById('custom-multicolumn-slider');
+  const paginationCurrent = document.getElementById('slider-current');
+  const paginationTotal = document.getElementById('slider-total');
+  const cards = grid.querySelectorAll('.custom-multicolumn-card');
+  const prevBtn = document.querySelector('.slider-arrow.left');
+  const nextBtn = document.querySelector('.slider-arrow.right');
+  let index = 0;
+  const updatePagination = () => {
+    paginationCurrent.textContent = index + 1;
+  };
+  updatePagination();
+  const scrollToCard = (i) => {
+    const card = cards[i];
+    if (card) card.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+  };
+  nextBtn?.addEventListener('click', () => {
+    if (index < cards.length - 1) {
+      index++;
+      scrollToCard(index);
+      updatePagination();
+    }
+  });
+  prevBtn?.addEventListener('click', () => {
+    if (index > 0) {
+      index--;
+      scrollToCard(index);
+      updatePagination();
+    }
+  });
+  grid.addEventListener('scroll', () => {
+    let closest = 0;
+    let closestDistance = Infinity;
+    cards.forEach((card, i) => {
+      const box = card.getBoundingClientRect();
+      const distance = Math.abs(box.left - window.innerWidth / 2 + box.width / 2);
+      if (distance < closestDistance) {
+        closest = i;
+        closestDistance = distance;
+      }
+    });
+    index = closest;
+    updatePagination();
+  });
+document.querySelectorAll('.custom-multicolumn-toggle-quote').forEach(button => {
+  const quoteEl = document.getElementById(button.dataset.target);
+
+  // if the quote doesn't overflow its container, hide the toggle button
+  if (quoteEl.scrollHeight <= quoteEl.clientHeight) {
+    button.style.display = 'none';
+    return;
+  }
+
+  // otherwise show the arrow and wire up expand/collapse
+  button.style.display = 'block';
+  button.innerHTML = '';
+  button.addEventListener('click', () => {
+    const isExpanded = quoteEl.classList.toggle('expanded');
+    button.classList.toggle('expanded', isExpanded);
+  });
+});
+  document.querySelectorAll('.custom-multicolumn-modal-trigger').forEach(button => {
+    button.addEventListener('click', () => {
+      document.getElementById(button.dataset.modal).classList.add('open');
+    });
+  });
+  document.querySelectorAll('.custom-multicolumn-modal-close').forEach(button => {
+    button.addEventListener('click', () => {
+      document.getElementById(button.dataset.modal).classList.remove('open');
+    });
+  });
+  document.querySelectorAll('.custom-multicolumn-modal').forEach(modal => {
+    modal.addEventListener('click', e => {
+      if (e.target === modal) modal.classList.remove('open');
+    });
+  });
+</script>
