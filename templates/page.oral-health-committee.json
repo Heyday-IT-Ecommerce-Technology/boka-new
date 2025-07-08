@@ -160,6 +160,35 @@
         "padding_bottom_mobile": 50
       }
     },
+    "custom_multicolumn_section_xE9FTH": {
+      "type": "custom-multicolumn-section",
+      "blocks": {
+        "member_rcCqpD": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Dianne_1.webp",
+            "quote": "“Boka is transforming oral health and wellness by offering consumers real choice! Boka is leveraging novel science-backed ingredients, such as nano-hydroxyapatite as an alternative to fluoride, to create standout products that are both effective and delight their customers.”",
+            "name": "Diane Cummins",
+            "short_bio": "",
+            "full_bio": "Diane is an independent consultant to oral health researchers and the oral care industry. She is an internationally respected scientist and an accomplished business leader. In Colgate, Diane ensured effective leverage of the latest scientific knowledge in its new product innovation process and that the claims made on its new oral care products were robustly supported by well-designed and well conducted clinical and laboratory studies. In this role, Diane developed invaluable knowledge and experience in marketing, regulatory and legal matters. In Unilever, Diane’s most notable scientific contributions were to the development and validation of novel toothpastes containing antibacterial agents for the prevention and control of dental plaque, gingivitis and periodontitis.",
+            "cta_link": "",
+            "cta_label": "Clickable Link"
+          }
+        }
+      },
+      "block_order": [
+        "member_rcCqpD"
+      ],
+      "disabled": true,
+      "name": "Custom Multicolumn",
+      "settings": {
+        "headline": "Meet the members",
+        "headline_font_size_desktop": 40,
+        "headline_font_size_mobile": 30,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "rich_text_TwzEeK": {
       "type": "rich-text",
       "blocks": {
@@ -311,6 +340,7 @@
     "main",
     "image_with_text_hcbjaT",
     "multicolumn_yxQxJd",
+    "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
     "multicolumn_zVFeeg"
   ]
