@@ -18,7 +18,7 @@
           <span id="sticky-atc-variant" class="sticky-atc__variant">
             {{ product.selected_or_first_available_variant.options | join: ', ' }}
           </span>
-          <a href="#ProductInfo-{{ section.id }}" class="sticky-atc__change-link" style= "color:#006FCF !important;">Change</a>
+          <a href="#ProductInfo-{{ section.id }}" id="sticky-atc-change-link" class="sticky-atc__change-link" style="color:#006FCF !important; display: none;">Change</a>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
             <span class="sticky-atc__compare">{{ product.selected_or_first_available_variant.compare_at_price | money }}</span>
           {% endif %}
         </div>
-        <div id="sticky-atc-sub" class="sticky-atc__sub">
+        <div id="sticky-atc-sub" class="sticky-atc__sub" style="display: none;">
           Delivery every {{ section.settings.subscription_interval }}
         </div>
       </div>
