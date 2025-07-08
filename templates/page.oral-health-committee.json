@@ -63,7 +63,7 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "custom",
-        "section_background_color": "#fafaf5",
+        "section_background_color": "rgba(0,0,0,0)",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
         "image_behavior": "none",
@@ -73,7 +73,7 @@
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 50
+        "padding_bottom_mobile": 0
       }
     },
     "multicolumn_yxQxJd": {
@@ -220,14 +220,14 @@
         "member_K3mtjf"
       ],
       "custom_css": [
-        ".custom-multicolumn-wrapper {background-color: #FAFAF5;}"
+        ".custom-multicolumn-wrapper {background-color: #fafaf5;}"
       ],
       "name": "Custom Multicolumn",
       "settings": {
         "headline": "Meet the members",
         "headline_font_size_desktop": 40,
         "headline_font_size_mobile": 30,
-        "padding_top": 40,
+        "padding_top": 32,
         "padding_bottom": 40
       }
     },
