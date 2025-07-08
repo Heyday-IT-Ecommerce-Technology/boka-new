@@ -25,6 +25,7 @@ strong {
 .section-collection-list em,
 em {
     font-family: IvarDisplay;
+    letter-spacing: inherit;
 }
 .absolute-position {
     position: absolute;
