@@ -19,7 +19,7 @@
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
           "settings": {
-            "text": "<p><em><strong>NEW Limited Edition Flavor</strong></em></p>",
+            "text": "<p><em><strong>NEW Flavor!</strong></em></p>",
             "text_style": "body",
             "quick_add_hide": false
           }
@@ -91,7 +91,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Triacetin, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Natural Flavors, Sodium Bicarbonate, Benzyl Alcohol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Potassium Chloride, Linalool. *Nano</p>",
+            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Mentha Piperita (Peppermint) Oil, Sodium Bicarbonate, Mentha Viridis (Spearmint) Leaf Oil, Natural Flavor, Gaultheria Procumbens (Wintergreen) Leaf Oil, Illicium verum (Anise) oil, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Potassium Chloride, Limonene. *Nano</p>",
             "page": ""
           }
         },
