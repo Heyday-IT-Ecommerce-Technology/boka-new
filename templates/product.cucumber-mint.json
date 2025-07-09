@@ -117,10 +117,10 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/Antioxidant-rich_green_tea.webp",
-            "heading_1": "<strong>Antioxidant-rich green tea</strong>",
+            "heading_1": "<strong>Antioxidant-rich Green Tea</strong>",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Sweet_strawberry_aromatic_basil.webp",
-            "heading_2": "<strong>Sweet strawberry & aromatic basil</strong>",
+            "image_2": "shopify://shop_images/Cucumber.webp",
+            "heading_2": "<strong>Sweet Cucumber & Refreshing Mint</strong>",
             "padding_top": 14,
             "padding_bottom": 0
           }
@@ -183,7 +183,7 @@
         "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Helps fortify the surface of teeth</p>",
+            "text": "<p>Fluoride-free</p>",
             "text_style": "body"
           }
         },
@@ -197,7 +197,7 @@
         "93b178e4-2598-45c7-b4a1-fd50f417768b": {
           "type": "text",
           "settings": {
-            "text": "<p>Maintains healthy tooth structure</p>",
+            "text": "<p>Appropriate for sensitive teeth</p>",
             "text_style": "body"
           }
         },
@@ -216,7 +216,7 @@
         "6f829075-8538-46cf-852c-3bb0c8fb002d"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_Content_Benefits_a119fcdf-112e-4cbf-8aeb-9a5aef6b1162.webp",
+        "image": "shopify://shop_images/A__Benefits.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -225,7 +225,7 @@
         "heading": "Gentle care, <em>refreshing flavor</em>",
         "heading_size": "h1",
         "heading_tag": "default",
-        "caption": "Boka Strawberry Basil toothpaste provides a clean you can feel good about, combining science-backed ingredients with a bright, refreshing taste.",
+        "caption": "Cucumber Mint brings a refreshing twist to your oral care routine, pairing science-backed ingredients with a crisp flavor.",
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
@@ -270,7 +270,7 @@
         "column_DXwrC6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_1.webp",
+            "image": "shopify://shop_images/A_Content_How_To_Use_Cucumber_Mint_1.webp",
             "title": "<strong>Step 1: Prep</strong>",
             "text": "<p>Apply a pea-sized amount to your toothbrush</p>",
             "link_label": "",
@@ -280,7 +280,7 @@
         "column_4nTd9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_2.webp",
+            "image": "shopify://shop_images/A_Content_How_To_Use_Cucumber_Mint_2.webp",
             "title": "<strong>Step 2: Brush</strong>",
             "text": "<p>Brush thoroughly for two minutes, twice daily</p>",
             "link_label": "",
@@ -290,7 +290,7 @@
         "column_3U6yrb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Ela_Mint_3.webp",
+            "image": "shopify://shop_images/A_Content_How_To_Use_Cucumber_Mint_3.webp",
             "title": "<strong>Step 3: Smile!</strong>",
             "text": "<p>Spit after brushing—skip the rinse to maximize contact time</p>",
             "link_label": "",
@@ -484,8 +484,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/Why_Choose_Boka_Desktop.webp",
-        "image_mobile": "shopify://shop_images/Why_Choose_Boka_Mobile.webp",
+        "image": "shopify://shop_images/Why_Choose_Cucumber_Mint_Desktop.webp",
+        "image_mobile": "shopify://shop_images/Why_Choose_Cucumber_Mint_Mobile.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -518,7 +518,7 @@
           "settings": {
             "image": "shopify://shop_images/Nano-hydroxyapatite.webp",
             "title": "<strong>Nano-hydroxyapatite</strong>",
-            "text": "<p>helps fortify teeth</p>",
+            "text": "<p>helps freshen breath without fluoride</p>",
             "link_label": "",
             "link": ""
           }
@@ -527,7 +527,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Green_Tea_Extract.webp",
-            "title": "<strong>Green tea extract</strong>",
+            "title": "<strong>Green Tea Extract</strong>",
             "text": "<p>acts as an antioxidant</p>",
             "link_label": "",
             "link": ""
@@ -546,9 +546,9 @@
         "column_GefQYG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Strawberry_Basil.webp",
-            "title": "<strong>Strawberry & basil </strong>",
-            "text": "<p>a fruity, herbal twist</p>",
+            "image": "shopify://shop_images/Cucumber_Mint.webp",
+            "title": "<strong>Cucumber & Mint</strong>",
+            "text": "<p>a refreshing twist</p>",
             "link_label": "",
             "link": ""
           }
@@ -634,8 +634,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/Powered_By_Nature.webp",
-        "image_mobile": "shopify://shop_images/Powered_By_Nature_Mobile.webp",
+        "image": "shopify://shop_images/Cucumber_Mint_Powered_By_Nature_Desktop.webp",
+        "image_mobile": "shopify://shop_images/Cucumber_Mint_Powered_By_Nature_Mobile.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
