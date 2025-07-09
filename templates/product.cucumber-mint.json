@@ -44,7 +44,7 @@
             "color_hex": "#FFFFFF, #46627B, #D5EBCD, #F4B6B7"
           }
         },
-        "recharge_subscriptions_subscription_widget_v2_8q7cHQ": {
+        "recharge_subscriptions_subscription_widget_v2_rjiVHf": {
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
         },
@@ -145,7 +145,7 @@
         "yotpo_product_reviews_star_rating_agYJXH",
         "price",
         "variant_picker",
-        "recharge_subscriptions_subscription_widget_v2_8q7cHQ",
+        "recharge_subscriptions_subscription_widget_v2_rjiVHf",
         "boka_subs_widget_ymkmB4",
         "quantity_selector",
         "buy_buttons",
@@ -173,8 +173,8 @@
         "padding_bottom": 100,
         "padding_top_tablet": 36,
         "padding_bottom_tablet": 70,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 60
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 20
       }
     },
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
@@ -327,7 +327,7 @@
         "columns_tablet": "1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 36,
+        "padding_top": 30,
         "padding_bottom": 36,
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
