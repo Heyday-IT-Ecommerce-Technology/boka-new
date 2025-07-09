@@ -1,1 +1,417 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28,"padding_top_mobile":36,"padding_bottom_mobile":36}},"video_slideshow_hneKgd":{"type":"video-slideshow","blocks":{"image_cmDFCW":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Boka_x_Target_Desktop_1920x800_2b4bdc0e-2e7a-4076-8416-73a7174f71da.png","image_mobile":"shopify:\/\/shop_images\/Boka_x_Target_Mobile_1000x800_0a5d0b9c-70a9-4d25-b466-c555a268c455.png","heading":"Boka Hits Target Shelves - A First of Its Kind!","image_link":"https:\/\/www.target.com\/b\/boka\/-\/N-1cpvx","heading_size":"h1","heading_tag":"default","subheading":"Our best-selling fluoride-free toothpaste is making history as the first-ever n-Ha toothpaste available at Target.","button_label":"FIND YOUR BOKA HERE","link":"https:\/\/www.target.com\/b\/boka\/-\/N-1cpvx","button_style_secondary":false,"button_label2":"","link2":"","button_style_secondary2":false,"box_align":"middle-left","show_text_box":false,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"custom","custom_background_color":"#ffffff","custom_text_color":"#000000","mobile_custom_text_color":"#000000","button_background_color":"#000000","button_foreground_color":"#ffffff","button_background_color_mobile":"#000000","button_foreground_color_mobile":"#ffffff","bottom_text_background_color":"#000000","bottom_text_foreground_color":"#000000","text_alignment_mobile":"center","mobile_content_position":"bottom"}}},"block_order":["image_cmDFCW"],"settings":{"layout":"full_bleed","slide_height":"adapt_image","slider_visual":"counter","enable_video_buttons":false,"auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","fadein_enabled":false,"show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"rich_text_eKy4Ba":{"type":"rich-text","blocks":{"heading_4B4aa6":{"type":"heading","settings":{"heading":"Powered by <em>nature.<br>\nBacked by <em>science.<\/em><\/em>","heading_size":"h1","heading_tag":"default"}},"text_zcAzRp":{"type":"text","settings":{"text":"<p>Our non-toxic*, fluoride-free formulas go beyond clean teeth to support a healthy oral microbiome.<\/p>"}}},"block_order":["heading_4B4aa6","text_zcAzRp"],"settings":{"desktop_content_position":"center","content_alignment":"center","fadein_enabled":true,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff","full_width":true,"padding_top":40,"padding_bottom":52,"padding_top_mobile":36,"padding_bottom_mobile":36}},"image_with_text_Lcmwkb":{"type":"image-with-text","blocks":{"heading_NNTdRW":{"type":"heading","settings":{"heading":"Boka Best-Seller:<br><em>Ela Mint<\/em>","heading_size":"h1","heading_tag":"default"}},"text_yAPidt":{"type":"text","settings":{"text":"<p>Now available in a retail-exclusive, travel-friendly 3.4oz tube, Ela Mint Nano-Hydroxyapatite Toothpaste is our fluoride-free favorite that helps remineralize teeth while keeping your breath fresh and minty.<\/p>","text_style":"body"}},"button_qdyjwW":{"type":"button","settings":{"button_label":"SHOP ELA MINT","button_link":"https:\/\/www.target.com\/p\/boka-ela-mint-toothpaste-3-4oz\/-\/A-94311075","second_button_label":"","second_button_link":""}}},"block_order":["heading_NNTdRW","text_yAPidt","button_qdyjwW"],"custom_css":["@media (min-width: 750px) {.image-with-text__media-item {padding-left: 80px; }}",".image-with-text__content .button + .button {margin-left: 10px;}","@media (max-width: 768px) {.image-with-text__media img {padding: 30px; display: block; width: 100%; }"],"settings":{"image":"shopify:\/\/shop_images\/image_5.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","section_background_color":"#ffffff","custom_background_color":"#ffffff","custom_text_color":"#ffffff","image_behavior":"none","mobile_content_alignment":"center","padding_top":0,"padding_bottom":0,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":20,"padding_bottom_mobile":50}},"image_with_text_w6rmFr":{"type":"image-with-text","blocks":{"heading_NRDJD7":{"type":"heading","settings":{"heading":"<em>Peroxide-Free<\/em> Whitening","heading_size":"h1","heading_tag":"default"}},"text_arUQG6":{"type":"text","settings":{"text":"<p>Refresh Mint Whitening n-Ha Toothpaste is Boka's peroxide-free way to gently brighten your smile with the power of nano-hydroxyapatite and baking soda.<\/p>","text_style":"body"}},"button_dj7pFR":{"type":"button","settings":{"button_label":"SHOP WHITENING","button_link":"https:\/\/www.target.com\/p\/boka-whitening-toothpaste-3-4oz\/-\/A-94311076","second_button_label":"","second_button_link":""}}},"block_order":["heading_NRDJD7","text_arUQG6","button_dj7pFR"],"custom_css":["@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}",".image-with-text__content .button + .button {margin-left: 10px;}","@media (max-width: 768px) {.image-with-text__media img {padding: 30px; display: block; width: 100%; }"],"settings":{"image":"shopify:\/\/shop_images\/image_6.png","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","section_background_color":"#ffffff","custom_background_color":"#ffffff","custom_text_color":"#ffffff","image_behavior":"none","mobile_content_alignment":"center","padding_top":50,"padding_bottom":50,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":20,"padding_bottom_mobile":50}},"custom_liquid_c8gyD6":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"as-seen-on-section\">\n  <h2 class=\"as-seen-on-title\">As Seen On<\/h2>\n  <div class=\"as-seen-on-logos-wrapper\">\n    <div class=\"as-seen-on-logos\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/vice.png?v=1739261765\" alt=\"Vice logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\">\n      <!-- Duplicate logos for infinite scrolling -->\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/vice.png?v=1739261765\" alt=\"Vice logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/2656\/6094\/files\/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\">\n    <\/div>\n  <\/div>\n<\/div>\n\n<style>\n  .as-seen-on-section {\n    text-align: center;\n    padding: 40px 20px;\n    overflow: hidden;\n    background: #FAFAF5;\n    padding-bottom: 80px;\n    padding-top: 10px;\n  }\n\n  .as-seen-on-title {\n    font-size: 52px;\n    font-weight: regular;\n    margin-bottom: 80px;\n  }\n\n@media (max-width: 768px) {\n    .as-seen-on-title {\n      font-size: 32px;\n      margin-bottom: 40px;\n    }\n  }\n\n  .as-seen-on-logos-wrapper {\n    white-space: nowrap;\n    position: relative;\n    width: 100%;\n  }\n\n  .as-seen-on-logos {\n    display: flex;\n    gap: 50px;\n    align-items: center;\n    animation: scroll-logos 25s linear infinite;\n    width: max-content;\n  }\n\n  .as-seen-on-logos img {\n    max-width: 160px;\n    height: auto;\n    display: inline-block;\n  }\n\n  @keyframes scroll-logos {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-50%);\n    }\n  }\n<\/style>","color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff","padding_top":40,"padding_bottom":52,"padding_top_mobile":36,"padding_bottom_mobile":36}},"yt_shorts_zwLfUP":{"type":"yt-shorts","blocks":{"video_FXJCrB":{"type":"video","settings":{"yt_shorts_link":"https:\/\/youtube.com\/shorts\/VxKiZVaFblw","description":"Describe the video"}},"video_9MtrEz":{"type":"video","settings":{"yt_shorts_link":"https:\/\/youtube.com\/shorts\/HbpzpMh4I6M","description":"Describe the video"}},"video_gDPVMY":{"type":"video","settings":{"yt_shorts_link":"https:\/\/youtube.com\/shorts\/U7l1vngLpJM","description":"Describe the video"}},"video_hbMHM4":{"type":"video","settings":{"yt_shorts_link":"https:\/\/youtube.com\/shorts\/Lho4gaGH69s","description":"Describe the video"}}},"block_order":["video_FXJCrB","video_9MtrEz","video_gDPVMY","video_hbMHM4"],"settings":{"yt_shorts_title":"Loved by many, many mouths.","heading_size":"h2","auto_center":false,"columns":4,"button_label":"Button label","button_link":"","padding_top":36,"padding_bottom":36}},"rich_text_LnDEfP":{"type":"rich-text","blocks":{"heading_YhFpCQ":{"type":"heading","settings":{"heading":"Looking for <em>more?<\/em>","heading_size":"h1","heading_tag":"default"}},"text_4eYmPT":{"type":"text","settings":{"text":"<p>Browse all of our n-Ha toothpaste, mouthwash, toothbrushes and more right here on boka.com.<\/p>"}},"button_kFnh9T":{"type":"button","settings":{"button_label":"SHOP ALL","button_link":"shopify:\/\/collections\/shop-all","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_YhFpCQ","text_4eYmPT","button_kFnh9T"],"settings":{"desktop_content_position":"center","content_alignment":"center","fadein_enabled":true,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff","full_width":true,"padding_top":40,"padding_bottom":0,"padding_top_mobile":36,"padding_bottom_mobile":36}},"featured_collection_NTXMJk":{"type":"featured-collection","settings":{"title":"","heading_size":"h1","heading_tag":"default","description":"","show_description":false,"description_style":"body","collection":"best-sellers","products_to_show":4,"columns_desktop":4,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["main","video_slideshow_hneKgd","rich_text_eKy4Ba","image_with_text_Lcmwkb","image_with_text_w6rmFr","custom_liquid_c8gyD6","yt_shorts_zwLfUP","rich_text_LnDEfP","featured_collection_NTXMJk"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "rich_text_3AjWnJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G7CHfV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Target: Powered by nature. Backed by science.",
+            "heading_size": "h1",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_G7CHfV"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "video_slideshow_hneKgd": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_cmDFCW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Boka_x_Target_Desktop_1920x800_2b4bdc0e-2e7a-4076-8416-73a7174f71da.png",
+            "image_mobile": "shopify://shop_images/Boka_x_Target_Mobile_1000x800_0a5d0b9c-70a9-4d25-b466-c555a268c455.png",
+            "heading": "Boka Hits Target Shelves - A First of Its Kind!",
+            "image_link": "https://www.target.com/b/boka/-/N-1cpvx",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Our best-selling fluoride-free toothpaste is making history as the first-ever n-Ha toothpaste available at Target.",
+            "button_label": "FIND YOUR BOKA HERE",
+            "link": "https://www.target.com/b/boka/-/N-1cpvx",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "custom",
+            "custom_background_color": "#ffffff",
+            "custom_text_color": "#000000",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#ffffff",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#ffffff",
+            "bottom_text_background_color": "#000000",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_cmDFCW"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "enable_video_buttons": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": false,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_eKy4Ba": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4B4aa6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powered by <em>nature.<br>\nBacked by <em>science.</em></em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_zcAzRp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our non-toxic*, fluoride-free formulas go beyond clean teeth to support a healthy oral microbiome.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4B4aa6",
+        "text_zcAzRp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "image_with_text_Lcmwkb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NNTdRW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boka Best-Seller:<br><em>Ela Mint</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_yAPidt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Now available in a retail-exclusive, travel-friendly 3.4oz tube, Ela Mint Nano-Hydroxyapatite Toothpaste is our fluoride-free favorite that helps remineralize teeth while keeping your breath fresh and minty.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qdyjwW": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ELA MINT",
+            "button_link": "https://www.target.com/p/boka-ela-mint-toothpaste-3-4oz/-/A-94311075",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_NNTdRW",
+        "text_yAPidt",
+        "button_qdyjwW"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.image-with-text__media-item {padding-left: 80px; }}",
+        ".image-with-text__content .button + .button {margin-left: 10px;}",
+        "@media (max-width: 768px) {.image-with-text__media img {padding: 30px; display: block; width: 100%; }"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_5.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_text_w6rmFr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NRDJD7": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Peroxide-Free</em> Whitening",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_arUQG6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Refresh Mint Whitening n-Ha Toothpaste is Boka's peroxide-free way to gently brighten your smile with the power of nano-hydroxyapatite and baking soda.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dj7pFR": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP WHITENING",
+            "button_link": "https://www.target.com/p/boka-whitening-toothpaste-3-4oz/-/A-94311076",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_NRDJD7",
+        "text_arUQG6",
+        "button_dj7pFR"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}",
+        ".image-with-text__content .button + .button {margin-left: 10px;}",
+        "@media (max-width: 768px) {.image-with-text__media img {padding: 30px; display: block; width: 100%; }"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "custom_liquid_c8gyD6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"as-seen-on-section\">\n  <h2 class=\"as-seen-on-title\">As Seen On</h2>\n  <div class=\"as-seen-on-logos-wrapper\">\n    <div class=\"as-seen-on-logos\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\">\n      <!-- Duplicate logos for infinite scrolling -->\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\">\n    </div>\n  </div>\n</div>\n\n<style>\n  .as-seen-on-section {\n    text-align: center;\n    padding: 40px 20px;\n    overflow: hidden;\n    background: #FAFAF5;\n    padding-bottom: 80px;\n    padding-top: 10px;\n  }\n\n  .as-seen-on-title {\n    font-size: 52px;\n    font-weight: regular;\n    margin-bottom: 80px;\n  }\n\n@media (max-width: 768px) {\n    .as-seen-on-title {\n      font-size: 32px;\n      margin-bottom: 40px;\n    }\n  }\n\n  .as-seen-on-logos-wrapper {\n    white-space: nowrap;\n    position: relative;\n    width: 100%;\n  }\n\n  .as-seen-on-logos {\n    display: flex;\n    gap: 50px;\n    align-items: center;\n    animation: scroll-logos 25s linear infinite;\n    width: max-content;\n  }\n\n  .as-seen-on-logos img {\n    max-width: 160px;\n    height: auto;\n    display: inline-block;\n  }\n\n  @keyframes scroll-logos {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-50%);\n    }\n  }\n</style>",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "yt_shorts_zwLfUP": {
+      "type": "yt-shorts",
+      "blocks": {
+        "video_FXJCrB": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/VxKiZVaFblw",
+            "description": "Describe the video"
+          }
+        },
+        "video_9MtrEz": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/HbpzpMh4I6M",
+            "description": "Describe the video"
+          }
+        },
+        "video_gDPVMY": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/U7l1vngLpJM",
+            "description": "Describe the video"
+          }
+        },
+        "video_hbMHM4": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/Lho4gaGH69s",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "video_FXJCrB",
+        "video_9MtrEz",
+        "video_gDPVMY",
+        "video_hbMHM4"
+      ],
+      "settings": {
+        "yt_shorts_title": "Loved by many, many mouths.",
+        "heading_size": "h2",
+        "auto_center": false,
+        "columns": 4,
+        "button_label": "Button label",
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LnDEfP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YhFpCQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Looking for <em>more?</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_4eYmPT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse all of our n-Ha toothpaste, mouthwash, toothbrushes and more right here on boka.com.</p>"
+          }
+        },
+        "button_kFnh9T": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL",
+            "button_link": "shopify://collections/shop-all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YhFpCQ",
+        "text_4eYmPT",
+        "button_kFnh9T"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "featured_collection_NTXMJk": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_3AjWnJ",
+    "video_slideshow_hneKgd",
+    "rich_text_eKy4Ba",
+    "image_with_text_Lcmwkb",
+    "image_with_text_w6rmFr",
+    "custom_liquid_c8gyD6",
+    "yt_shorts_zwLfUP",
+    "rich_text_LnDEfP",
+    "featured_collection_NTXMJk"
+  ]
+}
