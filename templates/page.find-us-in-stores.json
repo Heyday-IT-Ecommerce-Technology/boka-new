@@ -1,1 +1,209 @@
-{"sections":{"image_with_text_7YWf9F":{"type":"image-with-text","blocks":{"heading_BELdXi":{"type":"heading","settings":{"heading":"Where to Buy Boka","heading_size":"h1","heading_tag":"default"}},"text_rzyq3H":{"type":"text","settings":{"text":"<p>Boka is now available at some of your favorite stores! Look for us at authorized retailers like CVS, Erewhon, Sprouts, HEB, and Fresh Thyme.<\/p>","text_style":"body"}},"button_EXXkAc":{"type":"button","settings":{"button_label":"","button_link":"","second_button_label":"","second_button_link":""}}},"block_order":["heading_BELdXi","text_rzyq3H","button_EXXkAc"],"settings":{"image":"shopify:\/\/shop_images\/052024_Heyday_Day13098.jpg","height":"small","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#edf3e7","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":0,"padding_bottom":0,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":20,"padding_bottom_mobile":50}},"multicolumn_jEH8kz":{"type":"multicolumn","blocks":{"column_KaLWEH":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Target_1.png","title":"Shop at <a href=\"https:\/\/www.target.com\/b\/boka\/-\/N-1cpvx\" target=\"_blank\" title=\"https:\/\/www.target.com\/b\/boka\/-\/N-1cpvx\">Target.com<\/a>","text":"","link_label":"","link":""}},"column_RwiFka":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/CVS.png","title":"Shop at <a href=\"https:\/\/www.cvs.com\/search?searchTerm=boka\" target=\"_blank\" title=\"https:\/\/www.cvs.com\/search?searchTerm=boka\">CVS.com<\/a>","text":"","link_label":"","link":""}},"column_JQPynq":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Erewhon.png","title":"Shop at <a href=\"https:\/\/ship.erewhon.com\/search?options%5Bprefix%5D=last&q=boka\" target=\"_blank\" title=\"https:\/\/ship.erewhon.com\/search?options%5Bprefix%5D=last&q=boka\">Erewhon.com<\/a>","text":"","link_label":"","link":""}},"column_6XnL4H":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Sprouts.png","title":"Available In Store","text":"","link_label":"","link":""}},"column_rtUDhw":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Heb.png","title":"Available In Store","text":"","link_label":"","link":""}},"column_nycxgL":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Fresh_Thyme.png","title":"Available In Store","text":"","link_label":"","link":""}}},"block_order":["column_KaLWEH","column_RwiFka","column_JQPynq","column_6XnL4H","column_rtUDhw","column_nycxgL"],"settings":{"title":"","heading_size":"h0","heading_tag":"default","image_width":"full","image_ratio":"adapt","columns_desktop":5,"column_alignment":"center","background_style":"none","full_width_enabled":false,"button_label":"","button_link":"","fadein_enabled":true,"column_heading_background_color":"","color_scheme":"background-1","custom_background_color":"#ebf1e7","custom_text_color":"#000000","columns_tablet":"2","columns_mobile":"2","swipe_on_mobile":false,"padding_top":45,"padding_bottom":20,"padding_top_mobile":36,"padding_bottom_mobile":36}},"rich_text_qpYMEQ":{"type":"rich-text","blocks":{"text_LKX8Lz":{"type":"text","settings":{"text":"<p>Shop online or visit a store near you to stock up on your mindful oral care must-haves!<\/p>"}}},"block_order":["text_LKX8Lz"],"settings":{"desktop_content_position":"center","content_alignment":"center","fadein_enabled":true,"color_scheme":"background-1","custom_background_color":"#ffffff","custom_text_color":"#000000","full_width":true,"padding_top":0,"padding_bottom":52,"padding_top_mobile":0,"padding_bottom_mobile":36}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["image_with_text_7YWf9F","multicolumn_jEH8kz","rich_text_qpYMEQ","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_7YWf9F": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BELdXi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Where to Buy Boka",
+            "heading_size": "h1",
+            "heading_tag": "h1"
+          }
+        },
+        "text_rzyq3H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boka is now available at some of your favorite stores! Look for us at authorized retailers like CVS, Erewhon, Sprouts, HEB, and Fresh Thyme.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_EXXkAc": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_BELdXi",
+        "text_rzyq3H",
+        "button_EXXkAc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/052024_Heyday_Day13098.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#edf3e7",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "multicolumn_jEH8kz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_KaLWEH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Target_1.png",
+            "title": "Shop at <a href=\"https://www.target.com/b/boka/-/N-1cpvx\" target=\"_blank\" title=\"https://www.target.com/b/boka/-/N-1cpvx\">Target.com</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RwiFka": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/CVS.png",
+            "title": "Shop at <a href=\"https://www.cvs.com/search?searchTerm=boka\" target=\"_blank\" title=\"https://www.cvs.com/search?searchTerm=boka\">CVS.com</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JQPynq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Erewhon.png",
+            "title": "Shop at <a href=\"https://ship.erewhon.com/search?options%5Bprefix%5D=last&q=boka\" target=\"_blank\" title=\"https://ship.erewhon.com/search?options%5Bprefix%5D=last&q=boka\">Erewhon.com</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6XnL4H": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Sprouts.png",
+            "title": "Available In Store",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rtUDhw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Heb.png",
+            "title": "Available In Store",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nycxgL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Fresh_Thyme.png",
+            "title": "Available In Store",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KaLWEH",
+        "column_RwiFka",
+        "column_JQPynq",
+        "column_6XnL4H",
+        "column_rtUDhw",
+        "column_nycxgL"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h0",
+        "heading_tag": "default",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": false,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": true,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#ebf1e7",
+        "custom_text_color": "#000000",
+        "columns_tablet": "2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 45,
+        "padding_bottom": 20,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "rich_text_qpYMEQ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_LKX8Lz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shop online or visit a store near you to stock up on your mindful oral care must-haves!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_LKX8Lz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "image_with_text_7YWf9F",
+    "multicolumn_jEH8kz",
+    "rich_text_qpYMEQ",
+    "main"
+  ]
+}
