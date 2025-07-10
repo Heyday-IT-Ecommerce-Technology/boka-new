@@ -156,6 +156,9 @@
         "icon_with_text_V6zWW9",
         "8f4ac970-3a15-4b7d-823a-82ce6560b8df"
       ],
+      "custom_css": [
+        ".icon-with-text img {aspect-ratio: 2 / 1;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
