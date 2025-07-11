@@ -63,6 +63,7 @@
         "button_Kj7yqF",
         "button_fN6E4f"
       ],
+      "disabled": true,
       "settings": {}
     },
     "d0c5cff0-67a0-44b2-909d-a8de23fae9f1": {
@@ -163,7 +164,7 @@
         "fadein_enabled": false,
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0,
