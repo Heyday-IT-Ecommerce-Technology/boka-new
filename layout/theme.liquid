@@ -96,10 +96,12 @@
         <meta name="robots" content="noindex">
       {%- elsif productUrl contains '/collections/shop-all/products/cinna-mint-floss' -%}
         <meta name="robots" content="noindex">
-      {%- elsif productUrl contains '/collections/holiday-2023' -%}
-        <meta name="robots" content="noindex">
       {%- endif -%}
     {%- endif -%}
+
+    {% if template contains 'collection' and collection.handle == 'holiday-2023' %}
+      <meta name="robots" content="noindex, follow">
+    {% endif %}
 
     {% if request.path == '/collections/pdp-upsell-ll' %}
       <script type="text/javascript">
