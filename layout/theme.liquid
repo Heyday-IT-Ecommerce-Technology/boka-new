@@ -82,13 +82,9 @@
       {% assign productUrl = product.url | within: collection %}
       {%- if productUrl contains '/collections/shop-all/products/ela-mint-coco-ginger-2-pack' -%}
         <meta name="robots" content="noindex">
-      {%- elsif productUrl contains '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/cinna-mint-toothpaste' -%}
-        <meta name="robots" content="noindex">
       {%- elsif productUrl contains '/collections/shop-all/products/floss' -%}
         <meta name="robots" content="noindex">
       {%- elsif productUrl contains '/collections/shop-all/products/classic-brush-two-pack-8' -%}
-        <meta name="robots" content="noindex">
-      {%- elsif productUrl contains '/collections/shop-all/products/ela-mint-travel-size-toothpaste' -%}
         <meta name="robots" content="noindex">
       {%- elsif productUrl contains '/collections/shop-all/products/lemon-lavender-travel-size-toothpaste' -%}
         <meta name="robots" content="noindex">
@@ -101,90 +97,6 @@
 
     {% if template contains 'collection' and collection.handle == 'holiday-2023' %}
       <meta name="robots" content="noindex, follow">
-    {% endif %}
-
-    {% if request.path == '/collections/pdp-upsell-ll' %}
-      <script type="text/javascript">
-        window.location.href = '/collections/pdp-upsell-cg';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/ela-mint-travel-size-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/ela-mint-travel-size-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/cinna-mint-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/cinna-mint-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/best-sellers/products/ela-mint-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/ela-mint-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/ela-mint-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/ela-mint-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/toothbrushes/' %}
-      <script type="text/javascript">
-        window.location.href = '/collections/toothbrushes';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/floss/products/power-flosser' %}
-      <script type="text/javascript">
-        window.location.href = '/products/power-flosser';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/flavored-toothpaste/' %}
-      <script type="text/javascript">
-        window.location.href = '/collections/flavored-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/coco-ginger-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/coco-ginger-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/toothbrushes/products/classic-brush-2-pack' %}
-      <script type="text/javascript">
-        window.location.href = '/products/classic-brush-2-pack';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/lemon-lavender-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/lemon-lavender-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/mouthwash/products/restore-mouthwash' %}
-      <script type="text/javascript">
-        window.location.href = '/products/restore-mouthwash';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/kids/products/watermelon-mint-n-ha-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/watermelon-mint-n-ha-toothpaste';
-      </script>
-    {% endif %}
-    
-    {% if request.path == '/collections/kids/products/orange-cream-n-ha-toothpaste' %}
-      <script type="text/javascript">
-        window.location.href = '/products/orange-cream-n-ha-toothpaste';
-      </script>
     {% endif %}
 
     {% if template contains 'collection' and collection.handle == 'all' %}
