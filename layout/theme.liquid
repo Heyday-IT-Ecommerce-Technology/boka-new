@@ -55,16 +55,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
+    <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
-
-    {%- if template contains 'product' -%}
-      <link rel="canonical" href="{{ shop.url }}{{ product.url }}" />
-    {%- elsif template contains 'collection' -%}
-      <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
-    {%- else -%}
-      <link rel="canonical" href="{{ canonical_url }}">
-    {%- endif -%}
-
 
     {% comment %}
     <!-- begin Convert Experiences code-->
@@ -108,7 +100,108 @@
         <meta name="robots" content="noindex">
       {%- endif -%}
     {%- endif -%}
+
+    {% if request.path == '/collections/pdp-upsell-ll' %}
+      <script type="text/javascript">
+        window.location.href = '/collections/pdp-upsell-cg';
+      </script>
+    {% endif %}
     
+    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/ela-mint-travel-size-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/ela-mint-travel-size-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/cinna-mint-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/cinna-mint-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/best-sellers/products/ela-mint-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/ela-mint-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/ela-mint-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/ela-mint-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/toothbrushes/' %}
+      <script type="text/javascript">
+        window.location.href = '/collections/toothbrushes';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/floss/products/power-flosser' %}
+      <script type="text/javascript">
+        window.location.href = '/products/power-flosser';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/flavored-toothpaste/' %}
+      <script type="text/javascript">
+        window.location.href = '/collections/flavored-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/coco-ginger-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/coco-ginger-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/toothbrushes/products/classic-brush-2-pack' %}
+      <script type="text/javascript">
+        window.location.href = '/products/classic-brush-2-pack';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/nano-hydroxyapatite_n-ha_toothpaste/products/lemon-lavender-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/lemon-lavender-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/mouthwash/products/restore-mouthwash' %}
+      <script type="text/javascript">
+        window.location.href = '/products/restore-mouthwash';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/kids/products/watermelon-mint-n-ha-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/watermelon-mint-n-ha-toothpaste';
+      </script>
+    {% endif %}
+    
+    {% if request.path == '/collections/kids/products/orange-cream-n-ha-toothpaste' %}
+      <script type="text/javascript">
+        window.location.href = '/products/orange-cream-n-ha-toothpaste';
+      </script>
+    {% endif %}
+
+    {% if request.path == '/blogs/team-boka' %}
+      <script type="text/javascript">
+        window.location.href = '/blogs/guides';
+      </script>
+    {% endif %}
+
+    {% if request.path == '/blogs/5-reasons-were-completely-overhauling-your-morning-routine' %}
+      <script type="text/javascript">
+        window.location.href = '/blogs/guides';
+      </script>
+    {% endif %}
+
+    {% if request.path == '/blogs/why-avoid-fluoride-in-toothpaste-5-reasons-alternatives' %}
+      <script type="text/javascript">
+        window.location.href = '/blogs/guides';
+      </script>
+    {% endif %}
 
 
     {%- if settings.favicon != blank -%}
