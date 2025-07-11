@@ -55,8 +55,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-    <link rel="canonical" href="{{ canonical_url }}">
     <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+
+    {%- if template contains 'product' -%}
+      <link rel="canonical" href="{{ shop.url }}{{ product.url }}" />
+    {%- elsif template contains 'collection' -%}
+      <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />
+    {%- else -%}
+      <link rel="canonical" href="{{ canonical_url }}">
+    {%- endif -%}
+
 
     {% comment %}
     <!-- begin Convert Experiences code-->
