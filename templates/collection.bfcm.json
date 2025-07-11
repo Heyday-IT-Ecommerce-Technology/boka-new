@@ -228,7 +228,7 @@
         "featured_collection_deCNci": {
           "type": "featured_collection",
           "settings": {
-            "collection": "toothbrushes",
+            "collection": "toothbrushes2",
             "image": "shopify://shop_images/Boka_toothbrushes.jpg",
             "image_mobile": "shopify://shop_images/Boka_toothbrushes.jpg",
             "custom_title": "TOOTHBRUSHES"
