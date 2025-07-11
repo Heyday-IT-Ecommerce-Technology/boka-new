@@ -725,7 +725,7 @@
       "settings": {
         "title": "You Might Also Like",
         "heading_size": "h0",
-        "heading_tag": "h1",
+        "heading_tag": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -865,7 +865,7 @@
         "caption": "",
         "heading": "Frequently Asked Questions",
         "heading_size": "h0",
-        "heading_tag": "h1",
+        "heading_tag": "h2",
         "heading_alignment": "center",
         "description": "",
         "layout": "none",
