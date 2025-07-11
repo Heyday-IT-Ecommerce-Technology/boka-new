@@ -187,8 +187,9 @@
       </script>
     {% endif %}
 
-   
-
+    {% if template contains 'collection' and collection.handle == 'all' %}
+      <meta name="description" content="Explore the full range of Boka's natural oral care: toothpaste, brushes, floss & more. Discover all!">
+    {% endif %}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
