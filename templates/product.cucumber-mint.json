@@ -232,7 +232,7 @@
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
-        "button_link": "shopify://products/strawberry-basil-n-ha-toothpaste",
+        "button_link": "shopify://products/cucumber-mint-n-ha-toothpaste",
         "second_button_label": "",
         "second_button_link": "",
         "content_layout": "overlap",
@@ -686,7 +686,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://products/strawberry-basil-n-ha-toothpaste",
+            "button_link": "shopify://products/cucumber-mint-n-ha-toothpaste",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
