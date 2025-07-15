@@ -236,7 +236,60 @@
       </script>
     {% endif %}
 
-
+    <!-- Boka - Review Schema JSON-LD -->
+    {% if template == 'product' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "{{ product.title }}",
+      "url": "{{ shop.url }}{{ product.url }}",
+      "image": [
+        "{{ product.featured_image | img_url: 'original' }}"
+      ],
+      "description": "{{ product.description | strip_html | truncatewords: 50 }}",
+      "sku": "{{ product.variants.first.sku }}",
+      "brand": {
+        "@type": "Brand",
+        "name": "Boka Oral Care"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ product.metafields.custom.rating_value }}",
+        "reviewCount": "{{ product.metafields.custom.review_count }}"
+      },
+      "review": [
+        {% for review in product.reviews %}
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "{{ review.author }}"
+          },
+          "reviewBody": "{{ review.body | strip_html }}",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "{{ review.rating }}",
+            "bestRating": "5"
+          },
+          "datePublished": "{{ review.date | date: '%Y-%m-%d' }}"
+        }{% if forloop.last == false %},{% endif %}
+        {% endfor %}
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "sku": "{{ product.variants.first.sku }}",
+          "gtin12": "{{ product.variants.first.barcode }}",
+          "availability": "http://schema.org/InStock",
+          "price": "{{ product.price | money_without_currency }}",
+          "priceCurrency": "USD",
+          "url": "{{ shop.url }}{{ product.url }}"
+        }
+      ]
+    }
+    </script>
+    {% endif %}
 
     {% comment %}
     <!-- Google tag (gtag.js) -->
