@@ -241,7 +241,7 @@
 
     <!-- Boka - Review Schema JSON-LD -->
 {% if product %}
-  <script type="application/ld+json">
+    <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -256,8 +256,8 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "{% if product.metafields.yotpo.reviews_average %}{{ product.metafields.yotpo.reviews_average }}{% else %}3{% endif %}",
-      "reviewCount": "{% if product.metafields.yotpo.reviews_count %}{{ product.metafields.yotpo.reviews_count }}{% else %}1{% endif %}"
+      "ratingValue": "{{ product.metafields.yotpo.reviews_average }}",
+      "reviewCount": "{{ product.metafields.yotpo.reviews_count }}"
     },
     "review": [
       {% for review in yotpo_reviews %}
@@ -290,6 +290,8 @@
     ]
   }
   </script>
+{% else %}
+  <!-- No reviews, skip the review and aggregateRating schema -->
 {% endif %}
 
 
