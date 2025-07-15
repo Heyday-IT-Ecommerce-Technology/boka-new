@@ -255,8 +255,8 @@
         },
         "aggregateRating": {
           "@type": "AggregateRating",
-          "ratingValue": "{{ product.metafields.yotpo.rating_value }}",  <!-- Aquí usamos el campo del rating de Yotpo -->
-          "reviewCount": "{{ product.metafields.yotpo.review_count }}"  <!-- Aquí usamos el campo del número de reseñas de Yotpo -->
+          "ratingValue": "{{ product.metafields.yotpo.rating_value }}",  
+          "reviewCount": "{{ product.metafields.yotpo.review_count }}"  
         },
         "review": [
           {% for review in yotpo_reviews %}
