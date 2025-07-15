@@ -39,6 +39,205 @@
       gtag('config', 'AW-928967429');
     </script>
 
+    <!-- Boka - Organization Schema JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Boka",
+      "url": "https://www.boka.com/",
+      "logo": "https://www.boka.com/cdn/shop/files/BOK_Logo-15.png?v=1696518126&width=380",
+      "sameAs": [
+        "https://www.instagram.com/boka/",
+        "https://www.facebook.com/loveyourboka/",
+        "https://www.tiktok.com/@loveyourboka"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "email": "hello@boka.com",
+          "contactType": "Customer Service",
+          "areaServed": "US",
+          "availableLanguage": "English"
+        }
+      ]
+    }
+    </script>
+
+<!-- Boka - FAQ Schema JSON-LD -->
+    {% if request.path == '/pages/faq' %}
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why do I need to change my toothbrush every three months?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The American Dental Association recommends changing your brush every three months. If you’re getting over a cold or flu, we recommend changing your toothbrush to avoid spreading germs and reintroducing the virus to yourself."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why are Boka bristles black?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "They’re made with Binchotan activated charcoal, which naturally helps prevent bacteria from growing on your brush. The ultra soft bristles provide a gentle, thorough cleaning that doesn’t damage your teeth and gums. They’re also tapered at the top to tackle plaque between your gum-line and teeth."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What electric brushes are your electric toothbrush heads compatible with?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Boka electric toothbrush heads are compatible with Boka Brushes only."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is your toothpaste vegan or gluten free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Our toothpaste is both vegan and gluten free."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What’s your floss made of?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Wrapped in vegetable wax, Boka floss glides smoothly and expands between teeth to give you a super-clean mouth and gums. And, you can be sure it’s free of BPA, teflon, parabens, SLS, and PFAS."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are Boka products and containers BPA-free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all Boka products and packaging are BPA-free."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are your products tested on animals?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No way! We love our furry friends."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How does the Boka subscription work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You simply sign up for Boka and choose the Boka products you want to receive in your Boka order every two or three months. You can cancel your subscription at any time."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "I just placed my Boka order. What happens next?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You will receive an email from us letting you know your order has been received. Smile! Your Boka order will be at your door within 4-10 business days."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if I need to edit the products in my Boka order after I’ve ordered?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We are not able to edit an order after it has been placed, but please contact us so we can help find an alternative solution."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I modify a future subscription?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Go to https://www.boka.com/tools/recurring/get-subscription-access to manage your subscriptions. To add a new item, click 'Add a Product' then select your desired product. To edit the quantity of an existing subscription, click your active subscription, then click the product you'd like to edit. Adjust the quantity, then click 'Update'."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is shipping free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orders over $35.00 in the Continental US include free shipping. A flat-rate shipping fee of $5.99 applies to all orders under $35.00. Orders over $75.00 in Hawaii and Alaska include free shipping. A flat-rate shipping fee of $24.99 applies to all orders under $75.00. Please note shipping rates apply to both one-time purchases and subscriptions."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do you ship outside the U.S.?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We currently do not ship orders internationally, however, this is subject to change. We are working to open up this option again for our international customers."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I purchase Boka products without a subscription?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can purchase any Boka products through the store at https://www.boka.com/pages/store"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How often will I be billed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "If you choose to pay for your subscription quarterly, you will be billed every two or three months beginning with your first order date."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Will my subscription auto renew?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, all subscriptions will continue to renew until you choose to cancel. Gifts do not auto renew. Manage your subscription at https://www.boka.com/tools/recurring/get-subscription-access"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is your cancellation policy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Subscriptions can be cancelled at any time. If you choose to cancel after your order has been processed, you will still receive and be charged for that Boka order. Learn more at https://www.boka.com/policies/refund-policy"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is your price matching policy?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "We do not refund the difference or offer price adjustments due to sales, promotions or other discounts offered for purchases made outside of the promotional period."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I send Boka products as a gift?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes! Boka kits make great gifts for any occasion and gift recipients can even choose their Boka brush colors. See gift options at https://www.boka.com/pages/store"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I reset my password?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "You can reset your password through the login page at https://www.boka.com/account/login"
+            }
+          }
+        ]
+      }
+      </script>
+    {% endif %}
+
+
+
     {% comment %}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-4Q3MS0F7NE"></script>
