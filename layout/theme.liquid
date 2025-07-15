@@ -40,29 +40,32 @@
     </script>
 
     <!-- Boka - Organization Schema JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Boka",
-      "url": "https://www.boka.com/",
-      "logo": "https://www.boka.com/cdn/shop/files/BOK_Logo-15.png?v=1696518126&width=380",
-      "sameAs": [
-        "https://www.instagram.com/boka/",
-        "https://www.facebook.com/loveyourboka/",
-        "https://www.tiktok.com/@loveyourboka"
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "email": "hello@boka.com",
-          "contactType": "Customer Service",
-          "areaServed": "US",
-          "availableLanguage": "English"
-        }
-      ]
-    }
-    </script>
+{% if template == 'index' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Boka",
+    "url": "https://www.boka.com/",
+    "logo": "https://www.boka.com/cdn/shop/files/BOK_Logo-15.png?v=1696518126&width=380",
+    "sameAs": [
+      "https://www.instagram.com/boka/",
+      "https://www.facebook.com/loveyourboka/",
+      "https://www.tiktok.com/@loveyourboka"
+    ],
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "email": "hello@boka.com",
+        "contactType": "Customer Service",
+        "areaServed": "US",
+        "availableLanguage": "English"
+      }
+    ]
+  }
+  </script>
+{% endif %}
+
 
 <!-- Boka - FAQ Schema JSON-LD -->
     {% if request.path == '/pages/faq' %}
