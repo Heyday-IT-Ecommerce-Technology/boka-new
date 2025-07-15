@@ -240,8 +240,8 @@
     {% endif %}
 
     <!-- Boka - Review Schema JSON-LD -->
-{% if product %}
-    <script type="application/ld+json">
+{% if product.metafields.yotpo.reviews_count != "0" and product.metafields.yotpo.reviews_count %}
+  <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -293,6 +293,7 @@
 {% else %}
   <!-- No reviews, skip the review and aggregateRating schema -->
 {% endif %}
+
 
 
     {% comment %}
