@@ -259,8 +259,8 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "{{ product.metafields.yotpo.rating_value | default: 0 }}",  <!-- Calificación promedio (si no existe, será 0) -->
-      "reviewCount": "{{ product.metafields.yotpo.review_count | default: 0 }}"  <!-- Número de reseñas (si no existe, será 0) -->
+      "ratingValue": "{{ product.metafields.yotpo.rating_value | default: 0 }}", 
+      "reviewCount": "{{ product.metafields.yotpo.review_count | default: 0 }}"  
     },
     "review": [
       {% for review in yotpo_reviews %}
