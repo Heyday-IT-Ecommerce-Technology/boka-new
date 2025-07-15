@@ -258,8 +258,8 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "{{ product.metafields.yotpo.rating_value | default: 3 }}",  <!-- Asignar un valor mínimo de 3 si no hay valor -->
-      "reviewCount": "{{ product.metafields.yotpo.review_count | default: 1 }}"  <!-- Asignar al menos 1 si no hay reseñas -->
+      "ratingValue": "{{ product.metafields.yotpo.rating_value | default: 3 }}",
+      "reviewCount": "{{ product.metafields.yotpo.review_count | default: 1 }}"  
     },
     "review": [
       {% for review in yotpo_reviews %}
