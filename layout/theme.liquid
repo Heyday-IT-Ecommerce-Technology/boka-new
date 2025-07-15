@@ -247,9 +247,7 @@
     "@type": "Product",
     "name": "{{ product.title }}",
     "url": "{{ shop.url }}{{ product.url }}",
-    "image": [
-      "{{ product.featured_image | img_url: 'original' }}"
-    ],
+    "image": "{{ product.featured_image | img_url: 'original' }}",
     "description": "{{ product.description | strip_html | truncatewords: 50 }}",
     "sku": "{{ product.variants.first.sku }}",
     "brand": {
@@ -258,8 +256,8 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "{{ product.metafields.yotpo.rating_value | default: 3 }}",
-      "reviewCount": "{{ product.metafields.yotpo.review_count | default: 1 }}"  
+      "ratingValue": "{% if product.metafields.yotpo.reviews_average %}{{ product.metafields.yotpo.reviews_average }}{% else %}3{% endif %}",
+      "reviewCount": "{% if product.metafields.yotpo.reviews_count %}{{ product.metafields.yotpo.reviews_count }}{% else %}1{% endif %}"
     },
     "review": [
       {% for review in yotpo_reviews %}
@@ -293,9 +291,6 @@
   }
   </script>
 {% endif %}
-
-
-
 
 
     {% comment %}
