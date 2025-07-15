@@ -239,8 +239,8 @@
       </script>
     {% endif %}
 
-    <!-- Boka - Review Schema JSON-LD 
-    {% if template == 'product' %}
+    <!-- Boka - Review Schema JSON-LD -->
+{% if template == 'product' %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -258,8 +258,8 @@
     },
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": "{{ product.metafields.yotpo.rating_value }}",  
-      "reviewCount": "{{ product.metafields.yotpo.review_count }}" 
+      "ratingValue": "{{ product.metafields.yotpo.rating_value }}", 
+      "reviewCount": "{{ product.metafields.yotpo.review_count }}"  
     },
     "review": [
       {% for review in yotpo_reviews %}
@@ -294,7 +294,7 @@
   </script>
 {% endif %}
 
--->
+
 
     {% comment %}
     <!-- Google tag (gtag.js) -->
