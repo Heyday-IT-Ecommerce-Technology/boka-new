@@ -245,7 +245,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Product",
-    "name": "{{ product.title | json }}",
+    "name": {{ product.title | json }},
     "url": "{{ shop.url }}{{ product.url }}",
     "image": [
       {% for image in product.images limit: 5 %}
@@ -305,7 +305,6 @@
   }
   </script>
 {% endif %}
-
 
 
     {% comment %}
