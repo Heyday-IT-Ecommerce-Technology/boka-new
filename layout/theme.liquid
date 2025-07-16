@@ -262,8 +262,8 @@
     "worstRating": "1"
   },
   {% comment %} Obtenemos las reviews de Yotpo metafields {% endcomment %}
-  {% assign yotpo_reviews = product.metafields.yotpo.reviews %}
-  {% if yotpo_reviews and yotpo_reviews.size > 0 %}
+  {% assign yotpo_reviews = product.metafields.yotpo.reviews | default: product.metafields.yotpo.reviews_json %}
+  {% if yotpo_reviews and yotpo_reviews != blank and yotpo_reviews.size > 0 %}
   "review": [
     {% for review in yotpo_reviews limit: 10 %}
     {
@@ -272,10 +272,10 @@
         "@type": "Person",
         "name": "{{ review.display_name | default: review.user_name | default: 'Cliente verificado' | escape }}"
       },
-      "reviewBody": "{{ review.content | strip_html | escape }}",
+      "reviewBody": "{{ review.content | default: review.body | strip_html | escape }}",
       "reviewRating": {
         "@type": "Rating",
-        "ratingValue": "{{ review.score }}",
+        "ratingValue": "{{ review.score | default: review.rating }}",
         "bestRating": "5"
       },
       "datePublished": "{{ review.created_at | date: '%Y-%m-%d' }}"
