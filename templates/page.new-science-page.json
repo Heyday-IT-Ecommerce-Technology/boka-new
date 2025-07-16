@@ -540,6 +540,63 @@
         "padding_bottom_mobile": 50
       }
     },
+    "image_with_text_kXUR9h": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_nWdcbL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<em>Guided</em> by Experts, <em>Grounded</em> in Science",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_y4WdAQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re committed to science-backed oral care—and that includes the experts behind our products. Our Oral Health Advisory Committee, made up of leading dentists and health professionals, helps guide everything we create. Together, we’re redefining what it means to care for your mouth with integrity and innovation.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_KhbGa4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Meet the Committee",
+            "button_link": "https://www.boka.com/pages/oral-health-advisory-committee",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_nWdcbL",
+        "text_y4WdAQ",
+        "button_KhbGa4"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 30,
+        "padding_bottom_mobile": 10
+      }
+    },
     "multicolumn_VAUgL6": {
       "type": "multicolumn",
       "blocks": {
@@ -652,6 +709,7 @@
     "multicolumn_9DxQ8P",
     "rich_text_w4YWrh",
     "multicolumn_ttLgWG",
+    "image_with_text_kXUR9h",
     "multicolumn_VAUgL6",
     "featured_collection_Uhw3nt"
   ]
