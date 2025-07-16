@@ -241,55 +241,61 @@
 
     <!-- Boka - Review Schema JSON-LD -->
 {% if product %}
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "{{ product.title }}",
-    "url": "{{ shop.url }}{{ product.url }}",
-    "image": "{{ product.featured_image | img_url: 'original' }}",
-    "description": "{{ product.description | strip_html | truncatewords: 50 }}",
-    "sku": "{{ product.variants.first.sku }}",
-    "brand": {
-      "@type": "Brand",
-      "name": "Boka Oral Care"
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "{% if product.metafields.yotpo.reviews_average %}{{ product.metafields.yotpo.reviews_average }}{% else %}3{% endif %}",
-      "reviewCount": "{% if product.metafields.yotpo.reviews_count %}{{ product.metafields.yotpo.reviews_count }}{% else %}1{% endif %}"
-    },
-    "review": [
-      {% for review in yotpo_reviews %}
-      {
-        "@type": "Review",
-        "author": {
-          "@type": "Person",
-          "name": "{{ review.author_name }}"
-        },
-        "reviewBody": "{{ review.body | strip_html }}",
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "{{ review.rating }}",
-          "bestRating": "5"
-        },
-        "datePublished": "{{ review.date | date: '%Y-%m-%d' }}"
-      }{% if forloop.last == false %},{% endif %}
-      {% endfor %}
-    ],
-    "offers": [
-      {
-        "@type": "Offer",
-        "sku": "{{ product.variants.first.sku }}",
-        "gtin12": "{{ product.variants.first.barcode }}",
-        "availability": "http://schema.org/InStock",
-        "price": "{{ product.price | money_without_currency }}",
-        "priceCurrency": "USD",
-        "url": "{{ shop.url }}{{ product.url }}"
-      }
-    ]
-  }
-  </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ product.title | escape }}",
+  "url": "{{ shop.url }}{{ product.url }}",
+  "image": "{{ product.featured_image | img_url: 'original' }}",
+  "description": "{{ product.description | strip_html | truncatewords: 50 | escape }}",
+  "sku": "{{ product.variants.first.sku }}",
+  "brand": {
+    "@type": "Brand",
+    "name": "Boka Oral Care"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{% if product.metafields.yotpo.reviews_average %}{{ product.metafields.yotpo.reviews_average }}{% else %}3{% endif %}",
+    "reviewCount": "{% if product.metafields.yotpo.reviews_count %}{{ product.metafields.yotpo.reviews_count }}{% else %}1{% endif %}",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  {% comment %} Obtenemos las reviews de Yotpo metafields {% endcomment %}
+  {% assign yotpo_reviews = product.metafields.yotpo.reviews %}
+  {% if yotpo_reviews and yotpo_reviews.size > 0 %}
+  "review": [
+    {% for review in yotpo_reviews limit: 10 %}
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "{{ review.display_name | default: review.user_name | default: 'Cliente verificado' | escape }}"
+      },
+      "reviewBody": "{{ review.content | strip_html | escape }}",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ review.score }}",
+        "bestRating": "5"
+      },
+      "datePublished": "{{ review.created_at | date: '%Y-%m-%d' }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  {% endif %}
+  "offers": [
+    {
+      "@type": "Offer",
+      "sku": "{{ product.variants.first.sku }}",
+      {% if product.variants.first.barcode != blank %}"gtin12": "{{ product.variants.first.barcode }}",{% endif %}
+      "availability": "{% if product.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+      "price": "{{ product.price | money_without_currency | remove: ',' }}",
+      "priceCurrency": "{{ cart.currency.iso_code | default: 'USD' }}",
+      "url": "{{ shop.url }}{{ product.url }}"
+    }
+  ]
+}
+</script>
 {% endif %}
 
 
