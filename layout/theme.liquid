@@ -240,72 +240,56 @@
     {% endif %}
 
     <!-- Boka - Review Schema JSON-LD -->
-    {% if product %}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": {{ product.title | json }},
-  "url": "{{ shop.url }}{{ product.url }}",
-  "image": [
-    {% for image in product.images limit: 5 %}
-      "{{ image | img_url: 'master' }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
-  "description": {{ product.description | strip_html | truncatewords: 50 | json }},
-  "sku": "{{ product.selected_or_first_available_variant.sku }}",
-  "brand": {
-    "@type": "Brand",
-    "name": "Boka Oral Care"
+{% if product %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "{{ product.title }}",
+    "url": "{{ shop.url }}{{ product.url }}",
+    "image": "{{ product.featured_image | img_url: 'original' }}",
+    "description": "{{ product.description | strip_html | truncatewords: 50 }}",
+    "sku": "{{ product.variants.first.sku }}",
+    "brand": {
+      "@type": "Brand",
+      "name": "Boka Oral Care"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "{% if product.metafields.yotpo.reviews_average %}{{ product.metafields.yotpo.reviews_average }}{% else %}3{% endif %}",
+      "reviewCount": "{% if product.metafields.yotpo.reviews_count %}{{ product.metafields.yotpo.reviews_count }}{% else %}1{% endif %}"
+    },
+    "review": [
+      {% for review in yotpo_reviews %}
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "{{ review.author_name }}"
+        },
+        "reviewBody": "{{ review.body | strip_html }}",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "{{ review.rating }}",
+          "bestRating": "5"
+        },
+        "datePublished": "{{ review.date | date: '%Y-%m-%d' }}"
+      }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
+    ],
+    "offers": [
+      {
+        "@type": "Offer",
+        "sku": "{{ product.variants.first.sku }}",
+        "gtin12": "{{ product.variants.first.barcode }}",
+        "availability": "http://schema.org/InStock",
+        "price": "{{ product.price | money_without_currency }}",
+        "priceCurrency": "USD",
+        "url": "{{ shop.url }}{{ product.url }}"
+      }
+    ]
   }
-  {% comment %} Aggregate Rating de Yotpo {% endcomment %}
-  {% if product.metafields.yotpo.reviews_count and product.metafields.yotpo.reviews_count != "0" and product.metafields.yotpo.reviews_count != 0 %},
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "{{ product.metafields.yotpo.reviews_average }}",
-    "bestRating": "5",
-    "worstRating": "1",
-    "ratingCount": "{{ product.metafields.yotpo.reviews_count }}",
-    "reviewCount": "{{ product.metafields.yotpo.reviews_count }}"
-  }
-  {% endif %}
-  {% comment %} Reviews individuales de Yotpo {% endcomment %}
-  {% assign yotpo_reviews = product.metafields.yotpo.reviews %}
-  {% if yotpo_reviews and yotpo_reviews.size > 0 %},
-  "review": [
-    {% for review in yotpo_reviews limit: 10 %}
-    {
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": {{ review.display_name | default: review.user_name | default: "Cliente verificado" | json }}
-      },
-      "reviewBody": {{ review.content | strip_html | json }},
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "{{ review.score }}",
-        "bestRating": "5"
-      },
-      "datePublished": "{{ review.created_at | date: '%Y-%m-%d' }}"
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]
-  {% endif %},
-  "offers": [
-    {% for variant in product.variants %}
-    {
-      "@type": "Offer",
-      "sku": "{{ variant.sku }}",
-      {% if variant.barcode != blank %}"gtin12": "{{ variant.barcode }}",{% endif %}
-      "availability": "{% if variant.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
-      "price": "{{ variant.price | money_without_currency | remove: ',' }}",
-      "priceCurrency": "{{ cart.currency.iso_code }}",
-      "url": "{{ shop.url }}{{ product.url }}?variant={{ variant.id }}"
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ]
-}
-</script>
+  </script>
 {% endif %}
 
 
