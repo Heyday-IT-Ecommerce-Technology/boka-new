@@ -753,7 +753,9 @@
       assign seo_media = product.featured_media
     endif
   -%}
-<script type="application/ld+json">
+
+
+  <script type="application/ld+json">
 {
   "@context": "http://schema.org/",
   "@type": "Product",
@@ -772,7 +774,6 @@
     "@type": "Brand",
     "name": {{ product.vendor | json }}
   },
-  {% comment %} Yotpo Aggregate Rating {% endcomment %}
   {% if product.metafields.yotpo.reviews_count and product.metafields.yotpo.reviews_count != "0" and product.metafields.yotpo.reviews_count != 0 %}
   "aggregateRating": {
     "@type": "AggregateRating",
@@ -781,28 +782,6 @@
     "bestRating": "5",
     "worstRating": "1"
   },
-  {% endif %}
-  {% comment %} Yotpo Individual Reviews {% endcomment %}
-  {% assign yotpo_reviews = product.metafields.yotpo.reviews | default: product.metafields.yotpo.reviews_json %}
-  {% if yotpo_reviews and yotpo_reviews != blank and yotpo_reviews.size > 0 %}
-  "review": [
-    {% for review in yotpo_reviews limit: 10 %}
-    {
-      "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": {{ review.display_name | default: review.user_name | default: "Cliente verificado" | json }}
-      },
-      "reviewBody": {{ review.content | default: review.body | strip_html | json }},
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": {{ review.score | default: review.rating | json }},
-        "bestRating": "5"
-      },
-      "datePublished": {{ review.created_at | default: review.date | date: '%Y-%m-%d' | json }}
-    }{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ],
   {% endif %}
   "offers": [
     {%- for variant in product.variants -%}
@@ -829,6 +808,7 @@
   ]
 }
 </script>
+
 
 <script>
 // sticky-atc.js
