@@ -638,7 +638,7 @@
           "settings": {
             "image": "shopify://shop_images/Nano-hydroxyapatite.webp",
             "title": "<strong>Nano-hydroxyapatite</strong>",
-            "text": "<p>helps fortify teeth</p>",
+            "text": "<p>mimics tooth enamel</p>",
             "link_label": "",
             "link": ""
           }
@@ -658,7 +658,7 @@
           "settings": {
             "image": "shopify://shop_images/Xylitol.webp",
             "title": "<strong>Xylitol</strong>",
-            "text": "<p>promotes oral health</p>",
+            "text": "<p>fights bacteria</p>",
             "link_label": "",
             "link": ""
           }
@@ -668,7 +668,7 @@
           "settings": {
             "image": "shopify://shop_images/Botanical_Extract_1.webp",
             "title": "<strong>Botanical extracts</strong>",
-            "text": "<p>provide refreshing flavors</p>",
+            "text": "<p>freshen breath</p>",
             "link_label": "",
             "link": ""
           }
