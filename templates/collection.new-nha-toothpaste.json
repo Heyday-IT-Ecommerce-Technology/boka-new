@@ -767,15 +767,6 @@
             "page": ""
           }
         },
-        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How long does it take for this ingredient to remineralize teeth?",
-            "icon": "none",
-            "row_content": "<p>The timing to remineralize varies. It is a gradual process, and noticeable results may take weeks or months to become apparent. It is recommended to consistently use dental products with this ingredient for optimal results.</p>",
-            "page": ""
-          }
-        },
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
@@ -790,7 +781,7 @@
           "settings": {
             "heading": "How does this product compare to traditional options?",
             "icon": "none",
-            "row_content": "<p>Boka toothpaste is similar to traditional products but contains microscopic particles that can help remineralize teeth. It can be an effective option for maintaining oral health, but individual results may vary.</p>",
+            "row_content": "<p>Boka toothpaste offers a modern approach to oral care by using nano-hydroxyapatite (n-Ha), a biomimetic mineral that closely resembles the natural structure of your teeth. It serves as a fluoride alternative and is thoughtfully formulated for daily use as part of a consistent oral hygiene routine.</p>",
             "page": ""
           }
         },
@@ -843,7 +834,6 @@
       "block_order": [
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-1",
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-2",
-        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-3",
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4",
         "d5bd3503-d078-48f2-b735-2c8c183c85ed",
         "2d97e441-6520-4b04-b1a1-9b86cf754be7",
