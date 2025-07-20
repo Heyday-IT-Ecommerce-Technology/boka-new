@@ -322,43 +322,42 @@
         "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Fluoride-free</p>",
+            "text": "<p>Reduces sensitivity</p>",
             "text_style": "body"
           }
         },
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
           "type": "text",
           "settings": {
-            "text": "<p>SLS-free</p>",
+            "text": "<p>Safe for daily use</p>",
             "text_style": "body"
           }
         },
         "93b178e4-2598-45c7-b4a1-fd50f417768b": {
           "type": "text",
           "settings": {
-            "text": "<p>Paraben-free</p>",
+            "text": "<p>Biocompatible</p>",
             "text_style": "body"
           }
         },
         "6f829075-8538-46cf-852c-3bb0c8fb002d": {
           "type": "text",
           "settings": {
-            "text": "<p>Whitening</p>",
-            "text_style": "body"
-          }
-        },
-        "d80da3aa-4a84-46b3-a144-4e00120b9190": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>All-natural</p>",
+            "text": "<p>Freshens breath</p>",
             "text_style": "body"
           }
         },
         "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87": {
           "type": "text",
           "settings": {
-            "text": "<p>Convenient refills</p>",
+            "text": "<p>Fluoride-free</p>",
+            "text_style": "body"
+          }
+        },
+        "d80da3aa-4a84-46b3-a144-4e00120b9190": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Non-toxic when used as directed</p>",
             "text_style": "body"
           }
         }
@@ -368,8 +367,8 @@
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b",
         "93b178e4-2598-45c7-b4a1-fd50f417768b",
         "6f829075-8538-46cf-852c-3bb0c8fb002d",
-        "d80da3aa-4a84-46b3-a144-4e00120b9190",
-        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87"
+        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87",
+        "d80da3aa-4a84-46b3-a144-4e00120b9190"
       ],
       "settings": {
         "image": "shopify://shop_images/Boka_Lifestyle_Powerbrush_798x634_11ce6a89-ccb3-4796-aab1-e8e48e29b63d.jpg",
@@ -381,7 +380,7 @@
         "heading": "Features",
         "heading_size": "h1",
         "heading_tag": "h2",
-        "caption": "We trade fluoride for nano-hydroxyapatite (n-Ha), an evolution in dentistry. Hydroxyapatite is the primary foundation of teeth and bones and helps remineralize weak enamel.",
+        "caption": "Our proprietary and innovative formula includes Nano-hydroxyapatite (n-Ha) - a biomimetic mineral form of the same ingredient that naturally makes up 97% of your teeth material and 70% of your dentin. n-Ha has been the subject of significant research for decades with a wide variety of potential benefits across dentistry and oral care.",
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "",
