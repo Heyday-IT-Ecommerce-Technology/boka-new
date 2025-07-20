@@ -379,31 +379,38 @@
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
       "type": "image-with-bulleted-text",
       "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fluoride-free</p>",
-            "text_style": "body"
-          }
-        },
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
           "type": "text",
           "settings": {
-            "text": "<p>SLS-free</p>",
+            "text": "<p>Reduces sensitivity</p>",
             "text_style": "body"
           }
         },
         "93b178e4-2598-45c7-b4a1-fd50f417768b": {
           "type": "text",
           "settings": {
-            "text": "<p>Paraben-free</p>",
+            "text": "<p>Safe for daily use</p>",
             "text_style": "body"
           }
         },
         "6f829075-8538-46cf-852c-3bb0c8fb002d": {
           "type": "text",
           "settings": {
-            "text": "<p>Safe to swallow</p>",
+            "text": "<p>Biocompatible</p>",
+            "text_style": "body"
+          }
+        },
+        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Freshens breath</p>",
+            "text_style": "body"
+          }
+        },
+        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fluoride-free</p>",
             "text_style": "body"
           }
         },
@@ -413,22 +420,15 @@
             "text": "<p>Non-toxic when used as directed</p>",
             "text_style": "body"
           }
-        },
-        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Convenient refills</p>",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b",
         "93b178e4-2598-45c7-b4a1-fd50f417768b",
         "6f829075-8538-46cf-852c-3bb0c8fb002d",
-        "d80da3aa-4a84-46b3-a144-4e00120b9190",
-        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87"
+        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87",
+        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
+        "d80da3aa-4a84-46b3-a144-4e00120b9190"
       ],
       "settings": {
         "image": "shopify://shop_images/Boka_Lifestyle_Powerbrush_798x634_11ce6a89-ccb3-4796-aab1-e8e48e29b63d.jpg",
@@ -1494,7 +1494,7 @@
         "heading": "Say <em>hello</em> to n-Ha",
         "heading_size": "h1",
         "heading_tag": "default",
-        "text": "Hydroxyapatite is the primary foundation of teeth and bones. It’s great for your smile AND non-toxic when used as directed. Sign. Us. Up.",
+        "text": "n-Ha is a breakthrough material inspired by nature and backed by science, non-toxic when used as directed. Sign. Us. Up.",
         "text_style": "body",
         "button_label_1": "SHOP NOW",
         "button_link_1": "shopify://collections/nano-hydroxyapatite_n-ha_toothpaste",
