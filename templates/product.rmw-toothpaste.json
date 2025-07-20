@@ -1549,6 +1549,57 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 10
       }
+    },
+    "rich_text_BkYWCm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BHkrV3": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_fAB9Re": {
+          "type": "text",
+          "settings": {
+            "text": "<h6>*WHITENING: With regular brushing, helps remove surface stains.</h6>"
+          }
+        },
+        "button_3KtyeW": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BHkrV3",
+        "text_fAB9Re",
+        "button_3KtyeW"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
@@ -1561,6 +1612,7 @@
     "085f1055-2d3e-4d54-be2a-a41bb92a1ad9",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
     "672bfbbb-3f35-4988-bf92-66ed4484892b",
-    "1740076098124aa9ff"
+    "1740076098124aa9ff",
+    "rich_text_BkYWCm"
   ]
 }
