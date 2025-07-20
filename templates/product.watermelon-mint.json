@@ -1529,7 +1529,7 @@
           "settings": {
             "heading": "Does this toothpaste contain any artificial flavors or colors?",
             "icon": "none",
-            "row_content": "<p>No, our toothpaste is free from artificial flavors and colors. It derives its delightful watermelon mint flavor, making brushing a more enjoyable experience.</p>",
+            "row_content": "<p>No, our toothpaste doesn’t contain artificial flavors or additives. It features watermelon mint flavor for a fun, flavorful brushing experience.</p>",
             "page": ""
           }
         },
