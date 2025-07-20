@@ -1,1 +1,892 @@
-{"sections":{"e9540f45-142d-4b00-acd5-49caf5c23d70":{"type":"image-banner","blocks":{"template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0":{"type":"heading","settings":{"heading":"Powered by n-Ha","heading_size":"h1","heading_tag":"default"}},"template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1":{"type":"text","settings":{"text":"Remineralizes & fortifies teeth without the toxins.","text_use_html":false,"text_html":"","text_style":"body"}}},"block_order":["template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0","template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1"],"disabled":true,"settings":{"enable_fullwidth":false,"image":"shopify:\/\/shop_images\/Boka_PLPBanner_Toothpaste_Desktop.jpg","image_mobile":"shopify:\/\/shop_images\/Boka_PLPBanner_Toothpaste_Mobile.jpg","image_overlay_opacity":0,"image_height":"small","image_height_mobile":"medium","desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"custom","custom_background_color":"#333333","custom_text_color":"#000000","button_background_color":"#000000","button_foreground_color":"#ffffff","image_behavior":"none","mobile_content_alignment":"center","mobile_content_position":"top","stack_images_on_mobile":false,"show_text_below":false,"padding_top":0,"padding_bottom":0,"padding_top_tablet":80,"padding_bottom_tablet":80,"padding_top_mobile":80,"padding_bottom_mobile":80}},"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"2","enable_merchandising_card":false,"card_bg_color":"#ffffff","card_text_color":"#ffffff","card_columns":"two","card_column_position":1,"card_row_position":3,"image_as_bg":true,"bg_image_position":"center","card_image_desktop":"shopify:\/\/shop_images\/boka-seasonal-collection-d-1.jpg","card_image_mobile":"shopify:\/\/shop_images\/boka-seasonal-collection-d-1.jpg","bg_image_link":"","card_image_url":"","card_text_alignment_desktop":"left","card_text_alignment_mobile":"left","card_text_position_desktop":"flex-start","card_text_position_mobile":"flex-start","card_title":"Fun new seasonal flavors","card_text":"","button_text":"SHOP NOW","button_url":"shopify:\/\/collections\/new","padding_top":0,"padding_bottom":0,"padding_top_mobile":0,"padding_bottom_mobile":0}},"image_with_text_YhJdpy":{"type":"image-with-text","blocks":{"heading_UhddGU":{"type":"heading","settings":{"heading":"What Is <em>Hydroxyapatite (Ha)?<\/em>","heading_size":"h1","heading_tag":"default"}},"text_JPHzhH":{"type":"text","settings":{"text":"<p>Ha is a naturally occurring mineral that makes up the majority of tooth enamel. It has been used in dentistry and medicine for over 40 years and is widely recognized for its biocompatibility, particularly for supporting enamel integrity.<\/p>","text_style":"body"}},"button_B7bB6W":{"type":"button","settings":{"button_label":"Support Enamel Health","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":""}}},"block_order":["heading_UhddGU","text_JPHzhH","button_B7bB6W"],"custom_css":["@media (min-width: 750px) {.image-with-text__media-item {padding-left: 80px; }}"],"settings":{"image":"shopify:\/\/shop_images\/Image_1.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"rgba(0,0,0,0)","custom_background_color":"rgba(0,0,0,0)","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":70,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":20,"padding_bottom_mobile":10}},"image_with_text_FAzRQh":{"type":"image-with-text","blocks":{"heading_WgPAdi":{"type":"heading","settings":{"heading":"Understanding Enamel and the Role of <em>Hydroxyapatite<\/em>","heading_size":"h1","heading_tag":"default"}},"text_bQNtcM":{"type":"text","settings":{"text":"<p>Tooth enamel is the hardest substance in the human body, composed primarily of this mineral. While incredibly strong, enamel is constantly exposed to acids, leading to gradual mineral loss over time. Acidic foods, sugary drinks, and plaque weaken enamel, making it more susceptible to erosion and surface stains. Unlike other parts of the body, enamel does not regenerate, which is why remineralization is crucial.<\/p><p>Boka nano-hydroxyapatite toothpaste uses the synthetic form of this particle, a bioavailable form of calcium phosphate, which integrates directly into the enamel matrix. This process helps maintain the tooth’s natural structure, reducing the impact of daily wear and tear while promoting a smooth and bright appearance.<\/p>","text_style":"body"}},"button_yQ4qYP":{"type":"button","settings":{"button_label":"Discover Our Toothpaste Collection","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":""}}},"block_order":["heading_WgPAdi","text_bQNtcM","button_yQ4qYP"],"custom_css":["@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}"],"settings":{"image":"shopify:\/\/shop_images\/Image_2.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"rgba(0,0,0,0)","custom_background_color":"rgba(0,0,0,0)","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":30,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":10}},"image_with_bulleted_text_PF74VT":{"type":"image-with-bulleted-text","blocks":{"text_n6e3CL":{"type":"text","settings":{"text":"<p><strong>Oral Care <\/strong>– Used as a fluoride-free alternative to maintain enamel strength and a balanced oral environment.<\/p>","text_style":"body"}},"text_C6KGX8":{"type":"text","settings":{"text":"<p><strong>Dental Fillings & Restorations<\/strong> – Integrated into materials for enhanced biocompatibility.<\/p>","text_style":"body"}},"text_gEPEPn":{"type":"text","settings":{"text":"<p><strong>Bone Grafting Procedures<\/strong> – Supports bone regeneration in oral surgery and orthopedic treatments.<\/p>","text_style":"body"}},"text_Hb7rbU":{"type":"text","settings":{"text":"<p><strong>Coating for Implants<\/strong> – Applied to dental and orthopedic implants for improved integration.<\/p>","text_style":"body"}}},"block_order":["text_n6e3CL","text_C6KGX8","text_gEPEPn","text_Hb7rbU"],"settings":{"image":"shopify:\/\/shop_images\/Image_3.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","heading":"Uses in Modern Dentistry","heading_size":"h1","heading_tag":"default","caption":"This mineral has been used in dental and medical applications for decades, including:","text_style":"subtitle","text_size":"medium","button_label":"Shop Innovative Oral Care","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":"","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#f0f5eb","custom_text_color":"#000000","bullets_color":"#090909","bullets_line_color":"#000000","image_behavior":"none","mobile_heading_alignment":"center","mobile_content_alignment":"left","padding_top":30,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":0}},"image_with_text_DeLViQ":{"type":"image-with-text","blocks":{"heading_XKep4f":{"type":"heading","settings":{"heading":"What Makes n-Ha Toothpaste a <em>Good Option?<\/em>","heading_size":"h1","heading_tag":"default"}},"text_HWjtCg":{"type":"text","settings":{"text":"<p>Our innovative formula which biomimics the mineral naturally present in teeth offers a modern approach to oral care. It works harmoniously with your tooth structure, making it an excellent choice for those seeking gentle yet effective care. This formulation supports enamel health while being suitable for daily use, safe for individuals with sensitive teeth, or those exploring fluoride-free options.<\/p>","text_style":"body"}},"button_cFLwy7":{"type":"button","settings":{"button_label":"Try n-Ha Toothpaste","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":""}}},"block_order":["heading_XKep4f","text_HWjtCg","button_cFLwy7"],"custom_css":["@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}"],"settings":{"image":"shopify:\/\/shop_images\/Image_4.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"rgba(0,0,0,0)","custom_background_color":"rgba(0,0,0,0)","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":30,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":10}},"image_with_bulleted_text_WFNa3R":{"type":"image-with-bulleted-text","blocks":{"text_3bVwNA":{"type":"text","settings":{"text":"<p><strong>Supports Enamel Health <\/strong>– Biomimics the mineral component of tooth structure, helping maintain oral health.<\/p>","text_style":"body"}},"text_hzGYwU":{"type":"text","settings":{"text":"<p><strong>Helps Maintain a Whiter Smile<\/strong> – Gently removes surface stains without harsh abrasives.<\/p>","text_style":"body"}},"text_FxbGiX":{"type":"text","settings":{"text":"<p><strong>No Harsh Chemicals<\/strong> – Free from SLS, parabens, and artificial flavors for a gentle clean.<\/p>","text_style":"body"}},"text_VDg4rb":{"type":"text","settings":{"text":"<p><strong>Balanced Oral Microbiome<\/strong> – Formulated with xylitol and antioxidant-rich ingredients.<\/p>","text_style":"body"}},"text_QznBWd":{"type":"text","settings":{"text":"<p><strong>No Harsh Chemicals<\/strong> – Free from fluoride, sulfates, artificial dyes, and preservatives.<\/p>","text_style":"body"}},"text_jnPNtc":{"type":"text","settings":{"text":"<p><strong>Safe for the Whole Family<\/strong> – A fluoride-free, safe-to-swallow formula that kids can also use.<\/p>","text_style":"body"}},"text_TK7HAJ":{"type":"text","settings":{"text":"<p><strong>Xylitol<\/strong> – A naturally occurring sweetener that also helps promote a balanced oral microbiome.<\/p>","text_style":"body"}},"text_mdNMph":{"type":"text","settings":{"text":"<p><strong>Aloe Vera<\/strong> – Known for its soothing properties, it helps keep the gums comfortable.<\/p>","text_style":"body"}},"text_KMBGg7":{"type":"text","settings":{"text":"<p><strong>Green Tea Extract<\/strong> – A natural antioxidant that supports oral microbiome balance.<\/p>","text_style":"body"}}},"block_order":["text_3bVwNA","text_hzGYwU","text_FxbGiX","text_VDg4rb","text_QznBWd","text_jnPNtc","text_TK7HAJ","text_mdNMph","text_KMBGg7"],"custom_css":[".image-with-text__content {padding-right: 40px;}"],"settings":{"image":"shopify:\/\/shop_images\/Image_5.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","heading":"Benefits of Boka","heading_size":"h1","heading_tag":"default","caption":"","text_style":"subtitle","text_size":"medium","button_label":"Experience Boka Benefits","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":"","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#fafaf5","custom_text_color":"#000000","bullets_color":"#090909","bullets_line_color":"#000000","image_behavior":"none","mobile_heading_alignment":"center","mobile_content_alignment":"left","padding_top":30,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":0}},"multicolumn_qUK96C":{"type":"multicolumn","blocks":{"column_xgHyd6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Supports Enamel Health<\/strong>","text":"<p>Biomimics the mineral component of tooth structure, helping maintain oral health.<\/p>","link_label":"","link":""}},"column_UrqcQH":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Helps Maintain a Whiter Smile<\/strong>","text":"<p>Gently removes surface stains without harsh abrasives.<\/p>","link_label":"","link":""}},"column_wQxDTJ":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Clean Formulation without Harsh Chemicals<\/strong>","text":"<p>Free from SLS, parabens, and artificial flavors for a gentle clean.<\/p>","link_label":"","link":""}},"column_eMKgRr":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Balanced Oral Microbiome<\/strong>","text":"<p>Formulated with xylitol and antioxidant-rich ingredients.<\/p>","link_label":"","link":""}},"column_8Uyhg6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>No Harsh Chemicals<\/strong>","text":"<p>Free from fluoride, sulfates, artificial dyes, and preservatives.<\/p>","link_label":"","link":""}},"column_E7kweE":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Safe for the Whole Family<\/strong>","text":"<p>A fluoride-free, safe-to-swallow formula that kids can also use.<\/p>","link_label":"","link":""}},"column_WAYGeY":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Xylitol<\/strong>","text":"<p>A naturally occurring sweetener that also helps promote a balanced oral microbiome.<\/p>","link_label":"","link":""}},"column_4ELR3W":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Aloe Vera<\/strong>","text":"<p>Known for its soothing properties, it helps keep the gums comfortable.<\/p>","link_label":"","link":""}},"column_eXnNf6":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Green Tea Extract<\/strong>","text":"<p>A natural antioxidant that supports oral microbiome balance.<\/p>","link_label":"","link":""}}},"block_order":["column_xgHyd6","column_UrqcQH","column_wQxDTJ","column_eMKgRr","column_8Uyhg6","column_E7kweE","column_WAYGeY","column_4ELR3W","column_eXnNf6"],"disabled":true,"custom_css":[".inline-richtext {margin: auto;}"],"settings":{"title":"Benefits of Boka","heading_size":"h1","heading_tag":"default","image_width":"third","image_ratio":"square","columns_desktop":3,"column_alignment":"center","background_style":"none","full_width_enabled":true,"button_label":"","button_link":"","fadein_enabled":false,"column_heading_background_color":"","color_scheme":"custom","custom_background_color":"#fafaf5","custom_text_color":"#000000","columns_tablet":"1","columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36,"padding_top_mobile":0,"padding_bottom_mobile":36}},"image_with_text_EFXdAa":{"type":"image-with-text","blocks":{"heading_YxFB4L":{"type":"heading","settings":{"heading":"Does this Product <em>Help<\/em> Whiten Teeth?","heading_size":"h1","heading_tag":"default"}},"text_qAYKp7":{"type":"text","settings":{"text":"<p>While it does not contain peroxide-based bleaching agents, it helps maintain a whiter smile by gently reducing surface stains. Due to its ability to biomimic the tooth's natural composition, nano-hydroxyapatite smooths and helps whiten teeth by reducing light reflection distortions that can make teeth appear dull or discolored.<\/p>","text_style":"body"}},"button_q8ieYC":{"type":"button","settings":{"button_label":"Shop Whitening Toothpaste","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":""}}},"block_order":["heading_YxFB4L","text_qAYKp7","button_q8ieYC"],"custom_css":["@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}"],"settings":{"image":"shopify:\/\/shop_images\/Image_6.jpg","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"rgba(0,0,0,0)","custom_background_color":"rgba(0,0,0,0)","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":30,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":10}},"image_with_bulleted_text_XQhctk":{"type":"image-with-bulleted-text","blocks":{"text_AkzMrx":{"type":"text","settings":{"text":"<p><strong>Individuals who Prefer Clean Care<\/strong> - Boka’s SLS-free and fluoride-free formula provides a gentle clean.<\/p>","text_style":"body"}},"text_RAbb6w":{"type":"text","settings":{"text":"<p><strong>Parents Looking for Safe Options <\/strong>– A fluoride-free formula reduces concerns about accidental swallowing.<\/p>","text_style":"body"}},"text_TRDKYd":{"type":"text","settings":{"text":"<p><strong>Those Seeking a Modern Approach<\/strong> – Contains particle that biomimics the mineral naturally found in the enamel.<\/p>","text_style":"body"}},"text_hzjRnJ":{"type":"text","settings":{"text":"<p><strong>People with Dry Mouth (Xerostomia)<\/strong> – Free from harsh foaming agents like SLS, which may worsen dryness.<\/p>","text_style":"body"}}},"block_order":["text_AkzMrx","text_RAbb6w","text_TRDKYd","text_hzjRnJ"],"custom_css":[".image-with-text__content {padding-right: 40px;}"],"settings":{"image":"shopify:\/\/shop_images\/Image_7.jpg","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","heading":"Fluoride-Free Oral Care: <br><em>Who Benefits Most?<\/br><\/em>","heading_size":"h1","heading_tag":"default","caption":"","text_style":"subtitle","text_size":"medium","button_label":"Browse Fluoride-Free Options","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste","second_button_label":"","second_button_link":"","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#fff0ec","custom_text_color":"#000000","bullets_color":"#090909","bullets_line_color":"#000000","image_behavior":"none","mobile_heading_alignment":"center","mobile_content_alignment":"left","padding_top":30,"padding_bottom":30,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":0}},"a63323b9-7c26-46d5-9a1d-5b2882ad974c":{"type":"collapsible-content","blocks":{"template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"Does this product really work?","icon":"none","row_content":"<p>Yes, this ingredient has been studied for its role in supporting enamel health and maintaining strong teeth. <\/p>","page":""}},"template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"Which fluoride-alternative dental care product is best?","icon":"none","row_content":"<p>Boka is a great choice for those seeking a high-quality and effective oral care product. Boka uses nano-sized mineral particles, is free from harsh chemicals and abrasives, is fluoride-free, vegan, and cruelty-free.<\/p>","page":""}},"template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"How long does it take for this ingredient to remineralize teeth?","icon":"none","row_content":"<p>The timing to remineralize varies. It is a gradual process, and noticeable results may take weeks or months to become apparent. It is recommended to consistently use dental products with this ingredient for optimal results.<\/p>","page":""}},"template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4":{"type":"collapsible_row","settings":{"heading":"Is this product safe for people with sensitive teeth?","icon":"none","row_content":"<p>Yes, our product is generally safe for people with sensitive teeth.<\/p>","page":""}},"d5bd3503-d078-48f2-b735-2c8c183c85ed":{"type":"collapsible_row","settings":{"heading":"How does this product compare to traditional options?","icon":"none","row_content":"<p>Boka toothpaste is similar to traditional products but contains microscopic particles that can help remineralize teeth. It can be an effective option for maintaining oral health, but individual results may vary.<\/p>","page":""}},"2d97e441-6520-4b04-b1a1-9b86cf754be7":{"type":"collapsible_row","settings":{"heading":"How much of this ingredient is in your toothpaste?","icon":"none","row_content":"<p>Boka contains a precisely measured amount of active ingredients, formulated specifically for safe and effective daily use. <\/p>","page":""}},"fb8955e1-fe28-4212-858c-e60b6677a0cf":{"type":"collapsible_row","settings":{"heading":"What do dentists think about this ingredient?","icon":"none","row_content":"<p>Dentists generally have a positive view of these synthetic particles due to its potential for enamel remineralization. It is often recommended as a safe and effective ingredient in dental products to help strengthen teeth.<\/p>","page":""}},"2b9ec7b5-c607-445c-b58d-f6acda643326":{"type":"collapsible_row","settings":{"heading":"What are the benefits of n-Ha toothpaste?","icon":"none","row_content":"<p>The benefits of our product include helping maintain enamel health, remove surface stains, freshen breath, and support overall oral wellness.<\/p>","page":""}},"c0138dbe-6fcf-4244-b884-8bec29a6048d":{"type":"collapsible_row","settings":{"heading":"Why buy toothpaste from Boka?","icon":"none","row_content":"<p>Boka's toothpaste helps remineralize teeth and focuses on quality. We pride ourselves on using the best and safest ingredients out there.<\/p>","page":""}},"collapsible_row_NbXMhF":{"type":"collapsible_row","settings":{"heading":"Is this product safe for children?","icon":"none","row_content":"<p>Yes! Since nano hydroxyapatite is biocompatible and safe if swallowed, it’s an excellent choice for kids who are still learning how to brush properly. Boka’s kid-friendly flavors and fluoride-free formula make brushing an enjoyable, worry-free experience.<\/p>","page":""}}},"block_order":["template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-1","template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-2","template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-3","template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4","d5bd3503-d078-48f2-b735-2c8c183c85ed","2d97e441-6520-4b04-b1a1-9b86cf754be7","fb8955e1-fe28-4212-858c-e60b6677a0cf","2b9ec7b5-c607-445c-b58d-f6acda643326","c0138dbe-6fcf-4244-b884-8bec29a6048d","collapsible_row_NbXMhF"],"custom_css":[],"settings":{"caption":"","heading":"Questions About Nano-hydroxyapatite Toothpastes","heading_size":"h1","heading_tag":"h2","heading_alignment":"left","description":"This particle is an established ingredient in oral care due to its benefits for oral health. Boka fluoride-alternative toothpaste is a unique and effective way to care for your teeth. In this FAQ section, we will answer some of the most common questions about n-Ha toothpaste.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["e9540f45-142d-4b00-acd5-49caf5c23d70","banner","product-grid","image_with_text_YhJdpy","image_with_text_FAzRQh","image_with_bulleted_text_PF74VT","image_with_text_DeLViQ","image_with_bulleted_text_WFNa3R","multicolumn_qUK96C","image_with_text_EFXdAa","image_with_bulleted_text_XQhctk","a63323b9-7c26-46d5-9a1d-5b2882ad974c"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e9540f45-142d-4b00-acd5-49caf5c23d70": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Powered by n-Ha",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1": {
+          "type": "text",
+          "settings": {
+            "text": "Remineralizes & fortifies teeth without the toxins.",
+            "text_use_html": false,
+            "text_html": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0",
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_fullwidth": false,
+        "image": "shopify://shop_images/Boka_PLPBanner_Toothpaste_Desktop.jpg",
+        "image_mobile": "shopify://shop_images/Boka_PLPBanner_Toothpaste_Mobile.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_height_mobile": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "custom",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_foreground_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "top",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "enable_merchandising_card": false,
+        "card_bg_color": "#ffffff",
+        "card_text_color": "#ffffff",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 3,
+        "image_as_bg": true,
+        "bg_image_position": "center",
+        "card_image_desktop": "shopify://shop_images/boka-seasonal-collection-d-1.jpg",
+        "card_image_mobile": "shopify://shop_images/boka-seasonal-collection-d-1.jpg",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "left",
+        "card_text_position_desktop": "flex-start",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "Fun new seasonal flavors",
+        "card_text": "",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify://collections/new",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "image_with_text_YhJdpy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UhddGU": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Is <em>Hydroxyapatite (Ha)?</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_JPHzhH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ha is a fluoride alternative and a key ingredient in our proprietary formula. This biomimetic mineral makes up 97% of tooth enamel and 70% of dentin, closely resembling the natural composition of your teeth. It has been extensively studied for its role in modern dentistry and oral care.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_B7bB6W": {
+          "type": "button",
+          "settings": {
+            "button_label": "Support Enamel Health",
+            "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_UhddGU",
+        "text_JPHzhH",
+        "button_B7bB6W"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.image-with-text__media-item {padding-left: 80px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "rgba(0,0,0,0)",
+        "custom_background_color": "rgba(0,0,0,0)",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 70,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 10
+      }
+    },
+    "image_with_text_FAzRQh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WgPAdi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Understanding Enamel and the Role of <em>Hydroxyapatite</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_bQNtcM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Tooth enamel is the hardest substance in the human body, composed primarily of this mineral. While incredibly strong, enamel is constantly exposed to acids, leading to gradual mineral loss over time. Acidic foods, sugary drinks, and plaque weaken enamel, making it more susceptible to erosion and surface stains. Unlike other parts of the body, enamel does not regenerate, which is why remineralization is crucial.</p><p>Boka nano-hydroxyapatite toothpaste uses the synthetic form of this particle, a bioavailable form of calcium phosphate, which integrates directly into the enamel matrix. This process helps maintain the tooth’s natural structure, reducing the impact of daily wear and tear while promoting a smooth and bright appearance.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_yQ4qYP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover Our Toothpaste Collection",
+            "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_WgPAdi",
+        "text_bQNtcM",
+        "button_yQ4qYP"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "rgba(0,0,0,0)",
+        "custom_background_color": "rgba(0,0,0,0)",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 10
+      }
+    },
+    "image_with_bulleted_text_PF74VT": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_n6e3CL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Oral Care </strong>– Used as a fluoride-free alternative to maintain enamel strength and a balanced oral environment.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_C6KGX8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Dental Fillings & Restorations</strong> – Integrated into materials for enhanced biocompatibility.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_gEPEPn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Bone Grafting Procedures</strong> – Supports bone regeneration in oral surgery and orthopedic treatments.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_Hb7rbU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Coating for Implants</strong> – Applied to dental and orthopedic implants for improved integration.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_n6e3CL",
+        "text_C6KGX8",
+        "text_gEPEPn",
+        "text_Hb7rbU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_3.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading": "Uses in Modern Dentistry",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "This mineral has been used in dental and medical applications for decades, including:",
+        "text_style": "subtitle",
+        "text_size": "medium",
+        "button_label": "Shop Innovative Oral Care",
+        "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#f0f5eb",
+        "custom_text_color": "#000000",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "image_with_text_DeLViQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XKep4f": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Makes n-Ha Toothpaste a <em>Good Option?</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_HWjtCg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our innovative formula which biomimics the mineral naturally present in teeth offers a modern approach to oral care. It works harmoniously with your tooth structure, making it an excellent choice for those seeking gentle yet effective care. This formulation supports enamel health while being suitable for daily use, safe for individuals with sensitive teeth, or those exploring fluoride-free options.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_cFLwy7": {
+          "type": "button",
+          "settings": {
+            "button_label": "Try n-Ha Toothpaste",
+            "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_XKep4f",
+        "text_HWjtCg",
+        "button_cFLwy7"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "rgba(0,0,0,0)",
+        "custom_background_color": "rgba(0,0,0,0)",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 10
+      }
+    },
+    "image_with_bulleted_text_WFNa3R": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_3bVwNA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Supports Enamel Health </strong>– Biomimics the mineral component of tooth structure, helping maintain oral health.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_hzGYwU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Helps Maintain a Whiter Smile</strong> – Gently removes surface stains without harsh abrasives.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_FxbGiX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>No Harsh Chemicals</strong> – Free from SLS, parabens, and artificial flavors for a gentle clean.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_VDg4rb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Balanced Oral Microbiome</strong> – Formulated with xylitol and antioxidant-rich ingredients.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_QznBWd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>No Harsh Chemicals</strong> – Free from fluoride, sulfates, artificial dyes, and preservatives.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_jnPNtc": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Safe for the Whole Family</strong> – A fluoride-free, safe-to-swallow formula that kids can also use.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_TK7HAJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Xylitol</strong> – A naturally occurring sweetener that also helps promote a balanced oral microbiome.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_mdNMph": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Aloe Vera</strong> – Known for its soothing properties, it helps keep the gums comfortable.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_KMBGg7": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Green Tea Extract</strong> – A natural antioxidant that supports oral microbiome balance.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_3bVwNA",
+        "text_hzGYwU",
+        "text_FxbGiX",
+        "text_VDg4rb",
+        "text_QznBWd",
+        "text_jnPNtc",
+        "text_TK7HAJ",
+        "text_mdNMph",
+        "text_KMBGg7"
+      ],
+      "custom_css": [
+        ".image-with-text__content {padding-right: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_5.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading": "Benefits of Boka",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "",
+        "text_style": "subtitle",
+        "text_size": "medium",
+        "button_label": "Experience Boka Benefits",
+        "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#fafaf5",
+        "custom_text_color": "#000000",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "multicolumn_qUK96C": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_xgHyd6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Supports Enamel Health</strong>",
+            "text": "<p>Biomimics the mineral component of tooth structure, helping maintain oral health.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UrqcQH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Helps Maintain a Whiter Smile</strong>",
+            "text": "<p>Gently removes surface stains without harsh abrasives.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wQxDTJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Clean Formulation without Harsh Chemicals</strong>",
+            "text": "<p>Free from SLS, parabens, and artificial flavors for a gentle clean.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eMKgRr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Balanced Oral Microbiome</strong>",
+            "text": "<p>Formulated with xylitol and antioxidant-rich ingredients.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8Uyhg6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>No Harsh Chemicals</strong>",
+            "text": "<p>Free from fluoride, sulfates, artificial dyes, and preservatives.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_E7kweE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Safe for the Whole Family</strong>",
+            "text": "<p>A fluoride-free, safe-to-swallow formula that kids can also use.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_WAYGeY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Xylitol</strong>",
+            "text": "<p>A naturally occurring sweetener that also helps promote a balanced oral microbiome.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4ELR3W": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Aloe Vera</strong>",
+            "text": "<p>Known for its soothing properties, it helps keep the gums comfortable.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eXnNf6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Green Tea Extract</strong>",
+            "text": "<p>A natural antioxidant that supports oral microbiome balance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_xgHyd6",
+        "column_UrqcQH",
+        "column_wQxDTJ",
+        "column_eMKgRr",
+        "column_8Uyhg6",
+        "column_E7kweE",
+        "column_WAYGeY",
+        "column_4ELR3W",
+        "column_eXnNf6"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".inline-richtext {margin: auto;}"
+      ],
+      "settings": {
+        "title": "Benefits of Boka",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": true,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "custom",
+        "custom_background_color": "#fafaf5",
+        "custom_text_color": "#000000",
+        "columns_tablet": "1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "image_with_text_EFXdAa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YxFB4L": {
+          "type": "heading",
+          "settings": {
+            "heading": "Does this Product <em>Help</em> Whiten Teeth?",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_qAYKp7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>While it does not contain peroxide-based bleaching agents, it helps maintain a whiter smile by gently reducing surface stains. Due to its ability to biomimic the tooth's natural composition, nano-hydroxyapatite smooths and helps whiten teeth by reducing light reflection distortions that can make teeth appear dull or discolored.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_q8ieYC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Whitening Toothpaste",
+            "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_YxFB4L",
+        "text_qAYKp7",
+        "button_q8ieYC"
+      ],
+      "custom_css": [
+        "@media (min-width: 750px) {.image-with-text__media-item {padding-right: 80px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_6.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "rgba(0,0,0,0)",
+        "custom_background_color": "rgba(0,0,0,0)",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 10
+      }
+    },
+    "image_with_bulleted_text_XQhctk": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_AkzMrx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Individuals who Prefer Clean Care</strong> - Boka’s SLS-free and fluoride-free formula provides a gentle clean.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_RAbb6w": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Parents Looking for Safe Options </strong>– A fluoride-free formula reduces concerns about accidental swallowing.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_TRDKYd": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Those Seeking a Modern Approach</strong> – Contains particle that biomimics the mineral naturally found in the enamel.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_hzjRnJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>People with Dry Mouth (Xerostomia)</strong> – Free from harsh foaming agents like SLS, which may worsen dryness.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_AkzMrx",
+        "text_RAbb6w",
+        "text_TRDKYd",
+        "text_hzjRnJ"
+      ],
+      "custom_css": [
+        ".image-with-text__content {padding-right: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Image_7.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading": "Fluoride-Free Oral Care: <br><em>Who Benefits Most?</br></em>",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "",
+        "text_style": "subtitle",
+        "text_size": "medium",
+        "button_label": "Browse Fluoride-Free Options",
+        "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#fff0ec",
+        "custom_text_color": "#000000",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "a63323b9-7c26-46d5-9a1d-5b2882ad974c": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does this product really work?",
+            "icon": "none",
+            "row_content": "<p>Yes, this ingredient has been studied for its role in supporting enamel health and maintaining strong teeth. </p>",
+            "page": ""
+          }
+        },
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which fluoride-alternative dental care product is best?",
+            "icon": "none",
+            "row_content": "<p>Boka is a great choice for those seeking a high-quality and effective oral care product. Boka uses nano-sized mineral particles, is free from harsh chemicals and abrasives, is fluoride-free, vegan, and cruelty-free.</p>",
+            "page": ""
+          }
+        },
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take for this ingredient to remineralize teeth?",
+            "icon": "none",
+            "row_content": "<p>The timing to remineralize varies. It is a gradual process, and noticeable results may take weeks or months to become apparent. It is recommended to consistently use dental products with this ingredient for optimal results.</p>",
+            "page": ""
+          }
+        },
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this product safe for people with sensitive teeth?",
+            "icon": "none",
+            "row_content": "<p>Yes, our product is generally safe for people with sensitive teeth.</p>",
+            "page": ""
+          }
+        },
+        "d5bd3503-d078-48f2-b735-2c8c183c85ed": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does this product compare to traditional options?",
+            "icon": "none",
+            "row_content": "<p>Boka toothpaste is similar to traditional products but contains microscopic particles that can help remineralize teeth. It can be an effective option for maintaining oral health, but individual results may vary.</p>",
+            "page": ""
+          }
+        },
+        "2d97e441-6520-4b04-b1a1-9b86cf754be7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much of this ingredient is in your toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Boka contains a precisely measured amount of active ingredients, formulated specifically for safe and effective daily use. </p>",
+            "page": ""
+          }
+        },
+        "fb8955e1-fe28-4212-858c-e60b6677a0cf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do dentists think about this ingredient?",
+            "icon": "none",
+            "row_content": "<p>Dentists generally have a positive view of these synthetic particles due to its potential for enamel remineralization. It is often recommended as a safe and effective ingredient in dental products to help strengthen teeth.</p>",
+            "page": ""
+          }
+        },
+        "2b9ec7b5-c607-445c-b58d-f6acda643326": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of n-Ha toothpaste?",
+            "icon": "none",
+            "row_content": "<p>The benefits of our product include helping maintain enamel health, remove surface stains, freshen breath, and support overall oral wellness.</p>",
+            "page": ""
+          }
+        },
+        "c0138dbe-6fcf-4244-b884-8bec29a6048d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why buy toothpaste from Boka?",
+            "icon": "none",
+            "row_content": "<p>Boka's toothpaste helps remineralize teeth and focuses on quality. We pride ourselves on using the best and safest ingredients out there.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_NbXMhF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this product safe for children?",
+            "icon": "none",
+            "row_content": "<p>Yes! Since nano hydroxyapatite is biocompatible and safe if swallowed, it’s an excellent choice for kids who are still learning how to brush properly. Boka’s kid-friendly flavors and fluoride-free formula make brushing an enjoyable, worry-free experience.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-1",
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-2",
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-3",
+        "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4",
+        "d5bd3503-d078-48f2-b735-2c8c183c85ed",
+        "2d97e441-6520-4b04-b1a1-9b86cf754be7",
+        "fb8955e1-fe28-4212-858c-e60b6677a0cf",
+        "2b9ec7b5-c607-445c-b58d-f6acda643326",
+        "c0138dbe-6fcf-4244-b884-8bec29a6048d",
+        "collapsible_row_NbXMhF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Nano-hydroxyapatite Toothpastes",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "heading_alignment": "left",
+        "description": "This particle is an established ingredient in oral care due to its benefits for oral health. Boka fluoride-alternative toothpaste is a unique and effective way to care for your teeth. In this FAQ section, we will answer some of the most common questions about n-Ha toothpaste.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "e9540f45-142d-4b00-acd5-49caf5c23d70",
+    "banner",
+    "product-grid",
+    "image_with_text_YhJdpy",
+    "image_with_text_FAzRQh",
+    "image_with_bulleted_text_PF74VT",
+    "image_with_text_DeLViQ",
+    "image_with_bulleted_text_WFNa3R",
+    "multicolumn_qUK96C",
+    "image_with_text_EFXdAa",
+    "image_with_bulleted_text_XQhctk",
+    "a63323b9-7c26-46d5-9a1d-5b2882ad974c"
+  ]
+}
