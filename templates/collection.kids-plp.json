@@ -135,21 +135,12 @@
             "page": ""
           }
         },
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How can I remineralize my child's teeth?",
-            "icon": "none",
-            "row_content": "<p>One effective way to help remineralize teeth is by using nano-hydroxyapatite (n-Ha) toothpaste, such as Boka's. n-Ha supports enamel strength, and aiding in remineralization. It's important to note there are other methods too, which your dentist can discuss based on your child's specific needs.</p>",
-            "page": ""
-          }
-        },
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What are the flavors of Boka toothpaste available for kids?",
             "icon": "none",
-            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a> and <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a>.</p>",
+            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a>, <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a> and Strawberry Mango.</p>",
             "page": ""
           }
         },
@@ -184,7 +175,6 @@
       "block_order": [
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
         "16ab04bf-3b77-4c35-b24e-778a14934e1f",
         "2f8d3d36-b295-4ac3-a1f4-b9fc911126c4",
