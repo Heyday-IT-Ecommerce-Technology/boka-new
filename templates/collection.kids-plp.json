@@ -140,7 +140,7 @@
           "settings": {
             "heading": "What are the flavors of Boka toothpaste available for kids?",
             "icon": "none",
-            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a>, <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a> and Strawberry Mango.</p>",
+            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a>, <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a> and <a href=\"https://www.boka.com/collections/kids/products/strawberry-mango-n-ha-toothpaste\">Strawberry Mango</a>.</p>",
             "page": ""
           }
         },
