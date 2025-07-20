@@ -153,21 +153,12 @@
             "page": ""
           }
         },
-        "2f8d3d36-b295-4ac3-a1f4-b9fc911126c4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Which kids’ toothpaste is best for helping remineralize teeth?",
-            "icon": "none",
-            "row_content": "<p>One of the best kids’ toothpaste options for helping remineralize teeth is Boka's nano-hydroxyapatite (n-Ha) toothpaste. Check out the two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a> and <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint.</span></a></p>",
-            "page": ""
-          }
-        },
         "fcdc03f5-1552-493d-9d04-47760da9f0df": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can my child use Boka Kids' Toothpaste if they have sensitive teeth?",
             "icon": "none",
-            "row_content": "<p>Yes, Boka Kids' Toothpaste is safe for kids with sensitive teeth. n-Ha can help to remineralize teeth.</p>",
+            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
             "page": ""
           }
         }
@@ -177,7 +168,6 @@
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
         "16ab04bf-3b77-4c35-b24e-778a14934e1f",
-        "2f8d3d36-b295-4ac3-a1f4-b9fc911126c4",
         "fcdc03f5-1552-493d-9d04-47760da9f0df"
       ],
       "settings": {
