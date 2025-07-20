@@ -1527,34 +1527,6 @@
     "rich_text_BkYWCm": {
       "type": "rich-text",
       "blocks": {
-        "heading_BHkrV3": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "text_fAB9Re": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h6>*WHITENING: With regular brushing, helps remove surface stains.</h6>"
-          }
-        },
-        "button_3KtyeW": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "caption_WtyKtj": {
           "type": "caption",
           "settings": {
@@ -1565,9 +1537,6 @@
         }
       },
       "block_order": [
-        "heading_BHkrV3",
-        "text_fAB9Re",
-        "button_3KtyeW",
         "caption_WtyKtj"
       ],
       "name": "t:sections.rich-text.presets.name",
