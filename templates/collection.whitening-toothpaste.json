@@ -1,1 +1,184 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"2","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"collapsible_content_GaTyNb":{"type":"collapsible-content","blocks":{"collapsible_row_GGcFRf":{"type":"collapsible_row","settings":{"heading":"What exactly is n-Ha and how does it work?","icon":"none","row_content":"<p>Nano-hydroxyapatite (n-Ha) is a biocompatible form of calcium that makes up the majority of your tooth enamel. <\/p><p>Unlike fluoride, which can work by temporarily hardening the outer layer of teeth, n-Ha actually integrates with your existing enamel, rebuilding and strengthening it at the microscopic level. <\/p><p>This makes it a great option for those with sensitive teeth or those looking for a natural way to protect and whiten their smiles.<\/p>","page":""}},"collapsible_row_aJYYmM":{"type":"collapsible_row","settings":{"heading":"I'm used to the foamy feeling of regular toothpaste. Is this different?","icon":"none","row_content":"<p>Yes, since this toothpaste is free of harsh foaming agents like SLS (sodium lauryl sulfate), you might notice less foam while brushing.  <\/p><p>Rest assured, the toothpaste is still working to clean your teeth and promote a healthy mouth. Many people find the gentler sensation more pleasant.<\/p>","page":""}},"collapsible_row_cKabND":{"type":"collapsible_row","settings":{"heading":"Is this toothpaste safe for children?","icon":"none","row_content":"<p>Although n-Ha toothpaste is safe to swallow, we recommend using <a href=\"https:\/\/www.boka.com\/collections\/kids\"><span style=\"text-decoration:underline\">our kids' toothpaste<\/span><\/a>. If unsure, consult your child's dentist or pediatrician before altering their oral care routine.<\/p>","page":""}},"collapsible_row_EycrT9":{"type":"collapsible_row","settings":{"heading":"How long will it take to see whiter teeth?","icon":"none","row_content":"<p>Individual results will vary, but many people start noticing a brighter smile within a few weeks of consistent use.  <\/p><p>The whitening effect of n-Ha toothpaste comes from its ability to gently remove surface stains and strengthen enamel, revealing your teeth's natural whiteness.<\/p>","page":""}},"collapsible_row_94KUp6":{"type":"collapsible_row","settings":{"heading":"Is this toothpaste vegan and gluten-free?","icon":"none","row_content":"<p>Yes! Our toothpaste is completely <a href=\"https:\/\/www.boka.com\/collections\/vegan-toothpaste\"><span style=\"text-decoration:underline\">vegan-friendly<\/span><\/a>. Additionally, it does not contain any gluten-derived ingredients, making it a great choice for those with gluten sensitivities.<\/p>","page":""}},"collapsible_row_rcPxkf":{"type":"collapsible_row","settings":{"heading":"What other benefits does this toothpaste offer besides whitening?","icon":"check_mark","row_content":"<p>While its whitening abilities are a major plus, our n-Ha toothpaste also promotes overall oral health. <\/p><p>It helps rebuild tooth enamel, which can reduce sensitivity. The inclusion of xylitol helps fight bacteria and keep your breath fresh. Plus,  soothing ingredients like aloe vera provide a gentle cleaning experience.<\/p>","page":""}}},"block_order":["collapsible_row_GGcFRf","collapsible_row_aJYYmM","collapsible_row_cKabND","collapsible_row_EycrT9","collapsible_row_94KUp6","collapsible_row_rcPxkf"],"settings":{"caption":"","heading":"Questions About Boka Whitening Toothpaste","heading_size":"h1","heading_tag":"default","heading_alignment":"center","description":"Upgrade your smile with n-Ha! This NASA-approved ingredient whitens, strengthens, and gently soothes teeth. From ingredients to effectiveness, we'll answer your burning questions about this game-changing toothpaste.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid","collapsible_content_GaTyNb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_GaTyNb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What exactly is n-Ha and how does it work?",
+            "icon": "none",
+            "row_content": "<p>Nano-hydroxyapatite (n-Ha) is a biocompatible form of calcium that makes up the majority of your tooth enamel. </p><p>Unlike fluoride, which can work by temporarily hardening the outer layer of teeth, n-Ha actually integrates with your existing enamel, rebuilding and strengthening it at the microscopic level. </p><p>As you brush, the particles bond to weak spots, remove stains, and deliver effective whitening without harsh abrasives—making it a smart toothpaste for whitening teeth that also helps guard against future cavities.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJYYmM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I'm used to the foamy feeling of regular toothpaste. Is this different?",
+            "icon": "none",
+            "row_content": "<p>Yes, since this toothpaste is free of harsh foaming agents like SLS (sodium lauryl sulfate), you might notice less foam while brushing.  </p><p>Rest assured, the toothpaste that whitens teeth is still working to clean your teeth and promote a healthy mouth. Many people—and their dentist—find the gentler sensation more pleasant.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKabND": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this toothpaste safe for children?",
+            "icon": "none",
+            "row_content": "<p>Although n-Ha toothpaste is safe to swallow, we recommend using <a href=\"https://www.boka.com/collections/kids\"><span style=\"text-decoration:underline\">our kids' toothpaste</span></a>. If unsure, consult your child's dentist or pediatrician before altering their oral care routine.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EycrT9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will it take to see whiter teeth?",
+            "icon": "none",
+            "row_content": "<p>Individual results will vary, but many people start noticing a brighter smile within a few weeks of consistent use.  </p><p>The whitening effect of n-Ha toothpaste comes from its ability to gently remove surface stains and strengthen enamel, revealing your teeth's natural whiteness. Pair with regular dentist checkups for optimal results.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_94KUp6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this toothpaste vegan and gluten-free?",
+            "icon": "none",
+            "row_content": "<p>Yes! Our toothpaste is completely <a href=\"https://www.boka.com/collections/vegan-toothpaste\"><span style=\"text-decoration:underline\">vegan-friendly</span></a>. Additionally, it does not contain any gluten-derived ingredients, making it a great choice for those with gluten sensitivities. We rely on clean, natural components—like xylitol and soothing aloe—rather than harsh chemicals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rcPxkf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What other benefits does this toothpaste offer besides whitening?",
+            "icon": "check_mark",
+            "row_content": "<p>While its whitening abilities are a major plus, our n-Ha toothpaste also promotes overall oral health. </p><p>It helps rebuild tooth enamel, which can reduce sensitivity. The inclusion of xylitol helps fight bacteria and keep your breath fresh. Plus,  soothing ingredients like aloe vera provide a gentle cleaning experience.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xPFCWQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does Boka offer professional-level whitening?",
+            "icon": "check_mark",
+            "row_content": "<p>While n-Ha delivers steady, at-home brightening, those seeking dramatic shade jumps may still opt for in-office treatments. Many dentists now recommend pairing our paste with periodic professional care to maintain a dazzling smile between visits.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_x8wY4G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why choose this over peroxide strips or LED kits?",
+            "icon": "check_mark",
+            "row_content": "<p>If you struggle with post-whitening soreness, our fluoride-free whitening toothpaste is a gentler option. It gradually lifts stains and strengthens enamel—no harsh gels or messy trays—so you can whiten teeth comfortably every day with a regular toothbrush.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bJVgAE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is Boka considered the best whitening toothpaste for sensitive teeth?",
+            "icon": "check_mark",
+            "row_content": "<p>Boka is often regarded as the best whitening toothpaste because it’s specially formulated for sensitive teeth while still delivering visible teeth whitening results. Unlike traditional whitening toothpaste options that may be too harsh, Boka’s n-Ha formula works to gently remove surface stains without damaging enamel. It also supports long-term dental health by helping to remineralize enamel and prevent cavities. </p><p>Our products do not contain peroxide or other abrasive agents, making them safe for daily use. With every brush, you’re reinforcing enamel protection, maintaining the natural white look of your teeth, and promoting overall oral health with a clean-ingredient approach you can trust.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGcFRf",
+        "collapsible_row_aJYYmM",
+        "collapsible_row_cKabND",
+        "collapsible_row_EycrT9",
+        "collapsible_row_94KUp6",
+        "collapsible_row_rcPxkf",
+        "collapsible_row_xPFCWQ",
+        "collapsible_row_x8wY4G",
+        "collapsible_row_bJVgAE"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Boka Whitening Toothpaste",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "Upgrade your smile with n-Ha! This NASA-approved ingredient whitens, strengthens, and gently soothes teeth. From ingredients to effectiveness, we'll answer your burning questions about this game-changing toothpaste.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_GaTyNb"
+  ]
+}
