@@ -106,38 +106,38 @@
             "page": ""
           }
         },
-        "collapsible_row_rcPxkf": {
+        "collapsible_row_qtzPBi": {
           "type": "collapsible_row",
           "settings": {
             "heading": "What other benefits does this toothpaste offer besides whitening?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>While its whitening abilities are a major plus, our n-Ha toothpaste also promotes overall oral health. </p><p>It helps rebuild tooth enamel, which can reduce sensitivity. The inclusion of xylitol helps fight bacteria and keep your breath fresh. Plus,  soothing ingredients like aloe vera provide a gentle cleaning experience.</p>",
             "page": ""
           }
         },
-        "collapsible_row_xPFCWQ": {
+        "collapsible_row_yepmJ4": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Does Boka offer professional-level whitening?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>While n-Ha delivers steady, at-home brightening, those seeking dramatic shade jumps may still opt for in-office treatments. Many dentists now recommend pairing our paste with periodic professional care to maintain a dazzling smile between visits.</p>",
             "page": ""
           }
         },
-        "collapsible_row_x8wY4G": {
+        "collapsible_row_jKkhzz": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Why choose this over peroxide strips or LED kits?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>If you struggle with post-whitening soreness, our fluoride-free whitening toothpaste is a gentler option. It gradually lifts stains and strengthens enamel—no harsh gels or messy trays—so you can whiten teeth comfortably every day with a regular toothbrush.</p>",
             "page": ""
           }
         },
-        "collapsible_row_bJVgAE": {
+        "collapsible_row_YH7xze": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Why is Boka considered the best whitening toothpaste for sensitive teeth?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "<p>Boka is often regarded as the best whitening toothpaste because it’s specially formulated for sensitive teeth while still delivering visible teeth whitening results. Unlike traditional whitening toothpaste options that may be too harsh, Boka’s n-Ha formula works to gently remove surface stains without damaging enamel. It also supports long-term dental health by helping to remineralize enamel and prevent cavities. </p><p>Our products do not contain peroxide or other abrasive agents, making them safe for daily use. With every brush, you’re reinforcing enamel protection, maintaining the natural white look of your teeth, and promoting overall oral health with a clean-ingredient approach you can trust.</p>",
             "page": ""
           }
@@ -149,10 +149,10 @@
         "collapsible_row_cKabND",
         "collapsible_row_EycrT9",
         "collapsible_row_94KUp6",
-        "collapsible_row_rcPxkf",
-        "collapsible_row_xPFCWQ",
-        "collapsible_row_x8wY4G",
-        "collapsible_row_bJVgAE"
+        "collapsible_row_qtzPBi",
+        "collapsible_row_yepmJ4",
+        "collapsible_row_jKkhzz",
+        "collapsible_row_YH7xze"
       ],
       "settings": {
         "caption": "",
