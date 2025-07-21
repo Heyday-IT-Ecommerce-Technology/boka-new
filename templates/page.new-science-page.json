@@ -461,6 +461,7 @@
         "heading_EKYUDL",
         "text_mgp9NA"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -514,6 +515,7 @@
         "column_HVUAVx",
         "column_yEzEWY"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -585,8 +587,8 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "section_background_color": "#ffffff",
-        "custom_background_color": "#DAE9CF",
-        "custom_text_color": "#FFFFFF",
+        "custom_background_color": "#dae9cf",
+        "custom_text_color": "#ffffff",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
