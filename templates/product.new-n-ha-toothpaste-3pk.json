@@ -525,6 +525,7 @@
       "block_order": [
         "buttons_9Q8Qt8"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Why_Choose_n-Ha_Desktop_1.webp",
@@ -752,6 +753,7 @@
         "text_7JXrPk",
         "buttons_R6E9Ej"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/n-Ha_3pk_Powered_By_Nature_Desktop.webp",
