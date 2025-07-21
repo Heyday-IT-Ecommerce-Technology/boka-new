@@ -1,1 +1,174 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"1","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"collapsible_content_GaTyNb":{"type":"collapsible-content","blocks":{"collapsible_row_GGcFRf":{"type":"collapsible_row","settings":{"heading":"What does SLS stand for?","icon":"none","row_content":"<p>SLS stands for Sodium Lauryl Sulfate, which is a common foaming agent and detergent used in many personal care products, including toothpaste.<\/p>","page":""}},"collapsible_row_aJYYmM":{"type":"collapsible_row","settings":{"heading":"Why should I choose SLS-free toothpaste?","icon":"none","row_content":"<p>SLS has been associated with potential irritation to the skin and mucous membranes. SLS-free toothpaste is often preferred by individuals who are sensitive to this ingredient or wish to avoid it for other reasons.<\/p>","page":""}},"collapsible_row_cKabND":{"type":"collapsible_row","settings":{"heading":"Does SLS-free toothpaste still provide effective cleaning?","icon":"none","row_content":"<p>Yes, SLS-free toothpaste can still effectively clean your teeth. <\/p>","page":""}},"collapsible_row_EycrT9":{"type":"collapsible_row","settings":{"heading":"Is Boka SLS-free toothpaste also fluoride-free?","icon":"none","row_content":"<p>Yes, Boka SLS-free toothpastes are fluoride-free. It offers a toothpaste option that excludes both Sodium Lauryl Sulfate (SLS) and fluoride, providing a gentle and effective alternative for oral care.<\/p>","page":""}},"collapsible_row_94KUp6":{"type":"collapsible_row","settings":{"heading":"How does Boka address oral health concerns without fluoride in their toothpaste?","icon":"none","row_content":"<p>Boka toothpaste combines nano-hydroxyapatite (n-Ha) with other natural ingredients like soothing aloe vera, bacteria-fighting xylitol, antioxidant-rich green tea, and many others. This unique formulation aims to promote overall oral health without the use of fluoride.<\/p>","page":""}},"collapsible_row_6bQrba":{"type":"collapsible_row","settings":{"heading":"What benefits does nano-hydroxyapatite (n-Ha) provide in the toothpaste?","icon":"none","row_content":"<p>In our toothpastes, we use nano-hydroxyapatite (n-Ha), a type of calcium found in teeth and bones. This ingredient is known for its restorative properties and contributes to overall oral health.<\/p>","page":""}}},"block_order":["collapsible_row_GGcFRf","collapsible_row_aJYYmM","collapsible_row_cKabND","collapsible_row_EycrT9","collapsible_row_94KUp6","collapsible_row_6bQrba"],"settings":{"caption":"","heading":"Questions About Boka SLS Free Toothpaste","heading_size":"h1","heading_tag":"default","heading_alignment":"center","description":"If you're curious about toothpaste without sodium lauryl sulfate, we've got you covered. We've put together some frequently asked questions about our toothpaste that we think you'll find helpful.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid","collapsible_content_GaTyNb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_GaTyNb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does SLS stand for?",
+            "icon": "none",
+            "row_content": "<p>SLS stands for Sodium Lauryl Sulfate, which is a common foaming agent and detergent used in many personal care products, including toothpaste. Though it helps create lather, it can strip the mouth’s natural barrier and aggravate gum tissue—especially if you suffer from sensitivity or recurring canker sores.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJYYmM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I choose SLS-free toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Going SLS-free means less irritation to delicate oral tissues, reduced dryness, and fewer flare-ups of mouth ulcers. Many dental professionals suggest an SLS-free toothpaste for patients who need a gentle, everyday oral care routine that still targets plaque and surface stains. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKabND": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does SLS-free toothpaste still provide effective cleaning?",
+            "icon": "none",
+            "row_content": "<p>Our formulation relies on polishing hydrates and plant-derived oils that lift debris while nano-hydroxyapatite supplies essential minerals to repair weakened spots in the tooth surface. It’s proven to remove plaque as effectively as foamy pastes, minus the harshness.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EycrT9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka SLS-free toothpaste also fluoride-free?",
+            "icon": "none",
+            "row_content": "<p>Yes, Boka SLS-free toothpastes are fluoride-free. It offers a toothpaste option that excludes both Sodium Lauryl Sulfate (SLS) and fluoride, providing a gentle and effective alternative for oral care.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_94KUp6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does Boka address oral health concerns without fluoride in their toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Boka toothpaste combines nano-hydroxyapatite (n-Ha) with other natural ingredients like soothing aloe vera, bacteria-fighting xylitol, antioxidant-rich green tea, and many others. This unique formulation aims to promote overall oral health without the use of fluoride.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6bQrba": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What benefits does nano-hydroxyapatite (n-Ha) provide in the toothpaste?",
+            "icon": "none",
+            "row_content": "<p>In our toothpastes, we use nano-hydroxyapatite (n-Ha), a type of calcium found in teeth and bones. This ingredient is known for its restorative properties and contributes to overall oral health.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dx6Q8F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does switching to an SLS-free formula help my overall oral health and breath?",
+            "icon": "none",
+            "row_content": "<p>Choosing an SLS-free product like Boka offers multiple benefits: it keeps the mouth feeling moist, supports healthy gums, and safeguards delicate dental tissues from detergent burn. Pairing clean ingredients such as n-Ha, xylitol, and peppermint flavor means daily brushing not only polishes away plaque but also provides enduring fresh breath—all while being safe for kids and adults with sensitive mouths. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_C6tMDQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why is Boka considered one of the best SLS-free and fluoride-free toothpaste options for sensitive teeth?",
+            "icon": "none",
+            "row_content": "<p>Boka stands out among brands because it combines science-backed protection with a clean-ingredients approach ideal for sensitive teeth. Our fluoride-free toothpaste is completely free from harsh chemicals and irritating surfactants like SLS, making it a top toothpaste choice for anyone looking to care for their teeth, gums, and overall oral health without compromise.</p><p>Unlike traditional whitening toothpaste that may be abrasive or containing artificial additives, Boka offers effective teeth whitening powered by nano-hydroxyapatite—a safe alternative that strengthens enamel and brightens your smile. The mint taste is crisp and refreshing, and the formula is 100% vegan, making it one of the best daily-use toothpaste options for individuals who prioritize performance, purity, and comfort.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGcFRf",
+        "collapsible_row_aJYYmM",
+        "collapsible_row_cKabND",
+        "collapsible_row_EycrT9",
+        "collapsible_row_94KUp6",
+        "collapsible_row_6bQrba",
+        "collapsible_row_dx6Q8F",
+        "collapsible_row_C6tMDQ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Boka SLS Free Toothpaste",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "If you're curious about toothpaste without sodium lauryl sulfate, we've got you covered. We've put together some frequently asked questions about our toothpaste that we think you'll find helpful.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_GaTyNb"
+  ]
+}
