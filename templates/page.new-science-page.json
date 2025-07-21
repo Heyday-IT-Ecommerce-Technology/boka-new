@@ -259,6 +259,7 @@
     },
     "image_banner_di4YrM": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "enable_fullwidth": true,
         "image": "shopify://shop_images/Comparison_desktop.jpg",
@@ -411,6 +412,7 @@
         "column_jcxzf4",
         "column_GzTHyW"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-card__info {max-width: 80%; margin: 0 auto;}",
         "@media (max-width: 768px) {.multicolumn-card__info {max-width: 100% !important; padding: 10px !important; }}"
