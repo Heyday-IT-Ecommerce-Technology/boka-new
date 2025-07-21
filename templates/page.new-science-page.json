@@ -180,6 +180,7 @@
         "column_9Lmq99",
         "column_b8Himt"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -241,6 +242,7 @@
         "text_GiwYji",
         "button_rdWWBQ"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
