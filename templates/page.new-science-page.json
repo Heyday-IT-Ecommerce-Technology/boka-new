@@ -109,6 +109,7 @@
         "text_AkkFDh",
         "button_zxieFg"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
         ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
@@ -323,6 +324,7 @@
         "text_3AECrb",
         "button_3J4Ji3"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
