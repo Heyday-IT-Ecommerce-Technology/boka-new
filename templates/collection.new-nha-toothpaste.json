@@ -754,7 +754,7 @@
           "settings": {
             "heading": "Does this product really work?",
             "icon": "none",
-            "row_content": "<p>Yes, nano-hydroxyapatite (n-Ha) has been the subject of extensive research for its role in supporting enamel integrity and contributing to overall oral care.</p>",
+            "row_content": "<p>Yes. Multiple clinical studies have found that nano hydroxyapatite binds to the tooth surface, filling imperfections and creating a smooth shield that resists plaque acids. This barrier helps reduce early caries lesions and supports enamel protection comparable to, and in some trials better than, traditional fluoride toothpaste.</p>",
             "page": ""
           }
         },
@@ -763,7 +763,16 @@
           "settings": {
             "heading": "Which fluoride-alternative dental care product is best?",
             "icon": "none",
-            "row_content": "<p>Boka is a great choice for those seeking a high-quality and effective oral care product. Boka uses nano-sized mineral particles, is free from harsh chemicals and abrasives, is fluoride-free, vegan, and cruelty-free.</p>",
+            "row_content": "<p>Among the growing brands that offer fluoride-free solutions, Boka is a great choice for those seeking a high-quality and effective oral care product. Boka uses nano-sized mineral particles, is free from harsh chemicals and abrasives, is fluoride-free, vegan, and cruelty-free. When compared with other hydroxyapatite products, Boka’s formula is gentle on dentin yet powerful enough to strengthen enamel and relieve sensitivity.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KTjyMk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take for this ingredient to remineralize teeth?",
+            "icon": "check_mark",
+            "row_content": "<p>The timing to remineralize varies. It is a gradual process, and noticeable results may take weeks or months to become apparent. It is recommended to consistently use dental products with this ingredient for optimal results. Daily brushing ensures continuous deposition of the mineral into weakened dentin tubules, helping to strengthen and seal them over time.</p>",
             "page": ""
           }
         },
@@ -772,7 +781,7 @@
           "settings": {
             "heading": "Is this product safe for people with sensitive teeth?",
             "icon": "none",
-            "row_content": "<p>Yes, our product is generally safe for people with sensitive teeth.</p>",
+            "row_content": "<p>Boka’s n-Ha formula offers relief by occluding exposed dentin channels, which reduces hypersensitivity to cold, heat, or sweets. Because the active material is biocompatible and free from harsh chemicals, it can be used every day without stripping enamel or irritating your mouth.</p>",
             "page": ""
           }
         },
@@ -781,7 +790,7 @@
           "settings": {
             "heading": "How does this product compare to traditional options?",
             "icon": "none",
-            "row_content": "<p>Boka toothpaste offers a modern approach to oral care by using nano-hydroxyapatite (n-Ha), a biomimetic mineral that closely resembles the natural structure of your teeth. It serves as a fluoride alternative and is thoughtfully formulated for daily use as part of a consistent oral hygiene routine.</p>",
+            "row_content": "<p>Boka toothpaste is similar to traditional products but contains microscopic particles that can help remineralize teeth. The microscopic particles integrate directly into the enamel lattice, providing long-term protection against plaque acids while maintaining a naturally bright smile—no chalky aftertaste, just a refreshing mint finish. It can be an effective option for maintaining oral health, but individual results may vary.</p>",
             "page": ""
           }
         },
@@ -790,7 +799,7 @@
           "settings": {
             "heading": "How much of this ingredient is in your toothpaste?",
             "icon": "none",
-            "row_content": "<p>Boka contains a precisely measured amount of active ingredients, formulated specifically for safe and effective daily use. </p>",
+            "row_content": "<p>Each 4-oz tube contains a precisely balanced concentration of nano hydroxyapatite—high enough to deliver measurable remineralizing benefits, yet within safe limits for daily use. The base calcium phosphate network ensures bioavailability while avoiding gritty textures often found in other pastes.</p>",
             "page": ""
           }
         },
@@ -799,7 +808,7 @@
           "settings": {
             "heading": "What do dentists think about this ingredient?",
             "icon": "none",
-            "row_content": "<p>Dentists generally have a positive view of these synthetic particles due to its potential for enamel remineralization. It is often recommended as a safe and effective ingredient in dental products to help strengthen teeth.</p>",
+            "row_content": "<p>Dentists generally have a positive view of these synthetic particles due to their potential for enamel remineralization. It is often recommended as a safe and effective ingredient in dental products to help strengthen teeth.</p>",
             "page": ""
           }
         },
@@ -808,7 +817,7 @@
           "settings": {
             "heading": "What are the benefits of n-Ha toothpaste?",
             "icon": "none",
-            "row_content": "<p>Our product is designed to support a complete oral care routine. It helps maintain a clean, smooth tooth surface, offers a refreshing minty flavor, and features ingredients like nano-hydroxyapatite that mimics tooth enamel.</p>",
+            "row_content": "<p>The benefits of our product include helping maintain enamel health, removing surface stains, freshening breath, and supporting overall oral wellness.</p>",
             "page": ""
           }
         },
@@ -817,7 +826,7 @@
           "settings": {
             "heading": "Why buy toothpaste from Boka?",
             "icon": "none",
-            "row_content": "<p>Boka's toothpaste is thoughtfully formulated with high-quality ingredients and a focus on safe, effective daily care. We take pride in creating a product you can feel good about using every day.</p>",
+            "row_content": "<p>Boka’s commitment to clean ingredients means you get a fluoride-free, SLS-free paste that tastes great (hello, refreshing mint!) and actually works. Each tube offers an optimized dose of nHa for real-world enamel protection—no gimmicks, just results you can feel every time you open your mouth to smile.</p>",
             "page": ""
           }
         },
@@ -834,6 +843,7 @@
       "block_order": [
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-1",
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-2",
+        "collapsible_row_KTjyMk",
         "template--15161032081451__a63323b9-7c26-46d5-9a1d-5b2882ad974c-collapsible_row-4",
         "d5bd3503-d078-48f2-b735-2c8c183c85ed",
         "2d97e441-6520-4b04-b1a1-9b86cf754be7",
@@ -849,7 +859,7 @@
         "heading_size": "h1",
         "heading_tag": "h2",
         "heading_alignment": "left",
-        "description": "Nano-hydroxyapatite (n-Ha) is a well-researched ingredient in oral care, recognized for its similarity to the natural mineral structure of teeth. As a fluoride alternative, it offers a modern approach to daily brushing. In this FAQ section, we’ll address common questions about how n-Ha fits into your oral care routine.",
+        "description": "This particle is an established ingredient in oral care due to its benefits for oral health. Boka fluoride-alternative toothpaste is a unique and effective way to care for your teeth. In this FAQ section, we will answer some of the most common questions about n-Ha toothpaste, providing the latest clinical insights on how hydroxyapatite toothpaste can help prevent cavities while keeping plaque in check.",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
