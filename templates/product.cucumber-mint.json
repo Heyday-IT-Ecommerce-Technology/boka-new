@@ -165,6 +165,56 @@
         "padding_bottom_mobile": 20
       }
     },
+    "yt_shorts_yqzJDp": {
+      "type": "yt-shorts",
+      "blocks": {
+        "video_QVEhHp": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/XrPk1v8qptQ?feature=share",
+            "description": "Describe the video"
+          }
+        },
+        "video_WaBhkF": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/AG4Gx_PeGAY?feature=share",
+            "description": "Describe the video"
+          }
+        },
+        "video_UBWgHE": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "",
+            "description": "Describe the video"
+          }
+        },
+        "video_UcVGMg": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "video_QVEhHp",
+        "video_WaBhkF",
+        "video_UBWgHE",
+        "video_UcVGMg"
+      ],
+      "name": "t:sections.yt-shorts.presets.name",
+      "settings": {
+        "yt_shorts_title": "From <em>Boka Fam</em>",
+        "heading_size": "h1",
+        "auto_center": false,
+        "columns": 2,
+        "button_label": "Button label",
+        "button_link": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
       "type": "image-with-bulleted-text",
       "blocks": {
@@ -753,6 +803,7 @@
   },
   "order": [
     "main",
+    "yt_shorts_yqzJDp",
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "custom_liquid_hL9Mbr",
     "multicolumn_6G7iCQ",
