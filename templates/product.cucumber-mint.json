@@ -192,7 +192,7 @@
         "video_UcVGMg": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/j0m89WHQeag?feature=share",
             "description": "Describe the video"
           }
         }
@@ -208,7 +208,7 @@
         "yt_shorts_title": "From <em>Boka Fam</em>",
         "heading_size": "h1",
         "auto_center": false,
-        "columns": 3,
+        "columns": 4,
         "button_label": "Button label",
         "button_link": "",
         "padding_top": 0,
