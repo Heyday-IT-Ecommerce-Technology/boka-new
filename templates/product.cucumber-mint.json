@@ -185,7 +185,7 @@
         "video_UBWgHE": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/GFkNVfOr2ho?feature=share",
             "description": "Describe the video"
           }
         },
@@ -208,7 +208,7 @@
         "yt_shorts_title": "From <em>Boka Fam</em>",
         "heading_size": "h1",
         "auto_center": false,
-        "columns": 2,
+        "columns": 3,
         "button_label": "Button label",
         "button_link": "",
         "padding_top": 0,
@@ -564,7 +564,7 @@
           "settings": {
             "image": "shopify://shop_images/Nano-hydroxyapatite.webp",
             "title": "<strong>Nano-hydroxyapatite</strong>",
-            "text": "<p>helps freshen breath without fluoride</p>",
+            "text": "<p>mimics tooth enamel</p>",
             "link_label": "",
             "link": ""
           }
@@ -584,7 +584,7 @@
           "settings": {
             "image": "shopify://shop_images/Xylitol.webp",
             "title": "<strong>Xylitol</strong>",
-            "text": "<p>promotes oral health</p>",
+            "text": "<p>fights bacteria</p>",
             "link_label": "",
             "link": ""
           }
@@ -594,7 +594,7 @@
           "settings": {
             "image": "shopify://shop_images/Cucumber_Mint.webp",
             "title": "<strong>Cucumber & Mint</strong>",
-            "text": "<p>a refreshing twist</p>",
+            "text": "<p>freshens breath</p>",
             "link_label": "",
             "link": ""
           }
