@@ -757,6 +757,7 @@
       "blocks": {
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-1": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What is Pro Stix?",
             "icon": "question_mark",
