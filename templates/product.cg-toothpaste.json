@@ -1466,6 +1466,7 @@
       "blocks": {
         "template--15159058989099__b7ac07b0-395f-4897-9ce0-955f10fbcd38-collapsible_row-1": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Does this Coco Ginger Toothpaste offer teeth-whitening benefits?",
             "icon": "none",
@@ -1507,6 +1508,7 @@
         "template--15159058989099__b7ac07b0-395f-4897-9ce0-955f10fbcd38-collapsible_row-3",
         "template--15159058989099__b7ac07b0-395f-4897-9ce0-955f10fbcd38-collapsible_row-4"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Questions About Boka Coco Ginger Toothpaste",
