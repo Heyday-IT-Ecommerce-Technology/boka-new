@@ -1494,6 +1494,7 @@
         },
         "template--15256682528811__2ba05586-69ca-4198-a044-3b3ff5ce2780-collapsible_row-4": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Is this toothpaste safe for sensitive teeth?",
             "icon": "none",
