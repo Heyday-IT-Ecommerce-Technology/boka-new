@@ -1423,15 +1423,6 @@
     "a30cc0cc-1ccb-4a08-8255-b411b0719a27": {
       "type": "collapsible-content",
       "blocks": {
-        "template--15151992045611__a30cc0cc-1ccb-4a08-8255-b411b0719a27-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are the benefits of using hydroxyapatite mouthwash?",
-            "icon": "none",
-            "row_content": "<p>There are several benefits to using hydroxyapatite mouthwash, including:</p><ul><li><strong>Helping remineralize teeth: </strong>It actively helps remineralize teeth by depositing essential minerals back into the enamel. </li><li><strong>Promoting a healthier oral microbiome:</strong> It supports a balanced oral microbiome. By fostering beneficial bacteria, it contributes to overall oral health and maintains fresher breath.</li><li><strong>Whitening teeth: </strong>It can help to remove surface stains from teeth, resulting in a whiter smile.</li></ul>",
-            "page": ""
-          }
-        },
         "template--15151992045611__a30cc0cc-1ccb-4a08-8255-b411b0719a27-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
@@ -1470,7 +1461,6 @@
         }
       },
       "block_order": [
-        "template--15151992045611__a30cc0cc-1ccb-4a08-8255-b411b0719a27-collapsible_row-2",
         "template--15151992045611__a30cc0cc-1ccb-4a08-8255-b411b0719a27-collapsible_row-3",
         "template--15151992045611__a30cc0cc-1ccb-4a08-8255-b411b0719a27-collapsible_row-4",
         "d879d6c4-b873-4838-b112-0dc9c6b661f7",
