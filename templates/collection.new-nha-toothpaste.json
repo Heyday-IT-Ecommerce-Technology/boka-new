@@ -769,6 +769,7 @@
         },
         "collapsible_row_KTjyMk": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How long does it take for this ingredient to remineralize teeth?",
             "icon": "check_mark",
@@ -790,7 +791,7 @@
           "settings": {
             "heading": "How does this product compare to traditional options?",
             "icon": "none",
-            "row_content": "<p>Boka toothpaste is similar to traditional products but contains microscopic particles that can help remineralize teeth. The microscopic particles integrate directly into the enamel lattice, providing long-term protection against plaque acids while maintaining a naturally bright smile—no chalky aftertaste, just a refreshing mint finish. It can be an effective option for maintaining oral health, but individual results may vary.</p>",
+            "row_content": "<p>Boka toothpaste is similar to traditional products but with a key difference: it contains microscopic particles of nano-hydroxyapatite, the same material that makes up tooth enamel. This provides a refreshing clean with a mint finish and no chalky aftertaste. Individual results may vary.</p>",
             "page": ""
           }
         },
@@ -799,7 +800,7 @@
           "settings": {
             "heading": "How much of this ingredient is in your toothpaste?",
             "icon": "none",
-            "row_content": "<p>Each 4-oz tube contains a precisely balanced concentration of nano hydroxyapatite—high enough to deliver measurable remineralizing benefits, yet within safe limits for daily use. The base calcium phosphate network ensures bioavailability while avoiding gritty textures often found in other pastes.</p>",
+            "row_content": "<p>Each 4-oz tube contains a precisely balanced concentration of nano-hydroxyapatite that is within safe limits for daily use. The base calcium phosphate network helps avoid the gritty textures often found in other pastes.</p>",
             "page": ""
           }
         },
@@ -808,7 +809,7 @@
           "settings": {
             "heading": "What do dentists think about this ingredient?",
             "icon": "none",
-            "row_content": "<p>Dentists generally have a positive view of these synthetic particles due to their potential for enamel remineralization. It is often recommended as a safe and effective ingredient in dental products to help strengthen teeth.</p>",
+            "row_content": "<p>Dentists generally have a positive view of these synthetic particles. It is often recommended as a safe and effective ingredient in dental products.</p>",
             "page": ""
           }
         },
@@ -817,7 +818,7 @@
           "settings": {
             "heading": "What are the benefits of n-Ha toothpaste?",
             "icon": "none",
-            "row_content": "<p>The benefits of our product include helping maintain enamel health, removing surface stains, freshening breath, and supporting overall oral wellness.</p>",
+            "row_content": "<p>The benefits of our product include helping remove surface stains and freshening breath.</p>",
             "page": ""
           }
         },
