@@ -1468,6 +1468,7 @@
       "blocks": {
         "template--15159569711147__581b3ab3-afd7-40f8-961e-f7a3f934505c-collapsible_row-1": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What is the main ingredient in Boka Ela Mint travel-size toothpaste?",
             "icon": "none",
