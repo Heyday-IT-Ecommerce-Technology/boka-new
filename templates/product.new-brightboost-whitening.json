@@ -241,13 +241,6 @@
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
       "type": "image-with-bulleted-text",
       "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Helps remineralize teeth</p>",
-            "text_style": "body"
-          }
-        },
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
           "type": "text",
           "settings": {
@@ -271,7 +264,6 @@
         }
       },
       "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b",
         "93b178e4-2598-45c7-b4a1-fd50f417768b",
         "6f829075-8538-46cf-852c-3bb0c8fb002d"
@@ -463,6 +455,7 @@
         },
         "column_Wch8RT": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Nano-Hydroxyapatite_n-Ha.jpg",
             "title": "<strong>Nano-Hydroxyapatite</strong>",
@@ -510,7 +503,7 @@
         "heading_tag": "h2",
         "image_width": "half",
         "image_ratio": "circle",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "full_width_enabled": false,
