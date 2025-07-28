@@ -1529,7 +1529,7 @@
           "settings": {
             "heading": "How does this toothpaste benefit oral health without fluoride?",
             "icon": "none",
-            "row_content": "<p>Our proprietary formula features nano-hydroxyapatite (n-Ha), a biomimetic mineral that makes up the majority of your enamel and dentin. Thoughtfully crafted without fluoride, sulfates, parabens, or artificial flavors and colors, it’s a biocompatible option for daily use. </p>",
+            "row_content": "<p>Our proprietary formula features nano-hydroxyapatite (n-Ha), a <br/>biometric mineral that makes up the majority of your enamel and dentin. Thoughtfully crafted without fluoride, sulfates, parabens, or artificial flavors and colors, it’s a biocompatible option for daily use. </p>",
             "page": ""
           }
         },
