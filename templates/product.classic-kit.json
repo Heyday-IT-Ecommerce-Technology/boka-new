@@ -67,10 +67,17 @@
         },
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>1 Tube of Toothpaste</strong>, 4oz<br/><strong>1 Classic Brush</strong><br/><strong>1 Floss</strong>, 30 yards</p>",
             "text_style": "body",
             "quick_add_hide": false
+          }
+        },
+        "custom_liquid_bgdLGb": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul class=\"pointer_text\">\n<li> <strong>1 Tube of Toothpaste</strong>, 4oz </li>\n<li><strong>1 Classic Brush </strong></li>\n<li><strong>1 Floss</strong>, 30 yards</li>\n</ul>\n\n<style>\n.pointer_text{\n  list-style-type: none;\n  padding: unset !important;\n}\n</style>"
           }
         },
         "description": {
@@ -130,6 +137,7 @@
         "quantity_selector",
         "buy_buttons",
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
+        "custom_liquid_bgdLGb",
         "description",
         "af067451-b82f-4114-8006-9a547e9c2157",
         "b4620176-8a50-42c9-8121-6df15e9ca481",
