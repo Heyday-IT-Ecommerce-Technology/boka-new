@@ -68,10 +68,17 @@
         },
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>1 or 2 Tubes of Toothpaste</strong>, 4oz<br/><strong>Flavor Profile </strong>Orange, Vanilla Cream</p><p><strong>Made for </strong>kids & kids at heart</p>",
             "text_style": "body",
             "quick_add_hide": false
+          }
+        },
+        "custom_liquid_jn6har": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul class=\"pointer_text\">\n<li> <strong>1 or 2 Tubes of Toothpaste</strong>, 4oz</li>\n<li><strong>Flavor Profile </strong>Orange, Vanilla Cream</li>\n<li><strong>Made for</strong> kids & kids at heart</li>\n</ul>\n\n<style>\n.pointer_text{\n  list-style-type: none;\n  padding: unset !important;\n}\n</style>"
           }
         },
         "description": {
@@ -131,6 +138,7 @@
         "quantity_selector",
         "buy_buttons",
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
+        "custom_liquid_jn6har",
         "description",
         "af067451-b82f-4114-8006-9a547e9c2157",
         "b4620176-8a50-42c9-8121-6df15e9ca481",
