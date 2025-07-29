@@ -284,7 +284,7 @@
         "6f829075-8538-46cf-852c-3bb0c8fb002d"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_Content_Benefits.webp",
+        "image": "shopify://shop_images/A_Content_Benefits_91d37d94-b713-4ee6-8b44-2522d8eab211.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -338,7 +338,7 @@
         "column_DXwrC6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Ela_Mint_1_d6a38fdc-f009-4db9-8c1d-198335410b67.webp",
+            "image": "shopify://shop_images/How_To_Use_Ella_Mint_1.webp",
             "title": "<strong>Step 1: Prep</strong>",
             "text": "<p>Apply a pea-sized amount to your toothbrush</p>",
             "link_label": "",
@@ -348,7 +348,7 @@
         "column_4nTd9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Ela_Mint_2_1.webp",
+            "image": "shopify://shop_images/How_To_Use_Ella_Mint_2.webp",
             "title": "<strong>Step 2: Brush</strong>",
             "text": "<p>Brush thoroughly for two minutes, twice daily</p>",
             "link_label": "",
@@ -358,7 +358,7 @@
         "column_3U6yrb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Ela_Mint_3.webp",
+            "image": "shopify://shop_images/How_To_Use_Ella_Mint_3.webp",
             "title": "<strong>Step 3: Smile!</strong>",
             "text": "<p>Spit after brushing—skip the rinse to maximize contact time</p>",
             "link_label": "",
