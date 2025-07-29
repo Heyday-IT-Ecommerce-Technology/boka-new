@@ -55,10 +55,17 @@
         },
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>Boka Brush 3.0<br/>2 Brush Heads </strong>with charcoal bristles<strong> <br/>Travel Case<br/>Magnetic Charging Block</strong></p>",
             "text_style": "body",
             "quick_add_hide": false
+          }
+        },
+        "custom_liquid_gWqVH9": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<ul class=\"pointer_text\">\n<li> <strong>Boka Brush 3.0</strong></li>\n<li><strong>2 Brush Heads </strong>with charcoal bristles</li>\n<li><strong>Travel Case</strong></li>\n<li><strong>Magnetic Charging Block</strong></li>\n</ul>\n\n<style>\n.pointer_text{\n  list-style-type: none;\n  padding: unset !important;\n}\n</style>"
           }
         },
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515": {
@@ -136,6 +143,7 @@
         "boka_subs_widget_yUbeNT",
         "buy_buttons",
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
+        "custom_liquid_gWqVH9",
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
         "variant_picker",
         "recharge_subscriptions_subscription_widget_v2_8KXYU3",
