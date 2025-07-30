@@ -103,6 +103,36 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_jqRhWJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_B3wPRE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Best Sellers",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        }
+      },
+      "block_order": [
+        "heading_B3wPRE"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "custom",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "featured_collection_EwniDz": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -135,61 +165,12 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
-    },
-    "rich_text_jqRhWJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_B3wPRE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "text_wR73Wd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_dnfDix": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_B3wPRE",
-        "text_wR73Wd",
-        "button_dnfDix"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "fadein_enabled": true,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
     }
   },
   "order": [
     "main",
     "video_slideshow_hMr9ba",
-    "featured_collection_EwniDz",
-    "rich_text_jqRhWJ"
+    "rich_text_jqRhWJ",
+    "featured_collection_EwniDz"
   ]
 }
