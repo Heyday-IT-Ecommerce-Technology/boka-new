@@ -25,6 +25,7 @@
         "image_46dFTr": {
           "type": "image",
           "settings": {
+            "image_mobile": "shopify://shop_images/Gallery-Image_5.gif",
             "heading": "Image slide",
             "image_link": "",
             "heading_size": "h1",
