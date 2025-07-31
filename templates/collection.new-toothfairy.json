@@ -354,7 +354,7 @@
         "heading_txnNBx": {
           "type": "heading",
           "settings": {
-            "heading": "Smiles you can feel good about",
+            "heading": "Fun learning for your little ones",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -362,14 +362,14 @@
         "text_WcXzcx": {
           "type": "text",
           "settings": {
-            "text": "<p>Thanks to your subscription, Boka and America’s ToothFairy are changing lives with mindful oral care. Your support brings hope, restoring smiles.</p>",
+            "text": "<p>Help your kids learn about oral health with this engaging booklet filled with tips and activities.</p>",
             "text_style": "body"
           }
         },
         "button_eRkkXA": {
           "type": "button",
           "settings": {
-            "button_label": "HELP A KID SMILE",
+            "button_label": "DOWNLOAD NOW",
             "button_link": "",
             "second_button_label": "",
             "second_button_link": ""
@@ -402,6 +402,61 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 50
       }
+    },
+    "image_with_text_FnxcDy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8fUMPY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smiles you can feel good about",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_wNzKaU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thanks to your subscription, Boka and America’s ToothFairy are changing lives with mindful oral care. Your support brings hope, restoring smiles.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_zxbGpY": {
+          "type": "button",
+          "settings": {
+            "button_label": "HELP A KID SMILE",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_8fUMPY",
+        "text_wNzKaU",
+        "button_zxbGpY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#DAE9CF",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 130,
+        "padding_bottom": 100,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
     }
   },
   "order": [
@@ -412,6 +467,7 @@
     "product-grid",
     "e1c2be8a-c503-489a-b63e-982e50c35a28",
     "image_with_bulleted_text_TxRRik",
-    "image_with_text_yBtTxx"
+    "image_with_text_yBtTxx",
+    "image_with_text_FnxcDy"
   ]
 }
