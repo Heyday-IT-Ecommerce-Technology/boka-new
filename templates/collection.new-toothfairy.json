@@ -164,7 +164,7 @@
         "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "counter",
-        "enable_video_buttons": true,
+        "enable_video_buttons": false,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
