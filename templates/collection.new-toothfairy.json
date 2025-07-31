@@ -63,6 +63,61 @@
         "padding_bottom_mobile": 80
       }
     },
+    "image_with_text_XDigpT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_b6ywUj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boka x America’s ToothFairy",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_mHAAEP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Through our partnership with America’s ToothFairy, we’re helping underserved children gain access to essential oral care. Each new Boka Kids subscription donates dental hygiene kits and teaches kids how to prevent tooth decay.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_JEV73i": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_b6ywUj",
+        "text_mHAAEP",
+        "button_JEV73i"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#DAE9CF",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 130,
+        "padding_bottom": 100,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -190,12 +245,63 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
+    },
+    "image_with_bulleted_text_TxRRik": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_pCAdNr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_pCAdNr"
+      ],
+      "name": "Image with Bulleted Text",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "heading": "Image with text",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "",
+        "text_style": "caption-with-letter-spacing",
+        "text_size": "medium",
+        "button_label": "Button label",
+        "button_link": "",
+        "second_button_label": "Second button label",
+        "second_button_link": "",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#DAE9CF",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 130,
+        "padding_bottom": 100,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
     }
   },
   "order": [
     "e9540f45-142d-4b00-acd5-49caf5c23d70",
+    "image_with_text_XDigpT",
     "banner",
     "product-grid",
-    "e1c2be8a-c503-489a-b63e-982e50c35a28"
+    "e1c2be8a-c503-489a-b63e-982e50c35a28",
+    "image_with_bulleted_text_TxRRik"
   ]
 }
