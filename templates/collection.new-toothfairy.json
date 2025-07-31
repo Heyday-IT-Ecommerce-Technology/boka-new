@@ -98,6 +98,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/toothfairy_hero.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -124,6 +125,7 @@
         "image_M6LiLQ": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/toothfairy_boka_kids.webp",
             "heading": "Get ready for a bright new school year",
             "image_link": "",
             "heading_size": "h1",
@@ -334,6 +336,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/toothfairy_thank_you.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -389,6 +392,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/toothfairy_booklet.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -414,35 +418,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "enable_fullwidth": false,
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_height_mobile": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
-        "button_background_color": "#000000",
-        "button_foreground_color": "#FFFFFF",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "mobile_content_position": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_tablet": 80,
-        "padding_bottom_tablet": 80,
-        "padding_top_mobile": 80,
-        "padding_bottom_mobile": 80
-      }
-    },
-    "image_banner_3RwNNJ": {
-      "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "enable_fullwidth": false,
+        "image": "shopify://shop_images/toothfairy_why_choose_us.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -533,6 +509,36 @@
         "padding_bottom": 36,
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
+      }
+    },
+    "image_banner_3RwNNJ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "enable_fullwidth": false,
+        "image": "shopify://shop_images/toothfairy_science.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_height_mobile": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "button_background_color": "#000000",
+        "button_foreground_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
       }
     }
   },
