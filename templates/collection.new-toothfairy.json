@@ -225,83 +225,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "e1c2be8a-c503-489a-b63e-982e50c35a28": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is nano-hydroxyapatite toothpaste safe for kids?",
-            "icon": "none",
-            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
-            "page": ""
-          }
-        },
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are the benefits of using Boka’s n-Ha toothpaste for kids?",
-            "icon": "none",
-            "row_content": "<p>Using nano-hydroxyapatite (n-Ha) toothpaste, like Boka's, offers several benefits for kids:</p><ul><li><strong>Fluoride-Free Formula </strong>– Provides oral care without the use of fluoride</li><li><strong>Mimics Tooth Enamel</strong>: Our proprietary and innovative formula includes Nano-hydroxyapatite (n-Ha) - a biomimetic mineral form of the same ingredient that naturally makes up 97% of your teeth material and 70% of your dentin.</li><li><strong>Helps Remove Surface Stains</strong> – Gently cleans the tooth surface for a polished appearance</li><li><strong>Freshens Breath</strong> – Leaves the mouth feeling clean and refreshed</li><li><strong>Sulfate- & Paraben-Free</strong> – Made without harsh chemicals for a gentle daily routine</li><li><strong>Vegan-Friendly</strong> – Formulated without artificial flavors, and never tested on animals </li></ul>",
-            "page": ""
-          }
-        },
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are the flavors of Boka toothpaste available for kids?",
-            "icon": "none",
-            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a>, <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a> and <a href=\"https://www.boka.com/collections/kids/products/strawberry-mango-n-ha-toothpaste\">Strawberry Mango</a>.</p>",
-            "page": ""
-          }
-        },
-        "16ab04bf-3b77-4c35-b24e-778a14934e1f": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is Boka Kids' Toothpaste safe for kids?",
-            "icon": "none",
-            "row_content": "<p>Yes, Boka Kids' Toothpaste is safe for kids. It is free of harsh chemicals and is safe for kids to swallow. The toothpaste is also vegan, cruelty-free, and gluten-free.</p>",
-            "page": ""
-          }
-        },
-        "fcdc03f5-1552-493d-9d04-47760da9f0df": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can my child use Boka Kids' Toothpaste if they have sensitive teeth?",
-            "icon": "none",
-            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
-        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
-        "16ab04bf-3b77-4c35-b24e-778a14934e1f",
-        "fcdc03f5-1552-493d-9d04-47760da9f0df"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Questions About Kids’ n-Ha Remineralizing Toothpaste",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "heading_alignment": "left",
-        "description": "Nano-hydroxyapatite (n-Ha) is a well-researched ingredient in oral care, recognized for its similarity to the natural mineral structure of teeth. As a fluoride alternative, it offers a modern approach to daily brushing. In this FAQ section, we’ll address common questions about how n-Ha fits into your oral care routine.",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "image_with_text_yBtTxx": {
       "type": "image-with-text",
       "blocks": {
@@ -345,13 +268,13 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "section_background_color": "#dae9cf",
-        "custom_background_color": "#dae9cf",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 130,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 0,
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
@@ -401,13 +324,13 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "section_background_color": "#dae9cf",
+        "section_background_color": "#ffffff",
         "custom_background_color": "#dae9cf",
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 130,
-        "padding_bottom": 100,
+        "padding_top": 80,
+        "padding_bottom": 0,
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
@@ -540,6 +463,83 @@
         "padding_bottom_tablet": 80,
         "padding_top_mobile": 80,
         "padding_bottom_mobile": 80
+      }
+    },
+    "e1c2be8a-c503-489a-b63e-982e50c35a28": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is nano-hydroxyapatite toothpaste safe for kids?",
+            "icon": "none",
+            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
+            "page": ""
+          }
+        },
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of using Boka’s n-Ha toothpaste for kids?",
+            "icon": "none",
+            "row_content": "<p>Using nano-hydroxyapatite (n-Ha) toothpaste, like Boka's, offers several benefits for kids:</p><ul><li><strong>Fluoride-Free Formula </strong>– Provides oral care without the use of fluoride</li><li><strong>Mimics Tooth Enamel</strong>: Our proprietary and innovative formula includes Nano-hydroxyapatite (n-Ha) - a biomimetic mineral form of the same ingredient that naturally makes up 97% of your teeth material and 70% of your dentin.</li><li><strong>Helps Remove Surface Stains</strong> – Gently cleans the tooth surface for a polished appearance</li><li><strong>Freshens Breath</strong> – Leaves the mouth feeling clean and refreshed</li><li><strong>Sulfate- & Paraben-Free</strong> – Made without harsh chemicals for a gentle daily routine</li><li><strong>Vegan-Friendly</strong> – Formulated without artificial flavors, and never tested on animals </li></ul>",
+            "page": ""
+          }
+        },
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the flavors of Boka toothpaste available for kids?",
+            "icon": "none",
+            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a>, <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a> and <a href=\"https://www.boka.com/collections/kids/products/strawberry-mango-n-ha-toothpaste\">Strawberry Mango</a>.</p>",
+            "page": ""
+          }
+        },
+        "16ab04bf-3b77-4c35-b24e-778a14934e1f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Kids' Toothpaste safe for kids?",
+            "icon": "none",
+            "row_content": "<p>Yes, Boka Kids' Toothpaste is safe for kids. It is free of harsh chemicals and is safe for kids to swallow. The toothpaste is also vegan, cruelty-free, and gluten-free.</p>",
+            "page": ""
+          }
+        },
+        "fcdc03f5-1552-493d-9d04-47760da9f0df": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can my child use Boka Kids' Toothpaste if they have sensitive teeth?",
+            "icon": "none",
+            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
+        "16ab04bf-3b77-4c35-b24e-778a14934e1f",
+        "fcdc03f5-1552-493d-9d04-47760da9f0df"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Kids’ n-Ha Remineralizing Toothpaste",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "heading_alignment": "left",
+        "description": "Nano-hydroxyapatite (n-Ha) is a well-researched ingredient in oral care, recognized for its similarity to the natural mineral structure of teeth. As a fluoride alternative, it offers a modern approach to daily brushing. In this FAQ section, we’ll address common questions about how n-Ha fits into your oral care routine.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
       }
     }
   },
