@@ -118,6 +118,59 @@
         "padding_bottom_mobile": 50
       }
     },
+    "video_slideshow_Ec9amq": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_M6LiLQ": {
+          "type": "image",
+          "settings": {
+            "heading": "Get ready for a bright new school year",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Grab our Back to School Kit, featuring all of Boka Kids' toothpastes, including our newest flavor, Blueberry Dragon Fruit. Save more and get your little one’s teeth ready for school!",
+            "button_label": "SHOP",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "BUY NOW AND SAVE",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_M6LiLQ"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": true,
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -294,14 +347,71 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 50
       }
+    },
+    "image_with_text_yBtTxx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_txnNBx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smiles you can feel good about",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_WcXzcx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thanks to your subscription, Boka and America’s ToothFairy are changing lives with mindful oral care. Your support brings hope, restoring smiles.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_eRkkXA": {
+          "type": "button",
+          "settings": {
+            "button_label": "HELP A KID SMILE",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_txnNBx",
+        "text_WcXzcx",
+        "button_eRkkXA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#DAE9CF",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 130,
+        "padding_bottom": 100,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
     }
   },
   "order": [
     "e9540f45-142d-4b00-acd5-49caf5c23d70",
     "image_with_text_XDigpT",
+    "video_slideshow_Ec9amq",
     "banner",
     "product-grid",
     "e1c2be8a-c503-489a-b63e-982e50c35a28",
-    "image_with_bulleted_text_TxRRik"
+    "image_with_bulleted_text_TxRRik",
+    "image_with_text_yBtTxx"
   ]
 }
