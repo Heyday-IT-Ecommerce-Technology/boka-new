@@ -244,6 +244,39 @@
         "padding_bottom_mobile": 36
       }
     },
+    "rich_text_AU4LYa": {
+      "type": "rich-text",
+      "blocks": {
+        "button_3haPVz": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP BEST SELLERS",
+            "button_link": "https://www.boka.com/collections/best-sellers",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_3haPVz"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "rich_text_Bh9cg6": {
       "type": "rich-text",
       "blocks": {
@@ -829,6 +862,7 @@
     "rich_text_fiC9M9",
     "c6a93dd1-8311-4974-b863-f220a9ebe858",
     "486363a0-4f38-49ec-8de8-3bcdfd569298",
+    "rich_text_AU4LYa",
     "rich_text_Bh9cg6",
     "3d719ebc-5747-4557-bde5-5de02b7b2fc5",
     "6f7f3f41-c0cd-4ccc-959f-70c21729812b",
