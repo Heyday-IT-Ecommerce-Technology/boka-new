@@ -33,6 +33,13 @@
             "button_link": "https://www.boka.com/collections/bright-and-white"
           }
         },
+        "button_EhakVR": {
+          "type": "button",
+          "settings": {
+            "button_text": "Kids Oral Care",
+            "button_link": "https://www.boka.com/collections/kids"
+          }
+        },
         "button_Pm7p8M": {
           "type": "button",
           "settings": {
@@ -59,11 +66,11 @@
         "button_FhD7Dx",
         "button_4Nw6gC",
         "button_gnHgxC",
+        "button_EhakVR",
         "button_Pm7p8M",
         "button_Kj7yqF",
         "button_fN6E4f"
       ],
-      "disabled": true,
       "settings": {}
     },
     "d0c5cff0-67a0-44b2-909d-a8de23fae9f1": {
