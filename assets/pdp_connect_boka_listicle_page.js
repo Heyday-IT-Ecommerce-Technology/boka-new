@@ -2,13 +2,13 @@ window.__WWAI__ = window.__WWAI__ || {};
     
 // Environment + Mode Config
 // Use metafield-based subscription in sandbox/local
-window.__WWAI__.useMockSubscription = true;
+window.__WWAI__.useMockSubscription = false;
 
 // Options: "local" | "sandbox" | "prod"
-window.__WWAI__.deployMode = "local";
+window.__WWAI__.deployMode = "prod";
 
 // Enables dev/debugger mode, values are dev, prod
-window.__WWAI__.MODE = "dev";
+window.__WWAI__.MODE = "prod";
 
 // Controls Liquid-product rendering
 window.__WWAI__.RENDER_WITH_LIQUID = true;
