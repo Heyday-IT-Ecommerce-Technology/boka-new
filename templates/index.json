@@ -271,8 +271,8 @@
         "custom_background_color": "#ffffff",
         "custom_text_color": "#201e1e",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_top": 3,
+        "padding_bottom": 31,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 6
       }
