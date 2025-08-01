@@ -148,8 +148,7 @@
 <script>
   document.getElementById('addToWishlistButton')
     .addEventListener('click', function() {
-      gtag('event', 'add_to_wishlist', {
-        currency: '{{ shop.currency }}',      
+      gtag('event', 'add_to_wishlist', {     
         value: 0,                              
         items: [{
           item_id: '{{ product.id }}',
