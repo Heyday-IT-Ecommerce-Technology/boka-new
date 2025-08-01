@@ -110,7 +110,7 @@
         "custom_background_color": "#000000",
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 100,
         "padding_top_tablet": 30,
