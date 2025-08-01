@@ -141,5 +141,18 @@
 <!-- End Section boka_static_listicle_video_KpkFki -->
 </div>
 
-    
+<script>
+  document.getElementById('addToWishlistButton')
+    .addEventListener('click', function() {
+      gtag('event', 'add_to_wishlist', {
+        currency: '{{ shop.currency }}',      
+        value: 0,                              
+        items: [{
+          item_id: '{{ product.id }}',
+          item_name: '{{ product.title }}'
+        }]
+      });
+      // …any other code you need
+    }, false);
+</script> 
     
