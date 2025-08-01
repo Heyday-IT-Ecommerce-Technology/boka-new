@@ -339,7 +339,7 @@
         "custom_background_color": "#ffffff",
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 50,
         "padding_bottom": 0,
         "padding_top_tablet": 30,
@@ -370,7 +370,7 @@
           "type": "button",
           "settings": {
             "button_label": "HELP A KID SMILE",
-            "button_link": "",
+            "button_link": "#shopify-section-template--16388780523563__featured_collection_HD8r3D",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -395,7 +395,7 @@
         "custom_background_color": "#dae9cf",
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 80,
         "padding_bottom": 0,
         "padding_top_tablet": 30,
