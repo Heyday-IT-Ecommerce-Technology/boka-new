@@ -328,7 +328,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/toothfairy_thank_you.webp",
+        "image": "shopify://shop_images/Gallery_Image_3_1_3973a66e-349b-4c38-90eb-e5c32f9ef64b.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -384,7 +384,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/toothfairy_booklet.webp",
+        "image": "shopify://shop_images/Partnership.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -410,7 +410,8 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/toothfairy_why_choose_us.webp",
+        "image": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Desktop_1.webp",
+        "image_mobile": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Mobile_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -441,9 +442,9 @@
         "collapsible_row_h9h7dR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Blueberry Dragon Fruit",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Triacetin, Natural Flavor, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Sodium Bicarbonate, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         },
@@ -495,6 +496,7 @@
         "custom_background_color": "#333333",
         "custom_text_color": "#ffffff",
         "open_first_collapsible_row": false,
+        "image": "shopify://shop_images/Ingredients_1.webp",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
