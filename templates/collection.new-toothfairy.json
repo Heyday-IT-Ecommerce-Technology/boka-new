@@ -125,12 +125,13 @@
         "image_M6LiLQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/toothfairy_boka_kids.webp",
-            "heading": "Get ready for a bright new school year",
+            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
+            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
+            "heading": "Get Ready for a Bright New School Year",
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "Grab our Back to School Kit, featuring all of Boka Kids' toothpastes, including our newest flavor, Blueberry Dragon Fruit. Save more and get your little one’s teeth ready for school!",
+            "subheading": "Grab our Back to School Kit, featuring all of Boka Kids' toothpastes, including our <em>newest flavor</em>, Blueberry Dragon Fruit. Save more and get your little one’s teeth ready for school!",
             "button_label": "BUY NOW AND SAVE",
             "link": "",
             "button_style_secondary": false,
