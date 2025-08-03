@@ -77,7 +77,7 @@
         "text_mHAAEP": {
           "type": "text",
           "settings": {
-            "text": "<p>Through our partnership with America’s ToothFairy, we’re helping underserved children gain access to essential oral care. Each new Boka Kids subscription donates dental hygiene kits and teaches kids how to prevent tooth decay.</p>",
+            "text": "<p>Through our partnership with America’s ToothFairy, we’re helping underserved children gain access to essential oral care. Each <strong>new</strong> Boka Kids subscription donates dental hygiene kits and teaches kids how to prevent tooth decay.</p>",
             "text_style": "body"
           }
         },
@@ -98,7 +98,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/toothfairy_hero.webp",
+        "image": "shopify://shop_images/Top_Banner_3_1.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -203,7 +203,7 @@
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -590,7 +590,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Questions About Kids’ n-Ha Remineralizing Toothpaste",
+        "heading": "Questions About Kids’ n-Ha Toothpaste",
         "heading_size": "h1",
         "heading_tag": "h2",
         "heading_alignment": "left",
