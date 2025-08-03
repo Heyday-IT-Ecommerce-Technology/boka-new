@@ -451,27 +451,27 @@
         "collapsible_row_cwPeir": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Orange Cream",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Stevia Rebuadiana Leaf/Stem Extract, Dimethyl Sulfone, Natural Flavor (aroma), Sodium Bicarbonate, Benzyl Alcohol, Triacetin, Medium Chain Triglycerides, Aloe Barbadensis (Aloe Vera) Leaf Juice, Camellia Sinensis (Green Tea), Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         },
         "collapsible_row_i7bWMa": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Strawberry Mango",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Triacetin, Sodium Lauroyl Sarcosinate, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Sodium Bicarbonate, Benzyl Alcohol, Natural Flavor (aroma), Medium Chain Triglycerides, Aloe Barbadensis (Aloe Vera) Leaf Juice, Camellia Sinensis (Green Tea), Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         },
         "collapsible_row_BHUiJp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Watermelon Mint",
             "icon": "check_mark",
-            "row_content": "",
+            "row_content": "<p>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Triacetin, Sodium Lauroyl Sarcosinate, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Sodium Bicarbonate, Mentha Piperita (Peppermint) Oil, Natural Flavor, Aloe Barbadensis (Aloe Vera) Leaf Juice, Camellia Sinensis (Green Tea) Cudumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         }
