@@ -217,7 +217,7 @@
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
-        "button_link": "shopify://products/cucumber-mint-n-ha-toothpaste",
+        "button_link": "shopify://products/blueberry-dragonfruit-n-ha-toothpaste",
         "second_button_label": "",
         "second_button_link": "",
         "content_layout": "overlap",
@@ -622,8 +622,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/Cucumber_Mint_Powered_By_Nature_Desktop_3678fcf9-3683-49a3-a043-4579bb22e91b.webp",
-        "image_mobile": "shopify://shop_images/Cucumber_Mint_Powered_By_Nature_Mobile_1.webp",
+        "image": "shopify://shop_images/BDF_Powered_By_Nature_Desktop.webp",
+        "image_mobile": "shopify://shop_images/BDF_Powered_By_Nature_Mobile.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -671,7 +671,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://products/cucumber-mint-n-ha-toothpaste",
+            "button_link": "shopify://products/blueberry-dragonfruit-n-ha-toothpaste",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
