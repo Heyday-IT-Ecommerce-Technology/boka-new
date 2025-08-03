@@ -77,7 +77,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Mentha Piperita (Peppermint) Oil, Sodium Bicarbonate, Mentha Viridis (Spearmint) Leaf Oil, Natural Flavor, Gaultheria Procumbens (Wintergreen) Leaf Oil, Illicium verum (Anise) oil, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Potassium Chloride, Limonene. *Nano</p>",
+            "content": "<p>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Triacetin, Natural Flavor, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Sodium Bicarbonate, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         },
@@ -103,9 +103,9 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/Antioxidant-rich_green_tea.webp",
-            "heading_1": "<strong>Antioxidant-rich Green Tea</strong>",
+            "heading_1": "<strong>Juicy Ripe Blueberry & Sweet Dragon Fruit</strong>",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Cucumber.webp",
+            "image_2": "shopify://shop_images/Blueberry_Dragon_Fruit.webp",
             "heading_2": "<strong>Sweet Cucumber & Refreshing Mint</strong>",
             "padding_top": 14,
             "padding_bottom": 0
@@ -165,66 +165,9 @@
         "padding_bottom_mobile": 20
       }
     },
-    "yt_shorts_yqzJDp": {
-      "type": "yt-shorts",
-      "blocks": {
-        "video_QVEhHp": {
-          "type": "video",
-          "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/XrPk1v8qptQ?feature=share",
-            "description": "Describe the video"
-          }
-        },
-        "video_WaBhkF": {
-          "type": "video",
-          "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/AG4Gx_PeGAY?feature=share",
-            "description": "Describe the video"
-          }
-        },
-        "video_UBWgHE": {
-          "type": "video",
-          "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/GFkNVfOr2ho?feature=share",
-            "description": "Describe the video"
-          }
-        },
-        "video_UcVGMg": {
-          "type": "video",
-          "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/j0m89WHQeag?feature=share",
-            "description": "Describe the video"
-          }
-        }
-      },
-      "block_order": [
-        "video_QVEhHp",
-        "video_WaBhkF",
-        "video_UBWgHE",
-        "video_UcVGMg"
-      ],
-      "name": "t:sections.yt-shorts.presets.name",
-      "settings": {
-        "yt_shorts_title": "From <em>Boka Fam</em>",
-        "heading_size": "h1",
-        "auto_center": false,
-        "columns": 4,
-        "button_label": "Button label",
-        "button_link": "",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
-    },
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
       "type": "image-with-bulleted-text",
       "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Reduces sensitivity</p>",
-            "text_style": "body"
-          }
-        },
         "text_7XBPaY": {
           "type": "text",
           "settings": {
@@ -255,14 +198,13 @@
         }
       },
       "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
         "text_7XBPaY",
         "93b178e4-2598-45c7-b4a1-fd50f417768b",
         "6f829075-8538-46cf-852c-3bb0c8fb002d",
         "text_ztqcXc"
       ],
       "settings": {
-        "image": "shopify://shop_images/A__Benefits.webp",
+        "image": "shopify://shop_images/BDF_Benefits_2.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -271,7 +213,7 @@
         "heading": "Gentle care, <em>refreshing flavor</em>",
         "heading_size": "h1",
         "heading_tag": "default",
-        "caption": "Cucumber Mint brings a refreshing twist to your oral care routine, pairing science-backed ingredients with a crisp flavor.",
+        "caption": "Bring home Boka’s Blueberry Dragon Fruit flavor for a fun way to brush! With science-backed ingredients, it’s perfect for keeping kids’ teeth fresh and clean.",
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
@@ -316,7 +258,7 @@
         "column_DXwrC6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Cucumber_Mint_1_fd4d4d81-0e6b-40e4-9071-f00c32f8da57.webp",
+            "image": "shopify://shop_images/BDF_How_To_Use_1_1.webp",
             "title": "<strong>Step 1: Prep</strong>",
             "text": "<p>Apply a pea-sized amount to your toothbrush</p>",
             "link_label": "",
@@ -326,7 +268,7 @@
         "column_4nTd9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Cucumber_Mint_2_3fc2b670-62bd-4233-81fc-c59a6e0d10c9.webp",
+            "image": "shopify://shop_images/BDF_How_To_Use_2.webp",
             "title": "<strong>Step 2: Brush</strong>",
             "text": "<p>Brush thoroughly for two minutes, twice daily</p>",
             "link_label": "",
@@ -336,7 +278,7 @@
         "column_3U6yrb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/A_Content_How_To_Use_Cucumber_Mint_3.png",
+            "image": "shopify://shop_images/BDF_How_To_Use_3.webp",
             "title": "<strong>Step 3: Smile!</strong>",
             "text": "<p>Spit after brushing—skip the rinse to maximize contact time</p>",
             "link_label": "",
@@ -530,8 +472,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/Why_Choose_Cucumber_Mint_Desktop_1_d0b47f02-c3ef-4579-81a1-0462b3873a14.webp",
-        "image_mobile": "shopify://shop_images/Why_Choose_Cucumber_Mint_Mobile_892830c1-14eb-4aff-8f51-859ee3d494e4.webp",
+        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop.webp",
+        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Mobile.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -592,9 +534,9 @@
         "column_GefQYG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Cucumber_Mint.webp",
-            "title": "<strong>Cucumber & Mint</strong>",
-            "text": "<p>freshens breath</p>",
+            "image": "shopify://shop_images/Blueberry_Dragon_Fruit_1.webp",
+            "title": "<strong>Blueberry & Dragon Fruit</strong>",
+            "text": "<p>a tasty twist</p>",
             "link_label": "",
             "link": ""
           }
@@ -811,7 +753,6 @@
   },
   "order": [
     "main",
-    "yt_shorts_yqzJDp",
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "custom_liquid_hL9Mbr",
     "multicolumn_6G7iCQ",
