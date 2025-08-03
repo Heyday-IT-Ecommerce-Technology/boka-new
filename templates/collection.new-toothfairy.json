@@ -131,8 +131,8 @@
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "Grab our Back to School Kit, featuring all of Boka Kids' toothpastes, including our <em>newest flavor</em>, Blueberry Dragon Fruit. Save more and get your little one’s teeth ready for school!",
-            "button_label": "BUY NOW AND SAVE",
+            "subheading": "Grab our Back to School Kit, featuring all of Boka Kids' toothpastes, including our newest flavor, Blueberry Dragon Fruit. Save more and get your little one’s teeth ready for school!",
+            "button_label": "BUY MORE & SAVE MORE",
             "link": "shopify://products/back-to-school-kit",
             "button_style_secondary": false,
             "button_label2": "",
@@ -293,62 +293,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "image_with_text_yBtTxx": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_txnNBx": {
-          "type": "heading",
-          "settings": {
-            "heading": "Fun learning for your little ones",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "text_WcXzcx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Help your kids learn about oral health with this engaging booklet filled with tips and activities.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_eRkkXA": {
-          "type": "button",
-          "settings": {
-            "button_label": "DOWNLOAD NOW",
-            "button_link": "https://cdn.shopify.com/s/files/1/2656/6094/files/Activity_Booklet-BOKA_527b0893-8e8f-4caf-aa16-e630273a5cb2.pdf?v=1754034791",
-            "second_button_label": "",
-            "second_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_txnNBx",
-        "text_WcXzcx",
-        "button_eRkkXA"
-      ],
-      "name": "t:sections.image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Gallery_Image_3_1_3973a66e-349b-4c38-90eb-e5c32f9ef64b.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_background_color": "#ffffff",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 0,
-        "padding_top_tablet": 30,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 50
-      }
-    },
     "image_with_text_FnxcDy": {
       "type": "image-with-text",
       "blocks": {
@@ -398,6 +342,62 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 80,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_text_yBtTxx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_txnNBx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fun learning for your little ones",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_WcXzcx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Help your kids learn about oral health with this engaging booklet filled with tips and activities.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_eRkkXA": {
+          "type": "button",
+          "settings": {
+            "button_label": "DOWNLOAD NOW",
+            "button_link": "https://cdn.shopify.com/s/files/1/2656/6094/files/Activity_Booklet-BOKA_527b0893-8e8f-4caf-aa16-e630273a5cb2.pdf?v=1754034791",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_txnNBx",
+        "text_WcXzcx",
+        "button_eRkkXA"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Gallery_Image_3_1_3973a66e-349b-4c38-90eb-e5c32f9ef64b.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
         "padding_bottom": 0,
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
