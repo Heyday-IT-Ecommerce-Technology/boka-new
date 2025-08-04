@@ -101,8 +101,8 @@
         "image_RJU7Ux": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/HP_Banner_Desktop_1.webp",
-            "image_mobile": "shopify://shop_images/HP_Banner_Mobile_1.webp",
+            "image": "shopify://shop_images/HP_Banner_Desktop_1_1.webp",
+            "image_mobile": "shopify://shop_images/HP_Banner_Mobile_1_1.webp",
             "heading": "Say Hello to <br><em>Cucumber</em> Mint",
             "image_link": "shopify://products/cucumber-mint-n-ha-toothpaste",
             "heading_size": "h1",
