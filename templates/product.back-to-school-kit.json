@@ -561,7 +561,7 @@
         "heading_tag": "h2",
         "image_width": "half",
         "image_ratio": "circle",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "full_width_enabled": false,
