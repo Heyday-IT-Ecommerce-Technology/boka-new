@@ -225,7 +225,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP ALL KIDS",
-            "button_link": "",
+            "button_link": "shopify://collections/shop-all-kids",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
