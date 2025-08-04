@@ -32,7 +32,7 @@
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "h1",
-            "subheading": "Get 25% off—no cap. Ends July 15! <b> USE DISCOUNT CODE:  25OFFJULY </b>",
+            "subheading": "Get 25% off—no cap. Ends July 15!  USE DISCOUNT CODE:  25OFFJULY",
             "button_label": "",
             "link": "https://www.boka.com/collections/for-testing-purposes-only",
             "button_style_secondary": false,
@@ -93,6 +93,7 @@
         "image_VW6ik4",
         "video_kWkfYz"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "small",
@@ -193,7 +194,7 @@
         "card_title": "Pain-free whitening for sensitive smiles.",
         "card_text": "<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.</p>",
         "button_text": "Shop Now",
-        "button_url": "shopify://products/rapid-radiance-teeth-whitening-kit",
+        "button_url": "shopify://collections/kids",
         "padding_top": 20,
         "padding_bottom": 36,
         "padding_top_mobile": 36,
