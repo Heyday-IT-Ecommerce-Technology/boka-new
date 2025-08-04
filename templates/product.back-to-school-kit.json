@@ -19,7 +19,7 @@
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
           "settings": {
-            "text": "<p><em><strong>NEW Flavor!</strong></em></p>",
+            "text": "<p><em><strong>NEW Bundle!</strong></em></p>",
             "text_style": "body",
             "quick_add_hide": false
           }
@@ -74,6 +74,7 @@
         },
         "collapsible_tab_NnPN3E": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
@@ -103,10 +104,9 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/Antioxidant-rich_green_tea.webp",
-            "heading_1": "<strong>Juicy Ripe Blueberry & Sweet Dragon Fruit</strong>",
+            "heading_1": "<strong>Antioxidant-rich green tea</strong>",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Blueberry_Dragon_Fruit.webp",
-            "heading_2": "<strong>Sweet Cucumber & Refreshing Mint</strong>",
+            "heading_2": "",
             "padding_top": 14,
             "padding_bottom": 0
           }
@@ -472,8 +472,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop.webp",
-        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Mobile.webp",
+        "image": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Desktop.webp",
+        "image_mobile": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Mobile_1.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -533,6 +533,7 @@
         },
         "column_GefQYG": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Blueberry_Dragon_Fruit_1.webp",
             "title": "<strong>Blueberry & Dragon Fruit</strong>",
