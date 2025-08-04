@@ -116,7 +116,7 @@
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
-        "padding_bottom_mobile": 50
+        "padding_bottom_mobile": 10
       }
     },
     "video_slideshow_Ec9amq": {
@@ -346,7 +346,7 @@
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
-        "padding_bottom_mobile": 50
+        "padding_bottom_mobile": 10
       }
     },
     "image_with_text_yBtTxx": {
@@ -401,8 +401,8 @@
         "padding_bottom": 0,
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 50
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 10
       }
     },
     "image_banner_8xz9cF": {
