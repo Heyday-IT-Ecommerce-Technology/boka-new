@@ -196,7 +196,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "kids",
-        "products_to_show": 6,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
@@ -225,7 +225,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP ALL KIDS",
-            "button_link": "https://www.boka.com/collections/kids",
+            "button_link": "shopify://collections/kids",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
