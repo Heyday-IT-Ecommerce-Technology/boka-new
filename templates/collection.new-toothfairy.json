@@ -410,8 +410,8 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Desktop_c2d07c86-fb10-426e-a296-87b54b1e4799.webp",
-        "image_mobile": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Mobile_1_c8a9bc51-d662-4a98-818f-52d61f3825f3.webp",
+        "image": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Desktop_1_57a5ebfb-e963-4acd-ab6a-fddb865109dc.webp",
+        "image_mobile": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Mobile_2.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
