@@ -98,7 +98,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Top_Banner_3_1.webp",
+        "image": "shopify://shop_images/Top_Banner_800x800_26987000-64f4-4a78-86d7-9390f89724eb.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -125,8 +125,8 @@
         "image_M6LiLQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
-            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
+            "image": "shopify://shop_images/Promo_Banner_Desktop.webp",
+            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile.webp",
             "heading": "Get Ready for a Bright New School Year",
             "image_link": "",
             "heading_size": "h1",
@@ -328,7 +328,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Partnership.webp",
+        "image": "shopify://shop_images/Partnership_26566487-ab0f-4b25-8ae3-ab6e61b5d4b6.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -384,7 +384,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Gallery_Image_3_1_3973a66e-349b-4c38-90eb-e5c32f9ef64b.webp",
+        "image": "shopify://shop_images/Downloadable_PDF.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -410,8 +410,8 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop.webp",
-        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Mobile.webp",
+        "image": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Desktop_c2d07c86-fb10-426e-a296-87b54b1e4799.webp",
+        "image_mobile": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Mobile_1_c8a9bc51-d662-4a98-818f-52d61f3825f3.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -496,7 +496,7 @@
         "custom_background_color": "#333333",
         "custom_text_color": "#ffffff",
         "open_first_collapsible_row": false,
-        "image": "shopify://shop_images/Ingredients_1.webp",
+        "image": "shopify://shop_images/Ingredients.gif",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 36,
@@ -510,8 +510,8 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/BDF_Powered_By_Nature_Desktop.webp",
-        "image_mobile": "shopify://shop_images/BDF_Powered_By_Nature_Mobile.webp",
+        "image": "shopify://shop_images/Powered_By_Nature_Desktop.webp",
+        "image_mobile": "shopify://shop_images/Powered_By_Nature_Mobile_47efcade-c931-4f91-803d-0164fbc00907.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -539,6 +539,78 @@
     "e1c2be8a-c503-489a-b63e-982e50c35a28": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_tJyKKh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s the Boka x America’s ToothFairy partnership?",
+            "icon": "none",
+            "row_content": "<p>We’re partnering with America’s ToothFairy to help kids achieve healthier smiles. For every <em>new</em> subscription to a Boka Kids toothpaste, we’ll donate a Kids Oral Health Kit to a public library serving families in need.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7W7Lpc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s included in the kit?",
+            "icon": "none",
+            "row_content": "<p>Each kit comes with 1x travel-size Boka Kids Toothpaste, 1x Boka Classic Toothbrush, 1 Boka Strawberry Mango Floss, and an activity booklet filled with fun tips for good oral care habits.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8VHBzL": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I donate a kit?",
+            "icon": "none",
+            "row_content": "<p>It’s easy—just start a <em>new subscription</em> to any Boka Kids toothpaste on boka.com. Every new subscription = one donated kit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jexD7x": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I already have a subscription. Does that count?",
+            "icon": "none",
+            "row_content": "<p>We’re so glad you’re part of the Boka fam! But to donate a kit, you’ll need to start a <em>new</em> subscription to a Kids toothpaste flavor. Existing subscriptions don’t count toward this initiative.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JABJVy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I want to donate more than one kit?",
+            "icon": "none",
+            "row_content": "<p>To donate more than one kit, just subscribe to multiple Kids toothpastes in separate new subscriptions. For example, if you subscribe to two different flavors (like Blueberry Dragon Fruit and Orange Cream), that’s two kits donated. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_yPB79G": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does this apply to all Boka products?",
+            "icon": "none",
+            "row_content": "<p>This donation program is only for <em>new subscriptions</em> to our Boka Kids toothpastes—including our newest flavor, Blueberry Dragon Fruit.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_d9AH6m": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will this run?",
+            "icon": "none",
+            "row_content": "<p>While supplies last.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ajqd7y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Who is America’s ToothFairy?",
+            "icon": "none",
+            "row_content": "<p>They’re a nonprofit focused on helping kids across the U.S. get access to essential dental care and education. We’re proud to support their mission to prevent tooth decay before it starts. Learn more about them <a href=\"https://www.americastoothfairy.org/\"><span style=\"text-decoration:underline\">here</span></a>.</p>",
+            "page": ""
+          }
+        },
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
@@ -586,6 +658,14 @@
         }
       },
       "block_order": [
+        "collapsible_row_tJyKKh",
+        "collapsible_row_7W7Lpc",
+        "collapsible_row_8VHBzL",
+        "collapsible_row_jexD7x",
+        "collapsible_row_JABJVy",
+        "collapsible_row_yPB79G",
+        "collapsible_row_d9AH6m",
+        "collapsible_row_ajqd7y",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
