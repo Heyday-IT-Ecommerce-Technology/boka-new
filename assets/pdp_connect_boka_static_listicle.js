@@ -979,7 +979,7 @@ window.__WWAI__.WWAI_ACTION_BUTTONS = {
   },
   "//div[@id=\"shopify-section-template--24907916345661__boka_static_listicle_hero_banner_8ck8Yh\"]//div[1]/div[1]/div[1]/div[5]/a[1]": {
     "actionType": "custom-url",
-    "value": "https://www.amazon.com/All-toothpaste-whitening-fluoride-free/dp/B083JHCCV2/ref=sr_1_1?th=1"
+    "value": "https://www.amazon.com/All-toothpaste-whitening-fluoride-free/dp/B083JHCCV2?maas=maas_adg_122FF49334DC7589E86AEDB792D09653_afap_abs&ref_=aa_maas&tag=maas"
   },
   "//div[@id=\"shopify-section-template--24907916345661__boka_static_listicle_pdp_C9pxRm\"]//div[1]/div[1]/custom-product[1]/product-info[1]/div[5]/div[1]/div[1]/p[1]/a[1]": {
     "actionType": "no-action",
@@ -991,10 +991,10 @@ window.__WWAI__.WWAI_ACTION_BUTTONS = {
   },
   "//div[@id=\"shopify-section-template--24907916345661__boka_static_listicle_pdp_C9pxRm\"]//section[1]/div[1]/div[1]/div[1]/div[2]/div[1]/a[1]": {
     "actionType": "custom-url",
-    "value": "https://www.amazon.com/All-toothpaste-whitening-fluoride-free/dp/B083JHCCV2/ref=sr_1_1?th=1"
+    "value": "https://www.amazon.com/All-toothpaste-whitening-fluoride-free/dp/B083JHCCV2?maas=maas_adg_122FF49334DC7589E86AEDB792D09653_afap_abs&ref_=aa_maas&tag=maas"
   },
   "//div[@id=\"shopify-section-template--24907916345661__boka_static_listicle_pdp_C9pxRm\"]//div[1]/div[1]/custom-product[1]/product-info[1]/a[1]": {
     "actionType": "custom-url",
-    "value": "https://www.amazon.com/All-toothpaste-whitening-fluoride-free/dp/B083JHCCV2/ref=sr_1_1?th=1"
+    "value": "https://www.amazon.com/All-toothpaste-whitening-fluoride-free/dp/B083JHCCV2?maas=maas_adg_122FF49334DC7589E86AEDB792D09653_afap_abs&ref_=aa_maas&tag=maas"
   }
 };
