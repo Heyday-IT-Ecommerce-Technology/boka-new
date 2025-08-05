@@ -204,7 +204,7 @@
         "text_ztqcXc"
       ],
       "settings": {
-        "image": "shopify://shop_images/BDF_Benefits_result.webp",
+        "image": "shopify://shop_images/BDF_Benefits_result_842f5389-5fdd-49ff-8d2f-b76a28fc3c28.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -472,8 +472,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop.webp",
-        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Mobile.webp",
+        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop_0a63c082-3271-471f-becf-46be15fc0521.webp",
+        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_copy.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -622,8 +622,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/BDF_Powered_By_Nature_Desktop.webp",
-        "image_mobile": "shopify://shop_images/BDF_Powered_By_Nature_Mobile.webp",
+        "image": "shopify://shop_images/Powered_By_Nature_Desktop.webp",
+        "image_mobile": "shopify://shop_images/Powered_By_Nature_Mobile_47efcade-c931-4f91-803d-0164fbc00907.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
