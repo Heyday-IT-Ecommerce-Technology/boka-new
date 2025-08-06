@@ -204,7 +204,7 @@
         "text_ztqcXc"
       ],
       "settings": {
-        "image": "shopify://shop_images/BDF_Benefits_result_842f5389-5fdd-49ff-8d2f-b76a28fc3c28.webp",
+        "image": "shopify://shop_images/BDF_Benefits.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -258,7 +258,7 @@
         "column_DXwrC6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BDF_How_To_Use_1_1.webp",
+            "image": "shopify://shop_images/How_To_Use_1_9c9dadac-c31e-4d9e-b3e7-10ca7e41fe9e.webp",
             "title": "<strong>Step 1: Prep</strong>",
             "text": "<p>Apply a pea-sized amount to your toothbrush</p>",
             "link_label": "",
@@ -268,7 +268,7 @@
         "column_4nTd9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BDF_How_To_Use_2.webp",
+            "image": "shopify://shop_images/How_To_Use_2_ac81a5f1-19ac-439d-bdbb-9b27fa913a72.webp",
             "title": "<strong>Step 2: Brush</strong>",
             "text": "<p>Brush thoroughly for two minutes, twice daily</p>",
             "link_label": "",
@@ -278,7 +278,7 @@
         "column_3U6yrb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/BDF_How_To_Use_3.webp",
+            "image": "shopify://shop_images/How_To_Use_3_5c851a10-493d-4d2d-8763-01770fdb97a1.webp",
             "title": "<strong>Step 3: Smile!</strong>",
             "text": "<p>Spit after brushing—skip the rinse to maximize contact time</p>",
             "link_label": "",
@@ -472,8 +472,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop_0a63c082-3271-471f-becf-46be15fc0521.webp",
-        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_copy.webp",
+        "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop_473f75e8-3990-4bb6-840d-3e7ffbef34ee.webp",
+        "image_mobile": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Mobile_f56af22d-ef10-463a-b471-a4e6c372e2d3.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
@@ -504,7 +504,7 @@
         "column_aLh4Wp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Nano-hydroxyapatite.webp",
+            "image": "shopify://shop_images/Nano-hydroxyapatite_c4f19140-f504-4ae6-8895-79847b11ac58.webp",
             "title": "<strong>Nano-hydroxyapatite</strong>",
             "text": "<p>mimics tooth enamel</p>",
             "link_label": "",
@@ -514,7 +514,7 @@
         "column_Wch8RT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Green_Tea_Extract.webp",
+            "image": "shopify://shop_images/Green_Tea_Extract_808f8fcb-9cef-4ac7-a6f4-2c11c6a53298.webp",
             "title": "<strong>Green Tea Extract</strong>",
             "text": "<p>acts as an antioxidant</p>",
             "link_label": "",
@@ -524,7 +524,7 @@
         "column_68Mc7p": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Xylitol.webp",
+            "image": "shopify://shop_images/Xylitol_fac264eb-d554-451d-a3ad-e75360fb296e.webp",
             "title": "<strong>Xylitol</strong>",
             "text": "<p>fights bacteria</p>",
             "link_label": "",
@@ -534,7 +534,7 @@
         "column_GefQYG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Blueberry_Dragon_Fruit_1.webp",
+            "image": "shopify://shop_images/Blueberry_Dragon_Fruit_2ce381ad-d91f-4ba4-b400-e5bcca90000c.webp",
             "title": "<strong>Blueberry & Dragon Fruit</strong>",
             "text": "<p>a tasty twist</p>",
             "link_label": "",
@@ -622,8 +622,8 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "image": "shopify://shop_images/Powered_By_Nature_Desktop.webp",
-        "image_mobile": "shopify://shop_images/Powered_By_Nature_Mobile_47efcade-c931-4f91-803d-0164fbc00907.webp",
+        "image": "shopify://shop_images/Powered_By_Nature_Desktop_387e6a9e-35ce-4d4e-899b-387cc8200b37.webp",
+        "image_mobile": "shopify://shop_images/Powered_By_Nature_Mobile_f06ff51b-9efa-4e95-a934-d0737ca47178.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "image_height_mobile": "medium",
