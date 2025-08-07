@@ -163,6 +163,39 @@
         "padding_bottom_mobile": 0
       }
     },
+    "rich_text_7jAHMk": {
+      "type": "rich-text",
+      "blocks": {
+        "button_KRNPb9": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP ALL KIDS",
+            "button_link": "shopify://collections/shop-all-kids",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_KRNPb9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#000000",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52,
+        "padding_top_mobile": 6,
+        "padding_bottom_mobile": 36
+      }
+    },
     "video_slideshow_Ec9amq": {
       "type": "video-slideshow",
       "blocks": {
@@ -220,39 +253,6 @@
         "fadein_enabled": false,
         "show_text_below": true,
         "accessibility_info": ""
-      }
-    },
-    "rich_text_7jAHMk": {
-      "type": "rich-text",
-      "blocks": {
-        "button_KRNPb9": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP ALL KIDS",
-            "button_link": "shopify://collections/shop-all-kids",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "button_KRNPb9"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "fadein_enabled": true,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#000000",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 52,
-        "padding_top_mobile": 6,
-        "padding_bottom_mobile": 36
       }
     },
     "product-grid": {
@@ -706,8 +706,8 @@
     "image_with_text_XDigpT",
     "banner",
     "featured_collection_HD8r3D",
-    "video_slideshow_Ec9amq",
     "rich_text_7jAHMk",
+    "video_slideshow_Ec9amq",
     "product-grid",
     "image_with_text_FnxcDy",
     "image_with_text_yBtTxx",
