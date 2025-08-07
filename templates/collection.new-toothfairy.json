@@ -127,7 +127,7 @@
           "settings": {
             "image": "shopify://shop_images/Promo_Banner_Desktop.webp",
             "image_mobile": "shopify://shop_images/Promo_Banner_Mobile.webp",
-            "heading": "Get Ready for a Bright New School Year",
+            "heading": "Get Ready for a <em>Bright New School Year</em>",
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
@@ -303,7 +303,7 @@
         "heading_8fUMPY": {
           "type": "heading",
           "settings": {
-            "heading": "Smiles You Can Feel Good about",
+            "heading": "Smiles You Can <em>Feel Good </em>About",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -359,7 +359,7 @@
         "heading_txnNBx": {
           "type": "heading",
           "settings": {
-            "heading": "Fun Learning for Your Little Ones",
+            "heading": "Fun Learning for <em>Your Little Ones",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -492,7 +492,7 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Ingredients",
+        "heading": "<em>Ingredients",
         "heading_size": "h1",
         "heading_tag": "default",
         "heading_alignment": "center",
