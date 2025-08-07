@@ -400,8 +400,8 @@
         "5cf37aee-fda8-45af-be01-89c02f1550fe": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/HP_Featured_Banner_Desktop_2.webp",
-            "image_mobile": "shopify://shop_images/HP_Featured_Banner_Mobile_2.webp",
+            "image": "shopify://shop_images/HP_Featured_Banner_Desktop_2_1.webp",
+            "image_mobile": "shopify://shop_images/HP_Featured_Banner_Mobile_2_1.webp",
             "heading": "Give Back with Every Brush",
             "image_link": "https://www.boka.com/collections/kids",
             "heading_size": "h1",
