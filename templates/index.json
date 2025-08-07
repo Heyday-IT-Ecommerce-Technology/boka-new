@@ -101,8 +101,8 @@
         "image_RJU7Ux": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BDF_HP_Banner_Desktop_1_result_82e37ad6-b2ce-4f88-a4b0-e10e9c5e93f7.webp",
-            "image_mobile": "shopify://shop_images/BDF_HP_Banner_Mobile_1_result.webp",
+            "image": "shopify://shop_images/BDF_HP_Banner_Desktop_1.webp",
+            "image_mobile": "shopify://shop_images/BDF_HP_Banner_Mobile_1.webp",
             "heading": "Introducing the <br> <em>Newest Flavor </em> in our Boka Kids Family",
             "image_link": "shopify://products/blueberry-dragonfruit-n-ha-toothpaste",
             "heading_size": "h1",
