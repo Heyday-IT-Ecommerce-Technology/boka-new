@@ -119,65 +119,6 @@
         "padding_bottom_mobile": 10
       }
     },
-    "video_slideshow_Ec9amq": {
-      "type": "video-slideshow",
-      "blocks": {
-        "image_M6LiLQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Promo_Banner_Desktop.webp",
-            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile.webp",
-            "heading": "Get Ready for a <em>Bright New School Year</em>",
-            "image_link": "",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "Grab our Back to School Kit, featuring all of Boka Kids' toothpastes, including our newest flavor, Blueberry Dragon Fruit. Save more and get your little one’s teeth ready for school!",
-            "button_label": "BUY MORE & SAVE MORE",
-            "link": "shopify://products/back-to-school-kit",
-            "button_style_secondary": false,
-            "button_label2": "",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "custom_background_color": "#333333",
-            "custom_text_color": "#ffffff",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#ffffff",
-            "button_background_color_mobile": "#000000",
-            "button_foreground_color_mobile": "#ffffff",
-            "bottom_text_background_color": "#dce6cf",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "image_M6LiLQ"
-      ],
-      "custom_css": [
-        ".media > img.small-hide {object-position: right center;}",
-        "@media (max-width: 749px) {.slideshow__media.banner__media.media.has-mobile-image {position: relative; width: 100%; padding-bottom: 100%; height: 0; } .slideshow__media.banner__media.media.has-mobile-image img {position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }}"
-      ],
-      "name": "Slideshow with Video",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "enable_video_buttons": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "fadein_enabled": false,
-        "show_text_below": true,
-        "accessibility_info": ""
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "disabled": true,
@@ -704,7 +645,6 @@
   "order": [
     "e9540f45-142d-4b00-acd5-49caf5c23d70",
     "image_with_text_XDigpT",
-    "video_slideshow_Ec9amq",
     "banner",
     "featured_collection_HD8r3D",
     "rich_text_7jAHMk",
