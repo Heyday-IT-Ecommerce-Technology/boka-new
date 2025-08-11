@@ -439,6 +439,7 @@
     },
     "image_banner_DBHfJY": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Why_Choose_Ela_Mint_Desktop_result.webp",
@@ -628,6 +629,7 @@
     },
     "image_banner_crWjJc": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Ela_Mint_Powered_By_Nature_Desktop_result.webp",
