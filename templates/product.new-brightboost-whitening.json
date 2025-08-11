@@ -335,6 +335,7 @@
       "block_order": [
         "buttons_9Q8Qt8"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Why_Choose_Brightboost_Desktop.webp",
