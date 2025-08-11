@@ -78,7 +78,8 @@ if (!customElements.get('recipient-form')) {
           const fieldSelector = `#Recipient-${ key }-${ this.dataset.sectionId }`;
           const placeholderElement = this.querySelector(`${fieldSelector}`);
           const label = placeholderElement?.getAttribute('placeholder') || key;
-          const message = `${label} ${value}`;
+          const isEmail = key === 'email';
+          const message = `${label} ${value}${isEmail ? ' e.g. abc@gmail.com' : ''}`;
           const errorMessageElement = this.querySelector(`#${errorMessageId}`);
           const errorTextElement = errorMessageElement?.querySelector('.error-message')
           if (!errorTextElement) return;

@@ -103,11 +103,12 @@
           class="form__message{% unless form.errors contains 'email' %} hidden{% endunless %}"
         >
           {% render 'icon-error' %}
-          <span class="error-message">
+          <span class="error-message a11y_errormessage">
             {%- if form.errors contains 'email' -%}
-              {{ form.errors.translated_fields.email | capitalize }}
-              {{ form.errors.messages.email }}.
+              {{ form.errors.translated_fields.email | capitalize }} 
+              {{ form.errors.messages.email }}
             {%- endif -%}
+            
           </span>
         </div>
       </div>

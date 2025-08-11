@@ -100,7 +100,7 @@
   (In the dropdown view we will skip rendering a select for color.)
 {%- endcomment -%}
 {%- if option.name contains 'Color' and block.settings.picker_type == 'dropdown' -%}
-  <select name="{{ option.name }}" form="{{ product_form_id }}" class="visually-hidden">
+  <select aria-label="{{ option.name }}" name="{{ option.name }}" form="{{ product_form_id }}" class="visually-hidden">
     {%- for value in option.values -%}
       <option value="{{ value | escape }}" {% if option.selected_value == value %}selected{% endif %}>{{ value }}</option>
     {%- endfor -%}

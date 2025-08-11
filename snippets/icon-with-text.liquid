@@ -41,10 +41,9 @@
   data-block-id="{{ block.id }}"
   class="icon-with-text icon-with-text--{{ block.settings.layout }} icon-with-text--{{ block.settings.orientation }} list-unstyled{% if text_only_all_items %} icon-with-text--text-only{% endif %}"
   {{ block.shopify_attributes }}
-  role="none"
 >
   {%- unless heading_1_empty -%}
-    <li class="icon-with-text__item" role="none">
+    <li class="icon-with-text__item">
       {%- if block.settings.image_1 == null -%}
         {%- render 'icon-accordion', icon: block.settings.icon_1 -%}
       {%- else -%}
@@ -66,7 +65,7 @@
     </li>
   {%- endunless -%}
   {%- unless heading_2_empty -%}
-    <li class="icon-with-text__item" role="none">
+    <li class="icon-with-text__item">
       {%- if block.settings.image_2 == null -%}
         {% render 'icon-accordion', icon: block.settings.icon_2 -%}
       {%- else -%}

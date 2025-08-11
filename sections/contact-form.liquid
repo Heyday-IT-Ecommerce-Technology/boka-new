@@ -128,10 +128,10 @@
         <label class="field__label" for="ContactFormSubject">{{ 'templates.contact.form.subject' | t }} <span aria-hidden="true">*</span></label>
       </div>
       <div>
-        <div class="existing_order">
+        <div class="existing_order" role="group" aria-label="Is your inquiry regarding an existing order? ">
           <label for="ContactExistingOrder">{{ 'templates.contact.form.existing_order' | t }}</label>
-          <input type="radio" class="ContactExistingOrder" name="contact[{{ 'templates.contact.form.existing_order' | t }}]" value="Yes"><b>Yes</b>
-          <input type="radio" class="ContactExistingOrder" name="contact[{{ 'templates.contact.form.existing_order' | t }}]" checked value="No"><b>No</b>
+          <input type="radio" class="ContactExistingOrder" name="contact[{{ 'templates.contact.form.existing_order' | t }}]" value="Yes" aria-label="yes"><b>Yes</b>
+          <input type="radio" class="ContactExistingOrder" name="contact[{{ 'templates.contact.form.existing_order' | t }}]" checked value="No" aria-label="no"><b>No</b>
         </div>
       </div>
       <div class="field orderId">

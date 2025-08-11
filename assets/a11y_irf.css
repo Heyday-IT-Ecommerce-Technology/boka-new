@@ -1,0 +1,6 @@
+.copyright__content a{
+  text-decoration: underline !important;
+}
+.rc-login--header-media svg path{
+  fill: black;
+}
