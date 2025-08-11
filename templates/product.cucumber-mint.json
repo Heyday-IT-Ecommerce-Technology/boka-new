@@ -528,6 +528,7 @@
       "block_order": [
         "buttons_9Q8Qt8"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Why_Choose_Cucumber_Mint_Desktop_1_d0b47f02-c3ef-4579-81a1-0462b3873a14.webp",
@@ -678,6 +679,7 @@
         "text_7JXrPk",
         "buttons_R6E9Ej"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Cucumber_Mint_Powered_By_Nature_Desktop_3678fcf9-3683-49a3-a043-4579bb22e91b.webp",
