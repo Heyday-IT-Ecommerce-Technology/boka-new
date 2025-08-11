@@ -610,6 +610,7 @@
       "block_order": [
         "buttons_9Q8Qt8"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/PDP_Why_Choose_Us_Pro_Stix_Desktop.webp",
