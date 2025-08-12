@@ -1121,6 +1121,7 @@
         "column_hAVWde",
         "column_VrrKaT"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
@@ -1141,7 +1142,7 @@
         "custom_text_color": "#FFFFFF",
         "columns_tablet": "1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36,
         "padding_top_mobile": 36,
