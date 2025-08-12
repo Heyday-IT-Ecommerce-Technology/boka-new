@@ -223,6 +223,7 @@
         "video_H7fRzT",
         "video_izwm4Q"
       ],
+      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "From Our <em>Boka Fam</em>",
@@ -314,7 +315,7 @@
         "heading_A4d9jC": {
           "type": "heading",
           "settings": {
-            "heading": "Why is <em>Vital Bite</em><br> key for oral health?",
+            "heading": "The New Way to Clean with <em>Probiotics</em>",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -322,14 +323,14 @@
         "text_a47EKY": {
           "type": "text",
           "settings": {
-            "text": "<p>Vital Bite Pre + Probiotic Tablets feature a unique blend of pre + probiotics and essential vitamins. Packed with BLIS K12, these tablets help maintain fresh breath. Each tablet also contains a blend of Vitamins D3, K2, and E.<br/></p><p>Packed with BLIS K12, they promote a balanced oral microbiome, supporting healthy teeth, gums, and fresh breath. </p><p>Vitamins D3, K2, and E enhance teeth health and protect your oral cavity, making Vital Bite essential for optimal oral health.</p>",
+            "text": "<p>Revolutionary, fluoride-free oral care integrating clinically studied Dental-Lac™ probiotics that support a healthy oral microbiome and science-backed, nature-inspired n-Ha.</p>",
             "text_style": "body"
           }
         },
         "button_NhqcNd": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP NOW",
+            "button_label": "START FLOURISHING",
             "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
             "second_button_label": "",
             "second_button_link": ""
@@ -345,7 +346,7 @@
         ".image-with-text__heading {text-align: left !important;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/PDP_Vital_Bite_Why_is_Vital_Bite_key_for_oral_health.webp",
+        "image": "shopify://shop_images/probiotics_placeholder_1.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -353,8 +354,8 @@
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "custom",
-        "section_background_color": "#f1ebdd",
-        "custom_background_color": "#f1ebdd",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
         "custom_text_color": "#433033",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
