@@ -535,7 +535,7 @@
         "text_a47EKY": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Oral Probiotics</strong> - Maintains a healthy oral microbiome</li><li><strong>Nano-Hydroxyapatite </strong>- Mimics tooth enamel</li><li><strong>Xylitol - </strong>Fights bacteria</li><li><strong>Botanical Extracts - </strong>Provides refreshing flavors</li></ul>",
+            "text": "<ul><li>Oral Probiotics - Maintains a healthy oral microbiome</li><li>Nano-Hydroxyapatite - Mimics tooth enamel</li><li>Xylitol - Fights bacteria</li><li>Botanical Extracts - Provides refreshing flavors</li></ul>",
             "text_style": "body"
           }
         },
