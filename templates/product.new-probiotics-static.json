@@ -1092,6 +1092,59 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 10
       }
+    },
+    "multicolumn_EEmWt6": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_hAVWde": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VrrKaT": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_hAVWde",
+        "column_VrrKaT"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "full_width_enabled": false,
+        "button_label": "Button label",
+        "button_link": "",
+        "fadein_enabled": true,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
@@ -1112,6 +1165,7 @@
     "rich_text_H9x3E9",
     "related-products",
     "1684207833f45c861d",
-    "174007755647b47e76"
+    "174007755647b47e76",
+    "multicolumn_EEmWt6"
   ]
 }
