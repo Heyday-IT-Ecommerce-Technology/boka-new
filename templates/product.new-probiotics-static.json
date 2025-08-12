@@ -417,7 +417,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "custom",
-            "custom_background_color": "#ffffff",
+            "custom_background_color": "#dd0000",
             "custom_text_color": "#FFFFFF",
             "mobile_custom_text_color": "#000000",
             "button_background_color": "#000000",
@@ -436,7 +436,7 @@
       ],
       "name": "Slideshow with Video",
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "slider_visual": "none",
         "enable_video_buttons": false,
