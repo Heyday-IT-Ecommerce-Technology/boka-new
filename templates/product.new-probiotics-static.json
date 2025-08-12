@@ -1102,7 +1102,7 @@
             "image": "shopify://shop_images/Why_Choose_Ela_Mint_Desktop_result.webp",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
+            "link_label": "SHOP NOW",
             "link": ""
           }
         },
@@ -1112,7 +1112,7 @@
             "image": "shopify://shop_images/HP_Featured_Banner_Desktop_2_1.webp",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
+            "link_label": "SHOP NOW",
             "link": ""
           }
         }
@@ -1123,7 +1123,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "heading_tag": "default",
         "image_width": "full",
