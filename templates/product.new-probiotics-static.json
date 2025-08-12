@@ -341,10 +341,10 @@
         "custom_text_color": "#433033",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 40,
+        "padding_top": 0,
         "padding_bottom": 0,
-        "padding_top_tablet": 40,
-        "padding_bottom_tablet": 40,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0
       }
