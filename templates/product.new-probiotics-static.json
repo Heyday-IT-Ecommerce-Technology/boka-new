@@ -1134,7 +1134,7 @@
         "full_width_enabled": false,
         "button_label": "Button label",
         "button_link": "",
-        "fadein_enabled": true,
+        "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
