@@ -291,10 +291,10 @@
         "padding_bottom_mobile": 0
       }
     },
-    "image_with_text_WcKrcP": {
+    "image_with_text_3rzCdK": {
       "type": "image-with-text",
       "blocks": {
-        "heading_A4d9jC": {
+        "heading_q4MG3p": {
           "type": "heading",
           "settings": {
             "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
@@ -302,14 +302,14 @@
             "heading_tag": "default"
           }
         },
-        "text_a47EKY": {
+        "text_ybeNix": {
           "type": "text",
           "settings": {
             "text": "<ul><li><strong>Citrus Mint</strong> - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</li></ul><p></p><ul><li><strong>Peppermint </strong>- Soothing blend of peppermint, spearmint, and ylang ylang.</li></ul>",
             "text_style": "body"
           }
         },
-        "button_NhqcNd": {
+        "button_gCRW8y": {
           "type": "button",
           "settings": {
             "button_label": "FEEL THE FRESHNESS",
@@ -320,12 +320,9 @@
         }
       },
       "block_order": [
-        "heading_A4d9jC",
-        "text_a47EKY",
-        "button_NhqcNd"
-      ],
-      "custom_css": [
-        ".image-with-text__heading {text-align: left !important;}"
+        "heading_q4MG3p",
+        "text_ybeNix",
+        "button_gCRW8y"
       ],
       "settings": {
         "image": "shopify://shop_images/probiotics_placeholder_3_1.webp",
@@ -522,6 +519,64 @@
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_text_WcKrcP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_A4d9jC": {
+          "type": "heading",
+          "settings": {
+            "heading": "What’s Inside <em>Probiotic Toothpaste</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_a47EKY": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Oral Probiotics</strong> - Maintains a healthy oral microbiome</li><li><strong>Nano-Hydroxyapatite </strong>- Mimics tooth enamel</li><li><strong>Xylitol - </strong>Fights bacteria</li><li><strong>Botanical Extracts - </strong>Provides refreshing flavors</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_NhqcNd": {
+          "type": "button",
+          "settings": {
+            "button_label": "FEEL THE FRESHNESS",
+            "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_A4d9jC",
+        "text_a47EKY",
+        "button_NhqcNd"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {text-align: left !important;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/probiotics_placeholder_3_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#433033",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
       }
     },
     "image_with_bulleted_text_raLKD6": {
@@ -1018,10 +1073,11 @@
     "main",
     "yt_shorts_UB9GXL",
     "image_with_text_MD37kF",
-    "image_with_text_WcKrcP",
+    "image_with_text_3rzCdK",
     "image_banner_DBHfJY",
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
+    "image_with_text_WcKrcP",
     "image_with_bulleted_text_raLKD6",
     "multicolumn_HYhLX7",
     "image_with_text_hMdDey",
