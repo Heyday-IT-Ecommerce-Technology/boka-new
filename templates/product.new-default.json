@@ -118,9 +118,9 @@
         "collapsible_tab_NnPN3E": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Ingredients",
+            "heading": "{{ product.metafields.custom.ingredients.value }}",
             "icon": "none",
-            "content": "<p>Water, Vegetable Glycerin, Hydrated Silica, Sorbitol Powder, Silica, Hydroxyapatite (Nano), Sodium Benzoate, Sodium Lauroyl Sarcosinate, Mentha Piperita Essential (Peppermint) Oil, Mentha Viridis (Spearmint) Oil, Illicium Verum (Star Anise) Oil, Gaultheria Procumberis (Wintergreen) Oil, Xylitol, Xanthan Gum, Stevia Rebaudiana Extract Powder, Methylsulfonylmethane, Aloe Barbadensis (aloe Vera) Leaf Juice, Sodium Bicarbonate, Camellia Sinensis (Green Tea) Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Menthol, Elettaria Cardamomum Miniscula Seed (Cardamom), Potassium Chloride.</p>",
+            "content": "<p>{{ product.metafields.custom.ingredients_description | metafield_tag }}</p>",
             "page": ""
           }
         },
