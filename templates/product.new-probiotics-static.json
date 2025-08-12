@@ -349,6 +349,53 @@
         "padding_bottom_mobile": 0
       }
     },
+    "image_banner_DBHfJY": {
+      "type": "image-banner",
+      "blocks": {
+        "buttons_9Q8Qt8": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "https://www.boka.com/products/vital-bite-probiotic-tablets",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "buttons_9Q8Qt8"
+      ],
+      "settings": {
+        "enable_fullwidth": false,
+        "image": "shopify://shop_images/probiotics_placeholder_5_1.webp",
+        "image_mobile": "shopify://shop_images/PDP_Why_Choose_Us_Vital_Bite_Mobile.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_height_mobile": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#ffffff",
+        "button_background_color": "#ffffff",
+        "button_foreground_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
+      }
+    },
     "image_with_text_twAtaT": {
       "type": "image-with-text",
       "blocks": {
@@ -606,53 +653,6 @@
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 60
-      }
-    },
-    "image_banner_DBHfJY": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_9Q8Qt8": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "SHOP NOW",
-            "button_link_1": "https://www.boka.com/products/vital-bite-probiotic-tablets",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "buttons_9Q8Qt8"
-      ],
-      "settings": {
-        "enable_fullwidth": false,
-        "image": "shopify://shop_images/probiotics_placeholder_5_1.webp",
-        "image_mobile": "shopify://shop_images/PDP_Why_Choose_Us_Vital_Bite_Mobile.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_height_mobile": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "custom",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#433033",
-        "button_background_color": "#000000",
-        "button_foreground_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "mobile_content_position": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "padding_top_tablet": 80,
-        "padding_bottom_tablet": 80,
-        "padding_top_mobile": 80,
-        "padding_bottom_mobile": 80
       }
     },
     "multicolumn_HYhLX7": {
