@@ -1473,6 +1473,7 @@
         "2910f9c0-1a1e-4335-8878-2d317823c04d",
         "476054c9-a293-435b-b4a4-9e8d9bbcc010"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "section_background_color": "#fae5db",
