@@ -663,11 +663,11 @@
       "name": "Parallax",
       "settings": {
         "enable_fullwidth": false,
-        "section_background_color": "#FAE5DB",
+        "section_background_color": "#f6f6f7",
         "section_text_color": "#212529",
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "heading": "Say hello to probiotics",
         "heading_size": "h1",
