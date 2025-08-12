@@ -411,6 +411,7 @@
     },
     "image_banner_8xz9cF": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
         ".media > img:not(.large-up-hide):not(.medium-hide) {object-position: left center;}"
       ],
@@ -514,6 +515,7 @@
     },
     "image_banner_3RwNNJ": {
       "type": "image-banner",
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "enable_fullwidth": false,
