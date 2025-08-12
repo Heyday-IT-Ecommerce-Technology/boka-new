@@ -365,6 +365,7 @@
       "block_order": [
         "buttons_9Q8Qt8"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/probiotics_placeholder_5_1.webp",
@@ -391,6 +392,60 @@
         "padding_bottom_tablet": 80,
         "padding_top_mobile": 80,
         "padding_bottom_mobile": 80
+      }
+    },
+    "video_slideshow_6biYLH": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_jBcL4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/probiotics_placeholder_5_1.webp",
+            "heading": "",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "LEARN MORE",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_jBcL4c"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "none",
+        "enable_video_buttons": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": false,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_CUjKAz": {
@@ -1045,6 +1100,7 @@
     "image_with_text_MD37kF",
     "image_with_text_3rzCdK",
     "image_banner_DBHfJY",
+    "video_slideshow_6biYLH",
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
     "image_with_text_WcKrcP",
