@@ -236,10 +236,10 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_WcKrcP": {
+    "image_with_text_MD37kF": {
       "type": "image-with-text",
       "blocks": {
-        "heading_A4d9jC": {
+        "heading_MY69pp": {
           "type": "heading",
           "settings": {
             "heading": "The New Way to Clean with <em>Probiotics</em>",
@@ -247,14 +247,14 @@
             "heading_tag": "default"
           }
         },
-        "text_a47EKY": {
+        "text_wRxqbk": {
           "type": "text",
           "settings": {
             "text": "<p>Revolutionary, fluoride-free oral care integrating clinically studied Dental-Lac™ probiotics that support a healthy oral microbiome and science-backed, nature-inspired n-Ha.</p>",
             "text_style": "body"
           }
         },
-        "button_NhqcNd": {
+        "button_hXfTfF": {
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
@@ -265,12 +265,9 @@
         }
       },
       "block_order": [
-        "heading_A4d9jC",
-        "text_a47EKY",
-        "button_NhqcNd"
-      ],
-      "custom_css": [
-        ".image-with-text__heading {text-align: left !important;}"
+        "heading_MY69pp",
+        "text_wRxqbk",
+        "button_hXfTfF"
       ],
       "settings": {
         "image": "shopify://shop_images/probiotics_placeholder_1.webp",
@@ -294,27 +291,41 @@
         "padding_bottom_mobile": 0
       }
     },
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
-      "type": "image-with-bulleted-text",
+    "image_with_text_WcKrcP": {
+      "type": "image-with-text",
       "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
+        "heading_A4d9jC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_a47EKY": {
           "type": "text",
           "settings": {
-            "text": "<p>Citrus Mint - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</p>",
+            "text": "<ul><li><strong>Citrus Mint</strong> - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</li></ul><p></p><ul><li><strong>Peppermint </strong>- Soothing blend of peppermint, spearmint, and ylang ylang.</li></ul>",
             "text_style": "body"
           }
         },
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
-          "type": "text",
+        "button_NhqcNd": {
+          "type": "button",
           "settings": {
-            "text": "<p>Peppermint - Soothing blend of peppermint, spearmint, and ylang ylang.</p>",
-            "text_style": "body"
+            "button_label": "START FLOURISHING",
+            "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
+            "second_button_label": "",
+            "second_button_link": ""
           }
         }
       },
       "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b"
+        "heading_A4d9jC",
+        "text_a47EKY",
+        "button_NhqcNd"
+      ],
+      "custom_css": [
+        ".image-with-text__heading {text-align: left !important;}"
       ],
       "settings": {
         "image": "shopify://shop_images/probiotics_placeholder_3_1.webp",
@@ -323,28 +334,15 @@
         "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "caption": "",
-        "text_style": "subtitle",
-        "text_size": "medium",
-        "button_label": "SHOP NOW",
-        "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
-        "second_button_label": "",
-        "second_button_link": "",
         "content_layout": "no-overlap",
         "color_scheme": "custom",
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#433033",
-        "bullets_color": "#433033",
-        "bullets_line_color": "#433033",
         "image_behavior": "none",
-        "mobile_heading_alignment": "center",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 60,
+        "padding_top": 40,
+        "padding_bottom": 0,
         "padding_top_tablet": 40,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 0,
@@ -1078,8 +1076,8 @@
   "order": [
     "main",
     "yt_shorts_UB9GXL",
+    "image_with_text_MD37kF",
     "image_with_text_WcKrcP",
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "image_with_text_twAtaT",
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
