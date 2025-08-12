@@ -579,79 +579,6 @@
         "padding_bottom_mobile": 0
       }
     },
-    "image_with_bulleted_text_raLKD6": {
-      "type": "image-with-bulleted-text",
-      "blocks": {
-        "text_P4GUf6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Packed with vitamins</p>",
-            "text_style": "body"
-          }
-        },
-        "text_3iC46M": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Nut, sodium, and drug free</p>",
-            "text_style": "body"
-          }
-        },
-        "text_LnyDbx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Refreshing peppermint taste</p>",
-            "text_style": "body"
-          }
-        },
-        "text_pwdBk3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>No artificial flavors added</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "text_P4GUf6",
-        "text_3iC46M",
-        "text_LnyDbx",
-        "text_pwdBk3"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/PDP_Vital_Bite_Ingredients_Flavor.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "heading": "Delightfully <em>Effective</em> Oral Care",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "caption": "Crafted with power-packed ingredients and a refreshing flavor, Vital Bite is pure goodness you’ll love!",
-        "text_style": "subtitle",
-        "text_size": "medium",
-        "button_label": "SHOP NOW",
-        "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
-        "second_button_label": "",
-        "second_button_link": "",
-        "content_layout": "no-overlap",
-        "color_scheme": "custom",
-        "section_background_color": "#ffffff",
-        "custom_background_color": "#e8d9b3",
-        "custom_text_color": "#433033",
-        "bullets_color": "#433033",
-        "bullets_line_color": "#433033",
-        "image_behavior": "none",
-        "mobile_heading_alignment": "center",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "padding_top_tablet": 40,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 60
-      }
-    },
     "multicolumn_HYhLX7": {
       "type": "multicolumn",
       "blocks": {
@@ -698,6 +625,7 @@
         "column_YWh8we",
         "column_FBErCh"
       ],
+      "disabled": true,
       "custom_css": [
         ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
         ".multicolumn-card {background-color: #f1ebdd !important;}",
@@ -1078,7 +1006,6 @@
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
     "image_with_text_WcKrcP",
-    "image_with_bulleted_text_raLKD6",
     "multicolumn_HYhLX7",
     "image_with_text_hMdDey",
     "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8",
