@@ -236,79 +236,6 @@
         "padding_bottom": 36
       }
     },
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
-      "type": "image-with-bulleted-text",
-      "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Healthier oral microbiome</p>",
-            "text_style": "body"
-          }
-        },
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stronger teeth and bones</p>",
-            "text_style": "body"
-          }
-        },
-        "93b178e4-2598-45c7-b4a1-fd50f417768b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fresher breath </p>",
-            "text_style": "body"
-          }
-        },
-        "6f829075-8538-46cf-852c-3bb0c8fb002d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Better overall health</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b",
-        "93b178e4-2598-45c7-b4a1-fd50f417768b",
-        "6f829075-8538-46cf-852c-3bb0c8fb002d"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/PDP_Vital_Bite_Key_Benefits.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "heading": "Bite into the <em>Benefits</em>",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "caption": "Our peppermint-flavored pre + probiotic tablets support a healthier you with every chew.",
-        "text_style": "subtitle",
-        "text_size": "medium",
-        "button_label": "SHOP NOW",
-        "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
-        "second_button_label": "",
-        "second_button_link": "",
-        "content_layout": "overlap",
-        "color_scheme": "custom",
-        "section_background_color": "#ffffff",
-        "custom_background_color": "#d9c899",
-        "custom_text_color": "#433033",
-        "bullets_color": "#433033",
-        "bullets_line_color": "#433033",
-        "image_behavior": "none",
-        "mobile_heading_alignment": "center",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 60,
-        "padding_top_tablet": 40,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 0
-      }
-    },
     "image_with_text_WcKrcP": {
       "type": "image-with-text",
       "blocks": {
@@ -361,6 +288,63 @@
         "mobile_content_alignment": "left",
         "padding_top": 40,
         "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Citrus Mint - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</p>",
+            "text_style": "body"
+          }
+        },
+        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Peppermint - Soothing blend of peppermint, spearmint, and ylang ylang.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
+        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/probiotics_placeholder_3_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "",
+        "text_style": "subtitle",
+        "text_size": "medium",
+        "button_label": "SHOP NOW",
+        "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#433033",
+        "bullets_color": "#433033",
+        "bullets_line_color": "#433033",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 60,
         "padding_top_tablet": 40,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 0,
@@ -1094,8 +1078,8 @@
   "order": [
     "main",
     "yt_shorts_UB9GXL",
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "image_with_text_WcKrcP",
+    "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "image_with_text_twAtaT",
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
