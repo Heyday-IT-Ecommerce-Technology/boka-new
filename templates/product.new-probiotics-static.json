@@ -396,64 +396,6 @@
         "padding_bottom_mobile": 80
       }
     },
-    "image_with_text_twAtaT": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_jD7Cyi": {
-          "type": "heading",
-          "settings": {
-            "heading": "<em>Clinically Proven</em> for Oral Health",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "text_qTDn8T": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Boka Well's Vital Bite Tablets feature BLIS K12, a probiotic backed by 20+ years of research. This science-supported formula helps reduce bad breath, prevents plaque buildup, and promotes a balanced oral microbiome—addressing the root causes of bad breath with every bite.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_3eTXDb": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
-            "second_button_label": "",
-            "second_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_jD7Cyi",
-        "text_qTDn8T",
-        "button_3eTXDb"
-      ],
-      "custom_css": [
-        ".image-with-text__heading {text-align: left !important;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/PDP_Vital_Bite_Backed_by_Science.webp",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "custom",
-        "section_background_color": "#f1ebdd",
-        "custom_background_color": "#f1ebdd",
-        "custom_text_color": "#433033",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 100,
-        "padding_bottom": 40,
-        "padding_top_tablet": 40,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 50,
-        "padding_bottom_mobile": 50
-      }
-    },
     "multicolumn_CUjKAz": {
       "type": "multicolumn",
       "blocks": {
@@ -1078,7 +1020,6 @@
     "image_with_text_MD37kF",
     "image_with_text_WcKrcP",
     "image_banner_DBHfJY",
-    "image_with_text_twAtaT",
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
     "image_with_bulleted_text_raLKD6",
