@@ -1099,6 +1099,7 @@
         "column_hAVWde": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Why_Choose_Ela_Mint_Desktop_result.webp",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -1108,6 +1109,7 @@
         "column_VrrKaT": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/HP_Featured_Banner_Desktop_2_1.webp",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
