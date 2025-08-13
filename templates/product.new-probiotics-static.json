@@ -611,9 +611,7 @@
         "text_a47EKY",
         "button_NhqcNd"
       ],
-      "custom_css": [
-        ".image-with-text__heading {text-align: left !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/probiotics_placeholder_ingredients_1.png",
         "height": "adapt",
