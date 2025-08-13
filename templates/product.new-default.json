@@ -388,8 +388,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Nano-hydroxyapatite.webp",
-            "title": "<strong>Nano-hydroxyapatite</strong>",
-            "text": "<p>mimics tooth enamel</p>",
+            "title": "{{ product.metafields.custom.ingredients1_a_blend_of_science_flavor.value }}",
+            "text": "<p>{{ product.metafields.custom.description_ingredients1_a_blend_of_science_flavor.value }}</p>",
             "link_label": "",
             "link": ""
           }
