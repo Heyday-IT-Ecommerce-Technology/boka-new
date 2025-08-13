@@ -1,1 +1,175 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement_bar_slider_KXHDi9":{"type":"announcement-bar-slider","blocks":{"announcement_zEHeqc":{"type":"announcement","settings":{"text":"Free Shipping* on your first order with code: NEWTOBOKA","link":"shopify:\/\/collections\/shop-all"}}},"block_order":["announcement_zEHeqc"],"custom_css":["p {font-size: 18px;}"],"settings":{"background_color":"#fae5db","text_color":"#000000","show_line_separator":true,"show_social":false,"auto_rotate":true,"change_slides_speed":5}},"announcement-bar":{"type":"announcement-bar","blocks":{"f15db740-8bde-4233-a9d9-b2db37168e47":{"type":"announcement","settings":{"text":"Free Shipping* on your first order with code: NEWTOBOKA","text_alignment":"center","color_scheme":"custom","link":"shopify:\/\/collections\/shop-all","custom_background_color":"#fae5db","custom_text_color":"#000000"}},"announcement_PddxQV":{"type":"announcement","settings":{"text":"New Privacy Policy Available","text_alignment":"center","color_scheme":"custom","link":"https:\/\/privacy.boka.com\/privacy-policy","custom_background_color":"#fae5db","custom_text_color":"#000000"}}},"block_order":["f15db740-8bde-4233-a9d9-b2db37168e47","announcement_PddxQV"],"disabled":true,"settings":{"hide_homepage":false}},"header":{"type":"header","blocks":{"e75362fa-bf4c-4f70-afef-189f9289bdfd":{"type":"megamenu_image","settings":{"megamenu_link_name":"SHOP","megamenu_image":"shopify:\/\/shop_images\/Boka_Nav_Shop_All_325x325_d91d8a9c-7cb8-4ac7-a1cb-b2ae7ecbf1ee.jpg","megamenu_caption":"","megamenu_url":"shopify:\/\/collections\/shop-all","megamenu_link_text":"Shop All"}},"ea0f43b8-50d2-43d4-b0dd-0cc7bbc103f0":{"type":"megamenu_image","settings":{"megamenu_link_name":"SHOP","megamenu_image":"shopify:\/\/shop_images\/Boka_Nav_Toothpaste_325x325_b076aa67-4076-40ac-9d30-86b0bfbf1fca.jpg","megamenu_caption":"","megamenu_url":"shopify:\/\/collections\/nano-hydroxyapatite_n-ha_toothpaste","megamenu_link_text":"Shop Toothpaste"}},"01078ff2-7b4b-4ff0-9c26-11bef9436cd8":{"type":"megamenu_image","settings":{"megamenu_link_name":"SHOP","megamenu_image":"shopify:\/\/shop_images\/Boka_Nav_Kits_Bundles_325x325_1c4e2ae8-493e-48bd-bf0a-94492a404bfa.jpg","megamenu_caption":"","megamenu_url":"shopify:\/\/collections\/oral-care-kits","megamenu_link_text":"Shop Kits & Bundles"}},"264bd8de-503b-465d-b24a-0b9e9324bb44":{"type":"megamenu_image","settings":{"megamenu_link_name":"SHOP","megamenu_image":"shopify:\/\/shop_images\/Homepage_Liquid-Mouthwash_Mobile_Option-1.jpg","megamenu_caption":"","megamenu_url":"shopify:\/\/collections\/mouthwash","megamenu_link_text":"Shop Mouthwash"}},"6d29bf7e-5775-48ce-a4d5-9b16c7082645":{"type":"megamenu_image","settings":{"megamenu_link_name":"ABOUT","megamenu_image":"shopify:\/\/shop_images\/Untitled-1-01_66ea1acc-46cd-497e-8f7a-ef363275d848.png","megamenu_caption":"","megamenu_url":"shopify:\/\/pages\/about-us","megamenu_link_text":"About Us"}},"04551dfe-a4fb-47ae-8732-90c6c8e0ce37":{"type":"megamenu_image","disabled":true,"settings":{"megamenu_link_name":"ABOUT","megamenu_image":"shopify:\/\/shop_images\/Untitled-1-03_b077d769-dc93-4ecd-b036-dc78adc3d91f.png","megamenu_caption":"","megamenu_url":"shopify:\/\/pages\/our-science","megamenu_link_text":"Our Science"}},"7a408156-e1b5-4d59-9bff-f48056addb3d":{"type":"megamenu_image","settings":{"megamenu_link_name":"ABOUT","megamenu_image":"shopify:\/\/shop_images\/Navi_Option_1.webp","megamenu_caption":"","megamenu_url":"shopify:\/\/pages\/press","megamenu_link_text":"Press & Awards"}},"628d2d99-c956-4ecd-99db-736062a55279":{"type":"megamenu_image","settings":{"megamenu_link_name":"ABOUT","megamenu_image":"shopify:\/\/shop_images\/Untitled-1-02_25d5d090-ac4b-4616-a9cd-14ff25171f3a.png","megamenu_caption":"","megamenu_url":"shopify:\/\/pages\/dental-pros","megamenu_link_text":"Dental Pros"}}},"block_order":["e75362fa-bf4c-4f70-afef-189f9289bdfd","ea0f43b8-50d2-43d4-b0dd-0cc7bbc103f0","01078ff2-7b4b-4ff0-9c26-11bef9436cd8","264bd8de-503b-465d-b24a-0b9e9324bb44","6d29bf7e-5775-48ce-a4d5-9b16c7082645","04551dfe-a4fb-47ae-8732-90c6c8e0ce37","7a408156-e1b5-4d59-9bff-f48056addb3d","628d2d99-c956-4ecd-99db-736062a55279"],"settings":{"logo_position":"middle-center","menu":"tc-primary-navigation","menu_type_desktop":"mega","hover_effect_enabled":true,"sticky_header_type":"always","show_line_separator":true,"homepage_transparent_header_enabled":false,"megamenu_footer_color":"#fafaf5","color_scheme":"background-1","custom_background_color":"#000000","custom_text_color":"#ffffff","type_nav_font":"assistant_n4","custom_nav_font_enabled":true,"custom_nav_font":"CeraProRegular","nav_font_size":18,"nav_item_font_size":24,"nav_font_size_mobile":14,"enable_country_selector":false,"enable_language_selector":false,"mobile_logo_position":"center","show_mobile_search":true,"margin_bottom":0,"padding_top":8,"padding_bottom":8}}},"order":["announcement_bar_slider_KXHDi9","announcement-bar","header"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement_bar_slider_KXHDi9": {
+      "type": "announcement-bar-slider",
+      "blocks": {
+        "announcement_zEHeqc": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Shipping* on your first order with code: NEWTOBOKA",
+            "link": "shopify://collections/shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_zEHeqc"
+      ],
+      "custom_css": [
+        "p {font-size: 18px;}"
+      ],
+      "settings": {
+        "background_color": "#fae5db",
+        "text_color": "#000000",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": true,
+        "change_slides_speed": 5
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "e75362fa-bf4c-4f70-afef-189f9289bdfd": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "SHOP",
+            "megamenu_image": "shopify://shop_images/Boka_Nav_Shop_All_325x325_d91d8a9c-7cb8-4ac7-a1cb-b2ae7ecbf1ee.jpg",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://collections/shop-all",
+            "megamenu_link_text": "Shop All"
+          }
+        },
+        "ea0f43b8-50d2-43d4-b0dd-0cc7bbc103f0": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "SHOP",
+            "megamenu_image": "shopify://shop_images/Boka_Nav_Toothpaste_325x325_b076aa67-4076-40ac-9d30-86b0bfbf1fca.jpg",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://collections/nano-hydroxyapatite_n-ha_toothpaste",
+            "megamenu_link_text": "Shop Toothpaste"
+          }
+        },
+        "01078ff2-7b4b-4ff0-9c26-11bef9436cd8": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "SHOP",
+            "megamenu_image": "shopify://shop_images/Boka_Nav_Kits_Bundles_325x325_1c4e2ae8-493e-48bd-bf0a-94492a404bfa.jpg",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://collections/oral-care-kits",
+            "megamenu_link_text": "Shop Kits & Bundles"
+          }
+        },
+        "264bd8de-503b-465d-b24a-0b9e9324bb44": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "SHOP",
+            "megamenu_image": "shopify://shop_images/Homepage_Liquid-Mouthwash_Mobile_Option-1.jpg",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://collections/mouthwash",
+            "megamenu_link_text": "Shop Mouthwash"
+          }
+        },
+        "6d29bf7e-5775-48ce-a4d5-9b16c7082645": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "ABOUT",
+            "megamenu_image": "shopify://shop_images/Untitled-1-01_66ea1acc-46cd-497e-8f7a-ef363275d848.png",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://pages/about-us",
+            "megamenu_link_text": "About Us"
+          }
+        },
+        "04551dfe-a4fb-47ae-8732-90c6c8e0ce37": {
+          "type": "megamenu_image",
+          "disabled": true,
+          "settings": {
+            "megamenu_link_name": "ABOUT",
+            "megamenu_image": "shopify://shop_images/Untitled-1-03_b077d769-dc93-4ecd-b036-dc78adc3d91f.png",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://pages/our-science",
+            "megamenu_link_text": "Our Science"
+          }
+        },
+        "7a408156-e1b5-4d59-9bff-f48056addb3d": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "ABOUT",
+            "megamenu_image": "shopify://shop_images/Navi_Option_1.webp",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://pages/press",
+            "megamenu_link_text": "Press & Awards"
+          }
+        },
+        "628d2d99-c956-4ecd-99db-736062a55279": {
+          "type": "megamenu_image",
+          "settings": {
+            "megamenu_link_name": "ABOUT",
+            "megamenu_image": "shopify://shop_images/Untitled-1-02_25d5d090-ac4b-4616-a9cd-14ff25171f3a.png",
+            "megamenu_caption": "",
+            "megamenu_url": "shopify://pages/dental-pros",
+            "megamenu_link_text": "Dental Pros"
+          }
+        }
+      },
+      "block_order": [
+        "e75362fa-bf4c-4f70-afef-189f9289bdfd",
+        "ea0f43b8-50d2-43d4-b0dd-0cc7bbc103f0",
+        "01078ff2-7b4b-4ff0-9c26-11bef9436cd8",
+        "264bd8de-503b-465d-b24a-0b9e9324bb44",
+        "6d29bf7e-5775-48ce-a4d5-9b16c7082645",
+        "04551dfe-a4fb-47ae-8732-90c6c8e0ce37",
+        "7a408156-e1b5-4d59-9bff-f48056addb3d",
+        "628d2d99-c956-4ecd-99db-736062a55279"
+      ],
+      "settings": {
+        "logo_position": "middle-center",
+        "menu": "tc-primary-navigation",
+        "menu_type_desktop": "mega",
+        "hover_effect_enabled": true,
+        "sticky_header_type": "always",
+        "show_line_separator": true,
+        "homepage_transparent_header_enabled": false,
+        "megamenu_footer_color": "#fafaf5",
+        "color_scheme": "background-1",
+        "custom_background_color": "#000000",
+        "custom_text_color": "#ffffff",
+        "type_nav_font": "assistant_n4",
+        "custom_nav_font_enabled": true,
+        "custom_nav_font": "CeraProRegular",
+        "nav_font_size": 18,
+        "nav_item_font_size": 24,
+        "nav_font_size_mobile": 14,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "mobile_logo_position": "center",
+        "show_mobile_search": true,
+        "margin_bottom": 0,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "announcement_bar_slider_KXHDi9",
+    "announcement-bar",
+    "header"
+  ]
+}
