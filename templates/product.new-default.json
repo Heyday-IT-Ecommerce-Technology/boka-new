@@ -242,7 +242,7 @@
         "6f829075-8538-46cf-852c-3bb0c8fb002d"
       ],
       "settings": {
-        "image": "shopify://shop_images/A_Content_Benefits_91d37d94-b713-4ee6-8b44-2522d8eab211.webp",
+        "image": "{{ product.metafields.custom.a_clean_you_can_feel_good_about_image.value }}",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
