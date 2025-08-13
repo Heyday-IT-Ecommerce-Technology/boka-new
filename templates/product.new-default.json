@@ -93,7 +93,7 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "{{ product.metafields.custom.icon_w_claims_image_1.value }}",
-            "heading_1": "<strong>Soothing Aloe Vera</strong>",
+            "heading_1": "<strong>Soothing Aloe Vera</strong>{{ product.metafields.custom.icon_w_claims_3.value }}",
             "icon_2": "none",
             "image_2": "shopify://shop_images/Bacteria-fighting_xylitol.webp",
             "heading_2": "<strong>Bacteria-fighting Xylitol</strong>",
