@@ -593,56 +593,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "rich_text_H9x3E9": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_zzBaMm": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "text_ajBbT6": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_dFJGnw": {
-          "type": "button",
-          "settings": {
-            "button_label": "SHOP NOW",
-            "button_link": "shopify://products/ela-mint-toothpaste",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_zzBaMm",
-        "text_ajBbT6",
-        "button_dFJGnw"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "fadein_enabled": true,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -702,7 +652,6 @@
     "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8",
     "multicolumn_HYhLX7",
     "672bfbbb-3f35-4988-bf92-66ed4484892b",
-    "rich_text_H9x3E9",
     "related-products",
     "1684207833f45c861d"
   ]
