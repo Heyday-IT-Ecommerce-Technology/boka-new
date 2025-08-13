@@ -496,63 +496,63 @@
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the flavor of Pro Stix?",
+            "heading": "{{ product.metafields.custom[\"4_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Pro Stix comes in a fun and refreshing lavender lemonade flavor, making them enjoyable to use.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"4_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "collapsible_row_9qinTJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are there any allergens in Pro Stix?",
+            "heading": "{{ product.metafields.custom[\"5_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Pro Stix is nut-free, sodium-free, drug-free, and free from artificial flavors.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"5_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "collapsible_row_rVMB4W": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can Pro Stix replace brushing or flossing?",
+            "heading": "{{ product.metafields.custom[\"6_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>No, Pro Stix supplements your oral care routine and should be used alongside brushing and flossing.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"6_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "collapsible_row_bXhKjK": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What makes Pro Stix convenient to use?",
+            "heading": "{{ product.metafields.custom[\"7_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Pro Stix comes in single-use sticks that can be poured directly into the mouth, making them easy to carry and consume without water.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"7_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "collapsible_row_Fe6kif": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does Pro Stix promote fresh breath?",
+            "heading": "{{ product.metafields.custom[\"8_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Pro Stix uses BLIS K12, a probiotic that targets harmful bacteria in the mouth, reducing the causes of bad breath.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"8_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "collapsible_row_QcLBtp": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are Pro Stix safe to use with other dietary supplements?",
+            "heading": "{{ product.metafields.custom[\"9_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Yes, Pro Stix can be used alongside other dietary supplements, but consult your doctor if you’re taking medication or have medical conditions.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"9_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "collapsible_row_dnEjhR": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can I take Pro Stix at any time of the day?",
+            "heading": "{{ product.metafields.custom[\"10_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Yes, Pro Stix can be taken anytime, but using it after brushing your teeth ensures better colonization of beneficial bacteria.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"10_faqs_desc\"].value }}</p>",
             "page": ""
           }
         }
