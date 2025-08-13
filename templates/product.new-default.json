@@ -276,20 +276,6 @@
         "padding_bottom_mobile": 0
       }
     },
-    "custom_liquid_hL9Mbr": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div class=\"custom-steps\">\n    <div class=\"steps-content\">\n        <h2 class=\"steps-headline\">How To Use: <em><br>Refresh Your Routine</br></em> </h2> <!-- Headline -->\n        <h3>Step 1 - Dip</h3>\n        <p>Apply a pea-sized amount to your toothbrush</p>\n\n        <h3>Step 2 - Brush </h3>\n        <p>Brush thoroughly for two minutes, twice daily</p>\n\n        <h3>Step 3 - Smile!</h3>\n        <p>Spit after brushing—skip the rinse to maximize contact time</p>\n    </div>\n    <div class=\"steps-image\">\n        <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/A_Content_How_To_Use_Ela_Mint_2.webp?v=1745317995\" alt=\"Step Image\">\n    </div>\n</div>\n\n<style>\n    .custom-steps {\n        display: flex;\n        align-items: center;\n        justify-content: space-between;\n        gap: 40px;\n        max-width: 1200px;\n        margin: 0 auto;\n        padding: 60px;\n    }\n\n    .steps-headline {\n        font-size: 45px;\n        font-weight: normal;\n        color: #333;\n        text-transform: capitalize;\n        margin-bottom: 20px;\n        text-align: left;\n        padding-bottom: 5px;\n    }\n\n    .steps-content {\n        width: 60%;\n    }\n\n    .steps-content h3 {\n        font-size: 22px;\n        color: #222;\n        margin-top: 15px;\n    }\n\n    .steps-content p {\n        font-size: 18px;\n        color: #555;\n        margin-bottom: 40px;\n    }\n\n    .steps-image {\n        width: 60%;\n    }\n\n    .steps-image img {\n        width: 100%;\n        height: auto;\n        display: block !important;\n    }\n\n    @media (max-width: 768px) {\n        .custom-steps {\n            flex-direction: column;\n            text-align: center;\n            padding: 30px;\n        }\n\n        .steps-content, .steps-image {\n            width: 100%;\n        }\n\n        .steps-headline {\n            font-size: 36px; \n            text-align: center;\n        }\n\n        .steps-content h3 {\n            font-size: 20px; \n        }\n\n        .steps-content p {\n            font-size: 16px; \n        }\n    }\n\n    @media (max-width: 480px) {\n        .steps-headline {\n            font-size: 26px; \n        }\n\n        .steps-content h3 {\n            font-size: 16px;\n            font-weight: bold;\n        }\n\n        .steps-content p {\n            font-size: 16px;\n        }\n    }\n</style>",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "multicolumn_6G7iCQ": {
       "type": "multicolumn",
       "blocks": {
@@ -395,114 +381,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "image_banner_DBHfJY": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "enable_fullwidth": false,
-        "image": "shopify://shop_images/Why_Choose_Ela_Mint_Desktop_result.webp",
-        "image_mobile": "shopify://shop_images/Why_Choose_Ela_Mint_Mobile_result.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_height_mobile": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "custom",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#433033",
-        "button_background_color": "#000000",
-        "button_foreground_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "mobile_content_position": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "padding_top_tablet": 80,
-        "padding_bottom_tablet": 80,
-        "padding_top_mobile": 80,
-        "padding_bottom_mobile": 80
-      }
-    },
-    "multicolumn_PmqAnj": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_zGbat7": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Tremendously Effective</strong>",
-            "text": "<p>\"In just 10 days, my teeth look noticeably brighter!\" </p><p><em>– Tamara D., US</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_6jpf4F": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Loving This Stuff!</strong>",
-            "text": "<p>\"I use it as a boost for my overall dental health—my gums and teeth feel amazing.\" </p><p><em>– Maria, US</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KLQE7q": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Works</strong>",
-            "text": "<p>\"Actually starting to see my beautiful little bones once again.\" </p><p><em>– Mark S., US</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_AJhqE4": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Dental Hygienist Approved</strong>",
-            "text": "<p>\"My dental hygienist noticed the difference—even when I didn’t!\" </p><p><em>– Kristina, US</em></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_zGbat7",
-        "column_6jpf4F",
-        "column_KLQE7q",
-        "column_AJhqE4"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".inline-richtext {margin: auto;}",
-        "@media (max-width: 768px) {.inline-richtext {text-align: center; }}"
-      ],
-      "settings": {
-        "title": "Trusted by dentists, loved by customers",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "full_width_enabled": false,
-        "button_label": "",
-        "button_link": "",
-        "fadein_enabled": false,
-        "column_heading_background_color": "",
-        "color_scheme": "custom",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#000000",
-        "columns_tablet": "1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "multicolumn_HYhLX7": {
       "type": "multicolumn",
       "blocks": {
@@ -583,37 +461,6 @@
         "padding_bottom": 100,
         "padding_top_mobile": 12,
         "padding_bottom_mobile": 49
-      }
-    },
-    "image_banner_crWjJc": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "enable_fullwidth": false,
-        "image": "shopify://shop_images/Ela_Mint_Powered_By_Nature_Desktop_result.webp",
-        "image_mobile": "shopify://shop_images/Ela_Mint_Powered_By_Nature_Mobile_result.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "image_height_mobile": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "button_background_color": "#000000",
-        "button_foreground_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "mobile_content_position": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_top_tablet": 80,
-        "padding_bottom_tablet": 80,
-        "padding_top_mobile": 80,
-        "padding_bottom_mobile": 80
       }
     },
     "672bfbbb-3f35-4988-bf92-66ed4484892b": {
@@ -722,7 +569,6 @@
         "collapsible_row_QcLBtp",
         "collapsible_row_dnEjhR"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {h1 {font-size: 30px; }}"
       ],
@@ -852,13 +698,9 @@
     "main",
     "yt_shorts_cRzjGH",
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
-    "custom_liquid_hL9Mbr",
     "multicolumn_6G7iCQ",
     "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8",
-    "image_banner_DBHfJY",
-    "multicolumn_PmqAnj",
     "multicolumn_HYhLX7",
-    "image_banner_crWjJc",
     "672bfbbb-3f35-4988-bf92-66ed4484892b",
     "rich_text_H9x3E9",
     "related-products",
