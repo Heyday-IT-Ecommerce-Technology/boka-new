@@ -401,6 +401,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/probiotics_placeholder_5_1_1.webp",
+            "image_mobile": "shopify://shop_images/Section_3.jpg",
             "heading": "",
             "image_link": "",
             "heading_size": "h1",
