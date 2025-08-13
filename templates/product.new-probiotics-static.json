@@ -270,7 +270,7 @@
         "button_hXfTfF"
       ],
       "settings": {
-        "image": "shopify://shop_images/probiotics_placeholder_1.webp",
+        "image": "shopify://shop_images/probiotics_placehoder_new_670_x_550_px.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -1139,7 +1139,7 @@
         "column_heading_background_color": "",
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "columns_tablet": "1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
