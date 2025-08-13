@@ -366,13 +366,13 @@
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
       ],
       "settings": {
-        "title": "<em>Complete</em> Your Routine",
+        "title": "{{ product.metafields.custom.title_complete_your_routine.value }}",
         "heading_size": "h1",
         "heading_tag": "h3",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "best-sellers",
+        "collection": "{{ product.metafields.custom.complete_your_routine_collection.value }}",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
