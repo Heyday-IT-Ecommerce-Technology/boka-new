@@ -58,6 +58,7 @@
         "8f4ac970-3a15-4b7d-823a-82ce6560b8df": {
           "type": "complementary",
           "name": "Pairs well with",
+          "disabled": true,
           "settings": {
             "block_heading": "{{ product.metafields.custom.title_pairs_well_with.value }}",
             "make_collapsible_row": true,
@@ -217,6 +218,7 @@
       "blocks": {
         "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
           "type": "text",
+          "name": "BP 1",
           "settings": {
             "text": "<p>{{ product.metafields.custom[\"1st_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
@@ -224,6 +226,7 @@
         },
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
           "type": "text",
+          "name": "BP 2",
           "settings": {
             "text": "<p>{{ product.metafields.custom[\"2nd_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
@@ -231,6 +234,7 @@
         },
         "93b178e4-2598-45c7-b4a1-fd50f417768b": {
           "type": "text",
+          "name": "BP 3",
           "settings": {
             "text": "<p>{{ product.metafields.custom[\"3th_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
@@ -238,6 +242,7 @@
         },
         "6f829075-8538-46cf-852c-3bb0c8fb002d": {
           "type": "text",
+          "name": "BP 4",
           "settings": {
             "text": "<p>{{ product.metafields.custom[\"4th_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
@@ -291,6 +296,7 @@
       "blocks": {
         "column_DXwrC6": {
           "type": "column",
+          "name": "Step 1",
           "settings": {
             "image": "{{ product.metafields.custom.image1_how_to_use_refresh_your_routine.value }}",
             "title": "{{ product.metafields.custom.title_image_1_how_to_use_refresh_your_routine.value }}",
@@ -301,6 +307,7 @@
         },
         "column_4nTd9b": {
           "type": "column",
+          "name": "Step 2",
           "settings": {
             "image": "{{ product.metafields.custom.image2_how_to_use_refresh_your_routine.value }}",
             "title": "{{ product.metafields.custom.title_image_2_how_to_use_refresh_your_routine.value }}",
@@ -311,6 +318,7 @@
         },
         "column_3U6yrb": {
           "type": "column",
+          "name": "Step 3",
           "settings": {
             "image": "{{ product.metafields.custom.image3_how_to_use_refresh_your_routine.value }}",
             "title": "{{ product.metafields.custom.title_image_3_how_to_use_refresh_your_routine.value }}",
@@ -329,6 +337,7 @@
         ".inline-richtext {margin: auto;}",
         "@media screen and (max-width: 749px) {.inline-richtext {margin-left: auto !important; margin-right: auto !important; text-align: center !important; }}"
       ],
+      "name": "How to Use: Refresh Your Routine",
       "settings": {
         "title": "{{ product.metafields.custom.heading_how_to_use_refresh_your_routine.value }}",
         "heading_size": "h1",
@@ -361,6 +370,7 @@
         ".title {text-align: center; font-size: 52px;}",
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
       ],
+      "name": "Complete your Routine",
       "settings": {
         "title": "{{ product.metafields.custom.title_complete_your_routine.value }}",
         "heading_size": "h1",
@@ -396,6 +406,7 @@
       "blocks": {
         "column_aLh4Wp": {
           "type": "column",
+          "name": "Ing 1",
           "settings": {
             "image": "shopify://shop_images/Nano-hydroxyapatite.webp",
             "title": "{{ product.metafields.custom.ingredients1_a_blend_of_science_flavor.value }}",
@@ -406,6 +417,7 @@
         },
         "column_Wch8RT": {
           "type": "column",
+          "name": "Ing 2",
           "settings": {
             "image": "{{ product.metafields.custom.a_blend_of_science_flavor_2_ingredient_image.value }}",
             "title": "{{ product.metafields.custom.a_blend_of_science_flavor_2_ingredient_title.value }}",
@@ -416,6 +428,7 @@
         },
         "column_68Mc7p": {
           "type": "column",
+          "name": "Ing 3",
           "settings": {
             "image": "{{ product.metafields.custom.a_blend_of_science_flavor_3_ingredient_image.value }}",
             "title": "{{ product.metafields.custom.a_blend_of_science_flavor_3_ingredient_title.value }}",
@@ -426,6 +439,7 @@
         },
         "column_GefQYG": {
           "type": "column",
+          "name": "Ing 4",
           "settings": {
             "image": "{{ product.metafields.custom.a_blend_of_science_flavor_4_ingredient_image.value }}",
             "title": "{{ product.metafields.custom.a_blend_of_science_flavor_4_ingredient_title.value }}",
@@ -447,6 +461,7 @@
         ".multicolumn-card__info {padding: 3rem;}",
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
       ],
+      "name": "A Blend of Sience & Flavor",
       "settings": {
         "title": "{{ product.metafields.custom.title_a_blend_of_science_flavor.value }}",
         "heading_size": "h0",
@@ -478,6 +493,7 @@
       "blocks": {
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-1": {
           "type": "collapsible_row",
+          "name": "Q1",
           "settings": {
             "heading": "{{ product.metafields.custom[\"1_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -487,6 +503,7 @@
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-2": {
           "type": "collapsible_row",
+          "name": "Q2",
           "settings": {
             "heading": "{{ product.metafields.custom[\"2_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -496,6 +513,7 @@
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-3": {
           "type": "collapsible_row",
+          "name": "Q3",
           "settings": {
             "heading": "{{ product.metafields.custom[\"3_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -505,6 +523,7 @@
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-4": {
           "type": "collapsible_row",
+          "name": "Q4",
           "settings": {
             "heading": "{{ product.metafields.custom[\"4_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -514,6 +533,7 @@
         },
         "collapsible_row_9qinTJ": {
           "type": "collapsible_row",
+          "name": "Q5",
           "settings": {
             "heading": "{{ product.metafields.custom[\"5_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -523,6 +543,7 @@
         },
         "collapsible_row_rVMB4W": {
           "type": "collapsible_row",
+          "name": "Q6",
           "settings": {
             "heading": "{{ product.metafields.custom[\"6_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -532,6 +553,7 @@
         },
         "collapsible_row_bXhKjK": {
           "type": "collapsible_row",
+          "name": "Q7",
           "settings": {
             "heading": "{{ product.metafields.custom[\"7_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -541,6 +563,7 @@
         },
         "collapsible_row_Fe6kif": {
           "type": "collapsible_row",
+          "name": "Q8",
           "settings": {
             "heading": "{{ product.metafields.custom[\"8_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -550,6 +573,7 @@
         },
         "collapsible_row_QcLBtp": {
           "type": "collapsible_row",
+          "name": "Q9",
           "settings": {
             "heading": "{{ product.metafields.custom[\"9_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -559,6 +583,7 @@
         },
         "collapsible_row_dnEjhR": {
           "type": "collapsible_row",
+          "name": "Q10",
           "settings": {
             "heading": "{{ product.metafields.custom[\"10_faqs_title\"].value }}",
             "icon": "question_mark",
@@ -582,6 +607,7 @@
       "custom_css": [
         "@media screen and (max-width: 749px) {h1 {font-size: 30px; }}"
       ],
+      "name": "Frequently Asked Questions",
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
