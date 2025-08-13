@@ -469,27 +469,27 @@
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is Pro Stix?",
+            "heading": "{{ product.metafields.custom[\"1_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Pro Stix are pre- and probiotic powder sticks designed to support oral health by promoting a balanced oral microbiome.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"1_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How often should I take Pro Stix?",
+            "heading": "{{ product.metafields.custom[\"2_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>Take one Pro Stix daily by tearing the stick open and pouring the powder into your mouth. No water is needed.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"2_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do I need to refrigerate Pro Stix?",
+            "heading": "{{ product.metafields.custom[\"3_faqs_title\"].value }}",
             "icon": "question_mark",
-            "row_content": "<p>No refrigeration needed! Pro Stix powder are shelf-stable for up to 18 months from the manufacturing date, making them easy to store and perfect for maintaining a consistent oral care routine. With 30 pixie stix per box, convenient, long-lasting oral health is always within reach.</p>",
+            "row_content": "<p>{{ product.metafields.custom[\"3_faqs_desc\"].value }}</p>",
             "page": ""
           }
         },
