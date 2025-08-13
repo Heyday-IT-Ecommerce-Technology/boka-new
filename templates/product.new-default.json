@@ -107,11 +107,11 @@
             "orientation": "inlined",
             "layout": "vertical",
             "icon_1": "none",
-            "image_1": "shopify://shop_images/Antioxidant-rich_green_tea.webp",
-            "heading_1": "<strong>Antioxidant-rich green tea</strong>",
+            "image_1": "{{ product.metafields.custom.icon_w_claims_image_3.value }}",
+            "heading_1": "{{ product.metafields.custom.icon_w_claims_title_3.value }}",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Refreshing_Mint_791d5894-636c-483f-bd33-cb1fbf9f213d.webp",
-            "heading_2": "<strong>Refreshing mint</strong>",
+            "image_2": "{{ product.metafields.custom.icon_w_claims_image_4.value }}",
+            "heading_2": "{{ product.metafields.custom.icon_w_claims_title_4.value }}",
             "padding_top": 14,
             "padding_bottom": 0
           }
