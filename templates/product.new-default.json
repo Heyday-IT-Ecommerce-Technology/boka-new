@@ -296,9 +296,9 @@
         "column_DXwrC6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/How_To_Use_Ella_Mint_1.webp",
-            "title": "<strong>Step 1: Prep</strong>",
-            "text": "<p>Apply a pea-sized amount to your toothbrush</p>",
+            "image": "{{ product.metafields.custom.image1_how_to_use_refresh_your_routine.value }}",
+            "title": "{{ product.metafields.custom.title_image_1_how_to_use_refresh_your_routine.value }}",
+            "text": "<p>{{ product.metafields.custom.description_image_1_how_to_use_refresh_your_routine | metafield_tag }}</p>",
             "link_label": "",
             "link": ""
           }
