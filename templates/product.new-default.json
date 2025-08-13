@@ -438,7 +438,7 @@
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
       ],
       "settings": {
-        "title": "A Blend of <em>Science</em> & Flavor",
+        "title": "{{ product.metafields.custom.title_a_blend_of_science_flavor.value }}",
         "heading_size": "h0",
         "heading_tag": "h2",
         "image_width": "half",
