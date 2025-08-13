@@ -398,8 +398,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Green_Tea_Extract.webp",
-            "title": "<strong>Green tea extract</strong>",
-            "text": "<p>acts as an antioxidant</p>",
+            "title": "{{ product.metafields.custom.title_ingredients2_a_blend_of_science_flavor.value }}",
+            "text": "<p>{{ product.metafields.custom.title2_description2_a_blend_of_science_flavor.value }}</p>",
             "link_label": "",
             "link": ""
           }
