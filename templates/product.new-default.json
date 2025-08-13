@@ -265,7 +265,7 @@
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
-        "button_link": "{{ product.metafields.custom.button_link_a_clean_you_feel_good_about.value }}",
+        "button_link": "shopify://products/ela-mint-toothpaste",
         "second_button_label": "",
         "second_button_link": "",
         "content_layout": "overlap",
