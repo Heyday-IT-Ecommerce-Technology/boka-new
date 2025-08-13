@@ -159,7 +159,7 @@
         "video_HQXqqX": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "{{ product.url }}",
+            "yt_shorts_link": "{{ product.metafields.custom.ugc_url.value }}",
             "description": "Describe the video"
           }
         },
