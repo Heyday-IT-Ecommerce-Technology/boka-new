@@ -209,28 +209,28 @@
         "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
           "type": "text",
           "settings": {
-            "text": "<p>Reduces sensitivity</p>",
+            "text": "<p>{{ product.metafields.custom[\"1st_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
           }
         },
         "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
           "type": "text",
           "settings": {
-            "text": "<p>Biocompatible</p>",
+            "text": "<p>{{ product.metafields.custom[\"2nd_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
           }
         },
         "93b178e4-2598-45c7-b4a1-fd50f417768b": {
           "type": "text",
           "settings": {
-            "text": "<p>Freshens breath</p>",
+            "text": "<p>{{ product.metafields.custom[\"3th_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
           }
         },
         "6f829075-8538-46cf-852c-3bb0c8fb002d": {
           "type": "text",
           "settings": {
-            "text": "<p>Provides a fluoride-free alternative</p>",
+            "text": "<p>{{ product.metafields.custom[\"4th_bp_a_clean_you_can_feel\"].value }}</p>",
             "text_style": "body"
           }
         }
@@ -251,7 +251,7 @@
         "heading": "A clean you can feel <em>good</em> about",
         "heading_size": "h1",
         "heading_tag": "default",
-        "caption": "",
+        "caption": "{{ product.metafields.custom.description_a_clean_you_can_feel | metafield_text }}",
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
