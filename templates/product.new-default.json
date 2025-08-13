@@ -57,8 +57,9 @@
         },
         "8f4ac970-3a15-4b7d-823a-82ce6560b8df": {
           "type": "complementary",
+          "name": "Pairs well with",
           "settings": {
-            "block_heading": "Pairs well with",
+            "block_heading": "{{ product.metafields.custom.title_pairs_well_with.value }}",
             "make_collapsible_row": true,
             "icon": "price_tag",
             "product_list_limit": 10,
@@ -70,6 +71,7 @@
         },
         "collapsible_tab_9Ri3zn": {
           "type": "collapsible_tab",
+          "name": "How to use",
           "settings": {
             "heading": "{{ product.metafields.custom.how_to_use.value }}",
             "icon": "none",
@@ -79,6 +81,7 @@
         },
         "collapsible_tab_NnPN3E": {
           "type": "collapsible_tab",
+          "name": "Ingredients",
           "settings": {
             "heading": "{{ product.metafields.custom.ingredients.value }}",
             "icon": "none",
@@ -88,6 +91,7 @@
         },
         "af067451-b82f-4114-8006-9a547e9c2157": {
           "type": "icon-with-text",
+          "name": "Claims 1 & 2",
           "settings": {
             "orientation": "inlined",
             "layout": "vertical",
@@ -103,6 +107,7 @@
         },
         "icon_with_text_V6zWW9": {
           "type": "icon-with-text",
+          "name": "Claims 3 & 4",
           "settings": {
             "orientation": "inlined",
             "layout": "vertical",
@@ -158,6 +163,7 @@
       "blocks": {
         "video_HQXqqX": {
           "type": "video",
+          "name": "Video 1",
           "settings": {
             "yt_shorts_link": "{{ product.metafields.custom.ugc_url.value }}",
             "description": "Describe the video"
@@ -165,6 +171,7 @@
         },
         "video_WwHceX": {
           "type": "video",
+          "name": "Video 2",
           "settings": {
             "yt_shorts_link": "{{ product.metafields.custom.ugc_url_2.value }}",
             "description": "Describe the video"
@@ -172,6 +179,7 @@
         },
         "video_a9HBAm": {
           "type": "video",
+          "name": "Video 3",
           "settings": {
             "yt_shorts_link": "{{ product.metafields.custom.ugc_url_3.value }}",
             "description": "Describe the video"
@@ -179,6 +187,7 @@
         },
         "video_xqrKr4": {
           "type": "video",
+          "name": "Video 4",
           "settings": {
             "yt_shorts_link": "{{ product.metafields.custom.ugc_url_4.value }}",
             "description": "Describe the video"
@@ -241,6 +250,7 @@
         "93b178e4-2598-45c7-b4a1-fd50f417768b",
         "6f829075-8538-46cf-852c-3bb0c8fb002d"
       ],
+      "name": "A clean you feel good about",
       "settings": {
         "image": "{{ product.metafields.custom.a_clean_you_can_feel_good_about_image.value }}",
         "height": "adapt",
@@ -255,7 +265,7 @@
         "text_style": "subtitle",
         "text_size": "medium",
         "button_label": "SHOP NOW",
-        "button_link": "shopify://products/ela-mint-toothpaste",
+        "button_link": "{{ product.metafields.custom.button_link_a_clean_you_feel_good_about.value }}",
         "second_button_label": "",
         "second_button_link": "",
         "content_layout": "overlap",
