@@ -397,9 +397,9 @@
         "column_Wch8RT": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Green_Tea_Extract.webp",
-            "title": "{{ product.metafields.custom.title_ingredients2_a_blend_of_science_flavor.value }}",
-            "text": "<p>{{ product.metafields.custom.title2_description2_a_blend_of_science_flavor.value }}</p>",
+            "image": "{{ product.metafields.custom.a_blend_of_science_flavor_2_ingredient_image.value }}",
+            "title": "{{ product.metafields.custom.a_blend_of_science_flavor_2_ingredient_title.value }}",
+            "text": "<p>{{ product.metafields.custom.a_blend_of_science_flavor_2_ingredient_desc.value }}</p>",
             "link_label": "",
             "link": ""
           }
@@ -407,9 +407,9 @@
         "column_68Mc7p": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Xylitol.webp",
-            "title": "<strong>Xylitol</strong>",
-            "text": "<p>fights bacteria</p>",
+            "image": "{{ product.metafields.custom.a_blend_of_science_flavor_3_ingredient_image.value }}",
+            "title": "{{ product.metafields.custom.a_blend_of_science_flavor_3_ingredient_title.value }}",
+            "text": "<p>{{ product.metafields.custom.a_blend_of_science_flavor_3_ingredient_desc.value }}</p>",
             "link_label": "",
             "link": ""
           }
@@ -417,9 +417,9 @@
         "column_GefQYG": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Mint.webp",
-            "title": "<strong>Mint </strong>",
-            "text": "<p>freshens breath</p>",
+            "image": "{{ product.metafields.custom.a_blend_of_science_flavor_4_ingredient_image.value }}",
+            "title": "{{ product.metafields.custom.a_blend_of_science_flavor_4_ingredient_title.value }}",
+            "text": "<p>{{ product.metafields.custom.a_blend_of_science_flavor_4_ingredient_desc.value }}</p>",
             "link_label": "",
             "link": ""
           }
