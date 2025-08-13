@@ -1,0 +1,62 @@
+{
+  "WHITE-GRAY": [],
+  "GRAY-WHITE": [],
+  "ENHANCED": [],
+  "ALL": [
+    {
+      "selector": ".slider-counter__link.slider-counter__link--dots.link:not(.slider-counter__link--active)"
+    },
+    {
+      "selector": "form#CartDrawer-Form section"
+    },
+    {
+      "selector": ".yotpo-sr-star-full svg path"
+    },
+    {
+      "selector": ".yotpo-sr-star-empty svg path"
+    },
+    {
+      "selector": ".yotpo-media-select svg path"
+    },
+    {
+      "selector": "svg.yotpo-sr-star-full path"
+    },
+    {
+      "selector": "svg.yotpo-sr-star-empty path"
+    },
+    {
+      "selector": ".swatch, .custom-select-wrapper"
+    },
+    {
+      "selector": ".custom_subs_selector select"
+    },
+    {
+      "selector": ".recipient-fields .recipient-fields__field"
+    },
+    {
+      "selector": "quantity-input.quantity"
+    },
+    {
+      "selector": ".yotpo-summary-close button.yotpo-icon-button"
+    },
+    {
+      "selector": ".yotpo-star-distribution .yotpo-distribution-row .yotpo-star-distribution-index"
+    },
+    {
+      "selector": ".yotpo-star-distribution .yotpo-distribution-row .yotpo-star-distribution-value"
+    },
+    {
+      "selector": "#yotpo-score-filter-listbox .yotpo-score-option"
+    },
+    {
+      "selector": ".banner__content .banner__text"
+    },
+    {
+      "selector": ".multicolumn-list li div.multicolumn-card__info"
+    }
+  ],
+  "DESIGN": {
+    "IconOnly": false,
+    "PlacementContainer": ""
+  }
+}

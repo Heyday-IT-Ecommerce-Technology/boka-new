@@ -122,7 +122,7 @@
           {% if template.suffix != 'subscription' %}
             {%- if enable_learn_more -%}
               <div class="learn-more small-hide medium-hide">
-                <a class="button button--full-width button--secondary" href="{% if settings.theme_include_collection_url %}{{ card_product.url | within: collection }}{% else %}{{ card_product.url }}{% endif %}">Learn More</a>
+                <a aria-label="Learn More about {{ card_product.title | escape }}" class="button button--full-width button--secondary" href="{% if settings.theme_include_collection_url %}{{ card_product.url | within: collection }}{% else %}{{ card_product.url }}{% endif %}">Learn More</a>
               </div>
             {%- endif -%}
           {% endif %}
@@ -275,7 +275,7 @@
       <div class="card__content">
         <div class="card__information">
           <!-- <div class="yotpo-widget-instance" data-yotpo-instance-id="1019166" data-yotpo-product-id="{{product.id}}" data-yotpo-cart-product-id="{{item.product.id}}" data-yotpo-section-id="{{template.name}}"></div> -->
-          <h3
+          <h2
             class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}"
             {% if card_product.featured_media or settings.card_style == 'card' %}
               id="title-{{ section_id }}-{{ card_product.id }}"
@@ -285,11 +285,11 @@
               href="{% if settings.theme_include_collection_url %}{{ card_product.url | within: collection }}{% else %}{{ card_product.url }}{% endif %}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
-              aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"
+              aria-labelledby="{{ aria_labelledby }}"
             >
               {{ card_product.title | escape }}
             </a>
-          </h3>
+          </h2>
           
 <div class="yotpo-widget-instance" data-yotpo-instance-id="1019166" data-yotpo-product-id="{{card_product.id}}" data-yotpo-cart-product-id="{{item.product.id}}" data-yotpo-section-id="collection"></div> 
           <div class="card-information">
@@ -344,7 +344,7 @@
         {% if template.suffix != 'subscription' %}
           {%- if enable_learn_more -%}
             <div class="learn-more small-hide medium-hide">
-              <a class="button button--full-width button--secondary" href="{% if settings.theme_include_collection_url %}{{ card_product.url | within: collection }}{% else %}{{ card_product.url }}{% endif %}">Learn More</a>
+              <a aria-label="Learn More about {{ card_product.title | escape }}" class="button button--full-width button--secondary" href="{% if settings.theme_include_collection_url %}{{ card_product.url | within: collection }}{% else %}{{ card_product.url }}{% endif %}">Learn More</a>
             </div>
           {%- endif -%}
         {% endif %}

@@ -61,8 +61,8 @@
     </div>
     <div class="price__sale">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
-        <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
-        <span>
+        <p class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</p>
+        <p>
           <s class="price-item price-item--regular">
             {% if settings.currency_code_enabled %}
               {{ compare_at_price | money_with_currency }}
@@ -70,21 +70,21 @@
               {{ compare_at_price | money }}
             {% endif %}
           </s>
-        </span>
+        </p>
       {%- endunless -%}
-      <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
+      <p class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</p>
       {% comment %} <span class="price-item price-item--sale price-item--last">
         {{ money_price }}
       </span> {% endcomment %}
 
       {% if show_discount_percentage and discount_percentage > 0 %}
-        <span class="price-item price-item--sale price-item--last price-item--discount">
+        <p class="price-item price-item--sale price-item--last price-item--discount">
           {{ money_price }} ({{ discount_percentage }}% off)
-        </span>
+        </p>
       {%  else %}
-        <span class="price-item price-item--sale price-item--last">
+        <p class="price-item price-item--sale price-item--last">
           {{ money_price }}
-        </span>
+        </p>
       {% endif %}
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">

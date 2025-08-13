@@ -55,7 +55,7 @@
   <div id="scrollParallaxSectionTrigger">
     {% for block in section.blocks %}
       {% if block.type == 'image' %}
-        <img src="{{ block.settings.image | image_url: width: block.settings.image.width }}" class="absolute-position moving-image--{{ block.id }}{% unless block.settings.desktop_enabled %} large-up-hide{% endunless %}{% unless block.settings.tablet_enabled %} medium-hide{% endunless %}{% unless block.settings.mobile_enabled %} small-hide{% endunless %}" loading="lazy">
+        <img src="{{ block.settings.image | image_url: width: block.settings.image.width }}" class="absolute-position moving-image--{{ block.id }}{% unless block.settings.desktop_enabled %} large-up-hide{% endunless %}{% unless block.settings.tablet_enabled %} medium-hide{% endunless %}{% unless block.settings.mobile_enabled %} small-hide{% endunless %}" loading="lazy"   alt="">
       {% endif %}
     {% endfor %} 
   </div>
