@@ -193,7 +193,7 @@
       ],
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
-        "yt_shorts_title": "From Our <em> Boka Fam</em>",
+        "yt_shorts_title": "{{ product.metafields.custom.ugc_title.value }}",
         "heading_size": "h1",
         "auto_center": false,
         "columns": 4,
