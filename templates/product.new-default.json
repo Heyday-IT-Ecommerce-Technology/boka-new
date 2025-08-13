@@ -306,9 +306,9 @@
         "column_4nTd9b": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/How_To_Use_Ella_Mint_2.webp",
-            "title": "<strong>Step 2: Brush</strong>",
-            "text": "<p>Brush thoroughly for two minutes, twice daily</p>",
+            "image": "{{ product.metafields.custom.image2_how_to_use_refresh_your_routine.value }}",
+            "title": "{{ product.metafields.custom.title_image_2_how_to_use_refresh_your_routine.value }}",
+            "text": "<p>{{ product.metafields.custom.description_image_2_how_to_use_refresh_your_routine | metafield_tag }}</p>",
             "link_label": "",
             "link": ""
           }
@@ -316,9 +316,9 @@
         "column_3U6yrb": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/How_To_Use_Ella_Mint_3.webp",
-            "title": "<strong>Step 3: Smile!</strong>",
-            "text": "<p>Spit after brushing—skip the rinse to maximize contact time</p>",
+            "image": "{{ product.metafields.custom.image3_how_to_use_refresh_your_routine.value }}",
+            "title": "{{ product.metafields.custom.title_image_3_how_to_use_refresh_your_routine.value }}",
+            "text": "<p>{{ product.metafields.custom.description_image_3_how_to_use_refresh_your_routine | metafield_tag }}</p>",
             "link_label": "",
             "link": ""
           }
