@@ -159,7 +159,7 @@
         "video_HQXqqX": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/VzNY4atTdxI",
+            "yt_shorts_link": "{{ product.url }}",
             "description": "Describe the video"
           }
         },
