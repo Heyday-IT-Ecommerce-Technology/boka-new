@@ -334,7 +334,7 @@
         "@media screen and (max-width: 749px) {.inline-richtext {margin-left: auto !important; margin-right: auto !important; text-align: center !important; }}"
       ],
       "settings": {
-        "title": "How To Use: <em>Refresh Your Routine</em>",
+        "title": "{{ product.metafields.custom.heading_how_to_use_refresh_your_routine.value }}",
         "heading_size": "h1",
         "heading_tag": "default",
         "image_width": "full",
