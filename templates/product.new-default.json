@@ -166,21 +166,21 @@
         "video_WwHceX": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/J0O8reNQxdY?feature=share",
+            "yt_shorts_link": "{{ product.metafields.custom.ugc_url_2.value }}",
             "description": "Describe the video"
           }
         },
         "video_a9HBAm": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/4SjoFwkhpug?feature=share",
+            "yt_shorts_link": "{{ product.metafields.custom.ugc_url_3.value }}",
             "description": "Describe the video"
           }
         },
         "video_xqrKr4": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/rLfhdhPIJXc?feature=share",
+            "yt_shorts_link": "{{ product.metafields.custom.ugc_url_4.value }}",
             "description": "Describe the video"
           }
         }
