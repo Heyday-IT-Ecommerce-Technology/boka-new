@@ -300,7 +300,7 @@
         "text_naTJCD": {
           "type": "text",
           "settings": {
-            "text": "<p>The members of the Oral Health Advisory Committee are deeply involved in Boka’s product development process with responsibilities including: </p>"
+            "text": ""
           }
         }
       },
@@ -427,7 +427,7 @@
         "custom_text_color": "#000000",
         "columns_tablet": "2",
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 45,
         "padding_bottom": 70,
         "padding_top_mobile": 0,
