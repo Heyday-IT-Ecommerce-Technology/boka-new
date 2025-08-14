@@ -310,8 +310,95 @@
         "padding_bottom_mobile": 0
       }
     },
+    "video_slideshow_UKJpAD": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_bbfggA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/probiotics_placeholder_5_1_1.webp",
+            "image_mobile": "shopify://shop_images/probiotics_placeholder_benefits_mobile.jpg",
+            "heading": "",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "SHOP",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "LEARN MORE",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        },
+        "video_rDtjHg": {
+          "type": "video",
+          "settings": {
+            "heading": "Video slide",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Tell your brand's story through images",
+            "enable_fullscreen_link": true,
+            "button_label": "SHOP",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "LEARN MORE",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_bbfggA",
+        "video_rDtjHg"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": true,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Do your dentist proud.",
         "heading_size": "h1",
@@ -364,145 +451,6 @@
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20
-      }
-    },
-    "f186c965-55ee-4518-a9f2-8892cabd0287": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--15158791569451__f186c965-55ee-4518-a9f2-8892cabd0287-16866945861a80f9b5-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Science",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "template--15158791569451__f186c965-55ee-4518-a9f2-8892cabd0287-16866945861a80f9b5-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Boka Toothpaste is unlike any other toothpaste, by design. It trades fluoride for nano-hydroxyapatite (n-Ha), an evolution in dentistry that’s been a gold standard in Japan for over 40-years. n-Ha makes up the primary foundation of teeth and bones, meaning it’s naturally restorative and helpful in reducing sensitivity. Plus, it’s 100% biocompatible and non-toxic. We complement this powerful ingredient with soothing aloe vera, bacteria-fighting xylitol, antioxidant-rich green tea and refreshing mint. It’s our way to address the “silent epidemic” in healthcare.</p>",
-            "text_style": "body"
-          }
-        },
-        "template--15158791569451__f186c965-55ee-4518-a9f2-8892cabd0287-16866945861a80f9b5-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "second_button_label": "",
-            "second_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15158791569451__f186c965-55ee-4518-a9f2-8892cabd0287-16866945861a80f9b5-0",
-        "template--15158791569451__f186c965-55ee-4518-a9f2-8892cabd0287-16866945861a80f9b5-1",
-        "template--15158791569451__f186c965-55ee-4518-a9f2-8892cabd0287-16866945861a80f9b5-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Boka_Toothpaste_Ela_Mint_4oz_Stylized-798x634.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "section_background_color": "rgba(0,0,0,0)",
-        "custom_background_color": "#dce6cf",
-        "custom_text_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 60,
-        "padding_bottom": 130,
-        "padding_top_tablet": 30,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 50
-      }
-    },
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
-      "type": "image-with-bulleted-text",
-      "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fluoride-free</p>",
-            "text_style": "body"
-          }
-        },
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SLS-free</p>",
-            "text_style": "body"
-          }
-        },
-        "93b178e4-2598-45c7-b4a1-fd50f417768b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Paraben-free</p>",
-            "text_style": "body"
-          }
-        },
-        "6f829075-8538-46cf-852c-3bb0c8fb002d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Whitening</p>",
-            "text_style": "body"
-          }
-        },
-        "50a68536-78b2-44e7-a756-ea491a159fdf": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Convenient Refills</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b",
-        "93b178e4-2598-45c7-b4a1-fd50f417768b",
-        "6f829075-8538-46cf-852c-3bb0c8fb002d",
-        "50a68536-78b2-44e7-a756-ea491a159fdf"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Boka_Lifestyle_Powerbrush_798x634_11ce6a89-ccb3-4796-aab1-e8e48e29b63d.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "heading": "Features",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "caption": "",
-        "text_style": "subtitle",
-        "text_size": "medium",
-        "button_label": "",
-        "button_link": "",
-        "second_button_label": "",
-        "second_button_link": "",
-        "content_layout": "no-overlap",
-        "color_scheme": "custom",
-        "section_background_color": "#9b7c64",
-        "custom_background_color": "#9b7c64",
-        "custom_text_color": "#ffffff",
-        "bullets_color": "#ffffff",
-        "bullets_line_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_heading_alignment": "center",
-        "mobile_content_alignment": "left",
-        "padding_top": 70,
-        "padding_bottom": 68,
-        "padding_top_tablet": 30,
-        "padding_bottom_tablet": 30,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
       }
     },
     "c39a17f1-5d3d-41d1-913e-602880bb4ae5": {
@@ -1662,10 +1610,9 @@
     "85272ee1-d7ec-498c-985b-6761fcc6f38f",
     "image_with_text_3KnEni",
     "image_with_text_NVcCcK",
+    "video_slideshow_UKJpAD",
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8",
     "related-products",
-    "f186c965-55ee-4518-a9f2-8892cabd0287",
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "c39a17f1-5d3d-41d1-913e-602880bb4ae5",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
     "e3674e4d-a192-4d10-b067-75210316dfdd",
