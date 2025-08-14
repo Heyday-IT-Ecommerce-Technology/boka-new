@@ -58,6 +58,7 @@
         },
         "image_wnnAHU": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
             "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
