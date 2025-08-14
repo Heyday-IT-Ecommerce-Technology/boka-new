@@ -231,6 +231,7 @@
         },
         "column_yQVgJm": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Dental_Care.svg",
             "title": "Partnership Program",
@@ -297,6 +298,61 @@
         "padding_bottom_mobile": 30
       }
     },
+    "multicolumn_EVBRxA": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zD3JHE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop_0a63c082-3271-471f-becf-46be15fc0521.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4jgDKB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Powered_By_Nature_Desktop_387e6a9e-35ce-4d4e-899b-387cc8200b37.webp",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zD3JHE",
+        "column_4jgDKB"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "full_width_enabled": false,
+        "button_label": "Button label",
+        "button_link": "",
+        "fadein_enabled": true,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "image_with_text_hcbjaT": {
       "type": "image-with-text",
       "blocks": {
@@ -331,6 +387,7 @@
         "text_AHe389",
         "button_MTfT7n"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
@@ -639,61 +696,6 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
-    },
-    "multicolumn_EVBRxA": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_zD3JHE": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/BDF_Why_Choose_Boka_Toothpaste_Desktop_0a63c082-3271-471f-becf-46be15fc0521.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_4jgDKB": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Powered_By_Nature_Desktop_387e6a9e-35ce-4d4e-899b-387cc8200b37.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_zD3JHE",
-        "column_4jgDKB"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "full_width_enabled": false,
-        "button_label": "Button label",
-        "button_link": "",
-        "fadein_enabled": true,
-        "column_heading_background_color": "",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
-        "columns_tablet": "1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
     }
   },
   "order": [
@@ -702,11 +704,11 @@
     "rich_text_QK3pMq",
     "multicolumn_yxQxJd",
     "multicolumn_TEUfDC",
+    "multicolumn_EVBRxA",
     "image_with_text_hcbjaT",
     "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
     "multicolumn_zVFeeg",
-    "collapsible_content_xNnXLV",
-    "multicolumn_EVBRxA"
+    "collapsible_content_xNnXLV"
   ]
 }
