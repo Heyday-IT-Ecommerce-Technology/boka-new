@@ -357,7 +357,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Technology.svg",
-            "title": "Discover our brand’s mission, values, and innovations in oral care.",
+            "title": "Boka",
             "text": "<p>Discover our brand’s mission, values, and innovations in oral care.</p>",
             "link_label": "",
             "link": ""
@@ -414,7 +414,7 @@
         "heading_tag": "default",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_alignment": "center",
         "background_style": "none",
         "full_width_enabled": false,
