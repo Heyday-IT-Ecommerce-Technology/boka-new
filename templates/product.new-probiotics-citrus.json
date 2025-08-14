@@ -424,7 +424,7 @@
         "full_width_enabled": true,
         "button_label": "BEGIN YOUR ROUTINE",
         "button_link": "shopify://collections",
-        "fadein_enabled": true,
+        "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "custom",
         "custom_background_color": "#ffffff",
