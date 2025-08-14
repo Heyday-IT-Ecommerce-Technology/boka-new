@@ -278,7 +278,7 @@
         "heading_tag": "default",
         "image_width": "third",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "full_width_enabled": false,
