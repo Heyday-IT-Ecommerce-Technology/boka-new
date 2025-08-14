@@ -503,7 +503,7 @@
         "583181c1-dc83-4306-97b3-755215199802": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lemon_Lavender_-_Shadow.png",
+            "image": "shopify://shop_images/2_8ba6ea3a-430b-447a-9d2e-234cd6f37691.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
             "mobile_enabled": false,
@@ -534,7 +534,7 @@
         "21846bc3-ec8a-4a02-891f-699b155ccd4a": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lemon_Lavender_-_Product.png",
+            "image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
             "mobile_enabled": false,
@@ -819,7 +819,7 @@
         "da1ab5c0-548d-4056-b650-dd489151b9da": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lemon_Lavender_-_Shadow.png",
+            "image": "shopify://shop_images/2_8ba6ea3a-430b-447a-9d2e-234cd6f37691.png",
             "desktop_enabled": false,
             "tablet_enabled": true,
             "mobile_enabled": false,
@@ -850,7 +850,7 @@
         "f19faf00-ae1f-47cc-8eab-078bd362fa07": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lemon_Lavender_-_Product.png",
+            "image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png",
             "desktop_enabled": false,
             "tablet_enabled": true,
             "mobile_enabled": false,
@@ -1135,7 +1135,7 @@
         "93b327f7-305d-4d75-a8ad-f5bdb1854a03": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lemon_Lavender_-_Shadow.png",
+            "image": "shopify://shop_images/2_8ba6ea3a-430b-447a-9d2e-234cd6f37691.png",
             "desktop_enabled": false,
             "tablet_enabled": false,
             "mobile_enabled": true,
@@ -1166,7 +1166,7 @@
         "8574f6a1-19c0-4ec3-bd53-b5761c338480": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Lemon_Lavender_-_Product.png",
+            "image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png",
             "desktop_enabled": false,
             "tablet_enabled": false,
             "mobile_enabled": true,
