@@ -58,7 +58,6 @@
         "8f4ac970-3a15-4b7d-823a-82ce6560b8df": {
           "type": "complementary",
           "name": "Pairs well with",
-          "disabled": true,
           "settings": {
             "block_heading": "{{ product.metafields.custom.title_pairs_well_with.value }}",
             "make_collapsible_row": true,
