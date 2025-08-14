@@ -441,7 +441,7 @@
         "d9890f99-d63c-455c-85bb-31303dcc413e": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BOK_Mouthwash_Shadow_500x500_New.png",
+            "image": "shopify://shop_images/2_afa19d93-4572-4ad0-91dd-a5f8c46fdf46.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
             "mobile_enabled": false,
@@ -472,7 +472,7 @@
         "4acd17d0-eb6b-40e5-a3a7-4c0f3cb23c23": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BOK_Mouthwash_Silo_500x500_3febccbf-b0a6-41f3-bd04-04cb268183b4.png",
+            "image": "shopify://shop_images/1_9d3aa42f-0768-4e60-889e-9e32e57c40cd.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
             "mobile_enabled": false,
@@ -1417,7 +1417,7 @@
       ],
       "settings": {
         "enable_fullwidth": false,
-        "section_background_color": "#fae5db",
+        "section_background_color": "#f6f6f7",
         "section_text_color": "#212529",
         "image_height": "large",
         "desktop_content_position": "middle-center",
