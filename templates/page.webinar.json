@@ -338,7 +338,7 @@
           "settings": {
             "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
             "title": "The Science",
-            "text": "<p>Understand the latest research on NHa and its role in oral health, plus insights addressing </p>",
+            "text": "<p>Understand the latest research on NHa and its role in oral health.</p>",
             "link_label": "",
             "link": ""
           }
@@ -348,7 +348,7 @@
           "settings": {
             "image": "shopify://shop_images/Safety_and_Compliance.svg",
             "title": "The Market",
-            "text": "<p>Explore emerging trends in dentistry, including the digital transformation of practices</p>",
+            "text": "<p>Explore emerging trends in dentistry, including the digital transformation</p>",
             "link_label": "",
             "link": ""
           }
