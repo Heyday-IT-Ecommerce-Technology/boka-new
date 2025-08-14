@@ -422,44 +422,6 @@
         "padding_bottom_mobile": 20
       }
     },
-    "c39a17f1-5d3d-41d1-913e-602880bb4ae5": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15158791569451__c39a17f1-5d3d-41d1-913e-602880bb4ae5-1687393783f502e058-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ingredients",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "b8169fb6-3e65-4065-89d4-5784d8b492e8": {
-          "type": "caption",
-          "settings": {
-            "caption": "Water, Vegetable Glycerin, Hydrated Silica, Sorbitol Powder, Silica, Hydroxyapatite (Nano), Sodium Benzoate, Sodium Lauroyl Sarcosinate, Mentha Piperita Essential (Peppermint) Oil, Mentha Viridis (Spearmint) Oil, Illicium Verum (Star Anise) Oil, Gaultheria Procumberis (Wintergreen) Oil, Xylitol, Xanthan Gum, Stevia Rebaudiana Extract Powder, Methylsulfonylmethane, Aloe Barbadensis (aloe Vera) Leaf Juice, Sodium Bicarbonate, Camellia Sinensis (Green Tea) Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Menthol, Elettaria Cardamomum Miniscula Seed (Cardamom), Potassium Chloride.",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--15158791569451__c39a17f1-5d3d-41d1-913e-602880bb4ae5-1687393783f502e058-0",
-        "b8169fb6-3e65-4065-89d4-5784d8b492e8"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "fadein_enabled": false,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "full_width": false,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "13bf477d-9ff5-4e98-aa65-67538cea8e94": {
       "type": "parallax",
       "blocks": {
@@ -1525,14 +1487,13 @@
         "template--15256682627115__e3674e4d-a192-4d10-b067-75210316dfdd-collapsible_row-4",
         "c88759c3-9aba-4c37-8312-59c85939808b"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
-        "heading": "Questions About Boka Ela Mint Toothpaste",
+        "heading": "Frequently Asked Questions",
         "heading_size": "h1",
         "heading_tag": "default",
         "heading_alignment": "center",
-        "description": "Here are a few frequently asked questions about Ela Mint Toothpaste. If you're considering trying it out, these answers will help you understand more about this toothpaste.",
+        "description": "",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
@@ -1582,7 +1543,6 @@
     "video_slideshow_UKJpAD",
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8",
     "related-products",
-    "c39a17f1-5d3d-41d1-913e-602880bb4ae5",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
     "e3674e4d-a192-4d10-b067-75210316dfdd",
     "174007600987c09cf0"
