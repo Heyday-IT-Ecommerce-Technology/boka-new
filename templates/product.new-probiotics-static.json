@@ -786,6 +786,7 @@
         },
         "image_eFtwMc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2_3a96f602-11c4-444e-9ea0-5926b89bdc97.png",
             "desktop_enabled": true,
@@ -814,13 +815,46 @@
             "to_ease": "Linear.easeNone",
             "to_filter": "blur2"
           }
+        },
+        "image_TV9mEr": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/1_64352050-8122-460a-894d-b3b4ab5850fc.png",
+            "desktop_enabled": true,
+            "tablet_enabled": false,
+            "mobile_enabled": false,
+            "left": "",
+            "right": "8",
+            "from_top": "",
+            "from_bottom": "-250",
+            "from_opacity": "1",
+            "from_scale": "1.4",
+            "from_rotation": "-100",
+            "from_x_axis": "",
+            "from_y_axis": "",
+            "from_z_axis": "",
+            "from_ease": "none",
+            "from_filter": "none",
+            "to_top": "",
+            "to_bottom": "1200",
+            "to_opacity": "1",
+            "to_scale": "1.4",
+            "to_rotation": "100",
+            "to_x_axis": "-100",
+            "to_y_axis": "-100",
+            "to_z_axis": "",
+            "to_ease": "Linear.easeNone",
+            "to_filter": "none"
+          }
         }
       },
       "block_order": [
         "internal_label_rhRktt",
         "image_y4qbrG",
         "image_qXBkWG",
-        "image_eFtwMc"
+        "image_eFtwMc",
+        "image_TV9mEr"
       ],
       "name": "Parallax",
       "settings": {
