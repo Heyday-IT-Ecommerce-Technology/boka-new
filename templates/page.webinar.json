@@ -670,7 +670,7 @@
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "title": "Multicolumn",
+        "title": "Attendees Rewards",
         "heading_size": "h1",
         "heading_tag": "default",
         "image_width": "full",
