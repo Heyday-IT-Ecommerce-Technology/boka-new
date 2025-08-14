@@ -474,7 +474,7 @@
         "image": "shopify://shop_images/probiotics_placeholder_ingredients_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
