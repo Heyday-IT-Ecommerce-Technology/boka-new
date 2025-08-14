@@ -74,10 +74,10 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "rich_text_TwzEeK": {
+    "rich_text_QK3pMq": {
       "type": "rich-text",
       "blocks": {
-        "heading_KkNApT": {
+        "heading_YnycMz": {
           "type": "heading",
           "settings": {
             "heading": "Why <em>join</em>",
@@ -85,7 +85,7 @@
             "heading_tag": "default"
           }
         },
-        "text_naTJCD": {
+        "text_LMQ7y6": {
           "type": "text",
           "settings": {
             "text": "<p>The members of the Oral Health Advisory Committee are deeply involved</p>"
@@ -93,15 +93,8 @@
         }
       },
       "block_order": [
-        "heading_KkNApT",
-        "text_naTJCD"
-      ],
-      "custom_css": [
-        ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
-        ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
-        ".rich-text__heading {font-size: 40px !important;}",
-        ".rich-text__text {font-size: 18px !important; margin-top: 20px !important; line-height: 1.5 !important;}",
-        "@media (max-width: 768px) {.rich-text__heading {font-size: 26px !important; line-height: 1.2; } .rich-text__text {font-size: 16px !important; line-height: 1.2; }}"
+        "heading_YnycMz",
+        "text_LMQ7y6"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
@@ -203,10 +196,10 @@
         "padding_bottom_mobile": 50
       }
     },
-    "multicolumn_zVFeeg": {
+    "multicolumn_TEUfDC": {
       "type": "multicolumn",
       "blocks": {
-        "column_wci3EK": {
+        "column_XxtKgW": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
@@ -216,7 +209,7 @@
             "link": ""
           }
         },
-        "column_wbW4mj": {
+        "column_zzYEbp": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Safety_and_Compliance.svg",
@@ -226,7 +219,7 @@
             "link": ""
           }
         },
-        "column_W4LX8U": {
+        "column_B9fyzP": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Technology.svg",
@@ -236,7 +229,7 @@
             "link": ""
           }
         },
-        "column_3ziGYL": {
+        "column_yQVgJm": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Dental_Care.svg",
@@ -246,7 +239,7 @@
             "link": ""
           }
         },
-        "column_xPBjRr": {
+        "column_388RTh": {
           "type": "column",
           "disabled": true,
           "settings": {
@@ -257,7 +250,7 @@
             "link": ""
           }
         },
-        "column_BrANj9": {
+        "column_4AzhL3": {
           "type": "column",
           "disabled": true,
           "settings": {
@@ -270,15 +263,12 @@
         }
       },
       "block_order": [
-        "column_wci3EK",
-        "column_wbW4mj",
-        "column_W4LX8U",
-        "column_3ziGYL",
-        "column_xPBjRr",
-        "column_BrANj9"
-      ],
-      "custom_css": [
-        ".inline-richtext {margin: auto;}"
+        "column_XxtKgW",
+        "column_zzYEbp",
+        "column_B9fyzP",
+        "column_yQVgJm",
+        "column_388RTh",
+        "column_4AzhL3"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -434,72 +424,164 @@
         "padding_bottom": 40
       }
     },
-    "image_with_text_raz4t8": {
-      "type": "image-with-text",
+    "rich_text_TwzEeK": {
+      "type": "rich-text",
       "blocks": {
-        "heading_FPDxaz": {
+        "heading_KkNApT": {
           "type": "heading",
           "settings": {
-            "heading": "What you'll<em> learn</em>",
+            "heading": "What you'll <em>learn</em>",
             "heading_size": "h1",
             "heading_tag": "default"
           }
         },
-        "text_tEKrLF": {
+        "text_naTJCD": {
           "type": "text",
           "settings": {
-            "text": "<p>🎁  A Boka kit will be sent to all attendees, the kit will contain an assortment of our toothpastes. </p><p>💰 Additionally, at the end of the forum an attendee will be randomly selected and awarded a cash prize of $5k USD. </p>",
-            "text_style": "body"
-          }
-        },
-        "button_wnRapa": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "second_button_label": "",
-            "second_button_link": ""
+            "text": "<p>The members of the Oral Health Advisory Committee are deeply involved</p>"
           }
         }
       },
       "block_order": [
-        "heading_FPDxaz",
-        "text_tEKrLF",
-        "button_wnRapa"
+        "heading_KkNApT",
+        "text_naTJCD"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "custom_css": [
+        ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
+        ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
+        ".rich-text__heading {font-size: 40px !important;}",
+        ".rich-text__text {font-size: 18px !important; margin-top: 20px !important; line-height: 1.5 !important;}",
+        "@media (max-width: 768px) {.rich-text__heading {font-size: 26px !important; line-height: 1.2; } .rich-text__text {font-size: 16px !important; line-height: 1.2; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#fae5db",
+        "custom_text_color": "#ffffff",
+        "full_width": false,
+        "padding_top": 55,
+        "padding_bottom": 0,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "multicolumn_zVFeeg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wci3EK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
+            "title": "The Science",
+            "text": "<p>Understand the latest research on NHa and its role in oral health, plus insights</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wbW4mj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Safety_and_Compliance.svg",
+            "title": "The Market",
+            "text": "<p>Explore emerging trends in dentistry, including the digital transformation</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W4LX8U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Technology.svg",
+            "title": "Boka",
+            "text": "<p>Discover our brand’s mission, values, and innovations in oral care.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3ziGYL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Dental_Care.svg",
+            "title": "Partnership Program",
+            "text": "<p>Learn how to unlock benefits like TikTok-led content creation masterclasses commissions</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xPBjRr": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/User_Outcomes.svg",
+            "title": "User outcomes and perceptions",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BrANj9": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Product_Quality.svg",
+            "title": "Product quality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wci3EK",
+        "column_wbW4mj",
+        "column_W4LX8U",
+        "column_3ziGYL",
+        "column_xPBjRr",
+        "column_BrANj9"
+      ],
+      "custom_css": [
+        ".inline-richtext {margin: auto;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": false,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
         "color_scheme": "custom",
-        "section_background_color": "rgba(0,0,0,0)",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "padding_top_tablet": 30,
-        "padding_bottom_tablet": 40,
+        "columns_tablet": "2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 45,
+        "padding_bottom": 70,
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_bottom_mobile": 30
       }
     }
   },
   "order": [
     "main",
     "video_slideshow_U6jJPY",
-    "rich_text_TwzEeK",
+    "rich_text_QK3pMq",
     "multicolumn_yxQxJd",
-    "multicolumn_zVFeeg",
+    "multicolumn_TEUfDC",
     "image_with_text_hcbjaT",
     "custom_multicolumn_section_xE9FTH",
-    "image_with_text_raz4t8"
+    "rich_text_TwzEeK",
+    "multicolumn_zVFeeg"
   ]
 }
