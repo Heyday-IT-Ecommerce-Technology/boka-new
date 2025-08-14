@@ -216,6 +216,110 @@
         "padding_bottom_mobile": 50
       }
     },
+    "multicolumn_zVFeeg": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wci3EK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
+            "title": "The Science",
+            "text": "<p>Understand the latest research on NHa and its role in oral health, plus insights</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wbW4mj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Safety_and_Compliance.svg",
+            "title": "The Market",
+            "text": "<p>Explore emerging trends in dentistry, including the digital transformation</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W4LX8U": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Technology.svg",
+            "title": "Boka",
+            "text": "<p>Discover our brand’s mission, values, and innovations in oral care.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3ziGYL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Dental_Care.svg",
+            "title": "Partnership Program",
+            "text": "<p>Learn how to unlock benefits like TikTok-led content creation masterclasses commissions</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xPBjRr": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/User_Outcomes.svg",
+            "title": "User outcomes and perceptions",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BrANj9": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Product_Quality.svg",
+            "title": "Product quality",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_wci3EK",
+        "column_wbW4mj",
+        "column_W4LX8U",
+        "column_3ziGYL",
+        "column_xPBjRr",
+        "column_BrANj9"
+      ],
+      "custom_css": [
+        ".inline-richtext {margin: auto;}"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": false,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "columns_tablet": "2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 45,
+        "padding_bottom": 70,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 30
+      }
+    },
     "custom_multicolumn_section_xE9FTH": {
       "type": "custom-multicolumn-section",
       "blocks": {
@@ -329,119 +433,15 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
-    },
-    "multicolumn_zVFeeg": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_wci3EK": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
-            "title": "The Science",
-            "text": "<p>Understand the latest research on NHa and its role in oral health, plus insights</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_wbW4mj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Safety_and_Compliance.svg",
-            "title": "The Market",
-            "text": "<p>Explore emerging trends in dentistry, including the digital transformation</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_W4LX8U": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Technology.svg",
-            "title": "Boka",
-            "text": "<p>Discover our brand’s mission, values, and innovations in oral care.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_3ziGYL": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Dental_Care.svg",
-            "title": "Partnership Program",
-            "text": "<p>Learn how to unlock benefits like TikTok-led content creation masterclasses commissions</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_xPBjRr": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/User_Outcomes.svg",
-            "title": "User outcomes and perceptions",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_BrANj9": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Product_Quality.svg",
-            "title": "Product quality",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_wci3EK",
-        "column_wbW4mj",
-        "column_W4LX8U",
-        "column_3ziGYL",
-        "column_xPBjRr",
-        "column_BrANj9"
-      ],
-      "custom_css": [
-        ".inline-richtext {margin: auto;}"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "full_width_enabled": false,
-        "button_label": "",
-        "button_link": "",
-        "fadein_enabled": false,
-        "column_heading_background_color": "",
-        "color_scheme": "custom",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#000000",
-        "columns_tablet": "2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 45,
-        "padding_bottom": 70,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 30
-      }
     }
   },
   "order": [
     "main",
     "video_slideshow_U6jJPY",
-    "image_with_text_hcbjaT",
-    "multicolumn_yxQxJd",
-    "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
-    "multicolumn_zVFeeg"
+    "multicolumn_yxQxJd",
+    "multicolumn_zVFeeg",
+    "custom_multicolumn_section_xE9FTH",
+    "image_with_text_hcbjaT"
   ]
 }
