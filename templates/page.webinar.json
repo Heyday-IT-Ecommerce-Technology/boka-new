@@ -74,61 +74,48 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_with_text_hcbjaT": {
-      "type": "image-with-text",
+    "rich_text_TwzEeK": {
+      "type": "rich-text",
       "blocks": {
-        "heading_ieVgmx": {
+        "heading_KkNApT": {
           "type": "heading",
           "settings": {
-            "heading": "Our <em>Oral Health</em> <br>Advisory Committee</br>",
+            "heading": "What you'll <em>learn</em>",
             "heading_size": "h1",
             "heading_tag": "default"
           }
         },
-        "text_AHe389": {
+        "text_naTJCD": {
           "type": "text",
           "settings": {
-            "text": "<p>The Boka Oral Health Advisory Committee exists to ensure that every product is backed by legitimate science, crafted with the highest quality ingredients, and proven for safety and performance. With a collective 120+ years of industry experience, the board provides rigorous oversight, ensuring our products are not just effective, but transformative for the consumers we serve.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_MTfT7n": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "second_button_label": "",
-            "second_button_link": ""
+            "text": "<p>The members of the Oral Health Advisory Committee are deeply involved</p>"
           }
         }
       },
       "block_order": [
-        "heading_ieVgmx",
-        "text_AHe389",
-        "button_MTfT7n"
+        "heading_KkNApT",
+        "text_naTJCD"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "custom_css": [
+        ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
+        ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
+        ".rich-text__heading {font-size: 40px !important;}",
+        ".rich-text__text {font-size: 18px !important; margin-top: 20px !important; line-height: 1.5 !important;}",
+        "@media (max-width: 768px) {.rich-text__heading {font-size: 26px !important; line-height: 1.2; } .rich-text__text {font-size: 16px !important; line-height: 1.2; }}"
+      ],
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "custom",
-        "section_background_color": "rgba(0,0,0,0)",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#000000",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#fae5db",
+        "custom_text_color": "#ffffff",
+        "full_width": false,
+        "padding_top": 55,
         "padding_bottom": 0,
-        "padding_top_tablet": 30,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
       }
     },
     "multicolumn_yxQxJd": {
@@ -390,48 +377,61 @@
         "padding_bottom": 40
       }
     },
-    "rich_text_TwzEeK": {
-      "type": "rich-text",
+    "image_with_text_hcbjaT": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_KkNApT": {
+        "heading_ieVgmx": {
           "type": "heading",
           "settings": {
-            "heading": "What you'll <em>learn</em>",
+            "heading": "Our <em>Oral Health</em> <br>Advisory Committee</br>",
             "heading_size": "h1",
             "heading_tag": "default"
           }
         },
-        "text_naTJCD": {
+        "text_AHe389": {
           "type": "text",
           "settings": {
-            "text": "<p>The members of the Oral Health Advisory Committee are deeply involved</p>"
+            "text": "<p>The Boka Oral Health Advisory Committee exists to ensure that every product is backed by legitimate science, crafted with the highest quality ingredients, and proven for safety and performance. With a collective 120+ years of industry experience, the board provides rigorous oversight, ensuring our products are not just effective, but transformative for the consumers we serve.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_MTfT7n": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_KkNApT",
-        "text_naTJCD"
+        "heading_ieVgmx",
+        "text_AHe389",
+        "button_MTfT7n"
       ],
-      "custom_css": [
-        ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
-        ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
-        ".rich-text__heading {font-size: 40px !important;}",
-        ".rich-text__text {font-size: 18px !important; margin-top: 20px !important; line-height: 1.5 !important;}",
-        "@media (max-width: 768px) {.rich-text__heading {font-size: 26px !important; line-height: 1.2; } .rich-text__text {font-size: 16px !important; line-height: 1.2; }}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
+      "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "fadein_enabled": false,
-        "color_scheme": "background-1",
-        "custom_background_color": "#fae5db",
-        "custom_text_color": "#ffffff",
-        "full_width": false,
-        "padding_top": 55,
+        "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "rgba(0,0,0,0)",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 40,
         "padding_bottom": 0,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
       }
     }
   },
