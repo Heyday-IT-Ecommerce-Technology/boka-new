@@ -845,6 +845,67 @@
             "to_ease": "Linear.easeNone",
             "to_filter": "none"
           }
+        },
+        "image_676GwA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Toothbrush_-_Shadow.png",
+            "desktop_enabled": true,
+            "tablet_enabled": true,
+            "mobile_enabled": true,
+            "left": "",
+            "right": "30",
+            "from_top": "",
+            "from_bottom": "-2500",
+            "from_opacity": ".6",
+            "from_scale": "0.6",
+            "from_rotation": "-100",
+            "from_x_axis": "",
+            "from_y_axis": "-100",
+            "from_z_axis": "0",
+            "from_ease": "none",
+            "from_filter": "blur1",
+            "to_top": "",
+            "to_bottom": "600",
+            "to_opacity": "0",
+            "to_scale": "0.6",
+            "to_rotation": "100",
+            "to_x_axis": "",
+            "to_y_axis": "100",
+            "to_z_axis": "300",
+            "to_ease": "Linear.easeNone",
+            "to_filter": "blur2"
+          }
+        },
+        "image_4BA6ah": {
+          "type": "image",
+          "settings": {
+            "desktop_enabled": true,
+            "tablet_enabled": true,
+            "mobile_enabled": true,
+            "left": "",
+            "right": "",
+            "from_top": "",
+            "from_bottom": "",
+            "from_opacity": "",
+            "from_scale": "",
+            "from_rotation": "",
+            "from_x_axis": "",
+            "from_y_axis": "",
+            "from_z_axis": "",
+            "from_ease": "none",
+            "from_filter": "none",
+            "to_top": "",
+            "to_bottom": "",
+            "to_opacity": "",
+            "to_scale": "",
+            "to_rotation": "",
+            "to_x_axis": "",
+            "to_y_axis": "",
+            "to_z_axis": "",
+            "to_ease": "none",
+            "to_filter": "none"
+          }
         }
       },
       "block_order": [
@@ -852,7 +913,9 @@
         "image_y4qbrG",
         "image_qXBkWG",
         "image_eFtwMc",
-        "image_TV9mEr"
+        "image_TV9mEr",
+        "image_676GwA",
+        "image_4BA6ah"
       ],
       "name": "Parallax",
       "settings": {
