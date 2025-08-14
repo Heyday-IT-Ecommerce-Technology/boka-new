@@ -198,6 +198,62 @@
         "padding_bottom_mobile": 0
       }
     },
+    "image_with_text_3KnEni": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DAeHqN": {
+          "type": "heading",
+          "settings": {
+            "heading": "The New Way to Clean with <em>Probiotics</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_cQ6Cxz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Revolutionary, fluoride-free oral care integrating clinically studied Dental-Lac™ probiotics that support a healthy oral microbiome and science-backed, nature-inspired n-Ha.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_kf6XCa": {
+          "type": "button",
+          "settings": {
+            "button_label": "START FLOURISHING",
+            "button_link": "shopify://collections/all",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_DAeHqN",
+        "text_cQ6Cxz",
+        "button_kf6XCa"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/probiotics_placehoder_new_08d324fc-f5e5-4aa4-821d-004b633d8ad3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8": {
       "type": "featured-collection",
       "settings": {
@@ -1548,6 +1604,7 @@
   "order": [
     "main",
     "85272ee1-d7ec-498c-985b-6761fcc6f38f",
+    "image_with_text_3KnEni",
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8",
     "related-products",
     "f186c965-55ee-4518-a9f2-8892cabd0287",
