@@ -254,6 +254,62 @@
         "padding_bottom_mobile": 0
       }
     },
+    "image_with_text_NVcCcK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_n96pNK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_mhh4kF": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Citrus Mint</strong> - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</li></ul><p></p><ul><li><strong>Peppermint </strong>- Soothing blend of peppermint, spearmint, and ylang ylang.</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_FBtcqM": {
+          "type": "button",
+          "settings": {
+            "button_label": "FEEL THE FRESHNESS",
+            "button_link": "shopify://collections/all",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_n96pNK",
+        "text_mhh4kF",
+        "button_FBtcqM"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/probiotics_placeholder_flavors.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8": {
       "type": "featured-collection",
       "settings": {
@@ -1605,6 +1661,7 @@
     "main",
     "85272ee1-d7ec-498c-985b-6761fcc6f38f",
     "image_with_text_3KnEni",
+    "image_with_text_NVcCcK",
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8",
     "related-products",
     "f186c965-55ee-4518-a9f2-8892cabd0287",
