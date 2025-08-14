@@ -19,6 +19,61 @@
         "padding_bottom_mobile": 36
       }
     },
+    "video_slideshow_U6jJPY": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_JHMb8M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
+            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
+            "heading": "Image slide",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "REGISTER NOW",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_JHMb8M"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": true,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "image_with_text_hcbjaT": {
       "type": "image-with-text",
       "blocks": {
@@ -282,8 +337,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
-            "title": "Clinical testing protocols",
-            "text": "",
+            "title": "The Science",
+            "text": "<p>Understand the latest research on NHa and its role in oral health, plus insights addressing the current public debate.</p>",
             "link_label": "",
             "link": ""
           }
@@ -292,8 +347,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Safety_and_Compliance.svg",
-            "title": "Safety and compliance",
-            "text": "",
+            "title": "The Market",
+            "text": "<p>Explore emerging trends in dentistry, including the digital transformation of practices</p>",
             "link_label": "",
             "link": ""
           }
@@ -302,8 +357,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Technology.svg",
-            "title": "Technology and ingredient research and best practices",
-            "text": "",
+            "title": "Discover our brand’s mission, values, and innovations in oral care.",
+            "text": "<p>Discover our brand’s mission, values, and innovations in oral care.</p>",
             "link_label": "",
             "link": ""
           }
@@ -312,14 +367,15 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Dental_Care.svg",
-            "title": "Dental care trends and education",
-            "text": "",
+            "title": "Partnership Program",
+            "text": "<p>Learn how to unlock benefits like TikTok-led content creation masterclasses, exclusive commissions, early product access, and more.</p>",
             "link_label": "",
             "link": ""
           }
         },
         "column_xPBjRr": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/User_Outcomes.svg",
             "title": "User outcomes and perceptions",
@@ -330,6 +386,7 @@
         },
         "column_BrANj9": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Product_Quality.svg",
             "title": "Product quality",
@@ -376,70 +433,15 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 30
       }
-    },
-    "video_slideshow_U6jJPY": {
-      "type": "video-slideshow",
-      "blocks": {
-        "image_JHMb8M": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
-            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
-            "heading": "Image slide",
-            "image_link": "",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "SHOP",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label2": "LEARN MORE",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "custom_background_color": "#333333",
-            "custom_text_color": "#FFFFFF",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#FFFFFF",
-            "button_background_color_mobile": "#000000",
-            "button_foreground_color_mobile": "#FFFFFF",
-            "bottom_text_background_color": "#DCE6CF",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "image_JHMb8M"
-      ],
-      "name": "Slideshow with Video",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "enable_video_buttons": true,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "fadein_enabled": true,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
     }
   },
   "order": [
     "main",
+    "video_slideshow_U6jJPY",
     "image_with_text_hcbjaT",
     "multicolumn_yxQxJd",
     "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
-    "multicolumn_zVFeeg",
-    "video_slideshow_U6jJPY"
+    "multicolumn_zVFeeg"
   ]
 }
