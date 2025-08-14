@@ -435,6 +435,63 @@
         "padding_bottom_mobile": 36
       }
     },
+    "image_with_text_r44xK7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BaCRMa": {
+          "type": "heading",
+          "settings": {
+            "heading": "What’s Inside <em>Probiotic Toothpaste</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_wGQfLe": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Oral Probiotics - Maintains a healthy oral microbiome</li></ul><p></p><ul><li>Nano-Hydroxyapatite - Mimics tooth enamel</li></ul><p></p><ul><li>Xylitol - Fights bacteria</li></ul><p></p><ul><li>Botanical Extracts - Provides refreshing flavors</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_FHYAcf": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "FEEL THE FRESHNESS",
+            "button_link": "shopify://collections/all",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_BaCRMa",
+        "text_wGQfLe",
+        "button_FHYAcf"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/probiotics_placeholder_ingredients_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
     "13bf477d-9ff5-4e98-aa65-67538cea8e94": {
       "type": "parallax",
       "blocks": {
@@ -1615,6 +1672,7 @@
     "image_with_text_NVcCcK",
     "video_slideshow_UKJpAD",
     "multicolumn_yMby9K",
+    "image_with_text_r44xK7",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8",
     "e3674e4d-a192-4d10-b067-75210316dfdd",
