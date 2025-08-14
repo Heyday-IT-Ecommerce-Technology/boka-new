@@ -322,15 +322,15 @@
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "SHOP",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
-            "button_label2": "LEARN MORE",
+            "button_label2": "",
             "link2": "",
             "button_style_secondary2": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -344,43 +344,12 @@
             "bottom_text_background_color": "#DCE6CF",
             "bottom_text_foreground_color": "#000000",
             "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
-          }
-        },
-        "video_rDtjHg": {
-          "type": "video",
-          "settings": {
-            "heading": "Video slide",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "Tell your brand's story through images",
-            "enable_fullscreen_link": true,
-            "button_label": "SHOP",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label2": "LEARN MORE",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "custom_background_color": "#333333",
-            "custom_text_color": "#FFFFFF",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#FFFFFF",
-            "bottom_text_background_color": "#DCE6CF",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
+            "mobile_content_position": "center"
           }
         }
       },
       "block_order": [
-        "image_bbfggA",
-        "video_rDtjHg"
+        "image_bbfggA"
       ],
       "name": "Slideshow with Video",
       "settings": {
