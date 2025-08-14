@@ -646,6 +646,7 @@
         "column_aqa3ig": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/probiotics_placehoder_new_08d324fc-f5e5-4aa4-821d-004b633d8ad3.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -655,6 +656,7 @@
         "column_AjNVih": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/probiotics_placehoder_new_08d324fc-f5e5-4aa4-821d-004b633d8ad3.png",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
@@ -673,9 +675,9 @@
         "heading_tag": "default",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
         "full_width_enabled": false,
         "button_label": "Button label",
         "button_link": "",
