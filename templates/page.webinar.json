@@ -376,6 +376,61 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 30
       }
+    },
+    "video_slideshow_U6jJPY": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_JHMb8M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
+            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
+            "heading": "Image slide",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "SHOP",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "LEARN MORE",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_JHMb8M"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": true,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -384,6 +439,7 @@
     "multicolumn_yxQxJd",
     "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
-    "multicolumn_zVFeeg"
+    "multicolumn_zVFeeg",
+    "video_slideshow_U6jJPY"
   ]
 }
