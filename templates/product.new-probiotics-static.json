@@ -456,8 +456,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1.png",
-            "title": "<strong>Step 1 : Clean Your Teeth</strong>",
-            "text": "<p>Begin by carefully brushing and flossing your teeth as you normally would to ensure your mouth is thoroughly clean.</p>",
+            "title": "<strong>Step 1: Brush Your Teeth</strong>",
+            "text": "<p>Use a small amount and brush twice a day — just like you normally would.</p>",
             "link_label": "",
             "link": ""
           }
@@ -466,8 +466,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/3.png",
-            "title": "<strong>Step 2: Chew & Swallow</strong>",
-            "text": "<p>After brushing, take one chewable tablet—it’s a simple way to add prebiotics and probiotics to your daily routine.</p>",
+            "title": "<strong>Step 2: Take Your Time</strong>",
+            "text": "<p>Brush gently for 2 full minutes to let the probiotics do their thing.</p>",
             "link_label": "",
             "link": ""
           }
@@ -476,8 +476,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2.png",
-            "title": "<strong>Step 3 : Feel the Difference </strong>",
-            "text": "<p>Enjoy fresher breath, healthier gums, and a balanced oral microbiome over time.</p>",
+            "title": "<strong>Step 3: Skip the Rinse</strong>",
+            "text": "<p>After brushing, spit but don’t rinse — this helps the probiotics stay and work longer.</p>",
             "link_label": "",
             "link": ""
           }
