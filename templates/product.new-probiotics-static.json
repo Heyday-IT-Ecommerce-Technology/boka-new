@@ -715,6 +715,49 @@
     },
     "parallax_3jc3fQ": {
       "type": "parallax",
+      "blocks": {
+        "internal_label_rhRktt": {
+          "type": "internal_label",
+          "settings": {
+            "label": "Desktop"
+          }
+        },
+        "image_y4qbrG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_afa19d93-4572-4ad0-91dd-a5f8c46fdf46.png",
+            "desktop_enabled": true,
+            "tablet_enabled": false,
+            "mobile_enabled": false,
+            "left": "6",
+            "right": "",
+            "from_top": "",
+            "from_bottom": "-150",
+            "from_opacity": "0.7",
+            "from_scale": "1.4",
+            "from_rotation": "100",
+            "from_x_axis": "",
+            "from_y_axis": "",
+            "from_z_axis": "",
+            "from_ease": "none",
+            "from_filter": "blur1",
+            "to_top": "",
+            "to_bottom": "1200",
+            "to_opacity": "1",
+            "to_scale": "1.6",
+            "to_rotation": "-100",
+            "to_x_axis": "100",
+            "to_y_axis": "",
+            "to_z_axis": "",
+            "to_ease": "Linear.easeNone",
+            "to_filter": "blur2"
+          }
+        }
+      },
+      "block_order": [
+        "internal_label_rhRktt",
+        "image_y4qbrG"
+      ],
       "name": "Parallax",
       "settings": {
         "enable_fullwidth": false,
