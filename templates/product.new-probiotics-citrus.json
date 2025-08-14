@@ -372,7 +372,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1.png",
-            "title": "<strong>Step 1 : Clean Your Teeth</strong>",
+            "title": "Step 1 : Clean Your Teeth",
             "text": "<p>Begin by carefully brushing and flossing your teeth as you normally would to ensure your mouth is thoroughly clean.</p>",
             "link_label": "",
             "link": ""
@@ -382,7 +382,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/3.png",
-            "title": "<strong>Step 2: Chew & Swallow</strong>",
+            "title": "Step 2: Chew & Swallow",
             "text": "<p>After brushing, take one chewable tablet—it’s a simple way to add prebiotics and probiotics to your daily routine.</p>",
             "link_label": "",
             "link": ""
@@ -392,8 +392,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Step 3: Skip the Rinse",
+            "text": "<p>After brushing, spit but don’t rinse — this helps the probiotics stay and work longer.</p>",
             "link_label": "",
             "link": ""
           }
