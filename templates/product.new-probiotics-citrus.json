@@ -371,8 +371,9 @@
         "column_7dn7NJ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/1.png",
+            "title": "<strong>Step 1 : Clean Your Teeth</strong>",
+            "text": "<p>Begin by carefully brushing and flossing your teeth as you normally would to ensure your mouth is thoroughly clean.</p>",
             "link_label": "",
             "link": ""
           }
