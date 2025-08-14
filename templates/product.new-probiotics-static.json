@@ -851,8 +851,8 @@
           "settings": {
             "image": "shopify://shop_images/Toothbrush_-_Shadow.png",
             "desktop_enabled": true,
-            "tablet_enabled": true,
-            "mobile_enabled": true,
+            "tablet_enabled": false,
+            "mobile_enabled": false,
             "left": "",
             "right": "30",
             "from_top": "",
