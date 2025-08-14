@@ -287,6 +287,9 @@
         "text_mhh4kF",
         "button_FBtcqM"
       ],
+      "custom_css": [
+        ".custom-image-with-text .image-with-text__text.body {text-align: left;}"
+      ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/probiotics_placeholder_flavors.png",
@@ -468,6 +471,9 @@
         "heading_BaCRMa",
         "text_wGQfLe",
         "button_FHYAcf"
+      ],
+      "custom_css": [
+        ".custom-image-with-text .image-with-text__text.body {text-align: left;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
