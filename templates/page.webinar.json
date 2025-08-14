@@ -433,6 +433,63 @@
         "padding_top": 32,
         "padding_bottom": 40
       }
+    },
+    "image_with_text_raz4t8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FPDxaz": {
+          "type": "heading",
+          "settings": {
+            "heading": "What you'll<em> learn</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_tEKrLF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>🎁  A Boka kit will be sent to all attendees, the kit will contain an assortment of our toothpastes. </p><p>💰 Additionally, at the end of the forum an attendee will be randomly selected and awarded a cash prize of $5k USD. </p>",
+            "text_style": "body"
+          }
+        },
+        "button_wnRapa": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_FPDxaz",
+        "text_tEKrLF",
+        "button_wnRapa"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "rgba(0,0,0,0)",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
     }
   },
   "order": [
@@ -442,6 +499,7 @@
     "multicolumn_yxQxJd",
     "multicolumn_zVFeeg",
     "image_with_text_hcbjaT",
-    "custom_multicolumn_section_xE9FTH"
+    "custom_multicolumn_section_xE9FTH",
+    "image_with_text_raz4t8"
   ]
 }
