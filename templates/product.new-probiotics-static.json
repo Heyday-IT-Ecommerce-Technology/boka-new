@@ -456,7 +456,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/1.png",
-            "title": "<strong>Step 1: Brush Your Teeth</strong>",
+            "title": "Step 1: Brush Your Teeth",
             "text": "<p>Use a small amount and brush twice a day — just like you normally would.</p>",
             "link_label": "",
             "link": ""
@@ -466,7 +466,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/3.png",
-            "title": "<strong>Step 2: Take Your Time</strong>",
+            "title": "Step 2: Take Your Time",
             "text": "<p>Brush gently for 2 full minutes to let the probiotics do their thing.</p>",
             "link_label": "",
             "link": ""
@@ -476,7 +476,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/2.png",
-            "title": "<strong>Step 3: Skip the Rinse</strong>",
+            "title": "Step 3: Skip the Rinse",
             "text": "<p>After brushing, spit but don’t rinse — this helps the probiotics stay and work longer.</p>",
             "link_label": "",
             "link": ""
