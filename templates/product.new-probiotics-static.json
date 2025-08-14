@@ -786,7 +786,6 @@
         },
         "image_eFtwMc": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/2_3a96f602-11c4-444e-9ea0-5926b89bdc97.png",
             "desktop_enabled": true,
@@ -818,7 +817,6 @@
         },
         "image_TV9mEr": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/1_64352050-8122-460a-894d-b3b4ab5850fc.png",
             "desktop_enabled": true,
