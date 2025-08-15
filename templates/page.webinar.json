@@ -721,6 +721,98 @@
         "padding_bottom_mobile": 30
       }
     },
+    "rich_text_4yHMx6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_4jE49i": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dentist & hygienist <em>approved</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_JzExcM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The members of the Oral Health Advisory Committee are deeply involved</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4jE49i",
+        "text_JzExcM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#fae5db",
+        "custom_text_color": "#ffffff",
+        "full_width": false,
+        "padding_top": 55,
+        "padding_bottom": 0,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "multicolumn_wemhNC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LYejEe": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/babcicVladana.png",
+            "title": "<em>“We love that Boka is a healthy and effective dental product to provide our patients.”</em>",
+            "text": "<p>DR. VLADANA BABCIC TAL, DMD</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qab3wy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Amy_Truong.png",
+            "title": "<em>“I’m proud to recommend Boka to my patients. It’s a great way to bring high-quality and innovative oral health products directly to their door.”</em>",
+            "text": "<p>DR. AMY HATRUONG, DDS</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LYejEe",
+        "column_qab3wy"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "full_width_enabled": false,
+        "button_label": "Button label",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "collapsible_content_xNnXLV": {
       "type": "collapsible-content",
       "blocks": {
@@ -788,61 +880,6 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
-    },
-    "multicolumn_wemhNC": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_LYejEe": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/babcicVladana.png",
-            "title": "<em>“We love that Boka is a healthy and effective dental product to provide our patients.”</em>",
-            "text": "<p>DR. VLADANA BABCIC TAL, DMD</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_qab3wy": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Amy_Truong.png",
-            "title": "<em>“I’m proud to recommend Boka to my patients. It’s a great way to bring high-quality and innovative oral health products directly to their door.”</em>",
-            "text": "<p>DR. AMY HATRUONG, DDS</p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_LYejEe",
-        "column_qab3wy"
-      ],
-      "name": "t:sections.multicolumn.presets.name",
-      "settings": {
-        "title": "Dentist & hygienist approved",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "image_width": "third",
-        "image_ratio": "circle",
-        "columns_desktop": 2,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "full_width_enabled": false,
-        "button_label": "Button label",
-        "button_link": "",
-        "fadein_enabled": false,
-        "column_heading_background_color": "",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
-        "columns_tablet": "1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
     }
   },
   "order": [
@@ -857,7 +894,8 @@
     "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
     "multicolumn_zVFeeg",
-    "collapsible_content_xNnXLV",
-    "multicolumn_wemhNC"
+    "rich_text_4yHMx6",
+    "multicolumn_wemhNC",
+    "collapsible_content_xNnXLV"
   ]
 }
