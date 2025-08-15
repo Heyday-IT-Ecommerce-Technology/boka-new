@@ -743,7 +743,9 @@
         "heading_4jE49i",
         "text_JzExcM"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".isolate {background: #f9e5db;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
