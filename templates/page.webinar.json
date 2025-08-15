@@ -788,6 +788,69 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
+    },
+    "multicolumn_wemhNC": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_LYejEe": {
+          "type": "column",
+          "settings": {
+            "title": "<em>“We love that Boka is a healthy and effective dental product to provide our patients.”</em>",
+            "text": "<p>DR. VLADANA BABCIC TAL, DMD</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qab3wy": {
+          "type": "column",
+          "settings": {
+            "title": "<em>“I’m proud to recommend Boka to my patients. It’s a great way to bring high-quality and innovative oral health products directly to their door.”</em>",
+            "text": "<p>DR. AMY HATRUONG, DDS</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pxQNU9": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_LYejEe",
+        "column_qab3wy",
+        "column_pxQNU9"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Dentist & hygienist approved",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "full_width_enabled": false,
+        "button_label": "Button label",
+        "button_link": "",
+        "fadein_enabled": true,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
@@ -802,6 +865,7 @@
     "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
     "multicolumn_zVFeeg",
-    "collapsible_content_xNnXLV"
+    "collapsible_content_xNnXLV",
+    "multicolumn_wemhNC"
   ]
 }
