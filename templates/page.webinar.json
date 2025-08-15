@@ -377,7 +377,7 @@
       ],
       "name": "Slideshow with Video",
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "medium",
         "slider_visual": "counter",
         "enable_video_buttons": true,
