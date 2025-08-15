@@ -116,7 +116,7 @@
         "heading_YnycMz": {
           "type": "heading",
           "settings": {
-            "heading": "Why <em>join</em>",
+            "heading": "Why you can’t miss this <em>forum</em>",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -124,7 +124,7 @@
         "text_LMQ7y6": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<p>This isn’t just another webinar — it’s a hands-on, interactive experience designed for dental professionals who want to grow their expertise AND their influence online. Here’s what makes it special:</p>"
           }
         }
       },
@@ -239,8 +239,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Clinical_Testing_a8a6aa4a-2d05-49f5-bccf-2cbd431847c4.svg",
-            "title": "The Science",
-            "text": "<p>Understand the latest research on NHa and its role in oral health, plus insights</p>",
+            "title": "Exclusive Access",
+            "text": "<p>Connect with 50 top dental professionals and creators.</p>",
             "link_label": "",
             "link": ""
           }
@@ -249,8 +249,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Safety_and_Compliance.svg",
-            "title": "The Market",
-            "text": "<p>Explore emerging trends in dentistry, including the digital transformation</p>",
+            "title": "Actionable Insights",
+            "text": "<p>Learn science, trends, and strategies you can use immediately.</p>",
             "link_label": "",
             "link": ""
           }
@@ -259,8 +259,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Technology.svg",
-            "title": "Boka",
-            "text": "<p>Discover our brand’s mission, values, and innovations in oral care.</p>",
+            "title": "Creator Growth",
+            "text": "<p>Grow your TikTok presence while building professional authority.</p>",
             "link_label": "",
             "link": ""
           }
@@ -813,6 +813,20 @@
         "padding_bottom_mobile": 36
       }
     },
+    "custom_liquid_ChVgVh": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"as-seen-on-section\">\n  <h2 class=\"as-seen-on-title\">As Seen On</h2>\n  <div class=\"as-seen-on-logos-wrapper\">\n    <div class=\"as-seen-on-logos\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/real_simple.png?v=1741798410\" alt=\"Real simple logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/medium.png?v=1741798410\" alt=\"Medium logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/cnet.png?v=1741798411\" alt=\"Cnet logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/huffpost.png?v=1741798410\" alt=\"Huffpost logo\" loading=\"lazy\">\n      <!-- Duplicate logos for infinite scrolling -->\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/real_simple.png?v=1741798410\" alt=\"Real simple logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/medium.png?v=1741798410\" alt=\"Medium logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/cnet.png?v=1741798411\" alt=\"Cnet logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/huffpost.png?v=1741798410\" alt=\"Huffpost logo\" loading=\"lazy\">\n    </div>\n  </div>\n</div>\n\n\n<style>\n  .as-seen-on-section {\n    text-align: center;\n    padding: 40px 20px;\n    overflow: hidden;\n    background: #FAFAF5;\n    padding-bottom: 80px;\n    padding-top: 10px;\n  }\n\n  .as-seen-on-title {\n    font-size: 48px;\n    font-weight: regular;\n    margin-bottom: 80px;\n  }\n\n@media (max-width: 768px) {\n    .as-seen-on-title {\n      font-size: 32px;\n      margin-bottom: 40px;\n    }\n  }\n\n  .as-seen-on-logos-wrapper {\n    white-space: nowrap;\n    position: relative;\n    width: 100%;\n  }\n\n  .as-seen-on-logos {\n    display: flex;\n    gap: 50px;\n    align-items: center;\n    animation: scroll-logos 25s linear infinite;\n    width: max-content;\n  }\n\n  .as-seen-on-logos img {\n    max-width: 160px;\n    height: auto;\n    display: inline-block;\n  }\n\n  @keyframes scroll-logos {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-50%);\n    }\n  }\n</style>",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "collapsible_content_xNnXLV": {
       "type": "collapsible-content",
       "blocks": {
@@ -877,20 +891,6 @@
         "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
-    "custom_liquid_ChVgVh": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"as-seen-on-section\">\n  <h2 class=\"as-seen-on-title\">As Seen On</h2>\n  <div class=\"as-seen-on-logos-wrapper\">\n    <div class=\"as-seen-on-logos\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/real_simple.png?v=1741798410\" alt=\"Real simple logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/medium.png?v=1741798410\" alt=\"Medium logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/cnet.png?v=1741798411\" alt=\"Cnet logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/huffpost.png?v=1741798410\" alt=\"Huffpost logo\" loading=\"lazy\">\n      <!-- Duplicate logos for infinite scrolling -->\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/real_simple.png?v=1741798410\" alt=\"Real simple logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/medium.png?v=1741798410\" alt=\"Medium logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/cnet.png?v=1741798411\" alt=\"Cnet logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/huffpost.png?v=1741798410\" alt=\"Huffpost logo\" loading=\"lazy\">\n    </div>\n  </div>\n</div>\n\n\n<style>\n  .as-seen-on-section {\n    text-align: center;\n    padding: 40px 20px;\n    overflow: hidden;\n    background: #FAFAF5;\n    padding-bottom: 80px;\n    padding-top: 10px;\n  }\n\n  .as-seen-on-title {\n    font-size: 48px;\n    font-weight: regular;\n    margin-bottom: 80px;\n  }\n\n@media (max-width: 768px) {\n    .as-seen-on-title {\n      font-size: 32px;\n      margin-bottom: 40px;\n    }\n  }\n\n  .as-seen-on-logos-wrapper {\n    white-space: nowrap;\n    position: relative;\n    width: 100%;\n  }\n\n  .as-seen-on-logos {\n    display: flex;\n    gap: 50px;\n    align-items: center;\n    animation: scroll-logos 25s linear infinite;\n    width: max-content;\n  }\n\n  .as-seen-on-logos img {\n    max-width: 160px;\n    height: auto;\n    display: inline-block;\n  }\n\n  @keyframes scroll-logos {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-50%);\n    }\n  }\n</style>",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
-        "padding_top": 40,
-        "padding_bottom": 52,
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
