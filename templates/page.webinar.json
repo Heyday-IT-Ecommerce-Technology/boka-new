@@ -823,7 +823,7 @@
         "heading_size": "h1",
         "heading_tag": "default",
         "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "circle",
         "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
