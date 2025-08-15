@@ -825,9 +825,9 @@
         "custom_background_color": "#ffffff",
         "custom_text_color": "#ffffff",
         "padding_top": 40,
-        "padding_bottom": 52,
+        "padding_bottom": 0,
         "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
+        "padding_bottom_mobile": 10
       }
     },
     "collapsible_content_xNnXLV": {
