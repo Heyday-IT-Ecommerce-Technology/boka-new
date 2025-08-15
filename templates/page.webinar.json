@@ -378,7 +378,7 @@
       "name": "Slideshow with Video",
       "settings": {
         "layout": "grid",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
         "enable_video_buttons": true,
         "auto_rotate": false,
@@ -562,7 +562,7 @@
         "member_K3mtjf"
       ],
       "custom_css": [
-        ".custom-multicolumn-wrapper {background-color: #fafaf5;}"
+        ".custom-multicolumn-wrapper {background-color: #fafaf5; margin-top: 50px;}"
       ],
       "name": "Custom Multicolumn",
       "settings": {
