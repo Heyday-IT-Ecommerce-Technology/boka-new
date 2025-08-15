@@ -43,7 +43,7 @@
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "custom",
-            "custom_background_color": "#fafaf5",
+            "custom_background_color": "#FFFFFF",
             "custom_text_color": "#000000",
             "mobile_custom_text_color": "#000000",
             "button_background_color": "#000000",
