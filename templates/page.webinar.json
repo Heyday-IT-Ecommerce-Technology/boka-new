@@ -342,11 +342,11 @@
           "settings": {
             "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
             "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
-            "heading": "Attendees Rewards",
+            "heading": "Your Exclusive Rewards",
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "Tell your brand's story through images",
+            "subheading": "Every attendee gets a Boka Kit of premium toothpastes and a chance to win $5,000 USD.",
             "button_label": "REGISTER NOW",
             "link": "shopify://blogs/news/how-probiotics-benefit-your-oral-microbiome",
             "button_style_secondary": false,
