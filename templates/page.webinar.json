@@ -105,7 +105,7 @@
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "fadein_enabled": true,
+        "fadein_enabled": false,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
