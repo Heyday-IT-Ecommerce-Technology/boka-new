@@ -795,6 +795,7 @@
         "column_LYejEe": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/babcicVladana.png",
             "title": "<em>“We love that Boka is a healthy and effective dental product to provide our patients.”</em>",
             "text": "<p>DR. VLADANA BABCIC TAL, DMD</p>",
             "link_label": "",
@@ -804,6 +805,7 @@
         "column_qab3wy": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Amy_Truong.png",
             "title": "<em>“I’m proud to recommend Boka to my patients. It’s a great way to bring high-quality and innovative oral health products directly to their door.”</em>",
             "text": "<p>DR. AMY HATRUONG, DDS</p>",
             "link_label": "",
@@ -820,7 +822,7 @@
         "title": "Dentist & hygienist approved",
         "heading_size": "h1",
         "heading_tag": "default",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 2,
         "column_alignment": "center",
