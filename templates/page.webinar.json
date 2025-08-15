@@ -809,21 +809,11 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_pxQNU9": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "column_LYejEe",
-        "column_qab3wy",
-        "column_pxQNU9"
+        "column_qab3wy"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -832,8 +822,8 @@
         "heading_tag": "default",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
+        "columns_desktop": 2,
+        "column_alignment": "center",
         "background_style": "primary",
         "full_width_enabled": false,
         "button_label": "Button label",
