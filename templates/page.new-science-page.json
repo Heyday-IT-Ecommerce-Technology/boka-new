@@ -25,13 +25,13 @@
         "image_rreFMt": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Main_banner_desktop_e987aef6-e402-4385-b80a-f9a704fd305c.jpg",
-            "image_mobile": "shopify://shop_images/Main_banner_mobile_8db3c8a6-d886-446c-abd2-d04ecd07b65f.jpg",
+            "image": "shopify://shop_images/Main_banner_desktop.webp",
+            "image_mobile": "shopify://shop_images/Main_banner_mobile.webp",
             "heading": "A <em>smarter way</em> to <br> care for your smile</br>",
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "Boka pairs nature and science to <br>optimize your oral care routine. <br>No harsh chemicals included.",
+            "subheading": "Boka pairs nature and science to optimize your oral care routine. No harsh chemicals included.",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
@@ -80,7 +80,7 @@
         "heading_QCent6": {
           "type": "heading",
           "settings": {
-            "heading": "Nano-hydroxyapatite: <br>A <em>breakthrough</em> in oral care",
+            "heading": "Nano-hydroxyapatite: <br>A \n<em>fluoride-free</em> breakthrough <br> in oral care",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -109,7 +109,6 @@
         "text_AkkFDh",
         "button_zxieFg"
       ],
-      "disabled": true,
       "custom_css": [
         ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
         ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
@@ -134,21 +133,11 @@
     "multicolumn_p6g6mV": {
       "type": "multicolumn",
       "blocks": {
-        "column_rMPM8g": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/Helps_Remineralize.svg",
-            "title": "<strong>Helps Remineralize</strong>",
-            "text": "<p>Supports enamel health by replenishing essential minerals.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
         "column_KjXNnq": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Protects.svg",
-            "title": "<strong> Protects</strong>",
+            "title": "<strong>Appropriate for Sensitive Teeth</strong>",
             "text": "<p>Fortifies the surface of teeth for daily oral wellness.</p>",
             "link_label": "",
             "link": ""
@@ -176,19 +165,17 @@
         }
       },
       "block_order": [
-        "column_rMPM8g",
         "column_KjXNnq",
         "column_9Lmq99",
         "column_b8Himt"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
         "heading_tag": "default",
         "image_width": "half",
         "image_ratio": "adapt",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
         "full_width_enabled": false,
