@@ -290,7 +290,7 @@
         "text_3AECrb": {
           "type": "text",
           "settings": {
-            "text": "<p>Carefully selected blend to support complete oral wellness.</p>"
+            "text": "<p>Carefully selected to be as thoughtful as the rest of your wellness routine.</p>"
           }
         },
         "button_3J4Ji3": {
@@ -311,7 +311,6 @@
         "text_3AECrb",
         "button_3J4Ji3"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -334,7 +333,7 @@
           "settings": {
             "image": "shopify://shop_images/Nano-Hydroxyapatite_n-Ha.jpg",
             "title": "<strong>Nano-Hydroxyapatite (n-Ha)</strong>",
-            "text": "<p>A breakthrough in oral care that helps remineralize teeth.</p>",
+            "text": "<p>A revolutionary material that mimics tooth enamel</p>",
             "link_label": "",
             "link": ""
           }
@@ -344,7 +343,7 @@
           "settings": {
             "image": "shopify://shop_images/Xylitol.jpg",
             "title": "<strong>Xylitol</strong>",
-            "text": "<p>Supports oral hydration and a fresh mouth feel.</p>",
+            "text": "<p>Fights bacteria</p>",
             "link_label": "",
             "link": ""
           }
@@ -374,9 +373,9 @@
         "column_jcxzf4": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Sodium_Bicarbonate.jpg",
-            "title": "<strong>Sodium Bicarbonate</strong>",
-            "text": "<p>Gently polishes teeth to help remove surface stains.</p>",
+            "image": "shopify://shop_images/Green_Tea_Extract_285e000e-3c85-4d9e-81a9-5dc0a265675e.jpg",
+            "title": "<strong>Green Tea Extract</strong>",
+            "text": "<p>Act as an antioxidant</p>",
             "link_label": "",
             "link": ""
           }
@@ -401,7 +400,6 @@
         "column_jcxzf4",
         "column_GzTHyW"
       ],
-      "disabled": true,
       "custom_css": [
         ".multicolumn-card__info {max-width: 80%; margin: 0 auto;}",
         "@media (max-width: 768px) {.multicolumn-card__info {max-width: 100% !important; padding: 10px !important; }}"
@@ -446,7 +444,7 @@
         "text_mgp9NA": {
           "type": "text",
           "settings": {
-            "text": "<p>Know which harsh ingredients to <strong>avoid</strong> in your oral care.</p>"
+            "text": "<p>Know which harsh ingredients to avoid in your oral care</p>"
           }
         }
       },
@@ -454,7 +452,6 @@
         "heading_EKYUDL",
         "text_mgp9NA"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -477,7 +474,7 @@
           "settings": {
             "image": "shopify://shop_images/Harsh_foaming_agents.svg",
             "title": "<strong>Harsh foaming agents</strong>",
-            "text": "<p>❌ Sodium lauryl sulfate (SLS)</p>",
+            "text": "<p>❌ Sodium lauryl sulfate (SLS)</p><p>❌ Sodium lauroyl sarcosinate</p>",
             "link_label": "",
             "link": ""
           }
@@ -487,7 +484,7 @@
           "settings": {
             "image": "shopify://shop_images/Artificial_additives.svg",
             "title": "<strong>Artificial additives</strong>",
-            "text": "<p>❌ Parabens</p><p>❌ Artificial flavors & colors</p><p>❌ Endocrine disruptors</p>",
+            "text": "<p>❌ Parabens</p><p>❌ Artificial flavors and colors </p>",
             "link_label": "",
             "link": ""
           }
@@ -497,7 +494,7 @@
           "settings": {
             "image": "shopify://shop_images/Unnecessary_fillers.svg",
             "title": "<strong>Unnecessary fillers</strong>",
-            "text": "<p>❌ Propylene glycol</p><p>❌ Carrageenan</p><p>❌ Titanium dioxide</p>",
+            "text": "<p>❌ Propylene glycol<br/>❌ Carrageenan <br/>❌ Titanium dioxide</p>",
             "link_label": "",
             "link": ""
           }
@@ -508,7 +505,6 @@
         "column_HVUAVx",
         "column_yEzEWY"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -568,7 +564,6 @@
         "text_y4WdAQ",
         "button_KhbGa4"
       ],
-      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Boka_Committee_HP_Banner.webp",
