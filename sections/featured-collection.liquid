@@ -181,13 +181,186 @@
 </div>
 
 <script>
-  if (window.matchMedia("(max-width: 749px)").matches) {
-    const allDesktopOnly = document.querySelectorAll('.desktop-only');
-    allDesktopOnly.forEach(eL => {
-      eL.remove();
-    })
-  }
+  document.addEventListener('DOMContentLoaded', function() {
+    // Remove desktop-only elements on mobile
+    if (window.matchMedia("(max-width: 749px)").matches) {
+      const allDesktopOnly = document.querySelectorAll('.desktop-only');
+      allDesktopOnly.forEach(eL => {
+        eL.remove();
+      });
+    }
+
+    // Initialize slider functionality
+    function initializeSlider() {
+      const dotButtons = document.querySelectorAll('[data-slider-id="Slider-{{ section.id }}"]');
+      const slider = document.getElementById('Slider-{{ section.id }}');
+      const prevButton = document.querySelector('.slider-button--prev[aria-controls="Slider-{{ section.id }}"]');
+      const nextButton = document.querySelector('.slider-button--next[aria-controls="Slider-{{ section.id }}"]');
+      
+      if (!slider || dotButtons.length === 0) return;
+      
+      const isDesktop = window.matchMedia("(min-width: 990px)").matches;
+      const columnsPerView = isDesktop ? {{ section.settings.columns_desktop }} : {{ section.settings.columns_mobile }};
+      
+      let currentSlideIndex = 0;
+      
+      // Function to get single slide scroll distance
+      function getSingleSlideScrollDistance() {
+        const slides = slider.querySelectorAll('.slider__slide');
+        if (slides.length === 0) return 0;
+        
+        const firstSlide = slides[0];
+        const slideWidth = firstSlide.offsetWidth;
+        const slideStyle = getComputedStyle(firstSlide);
+        const slideMargin = parseFloat(slideStyle.marginRight) || 0;
+        
+        return slideWidth + slideMargin;
+      }
+      
+      // Function to scroll to specific slide index
+      function goToSlideIndex(targetIndex) {
+        const singleSlideDistance = getSingleSlideScrollDistance();
+        const targetScrollLeft = targetIndex * singleSlideDistance;
+        
+        console.log(`Going to slide ${targetIndex}, scroll distance: ${targetScrollLeft}px`);
+        
+        slider.scrollTo({
+          left: targetScrollLeft,
+          behavior: 'smooth'
+        });
+        
+        currentSlideIndex = targetIndex;
+        updateActiveDot(targetIndex);
+      }
+      
+      // Handle dot clicks - each dot represents one slide position
+      dotButtons.forEach((button, dotIndex) => {
+        button.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          
+          // For your requirement:
+          // Dot 0 (first dot): show position 0 (products 1-4)
+          // Dot 1 (second dot): show position 1 (starting from 5th product)  
+          // Dot 2 (third dot): show position 2 (starting from 6th product)
+          // etc.
+          
+          const targetSlideIndex = dotIndex;
+          console.log(`Dot ${dotIndex + 1} clicked, going to slide index ${targetSlideIndex}`);
+          
+          goToSlideIndex(targetSlideIndex);
+        });
+      });
+      
+      // Update active dot function
+      function updateActiveDot(slideIndex) {
+        dotButtons.forEach((btn, index) => {
+          btn.classList.toggle('active', index === slideIndex);
+        });
+      }
+      
+      // Listen for arrow button clicks to sync dots
+      if (prevButton) {
+        prevButton.addEventListener('click', function() {
+          setTimeout(() => {
+            const scrollLeft = slider.scrollLeft;
+            const singleSlideDistance = getSingleSlideScrollDistance();
+            if (singleSlideDistance > 0) {
+              currentSlideIndex = Math.round(scrollLeft / singleSlideDistance);
+              updateActiveDot(currentSlideIndex);
+            }
+          }, 100);
+        });
+      }
+      
+      if (nextButton) {
+        nextButton.addEventListener('click', function() {
+          setTimeout(() => {
+            const scrollLeft = slider.scrollLeft;
+            const singleSlideDistance = getSingleSlideScrollDistance();
+            if (singleSlideDistance > 0) {
+              currentSlideIndex = Math.round(scrollLeft / singleSlideDistance);
+              updateActiveDot(currentSlideIndex);
+            }
+          }, 100);
+        });
+      }
+      
+      // Update active dot based on scroll position
+      let scrollTimeout;
+      slider.addEventListener('scroll', function() {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+          const scrollLeft = this.scrollLeft;
+          const singleSlideDistance = getSingleSlideScrollDistance();
+          
+          if (singleSlideDistance > 0) {
+            currentSlideIndex = Math.round(scrollLeft / singleSlideDistance);
+            updateActiveDot(currentSlideIndex);
+          }
+        }, 100);
+      });
+      
+      // Handle window resize
+      window.addEventListener('resize', function() {
+        setTimeout(() => {
+          // Recalculate positions after resize
+          const scrollLeft = slider.scrollLeft;
+          const singleSlideDistance = getSingleSlideScrollDistance();
+          if (singleSlideDistance > 0) {
+            currentSlideIndex = Math.round(scrollLeft / singleSlideDistance);
+            updateActiveDot(currentSlideIndex);
+          }
+        }, 200);
+      });
+      
+      // Set initial active dot
+      updateActiveDot(0);
+      
+      // Make sure all dots are clickable
+      dotButtons.forEach(button => {
+        button.style.cursor = 'pointer';
+        button.style.pointerEvents = 'auto';
+      });
+    }
+    
+    // Initialize after DOM is fully loaded
+    setTimeout(initializeSlider, 300);
+  });
 </script>
+
+<style>
+  .slider-counter__link--dots {
+    cursor: pointer !important;
+    pointer-events: auto !important;
+    background: none !important;
+    border: none !important;
+  }
+  
+  .slider-counter__link--dots.active .dot {
+    opacity: 1 !important;
+    transform: scale(1.2) !important;
+    background-color: currentColor !important;
+  }
+  
+  .slider-counter__link--dots .dot {
+    transition: all 0.3s ease !important;
+    opacity: 0.5 !important;
+    display: block !important;
+    border-radius: 50% !important;
+  }
+  
+  .slider-counter__link--dots:hover .dot {
+    opacity: 0.8 !important;
+    transform: scale(1.1) !important;
+  }
+  
+  .slideshow__control-wrapper {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+</style>
 
 {% schema %}
 {
