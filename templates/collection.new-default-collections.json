@@ -9,6 +9,60 @@
  */
 {
   "sections": {
+    "image_banner_AWyq63": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LDaP7r": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.metafields.custom.collection_title.value }}",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_tWTRex": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.collection_description.value }}",
+            "text_use_html": false,
+            "text_html": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LDaP7r",
+        "text_tWTRex"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "enable_fullwidth": false,
+        "image": "{{ collection.metafields.custom.image_collection.value }}",
+        "image_mobile": "{{ collection.metafields.custom.image_collection_mobile.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_height_mobile": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "custom_background_color": "#000000",
+        "custom_text_color": "#FFFFFF",
+        "button_background_color": "#000000",
+        "button_foreground_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -42,6 +96,8 @@
         "card_row_position": 2,
         "image_as_bg": false,
         "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
         "card_text_alignment_desktop": "left",
         "card_text_alignment_mobile": "center",
         "card_text_position_desktop": "center",
@@ -58,6 +114,7 @@
     }
   },
   "order": [
+    "image_banner_AWyq63",
     "banner",
     "product-grid"
   ]
