@@ -139,14 +139,26 @@
             <div class="slideshow__control-wrapper">
               <div class="desktop-only">
                 {%- for i in (1..number_of_dots) -%}
-                  <button class="slider-counter__link slider-counter__link--dots link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ section.id }}">
+                  <button 
+                    class="slider-counter__link slider-counter__link--dots link" 
+                    aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" 
+                    aria-controls="Slider-{{ section.id }}"
+                    data-slide-index="{{ forloop.index0 }}"
+                    data-slider-id="Slider-{{ section.id }}"
+                  >
                     <span class="dot"></span>
                   </button>
                 {%- endfor -%}
               </div>
               <div class="mobile-only">
                 {%- for i in (1..number_of_dots_mobile) -%}
-                  <button class="slider-counter__link slider-counter__link--dots link" aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" aria-controls="Slider-{{ section.id }}">
+                  <button 
+                    class="slider-counter__link slider-counter__link--dots link" 
+                    aria-label="{{ 'sections.slideshow.load_slide' | t }} {{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" 
+                    aria-controls="Slider-{{ section.id }}"
+                    data-slide-index="{{ forloop.index0 }}"
+                    data-slider-id="Slider-{{ section.id }}"
+                  >
                     <span class="dot"></span>
                   </button>
                 {%- endfor -%}
@@ -361,7 +373,6 @@
     align-items: center !important;
   }
 </style>
-
 {% schema %}
 {
   "name": "t:sections.featured-collection.name",
