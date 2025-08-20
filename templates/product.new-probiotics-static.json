@@ -1351,6 +1351,74 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
+    },
+    "video_with_text_background_wQaP8M": {
+      "type": "video-with-text-background",
+      "blocks": {
+        "heading_TBzChM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_aeaxKm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_pQViUT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_TBzChM",
+        "text_aeaxKm",
+        "button_pQViUT"
+      ],
+      "name": "Video text Background",
+      "settings": {
+        "video": "shopify://files/videos/16by9.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "show_controls": false,
+        "text_background_image": "shopify://shop_images/probiotics_placeholder_2.png",
+        "bg_image_size": "auto",
+        "bg_image_position": "top right",
+        "bg_image_repeat": "no-repeat",
+        "bg_overlay_enabled": false,
+        "bg_overlay_color": "#000000",
+        "bg_overlay_opacity": 30,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "desktop_narrow_width_enabled": false,
+        "color_scheme": "background-1",
+        "section_background_color": "#DAE9CF",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "mobile_content_alignment": "left",
+        "full_width_video": false,
+        "padding_top": 130,
+        "padding_bottom": 100,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
     }
   },
   "order": [
@@ -1372,6 +1440,7 @@
     "related-products",
     "1684207833f45c861d",
     "174007755647b47e76",
-    "multicolumn_EEmWt6"
+    "multicolumn_EEmWt6",
+    "video_with_text_background_wQaP8M"
   ]
 }
