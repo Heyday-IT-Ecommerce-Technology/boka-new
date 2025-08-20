@@ -408,7 +408,7 @@
             "heading_tag": "default",
             "subheading": "With each new Boka Kids subscription , we donate oral care kits to children in need. Because every child deserves a healthy smile.",
             "button_label": "SUBSCRIBE & DONATE A KIT",
-            "link": "shopify://collections/kids",
+            "link": "https://www.boka.com/collections/kids",
             "button_style_secondary": false,
             "button_label2": "",
             "link2": "",
