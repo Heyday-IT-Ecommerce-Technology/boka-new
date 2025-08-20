@@ -114,7 +114,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<script type=\"text/javascript\">\n\tdocument.querySelector('.button--primary').addEventListener('click', function (){\n\t\twindow._klOnsite = window._klOnsite || []; \n\t\twindow._klOnsite.push(['openForm', 'FORM_ID']);\n\t});\n</script>",
+        "custom_liquid": "<script type=\"text/javascript\">\n\tdocument.querySelector('.banner__buttons').addEventListener('click', function (){\n\t\twindow._klOnsite = window._klOnsite || []; \n\t\twindow._klOnsite.push(['openForm', 'X2GpR4']);\n\t});\n</script>",
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
         "custom_text_color": "#FFFFFF",
