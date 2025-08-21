@@ -34,12 +34,26 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 0;
+    z-index: 1;
+    opacity: {{ section.settings.text_bg_opacity | default: 100 | divided_by: 100.0 }};
   }
   
   .enhanced-image-with-text__content {
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    background: rgba(255, 255, 255, {{ section.settings.content_bg_opacity | default: 90 | divided_by: 100.0 }});
+    padding: 20px;
+    border-radius: 8px;
+  }
+
+  /* Override for custom color schemes */
+  .enhanced-image-with-text__text-item--bg .color-custom .enhanced-image-with-text__content {
+    background: rgba({{ section.settings.custom_background_color | color_extract: 'red' }}, {{ section.settings.custom_background_color | color_extract: 'green' }}, {{ section.settings.custom_background_color | color_extract: 'blue' }}, 0.9);
+  }
+
+  /* Ensure minimum height for background visibility */
+  .enhanced-image-with-text__text-item--bg {
+    min-height: 400px;
   }
 
   /* Icon text styles */
@@ -129,11 +143,14 @@
     <!-- Text Content Item with Background -->
     <div class="image-with-text__text-item enhanced-image-with-text__text-item grid__item{% if section.settings.text_background_image != blank %} enhanced-image-with-text__text-item--bg{% endif %}">
       {%- if section.settings.text_background_image != blank -%}
-        {{
-          section.settings.text_background_image
-          | image_url: width: 800
-          | image_tag: loading: 'lazy', class: 'enhanced-image-with-text__text-bg'
-        }}
+        <img
+          src="{{ section.settings.text_background_image | image_url: width: 800 }}"
+          alt="Background"
+          loading="lazy"
+          class="enhanced-image-with-text__text-bg"
+          width="800"
+          height="600"
+        />
       {%- endif -%}
       
       <div
@@ -351,6 +368,28 @@
       "info": "Optional background image for the text content side"
     },
     {
+      "type": "range",
+      "id": "text_bg_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Background Image Opacity",
+      "default": 100,
+      "info": "Control the opacity of the background image"
+    },
+    {
+      "type": "range",
+      "id": "content_bg_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Content Background Opacity",
+      "default": 90,
+      "info": "Control the opacity of the content background overlay"
+    },
+    {
       "type": "header",
       "content": "Icon Settings"
     },
@@ -358,7 +397,7 @@
       "type": "range",
       "id": "icon_size",
       "min": 16,
-      "max": 70,
+      "max": 48,
       "step": 2,
       "unit": "px",
       "label": "Icon Size",
