@@ -19,6 +19,61 @@
         "padding_bottom_mobile": 36
       }
     },
+    "video_slideshow_hMr9ba": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_46dFTr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Main_banner_desktop.webp",
+            "image_mobile": "shopify://shop_images/Main_banner_mobile.webp",
+            "heading": "test",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "test",
+            "button_label": "SHOP",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#000000",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#ffffff",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_46dFTr"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": true,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
     "175586142552adcc00": {
       "type": "apps",
       "blocks": {
@@ -71,93 +126,6 @@
         "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "video_slideshow_hMr9ba": {
-      "type": "video-slideshow",
-      "blocks": {
-        "image_46dFTr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Main_banner_desktop.webp",
-            "image_mobile": "shopify://shop_images/Main_banner_mobile.webp",
-            "heading": "test",
-            "image_link": "",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "test",
-            "button_label": "SHOP",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label2": "",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "custom_background_color": "#333333",
-            "custom_text_color": "#000000",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#ffffff",
-            "button_background_color_mobile": "#000000",
-            "button_foreground_color_mobile": "#ffffff",
-            "bottom_text_background_color": "#dce6cf",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
-          }
-        },
-        "video_UnVqYW": {
-          "type": "video",
-          "settings": {
-            "heading": "Video slide",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "Tell your brand's story through images",
-            "enable_fullscreen_link": true,
-            "button_label": "SHOP",
-            "link": "",
-            "button_style_secondary": false,
-            "button_label2": "LEARN MORE",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "custom_background_color": "#333333",
-            "custom_text_color": "#ffffff",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#ffffff",
-            "bottom_text_background_color": "#dce6cf",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "image_46dFTr",
-        "video_UnVqYW"
-      ],
-      "disabled": true,
-      "name": "Slideshow with Video",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "enable_video_buttons": true,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "fadein_enabled": true,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text_jqRhWJ": {
@@ -226,9 +194,9 @@
   },
   "order": [
     "main",
+    "video_slideshow_hMr9ba",
     "175586142552adcc00",
     "custom_hero_klaviyo_KdLT3p",
-    "video_slideshow_hMr9ba",
     "rich_text_jqRhWJ",
     "featured_collection_EwniDz"
   ]
