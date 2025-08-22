@@ -88,6 +88,7 @@
       "block_order": [
         "klaviyo_form_WARK4x"
       ],
+      "disabled": true,
       "name": "Custom Hero with Klaviyo",
       "settings": {
         "desktop_image": "shopify://shop_images/Main_banner_desktop.webp",
