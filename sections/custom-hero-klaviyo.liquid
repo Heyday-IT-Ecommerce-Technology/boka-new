@@ -219,9 +219,9 @@
         {% if section.settings.description != blank %}
           <p>{{ section.settings.description }}</p>
         {% endif %}
-        
+        <div class="klaviyo-form-Vx3PJi"></div>
         {% comment %} Klaviyo Form Integration {% endcomment %}
-        {% if section.settings.klaviyo_form_id != blank %}
+        {% comment %} {% if section.settings.klaviyo_form_id != blank %}
           <div class="klaviyo-form-wrapper">
             {% render 'klaviyo-form', form_id: section.settings.klaviyo_form_id %}
           </div>
@@ -229,7 +229,7 @@
           <div class="klaviyo-form-wrapper">
             {{ section.settings.custom_embed_code }}
           </div>
-        {% endif %}
+        {% endif %} {% endcomment %}
       </div>
     {% endif %}
 
