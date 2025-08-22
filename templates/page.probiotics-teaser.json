@@ -26,11 +26,25 @@
         "custom_liquid": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "padding_top": 40,
         "padding_bottom": 52,
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
+      }
+    },
+    "custom_hero_klaviyo_KdLT3p": {
+      "type": "custom-hero-klaviyo",
+      "name": "Custom Hero with Klaviyo",
+      "settings": {
+        "desktop_image": "shopify://shop_images/Main_banner_desktop.webp",
+        "mobile_image": "shopify://shop_images/Main_banner_mobile.webp",
+        "heading": "",
+        "description": "",
+        "desktop_content_position": "overlay",
+        "klaviyo_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "video_slideshow_hMr9ba": {
@@ -187,6 +201,7 @@
   "order": [
     "main",
     "custom_liquid_hb7EfJ",
+    "custom_hero_klaviyo_KdLT3p",
     "video_slideshow_hMr9ba",
     "rich_text_jqRhWJ",
     "featured_collection_EwniDz"
