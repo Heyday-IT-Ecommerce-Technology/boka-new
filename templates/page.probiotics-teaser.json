@@ -42,35 +42,11 @@
         "heading": "",
         "description": "",
         "desktop_content_position": "overlay",
-        "klaviyo_embed_code": "",
+        "desktop_alignment": "center",
+        "klaviyo_form_id": "Vx3PJi",
+        "custom_embed_code": "",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "17558589702c989091": {
-      "type": "apps",
-      "blocks": {
-        "klaviyo_email_marketing_sms_form_embed_block_iyHtQ8": {
-          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
-          "settings": {
-            "formId": "Vx3PJi"
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_email_marketing_sms_form_embed_block_iyHtQ8"
-      ],
-      "settings": {
-        "include_margins": true,
-        "css_class": "",
-        "custom_color_enabled": false,
-        "custom_background_color": "",
-        "padding_top": 0,
-        "padding_bottom": 30,
-        "padding_top_tablet": 0,
-        "padding_bottom_tablet": 30,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 10
       }
     },
     "video_slideshow_hMr9ba": {
@@ -228,7 +204,6 @@
     "main",
     "custom_liquid_hb7EfJ",
     "custom_hero_klaviyo_KdLT3p",
-    "17558589702c989091",
     "video_slideshow_hMr9ba",
     "rich_text_jqRhWJ",
     "featured_collection_EwniDz"
