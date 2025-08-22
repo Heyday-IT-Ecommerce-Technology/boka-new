@@ -27,11 +27,11 @@
           "settings": {
             "image": "shopify://shop_images/Main_banner_desktop.webp",
             "image_mobile": "shopify://shop_images/Main_banner_mobile.webp",
-            "heading": "test",
+            "heading": "Something's Blooming...",
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "test",
+            "subheading": "A revolutionary oral care upgrade is coming on Sept 9. Get ready to flourish from within. Sign up to stay in the loop.",
             "button_label": "SIGN UP NOW",
             "link": "",
             "button_style_secondary": false,
