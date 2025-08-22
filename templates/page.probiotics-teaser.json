@@ -249,6 +249,20 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 10
       }
+    },
+    "custom_liquid_c8jQV7": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-form-SSgNbU\"></div>",
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
@@ -258,6 +272,7 @@
     "video_slideshow_hMr9ba",
     "rich_text_jqRhWJ",
     "featured_collection_EwniDz",
-    "175587773916d2f6bc"
+    "175587773916d2f6bc",
+    "custom_liquid_c8jQV7"
   ]
 }
