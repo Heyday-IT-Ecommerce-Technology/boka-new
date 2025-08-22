@@ -19,20 +19,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "custom_liquid_hb7EfJ": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "padding_top": 40,
-        "padding_bottom": 52,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "custom_hero_klaviyo_KdLT3p": {
       "type": "custom-hero-klaviyo",
       "name": "Custom Hero with Klaviyo",
@@ -202,7 +188,6 @@
   },
   "order": [
     "main",
-    "custom_liquid_hb7EfJ",
     "custom_hero_klaviyo_KdLT3p",
     "video_slideshow_hMr9ba",
     "rich_text_jqRhWJ",
