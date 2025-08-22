@@ -21,6 +21,17 @@
     },
     "custom_hero_klaviyo_KdLT3p": {
       "type": "custom-hero-klaviyo",
+      "blocks": {
+        "klaviyo_form_WARK4x": {
+          "type": "klaviyo_form",
+          "settings": {
+            "form_id": "Vx3PJi"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_form_WARK4x"
+      ],
       "name": "Custom Hero with Klaviyo",
       "settings": {
         "desktop_image": "shopify://shop_images/Main_banner_desktop.webp",
