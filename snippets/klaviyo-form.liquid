@@ -1,0 +1,77 @@
+<!-- snippets/klaviyo-form.liquid -->
+{% comment %}
+  Klaviyo Form Snippet
+  Usage: {% render 'klaviyo-form', form_id: 'YOUR_FORM_ID' %}
+{% endcomment %}
+
+{% if form_id != blank %}
+  <div class="klaviyo-form-container" id="klaviyo-form-{{ form_id }}">
+    {% comment %} This will be populated by Klaviyo's JavaScript {% endcomment %}
+    <div class="klaviyo-form-{{ form_id }}"></div>
+  </div>
+
+  <script type="text/javascript" async src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id={{ shop.permanent_domain | replace: '.myshopify.com', '' }}"></script>
+  <script type="text/javascript">
+    window.KlaviyoSubscribe = window.KlaviyoSubscribe || [];
+    window.KlaviyoSubscribe.push(['identify', {
+      '$email': ''
+    }]);
+    
+    // Initialize the form
+    if (typeof window._klOnsite !== 'undefined') {
+      window._klOnsite.push(['display', '{{ form_id }}']);
+    } else {
+      window.addEventListener('load', function() {
+        if (typeof window._klOnsite !== 'undefined') {
+          window._klOnsite.push(['display', '{{ form_id }}']);
+        }
+      });
+    }
+  </script>
+
+  <style>
+    .klaviyo-form-container {
+      width: 100%;
+    }
+    
+    /* Style the Klaviyo form to match your design */
+    .klaviyo-form-{{ form_id }} .needsclick {
+      background-color: #000 !important;
+      color: #fff !important;
+      border: none !important;
+      padding: 12px 24px !important;
+      border-radius: 4px !important;
+      font-weight: bold !important;
+      cursor: pointer !important;
+      text-transform: uppercase !important;
+      letter-spacing: 1px !important;
+      transition: background-color 0.3s ease !important;
+    }
+    
+    .klaviyo-form-{{ form_id }} .needsclick:hover {
+      background-color: #333 !important;
+    }
+    
+    .klaviyo-form-{{ form_id }} input[type="email"] {
+      width: 100% !important;
+      padding: 12px !important;
+      border: 1px solid #ddd !important;
+      border-radius: 4px !important;
+      margin-bottom: 12px !important;
+      font-size: 16px !important;
+    }
+    
+    .klaviyo-form-{{ form_id }} input[type="email"]:focus {
+      outline: none !important;
+      border-color: #000 !important;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 749px) {
+      .klaviyo-form-{{ form_id }} .needsclick {
+        width: 100% !important;
+        padding: 14px 20px !important;
+      }
+    }
+  </style>
+{% endif %}
