@@ -515,6 +515,54 @@
             "link2": "",
             "button_style_secondary2": false,
             "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#FFFFFF",
+            "bottom_text_background_color": "#DCE6CF",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "slide_eMkGB6"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": false,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "slideshow_LnAizA": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_VqCUf4": {
+          "type": "slide",
+          "settings": {
+            "heading": "Welcome to Probiotic Toothpaste",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Formulated with Lactobacillus paracasei probiotics, known to support the growth of good bacteria, promoting microbiome goodness with every brush.",
+            "button_label": "Try the Future of Oral Care",
+            "link": "shopify://pages/dental-pros",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
@@ -531,7 +579,7 @@
         }
       },
       "block_order": [
-        "slide_eMkGB6"
+        "slide_VqCUf4"
       ],
       "name": "t:sections.slideshow.presets.name",
       "settings": {
@@ -1729,6 +1777,7 @@
     "multicolumn_yMby9K",
     "image_with_text_r44xK7",
     "slideshow_MFajRW",
+    "slideshow_LnAizA",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
     "f4193636-5fdd-433c-9007-46d2cfbfd7d8",
     "e3674e4d-a192-4d10-b067-75210316dfdd",
