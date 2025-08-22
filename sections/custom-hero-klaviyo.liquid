@@ -4,6 +4,8 @@
     .custom-hero-section {
       position: relative;
       width: 100%;
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
     }
     
     .custom-hero-container {
@@ -49,8 +51,25 @@
       line-height: 1.5;
     }
     
-    .klaviyo-embed-wrapper {
+    .klaviyo-form-wrapper {
       margin-top: 1rem;
+    }
+    
+    /* Desktop alignment options */
+    .custom-hero-content.align-left {
+      left: 10%;
+      transform: translateY(-50%);
+    }
+    
+    .custom-hero-content.align-right {
+      left: auto;
+      right: 10%;
+      transform: translateY(-50%);
+    }
+    
+    .custom-hero-content.align-center {
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
     
     /* Mobile styles */
@@ -63,12 +82,17 @@
         display: block;
       }
       
-      .custom-hero-content {
+      .custom-hero-content,
+      .custom-hero-content.align-left,
+      .custom-hero-content.align-right,
+      .custom-hero-content.align-center {
         position: static;
         transform: none;
         margin: -50px 1rem 2rem 1rem;
         background: rgba(255, 255, 255, 0.98);
         z-index: 2;
+        left: auto;
+        right: auto;
       }
       
       .custom-hero-content h2 {
@@ -76,7 +100,7 @@
       }
     }
     
-    /* Desktop positioning options */
+    /* Desktop positioning options - above image */
     .desktop-above-image .custom-hero-content {
       position: static;
       transform: none;
@@ -84,12 +108,43 @@
       background: rgba(255, 255, 255, 0.98);
     }
     
+    .desktop-above-image .custom-hero-content.align-left {
+      margin: 0 auto 2rem 0;
+      max-width: 500px;
+    }
+    
+    .desktop-above-image .custom-hero-content.align-right {
+      margin: 0 0 2rem auto;
+      max-width: 500px;
+    }
+    
+    .desktop-above-image .custom-hero-content.align-center {
+      margin: 0 auto 2rem auto;
+      max-width: 500px;
+    }
+    
     @media (max-width: 749px) {
-      .desktop-above-image .custom-hero-content {
+      .desktop-above-image .custom-hero-content,
+      .desktop-above-image .custom-hero-content.align-left,
+      .desktop-above-image .custom-hero-content.align-right,
+      .desktop-above-image .custom-hero-content.align-center {
         position: static;
         transform: none;
         margin: 1rem;
         background: rgba(255, 255, 255, 0.98);
+      }
+    }
+    
+    /* Container for above image positioning on desktop */
+    .page-width {
+      max-width: 120rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    
+    @media (max-width: 749px) {
+      .page-width {
+        padding: 0 1rem;
       }
     }
   </style>
@@ -98,18 +153,26 @@
     
     {% comment %} Desktop content above image {% endcomment %}
     {% if section.settings.desktop_content_position == 'above' %}
-      <div class="custom-hero-content desktop-only" style="position: static; transform: none; margin: 0 auto 2rem auto;">
-        {% if section.settings.heading != blank %}
-          <h2>{{ section.settings.heading }}</h2>
-        {% endif %}
-        {% if section.settings.description != blank %}
-          <p>{{ section.settings.description }}</p>
-        {% endif %}
-        {% if section.settings.klaviyo_embed_code != blank %}
-          <div class="klaviyo-embed-wrapper">
-            {{ section.settings.klaviyo_embed_code }}
-          </div>
-        {% endif %}
+      <div class="page-width">
+        <div class="custom-hero-content desktop-only align-{{ section.settings.desktop_alignment }}" style="position: static; transform: none;">
+          {% if section.settings.heading != blank %}
+            <h2>{{ section.settings.heading }}</h2>
+          {% endif %}
+          {% if section.settings.description != blank %}
+            <p>{{ section.settings.description }}</p>
+          {% endif %}
+          
+          {% comment %} Klaviyo Form Integration {% endcomment %}
+          {% if section.settings.klaviyo_form_id != blank %}
+            <div class="klaviyo-form-wrapper">
+              {% render 'klaviyo-form', form_id: section.settings.klaviyo_form_id %}
+            </div>
+          {% elsif section.settings.custom_embed_code != blank %}
+            <div class="klaviyo-form-wrapper">
+              {{ section.settings.custom_embed_code }}
+            </div>
+          {% endif %}
+        </div>
       </div>
     {% endif %}
 
@@ -149,22 +212,28 @@
 
     {% comment %} Content overlay for desktop or below image for mobile {% endcomment %}
     {% if section.settings.desktop_content_position == 'overlay' or section.settings.desktop_content_position == blank %}
-      <div class="custom-hero-content">
+      <div class="custom-hero-content align-{{ section.settings.desktop_alignment }}">
         {% if section.settings.heading != blank %}
           <h2>{{ section.settings.heading }}</h2>
         {% endif %}
         {% if section.settings.description != blank %}
           <p>{{ section.settings.description }}</p>
         {% endif %}
-        {% if section.settings.klaviyo_embed_code != blank %}
-          <div class="klaviyo-embed-wrapper">
-            {{ section.settings.klaviyo_embed_code }}
+        
+        {% comment %} Klaviyo Form Integration {% endcomment %}
+        {% if section.settings.klaviyo_form_id != blank %}
+          <div class="klaviyo-form-wrapper">
+            {% render 'klaviyo-form', form_id: section.settings.klaviyo_form_id %}
+          </div>
+        {% elsif section.settings.custom_embed_code != blank %}
+          <div class="klaviyo-form-wrapper">
+            {{ section.settings.custom_embed_code }}
           </div>
         {% endif %}
       </div>
     {% endif %}
 
-    {% comment %} Mobile content below image {% endcomment %}
+    {% comment %} Mobile content below image when desktop is above {% endcomment %}
     {% if section.settings.desktop_content_position == 'above' %}
       <div class="custom-hero-content mobile-only" style="position: static; transform: none; margin: 1rem; background: rgba(255, 255, 255, 0.98); display: none;">
         {% if section.settings.heading != blank %}
@@ -173,9 +242,15 @@
         {% if section.settings.description != blank %}
           <p>{{ section.settings.description }}</p>
         {% endif %}
-        {% if section.settings.klaviyo_embed_code != blank %}
-          <div class="klaviyo-embed-wrapper">
-            {{ section.settings.klaviyo_embed_code }}
+        
+        {% comment %} Klaviyo Form Integration for Mobile {% endcomment %}
+        {% if section.settings.klaviyo_form_id != blank %}
+          <div class="klaviyo-form-wrapper">
+            {% render 'klaviyo-form', form_id: section.settings.klaviyo_form_id %}
+          </div>
+        {% elsif section.settings.custom_embed_code != blank %}
+          <div class="klaviyo-form-wrapper">
+            {{ section.settings.custom_embed_code }}
           </div>
         {% endif %}
       </div>
@@ -191,7 +266,16 @@
 
   </div>
 </div>
-<div class="klaviyo-form-Vx3PJi"></div>
+
+{% comment %} Klaviyo App Block Areas {% endcomment %}
+{% for block in section.blocks %}
+  {% case block.type %}
+    {% when 'klaviyo_form' %}
+      <div {{ block.shopify_attributes }} style="display: none;">
+        {% comment %} This is handled via the Klaviyo app embed {% endcomment %}
+      </div>
+  {% endcase %}
+{% endfor %}
 
 {% schema %}
 {
@@ -249,14 +333,45 @@
       "info": "On mobile, content will always appear below the image"
     },
     {
+      "type": "select",
+      "id": "desktop_alignment",
+      "label": "Desktop Content Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center",
+      "info": "Content alignment on desktop. On mobile, content is always centered."
+    },
+    {
       "type": "header",
       "content": "Klaviyo Integration"
     },
     {
+      "type": "paragraph",
+      "content": "Choose one method below to add your Klaviyo form:"
+    },
+    {
+      "type": "text",
+      "id": "klaviyo_form_id",
+      "label": "Klaviyo Form ID (Recommended)",
+      "info": "Enter your Klaviyo form ID (e.g., ABC123). This uses the Klaviyo app block. Make sure the Klaviyo app embed is enabled in your Shopify store."
+    },
+    {
       "type": "html",
-      "id": "klaviyo_embed_code",
-      "label": "Klaviyo Embed Code",
-      "info": "Paste your Klaviyo form embed code here"
+      "id": "custom_embed_code",
+      "label": "Custom Embed Code (Alternative)",
+      "info": "If Form ID doesn't work, paste your complete Klaviyo embed code here as a fallback."
     },
     {
       "type": "header",
@@ -281,6 +396,20 @@
       "unit": "px",
       "label": "Bottom Padding",
       "default": 0
+    }
+  ],
+  "blocks": [
+    {
+      "type": "klaviyo_form",
+      "name": "Klaviyo Form",
+      "settings": [
+        {
+          "type": "text",
+          "id": "form_id",
+          "label": "Form ID",
+          "info": "Klaviyo form ID"
+        }
+      ]
     }
   ],
   "presets": [
