@@ -32,6 +32,7 @@
       "block_order": [
         "klaviyo_email_marketing_sms_form_embed_block_bQLm7T"
       ],
+      "disabled": true,
       "settings": {
         "include_margins": true,
         "css_class": "",
@@ -66,7 +67,7 @@
         "heading": "",
         "description": "",
         "desktop_content_position": "overlay",
-        "desktop_alignment": "center",
+        "desktop_alignment": "left",
         "klaviyo_form_id": "Vx3PJi",
         "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
         "padding_top": 0,
