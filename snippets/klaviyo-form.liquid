@@ -34,43 +34,37 @@
       width: 100%;
     }
     
-    /* Style the Klaviyo form to match your design */
-    {% comment %} .klaviyo-form-{{ form_id }} .needsclick {
-      background-color: #000 !important;
-      color: #fff !important;
-      border: none !important;
-      padding: 12px 24px !important;
-      border-radius: 4px !important;
-      font-weight: bold !important;
-      cursor: pointer !important;
-      text-transform: uppercase !important;
-      letter-spacing: 1px !important;
-      transition: background-color 0.3s ease !important;
-    } {% endcomment %}
-    
-    {% comment %} .klaviyo-form-{{ form_id }} .needsclick:hover {
-      background-color: #333 !important;
-    } {% endcomment %}
-    
-    .klaviyo-form-{{ form_id }} input[type="email"] {
+    /* Minimal styling - let Klaviyo handle dimensions and layout */
+    .klaviyo-form-{{ form_id }} {
       width: 100% !important;
-      padding: 12px !important;
-      border: 1px solid #ddd !important;
-      border-radius: 4px !important;
-      margin-bottom: 12px !important;
-      font-size: 16px !important;
+      max-width: 100% !important;
+      margin: 0 auto !important;
     }
     
-    .klaviyo-form-{{ form_id }} input[type="email"]:focus {
-      outline: none !important;
-      border-color: #000 !important;
+    /* Ensure Klaviyo form inherits container styling */
+    .klaviyo-form-{{ form_id }} .klaviyo-form-version-cid {
+      width: 100% !important;
+      max-width: none !important;
+      height: auto !important;
     }
     
-    /* Responsive adjustments */
+    /* Override only essential responsive behavior */
+    .klaviyo-form-{{ form_id }} * {
+      box-sizing: border-box !important;
+    }
+    
+    /* Let Klaviyo handle form field sizing */
+    .klaviyo-form-{{ form_id }} input,
+    .klaviyo-form-{{ form_id }} button,
+    .klaviyo-form-{{ form_id }} textarea {
+      width: auto !important;
+      max-width: 100% !important;
+    }
+    
+    /* Ensure form is responsive within our container */
     @media (max-width: 749px) {
-      .klaviyo-form-{{ form_id }} .needsclick {
+      .klaviyo-form-{{ form_id }} {
         width: 100% !important;
-        padding: 14px 20px !important;
       }
     }
   </style>
