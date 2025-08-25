@@ -60,6 +60,7 @@
       "block_order": [
         "image_46dFTr"
       ],
+      "disabled": true,
       "name": "Slideshow with Video",
       "settings": {
         "layout": "full_bleed",
