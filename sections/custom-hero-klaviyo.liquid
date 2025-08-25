@@ -134,6 +134,12 @@
     
     .klaviyo-form-wrapper {
       margin-top: 1rem;
+      width: 100%;
+    }
+    
+    /* Let Klaviyo forms use their native dimensions */
+    .klaviyo-form-wrapper * {
+      max-width: 100%;
     }
     
     /* Desktop alignment options */
@@ -643,7 +649,7 @@
       "type": "text",
       "id": "klaviyo_form_id",
       "label": "Klaviyo Form ID (Recommended)",
-      "info": "Enter your Klaviyo form ID (e.g., ABC123). This uses the Klaviyo app block. Make sure the Klaviyo app embed is enabled in your Shopify store."
+      "info": "Enter your Klaviyo form ID (e.g., ABC123). This uses the Klaviyo app block and preserves the original form dimensions and styling from Klaviyo. Make sure the Klaviyo app embed is enabled in your Shopify store."
     },
     {
       "type": "html",
