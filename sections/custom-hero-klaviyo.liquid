@@ -14,14 +14,23 @@
       overflow: hidden;
     }
     
-    .custom-hero-image {
+    .custom-hero-image,
+    .custom-hero-video {
       width: 100%;
       height: auto;
       display: block;
+      object-fit: cover;
     }
     
-    .custom-hero-image.mobile-only {
+    .custom-hero-image.mobile-only,
+    .custom-hero-video.mobile-only {
       display: none;
+    }
+    
+    /* Video specific styles */
+    video.custom-hero-image {
+      object-fit: cover;
+      background-color: #000;
     }
     
     .custom-hero-content {
@@ -32,9 +41,8 @@
       background: rgba(255, 255, 255, 0.95);
       padding: 2rem;
       border-radius: 8px;
-      {% comment %} max-width: 500px; {% endcomment %}
-      height: 22vw;
-      width: 55%;
+      max-width: 500px;
+      width: 90%;
       text-align: center;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     }
@@ -75,11 +83,13 @@
     
     /* Mobile styles */
     @media (max-width: 749px) {
-      .custom-hero-image.desktop-only {
+      .custom-hero-image.desktop-only,
+      .custom-hero-video.desktop-only {
         display: none;
       }
       
-      .custom-hero-image.mobile-only {
+      .custom-hero-image.mobile-only,
+      .custom-hero-video.mobile-only {
         display: block;
       }
       
@@ -177,9 +187,10 @@
       </div>
     {% endif %}
 
-    {% comment %} Images {% endcomment %}
-    <div class="image-container">
-      {% if section.settings.desktop_image != blank %}
+    {% comment %} Media Container (Images, GIFs, Videos) {% endcomment %}
+    <div class="media-container">
+      {% comment %} Desktop Media {% endcomment %}
+      {% if section.settings.desktop_media_type == 'image' and section.settings.desktop_image != blank %}
         <img 
           src="{{ section.settings.desktop_image | image_url: width: 1920 }}"
           alt="{{ section.settings.desktop_image.alt | escape }}"
@@ -188,9 +199,33 @@
           width="{{ section.settings.desktop_image.width }}"
           height="{{ section.settings.desktop_image.height }}"
         >
+      {% elsif section.settings.desktop_media_type == 'gif' and section.settings.desktop_gif != blank %}
+        <img 
+          src="{{ section.settings.desktop_gif | image_url: width: 1920 }}"
+          alt="{{ section.settings.desktop_gif.alt | escape }}"
+          class="custom-hero-image desktop-only"
+          loading="lazy"
+          width="{{ section.settings.desktop_gif.width }}"
+          height="{{ section.settings.desktop_gif.height }}"
+        >
+      {% elsif section.settings.desktop_media_type == 'video' and section.settings.desktop_video != blank %}
+        <video 
+          class="custom-hero-image desktop-only"
+          autoplay 
+          muted 
+          loop 
+          playsinline
+          {% if section.settings.video_poster != blank %}
+            poster="{{ section.settings.video_poster | image_url: width: 1920 }}"
+          {% endif %}
+        >
+          <source src="{{ section.settings.desktop_video }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       {% endif %}
       
-      {% if section.settings.mobile_image != blank %}
+      {% comment %} Mobile Media {% endcomment %}
+      {% if section.settings.mobile_media_type == 'image' and section.settings.mobile_image != blank %}
         <img 
           src="{{ section.settings.mobile_image | image_url: width: 750 }}"
           alt="{{ section.settings.mobile_image.alt | escape }}"
@@ -199,7 +234,31 @@
           width="{{ section.settings.mobile_image.width }}"
           height="{{ section.settings.mobile_image.height }}"
         >
-      {% elsif section.settings.desktop_image != blank %}
+      {% elsif section.settings.mobile_media_type == 'gif' and section.settings.mobile_gif != blank %}
+        <img 
+          src="{{ section.settings.mobile_gif | image_url: width: 750 }}"
+          alt="{{ section.settings.mobile_gif.alt | escape }}"
+          class="custom-hero-image mobile-only"
+          loading="lazy"
+          width="{{ section.settings.mobile_gif.width }}"
+          height="{{ section.settings.mobile_gif.height }}"
+        >
+      {% elsif section.settings.mobile_media_type == 'video' and section.settings.mobile_video != blank %}
+        <video 
+          class="custom-hero-image mobile-only"
+          autoplay 
+          muted 
+          loop 
+          playsinline
+          {% if section.settings.mobile_video_poster != blank %}
+            poster="{{ section.settings.mobile_video_poster | image_url: width: 750 }}"
+          {% endif %}
+        >
+          <source src="{{ section.settings.mobile_video }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      {% elsif section.settings.desktop_media_type == 'image' and section.settings.desktop_image != blank %}
+        {% comment %} Fallback to desktop image if mobile media not set {% endcomment %}
         <img 
           src="{{ section.settings.desktop_image | image_url: width: 750 }}"
           alt="{{ section.settings.desktop_image.alt | escape }}"
@@ -208,6 +267,31 @@
           width="{{ section.settings.desktop_image.width }}"
           height="{{ section.settings.desktop_image.height }}"
         >
+      {% elsif section.settings.desktop_media_type == 'gif' and section.settings.desktop_gif != blank %}
+        {% comment %} Fallback to desktop GIF if mobile media not set {% endcomment %}
+        <img 
+          src="{{ section.settings.desktop_gif | image_url: width: 750 }}"
+          alt="{{ section.settings.desktop_gif.alt | escape }}"
+          class="custom-hero-image mobile-only"
+          loading="lazy"
+          width="{{ section.settings.desktop_gif.width }}"
+          height="{{ section.settings.desktop_gif.height }}"
+        >
+      {% elsif section.settings.desktop_media_type == 'video' and section.settings.desktop_video != blank %}
+        {% comment %} Fallback to desktop video if mobile media not set {% endcomment %}
+        <video 
+          class="custom-hero-image mobile-only"
+          autoplay 
+          muted 
+          loop 
+          playsinline
+          {% if section.settings.video_poster != blank %}
+            poster="{{ section.settings.video_poster | image_url: width: 750 }}"
+          {% endif %}
+        >
+          <source src="{{ section.settings.desktop_video }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       {% endif %}
     </div>
 
@@ -220,9 +304,9 @@
         {% if section.settings.description != blank %}
           <p>{{ section.settings.description }}</p>
         {% endif %}
-        <div class="klaviyo-form-Vx3PJi"></div>
+        
         {% comment %} Klaviyo Form Integration {% endcomment %}
-        {% comment %} {% if section.settings.klaviyo_form_id != blank %}
+        {% if section.settings.klaviyo_form_id != blank %}
           <div class="klaviyo-form-wrapper">
             {% render 'klaviyo-form', form_id: section.settings.klaviyo_form_id %}
           </div>
@@ -230,7 +314,7 @@
           <div class="klaviyo-form-wrapper">
             {{ section.settings.custom_embed_code }}
           </div>
-        {% endif %} {% endcomment %}
+        {% endif %}
       </div>
     {% endif %}
 
@@ -267,7 +351,7 @@
 
   </div>
 </div>
-<div class="klaviyo-form-Vx3PJi"></div>
+
 {% comment %} Klaviyo App Block Areas {% endcomment %}
 {% for block in section.blocks %}
   {% case block.type %}
@@ -286,7 +370,27 @@
   "settings": [
     {
       "type": "header",
-      "content": "Images"
+      "content": "Desktop Media"
+    },
+    {
+      "type": "select",
+      "id": "desktop_media_type",
+      "label": "Desktop Media Type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "gif",
+          "label": "GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        }
+      ],
+      "default": "image"
     },
     {
       "type": "image_picker",
@@ -296,9 +400,74 @@
     },
     {
       "type": "image_picker",
+      "id": "desktop_gif",
+      "label": "Desktop GIF",
+      "info": "Upload your GIF file. Recommended size: 1920x800px"
+    },
+    {
+      "type": "url",
+      "id": "desktop_video",
+      "label": "Desktop Video URL",
+      "info": "Direct link to MP4 video file (e.g., from Shopify Files or external hosting)"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_poster",
+      "label": "Desktop Video Poster Image",
+      "info": "Thumbnail image shown before video loads"
+    },
+    {
+      "type": "header",
+      "content": "Mobile Media"
+    },
+    {
+      "type": "select",
+      "id": "mobile_media_type",
+      "label": "Mobile Media Type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image"
+        },
+        {
+          "value": "gif",
+          "label": "GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video"
+        },
+        {
+          "value": "same",
+          "label": "Use same as desktop"
+        }
+      ],
+      "default": "same",
+      "info": "Choose 'Use same as desktop' to automatically use desktop media on mobile"
+    },
+    {
+      "type": "image_picker",
       "id": "mobile_image",
-      "label": "Mobile Image (Optional)",
-      "info": "If not set, desktop image will be used. Recommended size: 750x1000px"
+      "label": "Mobile Image",
+      "info": "Recommended size: 750x1000px"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_gif",
+      "label": "Mobile GIF",
+      "info": "Upload your mobile GIF file. Recommended size: 750x1000px"
+    },
+    {
+      "type": "url",
+      "id": "mobile_video",
+      "label": "Mobile Video URL",
+      "info": "Direct link to MP4 video file optimized for mobile"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_video_poster",
+      "label": "Mobile Video Poster Image",
+      "info": "Thumbnail image shown before mobile video loads"
     },
     {
       "type": "header",
