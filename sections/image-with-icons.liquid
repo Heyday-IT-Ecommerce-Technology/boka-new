@@ -3,9 +3,7 @@
   .product-features-section {
     position: relative;
     min-height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: {{ section.settings.background_color | default: '#f8f9fa' }};
     padding: 60px 20px;
     display: flex;
     align-items: center;
@@ -112,7 +110,6 @@
     .product-features-section {
       min-height: auto;
       padding: 40px 20px;
-      background-image: var(--mobile-bg) !important;
     }
 
     .product-features-title {
@@ -181,9 +178,7 @@
   }
 </style>
 
-<div class="product-features-section" 
-     style="background-image: url('{{ section.settings.desktop_background_image | image_url }}'); --mobile-bg: url('{{ section.settings.mobile_background_image | image_url }}');">
-  
+<div class="product-features-section">
   <div class="product-features-container">
     {% if section.settings.section_title != blank %}
       <h2 class="product-features-title">{{ section.settings.section_title }}</h2>
@@ -232,14 +227,10 @@
       "default": "Product Benefits"
     },
     {
-      "type": "image_picker",
-      "id": "desktop_background_image",
-      "label": "Desktop Background Image"
-    },
-    {
-      "type": "image_picker",
-      "id": "mobile_background_image",
-      "label": "Mobile Background Image"
+      "type": "color",
+      "id": "background_color",
+      "label": "Background Color",
+      "default": "#f8f9fa"
     },
     {
       "type": "image_picker",
