@@ -2,7 +2,7 @@
 <style>
   .product-features-section {
     position: relative;
-    min-height: 100vh;
+    {% comment %} min-height: 100vh; {% endcomment %}
     background-color: {{ section.settings.background_color | default: '#f8f9fa' }};
     padding: 60px 20px;
     display: flex;
