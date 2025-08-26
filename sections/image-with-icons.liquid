@@ -18,7 +18,7 @@
   }
 
   .product-features-title {
-    font-size: 2.5rem;
+    font-size: {{ section.settings.title_font_size | default: 40 }}px;
     font-weight: bold;
     color: #333;
     margin-bottom: 60px;
@@ -91,7 +91,7 @@
   }
 
   .feature-title {
-    font-size: 1.5rem;
+    font-size: {{ section.settings.feature_title_font_size | default: 24 }}px;
     font-weight: 600;
     color: #333;
     margin-bottom: 15px;
@@ -99,7 +99,7 @@
   }
 
   .feature-description {
-    font-size: 1rem;
+    font-size: {{ section.settings.feature_description_font_size | default: 16 }}px;
     color: #666;
     line-height: 1.5;
     margin: 0;
@@ -113,7 +113,7 @@
     }
 
     .product-features-title {
-      font-size: 2rem;
+      font-size: calc({{ section.settings.title_font_size | default: 40 }}px * 0.8);
       margin-bottom: 40px;
     }
 
@@ -154,12 +154,12 @@
     }
 
     .feature-title {
-      font-size: 1.3rem;
+      font-size: calc({{ section.settings.feature_title_font_size | default: 24 }}px * 0.85);
       margin-bottom: 12px;
     }
 
     .feature-description {
-      font-size: 0.95rem;
+      font-size: calc({{ section.settings.feature_description_font_size | default: 16 }}px * 0.9);
     }
   }
 
@@ -169,7 +169,7 @@
     }
 
     .product-features-title {
-      font-size: 1.8rem;
+      font-size: calc({{ section.settings.title_font_size | default: 40 }}px * 0.65);
     }
 
     .product-image {
@@ -231,6 +231,36 @@
       "id": "background_color",
       "label": "Background Color",
       "default": "#f8f9fa"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "label": "Section Title Font Size",
+      "min": 20,
+      "max": 60,
+      "step": 2,
+      "default": 40,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "feature_title_font_size",
+      "label": "Feature Title Font Size",
+      "min": 14,
+      "max": 36,
+      "step": 2,
+      "default": 24,
+      "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "feature_description_font_size",
+      "label": "Feature Description Font Size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16,
+      "unit": "px"
     },
     {
       "type": "image_picker",
