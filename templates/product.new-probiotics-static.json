@@ -1498,6 +1498,55 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 50
       }
+    },
+    "image_with_icons_XVJdzR": {
+      "type": "image-with-icons",
+      "blocks": {
+        "feature_Y8cKWi": {
+          "type": "feature",
+          "settings": {
+            "position": "top-left",
+            "icon": "shopify://shop_images/1_d3fa5066-9b3b-436c-bae4-78ad9d737baf.png",
+            "title": "Balanced Microbiome",
+            "description": "Powered by Dental-Lac™ Probiotics to support healthy bacteria oral wellness."
+          }
+        },
+        "feature_hKPKij": {
+          "type": "feature",
+          "settings": {
+            "position": "top-right",
+            "title": "Fresh Breath, Daily",
+            "description": "Clinically researched probiotics help prevent odor and support freshness."
+          }
+        },
+        "feature_BGJJU6": {
+          "type": "feature",
+          "settings": {
+            "position": "bottom-left",
+            "title": "Clean & Conscious",
+            "description": "Vegan, cruelty-free, and free from parabens and other harmful ingredients."
+          }
+        },
+        "feature_KhKEJz": {
+          "type": "feature",
+          "settings": {
+            "position": "bottom-right",
+            "title": "Fluoride-Free",
+            "description": "Formulated with n-Ha to naturally strengthen enamel and fight bad breath."
+          }
+        }
+      },
+      "block_order": [
+        "feature_Y8cKWi",
+        "feature_hKPKij",
+        "feature_BGJJU6",
+        "feature_KhKEJz"
+      ],
+      "name": "Image with feature icons",
+      "settings": {
+        "section_title": "Product Benefits",
+        "product_image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png"
+      }
     }
   },
   "order": [
@@ -1521,6 +1570,7 @@
     "174007755647b47e76",
     "multicolumn_EEmWt6",
     "video_with_text_background_wQaP8M",
-    "gif_icons_with_text_mNBBNg"
+    "gif_icons_with_text_mNBBNg",
+    "image_with_icons_XVJdzR"
   ]
 }
