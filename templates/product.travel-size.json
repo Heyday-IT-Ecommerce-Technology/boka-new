@@ -77,7 +77,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Triacetin, Natural Flavor, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Sodium Bicarbonate, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
+            "content": "<p><strong>Ela Mint</strong><br/>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Sodium Lauroyl Sarcosinate, Mentha Piperita (Peppermint) Oil, Mentha Viridis (Spearmint) Leaf Oil, Illicium Verum (Anise) Fruit/Seed Oil, Gaultheria Procumbens (Wintergreen) Leaf Oil, Xylitol, Xanthan Gum, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Aloe Barbadensis Leaf Juice, Sodium Bicarbonate, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Menthol, Elettaria Cardamomum Seed Oil, Potassium Chloride, Limonene. *Nano<br/><br/><strong>Lemon Lavender </strong><br/>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Aloe Barbadensis Leaf Juice, Citrus Limon (Lemon) Peel Oil, Sodium Bicarbonate, Linalool, Linalyl Acetate, Caprylic/Capric Triglyceride, Lavandula Angustifolia (Lavender) Oil, Lavandula Hybrida Extract, Lavandula Hybrida Oil, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Potassium Chloride, Limonene. *Nano<br/><br/><strong>Coco Ginger </strong><br/>Water (Aqua/Eau), Glycerin, Hydrated Silica, Erythritol, Silica, Natural Flavor (Aroma), Hydroxyapatite*, Xanthan Gum, Sodium Benzoate, Aloe Barbadensis Leaf Juice, Chamomilla Recutita (Matricaria) Flower Extract, Dimethyl Sulfone, Glucose, Potassium Chloride, Sodium Bicarbonate, Stevia Rebaudiana Leaf/Stem Extract, Sodium Lauroyl Sarcosinate. *Nano<br/><br/><strong>Whitening* Refresh Mint </strong><br/>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Sodium Bicarbonate, Hydroxyapatite*, Xanthan Gum, Xylitol, Sodium Lauroyl Sarcosinate, Mentha Viridis (Spearmint) Leaf Oil, Stevia Rebaudiana Leaf / Stem Extract, Dimethyl Sulfone, Gaultheria Fragrantissima (Wintergreen) Leaf Oil, Mentha Piperita (Peppermint) Oil, Cocos Nucifera (Coconut) Oil, Illicium Verum (Anise) Fruit / Seed Oil, Elettaria Cardamomum (Cardamom) Seed Oil, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract, Potassium Chloride, Limonene. *Nano<br/><strong><br/>Watermelon Mint </strong><br/>Water (Aqua/Eau), Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xanthan Gum, Xylitol, Triacetin, Sodium Lauroyl Sarcosinate, Stevia Rebaudiana Leaf/Stem Extract, Dimethyl Sulfone, Sodium Bicarbonate, Mentha Piperita (Peppermint) Oil, Natural Flavor, Aloe Barbadensis (Aloe Vera) Leaf Juice, Camellia Sinensis (Green Tea) Cudumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         },
@@ -105,8 +105,7 @@
             "image_1": "shopify://shop_images/Antioxidant-rich_green_tea.webp",
             "heading_1": "<strong>Antioxidant-rich green tea</strong>",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Blueberry_Dragon_Fruit.webp",
-            "heading_2": "<strong>Juicy Ripe Blueberry & Sweet Dragon Fruit</strong>",
+            "heading_2": "",
             "padding_top": 14,
             "padding_bottom": 0
           }
@@ -203,6 +202,7 @@
         "6f829075-8538-46cf-852c-3bb0c8fb002d",
         "text_ztqcXc"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/BDF_Benefits.webp",
         "height": "adapt",
@@ -534,6 +534,7 @@
         },
         "column_GefQYG": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Blueberry_Dragon_Fruit_2ce381ad-d91f-4ba4-b400-e5bcca90000c.webp",
             "title": "<strong>Blueberry & Dragon Fruit</strong>",
@@ -561,7 +562,7 @@
         "heading_tag": "h2",
         "image_width": "half",
         "image_ratio": "circle",
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "primary",
         "full_width_enabled": false,
