@@ -20,7 +20,7 @@
           "type": "richtext",
           "disabled": true,
           "settings": {
-            "text": "<p><em><strong>NEW Flavor!</strong></em></p>",
+            "text": "",
             "text_style": "body",
             "quick_add_hide": false
           }
