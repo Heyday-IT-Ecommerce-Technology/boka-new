@@ -4,6 +4,12 @@
     position: relative;
     {% comment %} min-height: 100vh; {% endcomment %}
     background-color: {{ section.settings.background_color | default: '#f8f9fa' }};
+    {% if section.settings.background_image != blank %}
+      background-image: url('{{ section.settings.background_image | image_url }}');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    {% endif %}
     padding: 60px 20px;
     display: flex;
     align-items: center;
@@ -231,6 +237,12 @@
       "id": "background_color",
       "label": "Background Color",
       "default": "#f8f9fa"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image (optional)",
+      "info": "If added, this image will overlay the background color"
     },
     {
       "type": "range",
