@@ -18,6 +18,7 @@
         },
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><em><strong>NEW Flavor!</strong></em></p>",
             "text_style": "body",
