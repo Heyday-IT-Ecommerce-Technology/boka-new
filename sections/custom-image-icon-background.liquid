@@ -176,7 +176,7 @@
     <div class="enhanced-image-with-text-bg__text-wrapper">
       {%- for block in section.blocks -%}
         {% case block.type %}
-          {%- when 'heading' -%}
+          {% comment %} {%- when 'heading' -%}
             <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
               class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
@@ -190,7 +190,7 @@
               {{ block.shopify_attributes }}
             >
               {{ block.settings.caption | escape }}
-            </p>
+            </p> {% endcomment %}
           
           {%- when 'text' -%}
             <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
