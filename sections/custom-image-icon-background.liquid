@@ -24,10 +24,11 @@
   /* Background image layout styles */
   .enhanced-image-with-text-bg {
     position: relative;
-    min-height: 500px;
+    min-height: 600px;
     display: flex;
     align-items: center;
     overflow: hidden;
+    width: 100%;
   }
   
   .enhanced-image-with-text-bg__image {
@@ -46,7 +47,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 60px 20px;
   }
   
   .enhanced-image-with-text-bg__text-wrapper {
@@ -171,7 +172,7 @@
   {%- endif -%}
   
   <div class="enhanced-image-with-text-bg__content enhanced-image-with-text-bg__content--{{ section.settings.desktop_content_alignment }}">
-    <!-- Text Content -->
+    <!-- Text Content Above Container -->
     <div class="enhanced-image-with-text-bg__text-wrapper">
       {%- for block in section.blocks -%}
         {% case block.type %}
@@ -199,10 +200,31 @@
       {%- endfor -%}
     </div>
     
-    <!-- Container for icons and buttons -->
+    <!-- Container for ALL Content: icons and buttons -->
     <div class="enhanced-image-with-text-bg__container">
       {%- for block in section.blocks -%}
         {% case block.type %}
+          {%- when 'heading' -%}
+            <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
+              class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}>
+          
+          {%- when 'caption' -%}
+            <p
+              class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.caption | escape }}
+            </p>
+          
+          {%- when 'text' -%}
+            <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              {{ block.settings.text }}
+            </div>
+          
           {%- when 'icon_text' -%}
             <div class="icon-text-item" {{ block.shopify_attributes }}>
               {%- if block.settings.icon != blank -%}
@@ -245,7 +267,7 @@
 
 {% schema %}
 {
-  "name": "Image icons bg with Text",
+  "name": "Image icon bg text",
   "class": "section enhanced-image-with-text-bg",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -646,7 +668,7 @@
   ],
   "presets": [
     {
-      "name": "Image icons bg with Text",
+      "name": "Image icon bg text",
       "blocks": [
         {
           "type": "heading"
