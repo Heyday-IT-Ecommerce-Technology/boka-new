@@ -182,7 +182,7 @@
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
-            </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}>
+            </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}> {% endcomment %}
           
           {%- when 'caption' -%}
             <p
@@ -190,12 +190,12 @@
               {{ block.shopify_attributes }}
             >
               {{ block.settings.caption | escape }}
-            </p> {% endcomment %}
+            </p>
           
-          {%- when 'text' -%}
+          {% comment %} {%- when 'text' -%}
             <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
               {{ block.settings.text }}
-            </div>
+            </div> {% endcomment %}
         {%- endcase -%}
       {%- endfor -%}
     </div>
