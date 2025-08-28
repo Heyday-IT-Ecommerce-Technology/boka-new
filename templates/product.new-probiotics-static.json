@@ -715,6 +715,101 @@
         "padding_bottom_mobile": 50
       }
     },
+    "custom_image_icon_background_FCaA3Y": {
+      "type": "custom-image-icon-background",
+      "blocks": {
+        "heading_ytqjCb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inside Boka’s\nProbiotic Toothpaste",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "icon_text_GJqXKN": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Lemon_Lavender.svg",
+            "icon_alt": "Icon",
+            "heading": "Feature Title",
+            "heading_font_size": 24,
+            "text": "<p>Helps support the oral microbiome</p>",
+            "text_font_size": 14,
+            "text_style": "body"
+          }
+        },
+        "icon_text_4YTFGj": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Orange_Cream.svg",
+            "icon_alt": "Icon",
+            "heading": "Feature Title",
+            "heading_font_size": 16,
+            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text_font_size": 14,
+            "text_style": "body"
+          }
+        },
+        "icon_text_xamHLj": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Watermelon_Mint.svg",
+            "icon_alt": "Icon",
+            "heading": "Feature Title",
+            "heading_font_size": 16,
+            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text_font_size": 14,
+            "text_style": "body"
+          }
+        },
+        "icon_text_LqzTbn": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Strawberry_Mango.svg",
+            "icon_alt": "Icon",
+            "heading": "Feature Title",
+            "heading_font_size": 16,
+            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text_font_size": 14,
+            "text_style": "body"
+          }
+        },
+        "button_d7Kj9t": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ytqjCb",
+        "icon_text_GJqXKN",
+        "icon_text_4YTFGj",
+        "icon_text_xamHLj",
+        "icon_text_LqzTbn",
+        "button_d7Kj9t"
+      ],
+      "name": "Image icon bg text",
+      "settings": {
+        "image": "shopify://shop_images/Does_Probiotic_Toothpaste_Work.jpg",
+        "desktop_content_alignment": "left",
+        "text_color": "#ffffff",
+        "mobile_text_color": "#000000",
+        "container_background_color": "#ffffff",
+        "container_border_radius": 12,
+        "icon_size": 60,
+        "section_background_color": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
     "image_with_text_WcKrcP": {
       "type": "image-with-text",
       "blocks": {
@@ -749,6 +844,7 @@
         "text_a47EKY",
         "button_NhqcNd"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/probiotics_placeholder_ingredients_1.png",
@@ -1523,6 +1619,7 @@
         "text_aeaxKm",
         "button_pQViUT"
       ],
+      "disabled": true,
       "name": "Video text Background",
       "settings": {
         "video": "shopify://files/videos/16by9.mp4",
@@ -1557,101 +1654,6 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 50
       }
-    },
-    "custom_image_icon_background_FCaA3Y": {
-      "type": "custom-image-icon-background",
-      "blocks": {
-        "heading_ytqjCb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Inside Boka’s\nProbiotic Toothpaste",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "icon_text_GJqXKN": {
-          "type": "icon_text",
-          "settings": {
-            "icon": "shopify://shop_images/Lemon_Lavender.svg",
-            "icon_alt": "Icon",
-            "heading": "Feature Title",
-            "heading_font_size": 24,
-            "text": "<p>Helps support the oral microbiome</p>",
-            "text_font_size": 14,
-            "text_style": "body"
-          }
-        },
-        "icon_text_4YTFGj": {
-          "type": "icon_text",
-          "settings": {
-            "icon": "shopify://shop_images/Orange_Cream.svg",
-            "icon_alt": "Icon",
-            "heading": "Feature Title",
-            "heading_font_size": 16,
-            "text": "<p>Add your text content here that will appear next to the icon.</p>",
-            "text_font_size": 14,
-            "text_style": "body"
-          }
-        },
-        "icon_text_xamHLj": {
-          "type": "icon_text",
-          "settings": {
-            "icon": "shopify://shop_images/Watermelon_Mint.svg",
-            "icon_alt": "Icon",
-            "heading": "Feature Title",
-            "heading_font_size": 16,
-            "text": "<p>Add your text content here that will appear next to the icon.</p>",
-            "text_font_size": 14,
-            "text_style": "body"
-          }
-        },
-        "icon_text_LqzTbn": {
-          "type": "icon_text",
-          "settings": {
-            "icon": "shopify://shop_images/Strawberry_Mango.svg",
-            "icon_alt": "Icon",
-            "heading": "Feature Title",
-            "heading_font_size": 16,
-            "text": "<p>Add your text content here that will appear next to the icon.</p>",
-            "text_font_size": 14,
-            "text_style": "body"
-          }
-        },
-        "button_d7Kj9t": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "second_button_label": "",
-            "second_button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_ytqjCb",
-        "icon_text_GJqXKN",
-        "icon_text_4YTFGj",
-        "icon_text_xamHLj",
-        "icon_text_LqzTbn",
-        "button_d7Kj9t"
-      ],
-      "name": "Image icon bg text",
-      "settings": {
-        "image": "shopify://shop_images/Does_Probiotic_Toothpaste_Work.jpg",
-        "desktop_content_alignment": "left",
-        "text_color": "#ffffff",
-        "mobile_text_color": "#000000",
-        "container_background_color": "#ffffff",
-        "container_border_radius": 12,
-        "icon_size": 60,
-        "section_background_color": "#ffffff",
-        "padding_top": 60,
-        "padding_bottom": 60,
-        "padding_top_tablet": 40,
-        "padding_bottom_tablet": 40,
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20
-      }
     }
   },
   "order": [
@@ -1665,6 +1667,7 @@
     "video_slideshow_6biYLH",
     "multicolumn_CUjKAz",
     "image_with_text_bAqy39",
+    "custom_image_icon_background_FCaA3Y",
     "image_with_text_WcKrcP",
     "multicolumn_HYhLX7",
     "parallax_3jc3fQ",
@@ -1676,7 +1679,6 @@
     "1684207833f45c861d",
     "174007755647b47e76",
     "multicolumn_EEmWt6",
-    "video_with_text_background_wQaP8M",
-    "custom_image_icon_background_FCaA3Y"
+    "video_with_text_background_wQaP8M"
   ]
 }
