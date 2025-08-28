@@ -107,7 +107,7 @@
     }
   }
 
-  /* Icon text styles */
+  /* Icon text styles with dynamic font sizes */
   .icon-text-item {
     display: flex;
     align-items: flex-start;
@@ -139,39 +139,6 @@
   .icon-text-item__text {
     margin: 0;
   }
-  
-  /* Font size classes for icon text blocks */
-  .icon-text-heading--small {
-    font-size: 14px;
-  }
-  
-  .icon-text-heading--medium {
-    font-size: 16px;
-  }
-  
-  .icon-text-heading--large {
-    font-size: 18px;
-  }
-  
-  .icon-text-heading--extra-large {
-    font-size: 20px;
-  }
-  
-  .icon-text-content--small {
-    font-size: 12px;
-  }
-  
-  .icon-text-content--medium {
-    font-size: 14px;
-  }
-  
-  .icon-text-content--large {
-    font-size: 16px;
-  }
-  
-  .icon-text-content--extra-large {
-    font-size: 18px;
-  }
 
   /* Content positioning */
   .enhanced-image-with-text-bg__content--left {
@@ -197,6 +164,19 @@
     margin-left: auto;
     margin-right: 0;
   }
+
+  /* Dynamic font size styles for each block */
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'icon_text' -%}
+      .icon-text-block-{{ block.id }} .icon-text-item__heading {
+        font-size: {{ block.settings.heading_font_size | default: 16 }}px;
+      }
+      
+      .icon-text-block-{{ block.id }} .icon-text-item__text {
+        font-size: {{ block.settings.text_font_size | default: 14 }}px;
+      }
+    {%- endif -%}
+  {%- endfor -%}
 {%- endstyle -%}
 
 <div class="enhanced-image-with-text-bg section-{{ section.id }}-padding">
@@ -218,14 +198,6 @@
     <div class="enhanced-image-with-text-bg__text-wrapper">
       {%- for block in section.blocks -%}
         {% case block.type %}
-          {% comment %} {%- when 'heading' -%}
-            <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
-              class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
-              {{ block.shopify_attributes }}
-            >
-              {{ block.settings.heading }}
-            </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}> {% endcomment %}
-          
           {%- when 'caption' -%}
             <p
               class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
@@ -233,11 +205,6 @@
             >
               {{ block.settings.caption | escape }}
             </p>
-          
-          {% comment %} {%- when 'text' -%}
-            <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              {{ block.settings.text }}
-            </div> {% endcomment %}
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -268,18 +235,18 @@
             </div>
           
           {%- when 'icon_text' -%}
-            <div class="icon-text-item" {{ block.shopify_attributes }}>
+            <div class="icon-text-item icon-text-block-{{ block.id }}" {{ block.shopify_attributes }}>
               {%- if block.settings.icon != blank -%}
                 <img src="{{ block.settings.icon | image_url: width: 48 }}" alt="{{ block.settings.icon_alt | escape }}" class="icon-text-item__icon">
               {%- endif -%}
               <div class="icon-text-item__content">
                 {%- if block.settings.heading != blank -%}
-                  <div class="icon-text-item__heading icon-text-heading--{{ block.settings.heading_size | default: 'medium' }}">
+                  <div class="icon-text-item__heading">
                     {{ block.settings.heading | escape }}
                   </div>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="icon-text-item__text rte {{ block.settings.text_style }} icon-text-content--{{ block.settings.text_size | default: 'medium' }}">
+                  <div class="icon-text-item__text rte {{ block.settings.text_style }}">
                     {{ block.settings.text }}
                   </div>
                 {%- endif -%}
@@ -672,28 +639,14 @@
           "info": "Optional heading for this icon item"
         },
         {
-          "type": "select",
-          "id": "heading_size",
-          "options": [
-            {
-              "value": "small",
-              "label": "Small (14px)"
-            },
-            {
-              "value": "medium",
-              "label": "Medium (16px)"
-            },
-            {
-              "value": "large",
-              "label": "Large (18px)"
-            },
-            {
-              "value": "extra-large",
-              "label": "Extra Large (20px)"
-            }
-          ],
-          "default": "medium",
-          "label": "Heading Font Size"
+          "type": "range",
+          "id": "heading_font_size",
+          "min": 10,
+          "max": 32,
+          "step": 1,
+          "unit": "px",
+          "label": "Heading Font Size",
+          "default": 16
         },
         {
           "type": "richtext",
@@ -702,28 +655,14 @@
           "label": "Text Content"
         },
         {
-          "type": "select",
-          "id": "text_size",
-          "options": [
-            {
-              "value": "small",
-              "label": "Small (12px)"
-            },
-            {
-              "value": "medium",
-              "label": "Medium (14px)"
-            },
-            {
-              "value": "large",
-              "label": "Large (16px)"
-            },
-            {
-              "value": "extra-large",
-              "label": "Extra Large (18px)"
-            }
-          ],
-          "default": "medium",
-          "label": "Text Font Size"
+          "type": "range",
+          "id": "text_font_size",
+          "min": 8,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "label": "Text Font Size",
+          "default": 14
         },
         {
           "type": "select",
