@@ -65,6 +65,7 @@
         },
         "collapsible_tab_9Ri3zn": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How To Use",
             "icon": "none",
