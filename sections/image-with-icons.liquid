@@ -61,7 +61,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: {{ section.settings.text_alignment | default: 'center' }};
     max-width: 280px;
   }
 
@@ -90,9 +90,10 @@
   }
 
   .feature-icon {
-    width: 60px;
-    height: 60px;
+    width: {{ section.settings.icon_size | default: 60 }}px;
+    height: {{ section.settings.icon_size | default: 60 }}px;
     object-fit: contain;
+    margin-bottom: 15px;
   }
 
   .feature-title {
@@ -108,6 +109,22 @@
     color: #666;
     line-height: 1.5;
     margin: 0;
+  }
+
+  /* Text alignment variations */
+  .feature-item[data-text-align="left"] {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .feature-item[data-text-align="right"] {
+    align-items: flex-end;
+    text-align: right;
+  }
+
+  .feature-item[data-text-align="center"] {
+    align-items: center;
+    text-align: center;
   }
 
   /* Mobile Styles */
@@ -153,8 +170,8 @@
     }
 
     .feature-icon {
-      width: 50px;
-      height: 50px;
+      width: calc({{ section.settings.icon_size | default: 60 }}px * 0.85);
+      height: calc({{ section.settings.icon_size | default: 60 }}px * 0.85);
       margin-bottom: 15px;
     }
 
@@ -180,6 +197,11 @@
     .product-image {
       max-width: 200px;
     }
+
+    .feature-icon {
+      width: calc({{ section.settings.icon_size | default: 60 }}px * 0.7);
+      height: calc({{ section.settings.icon_size | default: 60 }}px * 0.7);
+    }
   }
 </style>
 
@@ -201,7 +223,9 @@
 
       <!-- Feature Items -->
       {% for block in section.blocks %}
-        <div class="feature-item {{ block.settings.position }}" {{ block.shopify_attributes }}>
+        <div class="feature-item {{ block.settings.position }}" 
+             data-text-align="{{ section.settings.text_alignment | default: 'center' }}"
+             {{ block.shopify_attributes }}>
           {% if block.settings.icon != blank %}
             <img src="{{ block.settings.icon | image_url }}" 
                  alt="{{ block.settings.title }}" 
@@ -272,6 +296,36 @@
       "step": 1,
       "default": 16,
       "unit": "px"
+    },
+    {
+      "type": "range",
+      "id": "icon_size",
+      "label": "Icon Size",
+      "min": 30,
+      "max": 120,
+      "step": 5,
+      "default": 60,
+      "unit": "px"
+    },
+    {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "right",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
     },
     {
       "type": "image_picker",
