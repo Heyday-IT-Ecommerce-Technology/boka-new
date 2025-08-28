@@ -363,8 +363,8 @@
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 130,
-        "padding_bottom": 100,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "padding_top_tablet": 30,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
@@ -528,6 +528,8 @@
         "title_font_size": 38,
         "feature_title_font_size": 20,
         "feature_description_font_size": 16,
+        "icon_size": 60,
+        "text_alignment": "center",
         "product_image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png"
       }
     },
