@@ -1545,7 +1545,71 @@
       "name": "Image with feature icons",
       "settings": {
         "section_title": "Product Benefits",
+        "background_color": "#f8f9fa",
+        "title_font_size": 40,
+        "feature_title_font_size": 24,
+        "feature_description_font_size": 16,
         "product_image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png"
+      }
+    },
+    "custom_image_icon_background_FCaA3Y": {
+      "type": "custom-image-icon-background",
+      "blocks": {
+        "heading_ytqjCb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Enhanced Image with text",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_hTzr3Q": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_GJqXKN": {
+          "type": "icon_text",
+          "settings": {
+            "icon_alt": "Icon",
+            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_d7Kj9t": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ytqjCb",
+        "text_hTzr3Q",
+        "icon_text_GJqXKN",
+        "button_d7Kj9t"
+      ],
+      "name": "Image icon bg text",
+      "settings": {
+        "image": "shopify://shop_images/Does_Probiotic_Toothpaste_Work.jpg",
+        "desktop_content_alignment": "left",
+        "text_color": "#FFFFFF",
+        "mobile_text_color": "#000000",
+        "container_background_color": "#FFFFFF",
+        "container_border_radius": 12,
+        "icon_size": 24,
+        "section_background_color": "#FFFFFF",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
       }
     }
   },
@@ -1571,6 +1635,7 @@
     "multicolumn_EEmWt6",
     "video_with_text_background_wQaP8M",
     "gif_icons_with_text_mNBBNg",
-    "image_with_icons_XVJdzR"
+    "image_with_icons_XVJdzR",
+    "custom_image_icon_background_FCaA3Y"
   ]
 }
