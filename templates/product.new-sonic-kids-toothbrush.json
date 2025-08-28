@@ -66,6 +66,7 @@
         },
         "collapsible_tab_9Ri3zn": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "How To Use",
             "icon": "none",
@@ -75,6 +76,7 @@
         },
         "collapsible_tab_NnPN3E": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
@@ -84,6 +86,7 @@
         },
         "af067451-b82f-4114-8006-9a547e9c2157": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "orientation": "inlined",
             "layout": "vertical",
@@ -99,6 +102,7 @@
         },
         "icon_with_text_V6zWW9": {
           "type": "icon-with-text",
+          "disabled": true,
           "settings": {
             "orientation": "inlined",
             "layout": "vertical",
@@ -292,6 +296,7 @@
         "column_4nTd9b",
         "column_3U6yrb"
       ],
+      "disabled": true,
       "custom_css": [
         ".inline-richtext {margin: auto;}",
         "@media screen and (max-width: 749px) {.inline-richtext {margin-left: auto !important; margin-right: auto !important; text-align: center !important; }}"
@@ -551,6 +556,7 @@
         "column_68Mc7p",
         "column_GefQYG"
       ],
+      "disabled": true,
       "custom_css": [
         ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
         ".multicolumn-card {background-color: #fafaf5 !important;}",
