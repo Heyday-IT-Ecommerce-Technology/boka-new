@@ -315,8 +315,13 @@
           "settings": {
             "icon": "shopify://shop_images/1_9d3aa42f-0768-4e60-889e-9e32e57c40cd.png",
             "icon_alt": "Icon",
+            "heading": "Feature Title",
+            "heading_tag": "default",
+            "heading_font_size": 18,
+            "heading_font_weight": "600",
             "text": "<p><strong>Citrus Mint</strong> - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_font_size": 16
           }
         },
         "icon_text_hqGhrm": {
@@ -324,8 +329,13 @@
           "settings": {
             "icon": "shopify://shop_images/Coco_Ginger.svg",
             "icon_alt": "Icon",
+            "heading": "Feature Title",
+            "heading_tag": "default",
+            "heading_font_size": 18,
+            "heading_font_weight": "600",
             "text": "<p><strong>Peppermint </strong>- Soothing blend of peppermint, spearmint, and ylang ylang.</p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_font_size": 16
           }
         },
         "button_m4DR44": {
@@ -964,7 +974,7 @@
             "image": "shopify://shop_images/2_afa19d93-4572-4ad0-91dd-a5f8c46fdf46.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
-            "mobile_enabled": false,
+            "mobile_enabled": true,
             "left": "6",
             "right": "",
             "from_top": "",
@@ -995,7 +1005,7 @@
             "image": "shopify://shop_images/1_9d3aa42f-0768-4e60-889e-9e32e57c40cd.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
-            "mobile_enabled": false,
+            "mobile_enabled": true,
             "left": "10",
             "right": "",
             "from_top": "",
@@ -1026,7 +1036,7 @@
             "image": "shopify://shop_images/2_3a96f602-11c4-444e-9ea0-5926b89bdc97.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
-            "mobile_enabled": false,
+            "mobile_enabled": true,
             "left": "",
             "right": "8",
             "from_top": "",
@@ -1057,7 +1067,7 @@
             "image": "shopify://shop_images/1_64352050-8122-460a-894d-b3b4ab5850fc.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
-            "mobile_enabled": false,
+            "mobile_enabled": true,
             "left": "",
             "right": "8",
             "from_top": "",
@@ -1088,7 +1098,7 @@
             "image": "shopify://shop_images/Toothbrush_-_Shadow.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
-            "mobile_enabled": false,
+            "mobile_enabled": true,
             "left": "",
             "right": "30",
             "from_top": "",
@@ -1119,7 +1129,7 @@
             "image": "shopify://shop_images/Toothbrush_-_Product.png",
             "desktop_enabled": true,
             "tablet_enabled": false,
-            "mobile_enabled": false,
+            "mobile_enabled": true,
             "left": "",
             "right": "30",
             "from_top": "",
