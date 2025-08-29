@@ -58,9 +58,6 @@
 
   /* Icon text styles */
   .icon-text-item {
-    display: flex;
-    align-items: flex-start;
-    gap: 15px;
     margin-bottom: 20px;
   }
   
@@ -69,14 +66,14 @@
   }
   
   .icon-text-item__icon {
-    flex-shrink: 0;
     width: {{ section.settings.icon_size | default: 24 }}px;
     height: {{ section.settings.icon_size | default: 24 }}px;
-    margin-top: 2px;
+    margin: 0 auto 12px auto;
+    display: block;
   }
   
   .icon-text-item__content {
-    flex: 1;
+    text-align: center;
   }
 
   .icon-text-item__heading {
@@ -85,6 +82,26 @@
   
   .icon-text-item__text {
     margin: 0;
+  }
+
+  /* Desktop layout - side by side */
+  @media screen and (min-width: 750px) {
+    .icon-text-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 15px;
+    }
+    
+    .icon-text-item__icon {
+      flex-shrink: 0;
+      margin: 2px 0 0 0;
+      display: block;
+    }
+    
+    .icon-text-item__content {
+      flex: 1;
+      text-align: left;
+    }
   }
 
   /* GIF specific styles */
@@ -427,7 +444,7 @@
       "type": "range",
       "id": "icon_size",
       "min": 16,
-      "max": 100,
+      "max": 70,
       "step": 2,
       "unit": "px",
       "label": "Icon Size",
