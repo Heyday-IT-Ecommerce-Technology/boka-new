@@ -219,7 +219,7 @@
               </div>
             
             {%- when 'icon_text' -%}
-              <div class="icon-text-item icon-text-block-{{ block.id }}" {{ block.shopify_attributes }}>
+              <div class="icon-text-item icons-with-text icon-text-block-{{ block.id }}" {{ block.shopify_attributes }}>
                 {%- if block.settings.icon != blank -%}
                   <img src="{{ block.settings.icon | image_url: width: 48 }}" alt="{{ block.settings.icon_alt | escape }}" class="icon-text-item__icon">
                 {%- endif -%}
