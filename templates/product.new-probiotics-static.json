@@ -341,8 +341,8 @@
         "button_m4DR44": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "FEEL THE FRESHNESS",
+            "button_link": "#",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -372,7 +372,7 @@
         "custom_background_color": "#dae9cf",
         "custom_text_color": "#ffffff",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0,
         "padding_top_tablet": 30,
