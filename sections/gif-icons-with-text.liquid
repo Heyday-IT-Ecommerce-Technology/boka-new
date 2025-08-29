@@ -75,8 +75,15 @@
     margin-top: 2px;
   }
   
-  .icon-text-item__text {
+  .icon-text-item__content {
     flex: 1;
+  }
+
+  .icon-text-item__heading {
+    margin: 0 0 8px 0;
+  }
+  
+  .icon-text-item__text {
     margin: 0;
   }
 
@@ -87,6 +94,20 @@
     height: 100%;
     object-fit: cover;
   }
+
+  /* Dynamic font sizes for icon text blocks */
+  {% for block in section.blocks %}
+    {% if block.type == 'icon_text' %}
+      .icon-text-block-{{ block.id }} .icon-text-item__heading {
+        font-size: {{ block.settings.heading_font_size | default: 18 }}px;
+        font-weight: {{ block.settings.heading_font_weight | default: 600 }};
+      }
+      
+      .icon-text-block-{{ block.id }} .icon-text-item__text {
+        font-size: {{ block.settings.text_font_size | default: 16 }}px;
+      }
+    {% endif %}
+  {% endfor %}
 {%- endstyle -%}
 
 {% if section.settings.color_scheme == 'custom' %}
@@ -181,12 +202,21 @@
               </div>
             
             {%- when 'icon_text' -%}
-              <div class="icon-text-item" {{ block.shopify_attributes }}>
+              <div class="icon-text-item icon-text-block-{{ block.id }}" {{ block.shopify_attributes }}>
                 {%- if block.settings.icon != blank -%}
                   <img src="{{ block.settings.icon | image_url: width: 48 }}" alt="{{ block.settings.icon_alt | escape }}" class="icon-text-item__icon">
                 {%- endif -%}
-                <div class="icon-text-item__text rte {{ block.settings.text_style }}">
-                  {{ block.settings.text }}
+                <div class="icon-text-item__content">
+                  {%- if block.settings.heading != blank -%}
+                    <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}h3{% endif %}
+                      class="icon-text-item__heading"
+                    >
+                      {{ block.settings.heading }}
+                    </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}h3{% endif %}>
+                  {%- endif -%}
+                  <div class="icon-text-item__text rte {{ block.settings.text_style }}">
+                    {{ block.settings.text }}
+                  </div>
                 </div>
               </div>
             
@@ -746,6 +776,97 @@
           "info": "Describe the icon for accessibility"
         },
         {
+          "type": "header",
+          "content": "Heading Settings"
+        },
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Feature Title",
+          "info": "Optional heading text for this icon block"
+        },
+        {
+          "type": "select",
+          "id": "heading_tag",
+          "label": "Heading HTML Tag",
+          "options": [
+            {
+              "value": "default",
+              "label": "Default (h3)"
+            },
+            {
+              "value": "h1",
+              "label": "H1"
+            },
+            {
+              "value": "h2",
+              "label": "H2"
+            },
+            {
+              "value": "h3",
+              "label": "H3"
+            },
+            {
+              "value": "h4",
+              "label": "H4"
+            },
+            {
+              "value": "h5",
+              "label": "H5"
+            },
+            {
+              "value": "h6",
+              "label": "H6"
+            }
+          ],
+          "default": "default",
+          "info": "Choose the semantic heading tag for SEO"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size",
+          "min": 12,
+          "max": 48,
+          "step": 1,
+          "unit": "px",
+          "label": "Heading Font Size",
+          "default": 18,
+          "info": "Control the size of the heading text"
+        },
+        {
+          "type": "select",
+          "id": "heading_font_weight",
+          "options": [
+            {
+              "value": "300",
+              "label": "Light (300)"
+            },
+            {
+              "value": "400",
+              "label": "Regular (400)"
+            },
+            {
+              "value": "500",
+              "label": "Medium (500)"
+            },
+            {
+              "value": "600",
+              "label": "Semi-bold (600)"
+            },
+            {
+              "value": "700",
+              "label": "Bold (700)"
+            }
+          ],
+          "default": "600",
+          "label": "Heading Font Weight"
+        },
+        {
+          "type": "header",
+          "content": "Text Settings"
+        },
+        {
           "type": "richtext",
           "id": "text",
           "default": "<p>Add your text content here that will appear next to the icon.</p>",
@@ -766,6 +887,17 @@
           ],
           "default": "body",
           "label": "Text Style"
+        },
+        {
+          "type": "range",
+          "id": "text_font_size",
+          "min": 10,
+          "max": 32,
+          "step": 1,
+          "unit": "px",
+          "label": "Text Font Size",
+          "default": 16,
+          "info": "Control the size of the body text"
         }
       ]
     },
