@@ -100,16 +100,18 @@
       "disabled": true,
       "name": "Custom Hero with Klaviyo",
       "settings": {
-        "desktop_media_type": "image",
+        "desktop_media_type": "gif",
+        "desktop_gif": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
         "desktop_video": "",
-        "mobile_media_type": "same",
+        "mobile_media_type": "gif",
+        "mobile_gif": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
         "mobile_video": "",
         "heading": "Something's Blooming",
         "description": "A revolutionary oral care upgrade is coming on Sept 9. Get ready for the big reveal! Sign up to stay in the loop.",
         "desktop_content_position": "overlay",
         "desktop_alignment": "center",
-        "klaviyo_form_id": "",
-        "custom_embed_code": "",
+        "klaviyo_form_id": "Vx3PJi",
+        "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
         "padding_top": 0,
         "padding_bottom": 0
       }
