@@ -21,7 +21,7 @@
     }
   }
 
-  /* Background image layout styles */
+  /* Background media layout styles */
   .enhanced-image-with-text-bg {
     position: relative;
     min-height: 600px;
@@ -31,7 +31,17 @@
     width: 100%;
   }
   
-  .enhanced-image-with-text-bg__image {
+  .enhanced-image-with-text-bg__media {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  
+  .enhanced-image-with-text-bg__video {
     position: absolute;
     top: 0;
     left: 0;
@@ -83,7 +93,8 @@
       min-height: auto;
     }
     
-    .enhanced-image-with-text-bg__image {
+    .enhanced-image-with-text-bg__media,
+    .enhanced-image-with-text-bg__video {
       position: relative;
       height: 300px;
       margin-bottom: 20px;
@@ -165,6 +176,18 @@
     margin-right: 0;
   }
 
+  /* Video overlay for better readability */
+  .enhanced-image-with-text-bg--video::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, {{ section.settings.video_overlay_opacity | divided_by: 100.0 }});
+    z-index: 1;
+  }
+
   /* Dynamic font size styles for each block */
   {%- for block in section.blocks -%}
     {%- if block.type == 'icon_text' -%}
@@ -179,18 +202,46 @@
   {%- endfor -%}
 {%- endstyle -%}
 
-<div class="enhanced-image-with-text-bg section-{{ section.id }}-padding">
-  {%- if section.settings.image != blank -%}
+{%- assign has_video = false -%}
+{%- if section.settings.background_video != blank -%}
+  {%- assign has_video = true -%}
+{%- endif -%}
+
+<div class="enhanced-image-with-text-bg{% if has_video %} enhanced-image-with-text-bg--video{% endif %} section-{{ section.id }}-padding">
+  {%- if section.settings.media_type == 'video' and section.settings.background_video != blank -%}
+    <video
+      class="enhanced-image-with-text-bg__video"
+      autoplay
+      muted
+      loop
+      playsinline
+      {% if section.settings.video_poster != blank %}
+        poster="{{ section.settings.video_poster | image_url: width: 1920 }}"
+      {% endif %}
+    >
+      <source src="{{ section.settings.background_video }}" type="video/mp4">
+      {%- if section.settings.image != blank -%}
+        <img
+          src="{{ section.settings.image | image_url: width: 1920 }}"
+          alt="{{ section.settings.image.alt | escape }}"
+          loading="lazy"
+          class="enhanced-image-with-text-bg__media"
+          width="1920"
+          height="1080"
+        />
+      {%- endif -%}
+    </video>
+  {%- elsif section.settings.image != blank -%}
     <img
       src="{{ section.settings.image | image_url: width: 1920 }}"
       alt="{{ section.settings.image.alt | escape }}"
       loading="lazy"
-      class="enhanced-image-with-text-bg__image"
+      class="enhanced-image-with-text-bg__media"
       width="1920"
       height="1080"
     />
   {%- else -%}
-    <div class="enhanced-image-with-text-bg__image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+    <div class="enhanced-image-with-text-bg__media" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
   {%- endif -%}
   
   <div class="enhanced-image-with-text-bg__content enhanced-image-with-text-bg__content--{{ section.settings.desktop_content_alignment }}">
@@ -285,7 +336,7 @@
 
 {% schema %}
 {
-  "name": "Image Icons bg Text",
+  "name": "Image/gif icon bg text",
   "class": "section enhanced-image-with-text-bg",
   "disabled_on": {
     "groups": ["header", "footer"]
@@ -293,13 +344,53 @@
   "settings": [
     {
       "type": "header",
-      "content": "Background Image Settings"
+      "content": "Background Media Settings"
+    },
+    {
+      "type": "select",
+      "id": "media_type",
+      "label": "Background Media Type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video (MP4)"
+        }
+      ],
+      "default": "image",
+      "info": "Choose between image/GIF or video background"
     },
     {
       "type": "image_picker",
       "id": "image",
-      "label": "Background Image",
-      "info": "This image will be used as full background"
+      "label": "Background Image/GIF",
+      "info": "This image/GIF will be used as background. Also serves as fallback for video."
+    },
+    {
+      "type": "text",
+      "id": "background_video",
+      "label": "Background Video URL (MP4)",
+      "info": "Upload your MP4 video to Shopify files and paste the URL here. Example: https://cdn.shopify.com/videos/c/vp/your-video.mp4"
+    },
+    {
+      "type": "image_picker",
+      "id": "video_poster",
+      "label": "Video Poster Image",
+      "info": "Optional: Image to show while video loads (recommended for better user experience)"
+    },
+    {
+      "type": "range",
+      "id": "video_overlay_opacity",
+      "min": 0,
+      "max": 80,
+      "step": 5,
+      "unit": "%",
+      "label": "Video Overlay Opacity",
+      "default": 30,
+      "info": "Adds a dark overlay over video to improve text readability"
     },
     {
       "type": "header",
@@ -334,14 +425,14 @@
       "id": "text_color",
       "label": "Text Color (Desktop)",
       "default": "#FFFFFF",
-      "info": "Color for text over the background image"
+      "info": "Color for text over the background media"
     },
     {
       "type": "color",
       "id": "mobile_text_color",
       "label": "Text Color (Mobile)",
       "default": "#000000",
-      "info": "Color for text below image on mobile"
+      "info": "Color for text below media on mobile"
     },
     {
       "type": "header",
@@ -713,7 +804,7 @@
   ],
   "presets": [
     {
-      "name": "Image Icons bg Text",
+      "name": "Image/gif icon bg text",
       "blocks": [
         {
           "type": "heading"
