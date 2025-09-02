@@ -95,26 +95,6 @@
       ],
       "settings": {}
     },
-    "custom_hero_klaviyo_8Deyyw": {
-      "type": "custom-hero-klaviyo",
-      "name": "Custom Hero with Klaviyo",
-      "settings": {
-        "desktop_media_type": "gif",
-        "desktop_gif": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
-        "desktop_video": "https://www.boka.com/pages/new-product-teaser",
-        "mobile_media_type": "gif",
-        "mobile_gif": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
-        "mobile_video": "https://www.boka.com/pages/new-product-teaser",
-        "heading": "Something's Blooming",
-        "description": "A revolutionary oral care upgrade is coming on Sept 9. Get ready for the big reveal! Sign up to stay in the loop.",
-        "desktop_content_position": "overlay",
-        "desktop_alignment": "left",
-        "klaviyo_form_id": "Vx3PJi",
-        "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "e88125fd-54b1-4dc4-a7be-094d886854f5": {
       "type": "video-slideshow",
       "blocks": {
@@ -824,6 +804,27 @@
         "padding_bottom": 36,
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
+      }
+    },
+    "custom_hero_klaviyo_8Deyyw": {
+      "type": "custom-hero-klaviyo",
+      "disabled": true,
+      "name": "Custom Hero with Klaviyo",
+      "settings": {
+        "desktop_media_type": "gif",
+        "desktop_gif": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
+        "desktop_video": "https://www.boka.com/pages/new-product-teaser",
+        "mobile_media_type": "gif",
+        "mobile_gif": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
+        "mobile_video": "https://www.boka.com/pages/new-product-teaser",
+        "heading": "Something's Blooming",
+        "description": "A revolutionary oral care upgrade is coming on Sept 9. Get ready for the big reveal! Sign up to stay in the loop.",
+        "desktop_content_position": "overlay",
+        "desktop_alignment": "left",
+        "klaviyo_form_id": "Vx3PJi",
+        "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "custom_liquid_FaxRfE": {
