@@ -1,4 +1,42 @@
-{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+{
+      "type": "header",
+      "content": "Mobile Background Media Settings"
+    },
+    {
+      "type": "select",
+      "id": "mobile_media_type",
+      "label": "Mobile Background Media Type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video (MP4)"
+        }
+      ],
+      "default": "image",
+      "info": "Choose between image/GIF or video background for mobile. If not set, desktop media will be used."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Background Image/GIF",
+      "info": "Different image/GIF for mobile. If not set, desktop image will be used."
+    },
+    {
+      "type": "text",
+      "id": "mobile_background_video",
+      "label": "Mobile Background Video URL (MP4)",
+      "info": "Different video for mobile. Upload your MP4 video to Shopify files and paste the URL here."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_video_poster",
+      "label": "Mobile Video Poster Image",
+      "info": "Optional: Image to show while mobile video loads"
+    },{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -78,9 +116,17 @@
   }
   
   /* Additional text styles above button */
-  .enhanced-image-with-text-bg__additional-text {
-    margin-bottom: 15px;
+  .enhanced-image-with-text-bg__additional-texts-container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
     max-width: 600px;
+    flex-wrap: wrap;
+  }
+  
+  .enhanced-image-with-text-bg__additional-text {
+    flex: 1;
+    min-width: 250px;
   }
   
   .enhanced-image-with-text-bg__additional-text p,
@@ -129,6 +175,15 @@
     .enhanced-image-with-text-bg__text-wrapper div {
       color: {{ section.settings.mobile_text_color }};
       text-shadow: none;
+    }
+    
+    .enhanced-image-with-text-bg__additional-texts-container {
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .enhanced-image-with-text-bg__additional-text {
+      min-width: auto;
     }
     
     .enhanced-image-with-text-bg__additional-text p,
@@ -185,6 +240,25 @@
     background: rgba(0, 0, 0, {{ section.settings.video_overlay_opacity | divided_by: 100.0 }});
     z-index: 1;
   }
+  
+  /* Mobile media visibility */
+  .hide-mobile {
+    display: block;
+  }
+  
+  .show-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 749px) {
+    .hide-mobile {
+      display: none;
+    }
+    
+    .show-mobile {
+      display: block;
+    }
+  }
 {%- endstyle -%}
 
 {%- assign has_video = false -%}
@@ -195,7 +269,7 @@
 <div class="enhanced-image-with-text-bg{% if has_video %} enhanced-image-with-text-bg--video{% endif %} section-{{ section.id }}-padding">
   {%- if section.settings.media_type == 'video' and section.settings.background_video != blank -%}
     <video
-      class="enhanced-image-with-text-bg__video"
+      class="enhanced-image-with-text-bg__video hide-mobile"
       autoplay
       muted
       loop
@@ -221,12 +295,84 @@
       src="{{ section.settings.image | image_url: width: 1920 }}"
       alt="{{ section.settings.image.alt | escape }}"
       loading="lazy"
-      class="enhanced-image-with-text-bg__media"
+      class="enhanced-image-with-text-bg__media hide-mobile"
       width="1920"
       height="1080"
     />
   {%- else -%}
-    <div class="enhanced-image-with-text-bg__media" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+    <div class="enhanced-image-with-text-bg__media hide-mobile" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+  {%- endif -%}
+
+  <!-- Mobile Media -->
+  {%- if section.settings.mobile_media_type == 'video' and section.settings.mobile_background_video != blank -%}
+    <video
+      class="enhanced-image-with-text-bg__video show-mobile"
+      autoplay
+      muted
+      loop
+      playsinline
+      {% if section.settings.mobile_video_poster != blank %}
+        poster="{{ section.settings.mobile_video_poster | image_url: width: 750 }}"
+      {% endif %}
+    >
+      <source src="{{ section.settings.mobile_background_video }}" type="video/mp4">
+      {%- if section.settings.mobile_image != blank -%}
+        <img
+          src="{{ section.settings.mobile_image | image_url: width: 750 }}"
+          alt="{{ section.settings.mobile_image.alt | escape }}"
+          loading="lazy"
+          class="enhanced-image-with-text-bg__media"
+          width="750"
+          height="500"
+        />
+      {%- endif -%}
+    </video>
+  {%- elsif section.settings.mobile_image != blank -%}
+    <img
+      src="{{ section.settings.mobile_image | image_url: width: 750 }}"
+      alt="{{ section.settings.mobile_image.alt | escape }}"
+      loading="lazy"
+      class="enhanced-image-with-text-bg__media show-mobile"
+      width="750"
+      height="500"
+    />
+  {%- else -%}
+    <!-- Fallback to desktop media on mobile if no mobile media is set -->
+    {%- if section.settings.media_type == 'video' and section.settings.background_video != blank -%}
+      <video
+        class="enhanced-image-with-text-bg__video show-mobile"
+        autoplay
+        muted
+        loop
+        playsinline
+        {% if section.settings.video_poster != blank %}
+          poster="{{ section.settings.video_poster | image_url: width: 750 }}"
+        {% endif %}
+      >
+        <source src="{{ section.settings.background_video }}" type="video/mp4">
+        {%- if section.settings.image != blank -%}
+          <img
+            src="{{ section.settings.image | image_url: width: 750 }}"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            class="enhanced-image-with-text-bg__media"
+            width="750"
+            height="500"
+          />
+        {%- endif -%}
+      </video>
+    {%- elsif section.settings.image != blank -%}
+      <img
+        src="{{ section.settings.image | image_url: width: 750 }}"
+        alt="{{ section.settings.image.alt | escape }}"
+        loading="lazy"
+        class="enhanced-image-with-text-bg__media show-mobile"
+        width="750"
+        height="500"
+      />
+    {%- else -%}
+      <div class="enhanced-image-with-text-bg__media show-mobile" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+    {%- endif -%}
   {%- endif -%}
   
   <div class="enhanced-image-with-text-bg__content enhanced-image-with-text-bg__content--{{ section.settings.desktop_content_alignment }}">
@@ -258,24 +404,26 @@
       {%- endfor -%}
     </div>
     
-    <!-- Additional Text Fields Above Button -->
-    {%- for block in section.blocks -%}
-      {% case block.type %}
-        {%- when 'additional_text_1' -%}
-          <div class="enhanced-image-with-text-bg__additional-text" {{ block.shopify_attributes }}>
-            <div class="image-with-text__text rte {{ block.settings.text_style }}">
-              {{ block.settings.text }}
+    <!-- Additional Text Fields Above Button - Side by Side -->
+    <div class="enhanced-image-with-text-bg__additional-texts-container">
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {%- when 'additional_text_1' -%}
+            <div class="enhanced-image-with-text-bg__additional-text" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {{ block.settings.text_style }}">
+                {{ block.settings.text }}
+              </div>
             </div>
-          </div>
-        
-        {%- when 'additional_text_2' -%}
-          <div class="enhanced-image-with-text-bg__additional-text" {{ block.shopify_attributes }}>
-            <div class="image-with-text__text rte {{ block.settings.text_style }}">
-              {{ block.settings.text }}
+          
+          {%- when 'additional_text_2' -%}
+            <div class="enhanced-image-with-text-bg__additional-text" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {{ block.settings.text_style }}">
+                {{ block.settings.text }}
+              </div>
             </div>
-          </div>
-      {%- endcase -%}
-    {%- endfor -%}
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
     
     <!-- Container for buttons only (removed for desktop, visible on mobile) -->
     <div class="enhanced-image-with-text-bg__container">
