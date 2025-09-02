@@ -95,6 +95,26 @@
       ],
       "settings": {}
     },
+    "custom_hero_klaviyo_8Deyyw": {
+      "type": "custom-hero-klaviyo",
+      "name": "Custom Hero with Klaviyo",
+      "settings": {
+        "desktop_media_type": "gif",
+        "desktop_gif": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
+        "desktop_video": "https://www.boka.com/pages/new-product-teaser",
+        "mobile_media_type": "gif",
+        "mobile_gif": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
+        "mobile_video": "https://www.boka.com/pages/new-product-teaser",
+        "heading": "",
+        "description": "",
+        "desktop_content_position": "overlay",
+        "desktop_alignment": "left",
+        "klaviyo_form_id": "Vx3PJi",
+        "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "e88125fd-54b1-4dc4-a7be-094d886854f5": {
       "type": "video-slideshow",
       "blocks": {
@@ -136,6 +156,7 @@
       "block_order": [
         "image_RJU7Ux"
       ],
+      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -806,27 +827,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "custom_hero_klaviyo_8Deyyw": {
-      "type": "custom-hero-klaviyo",
-      "disabled": true,
-      "name": "Custom Hero with Klaviyo",
-      "settings": {
-        "desktop_media_type": "gif",
-        "desktop_gif": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
-        "desktop_video": "https://www.boka.com/pages/new-product-teaser",
-        "mobile_media_type": "gif",
-        "mobile_gif": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
-        "mobile_video": "https://www.boka.com/pages/new-product-teaser",
-        "heading": "Something's Blooming",
-        "description": "A revolutionary oral care upgrade is coming on Sept 9. Get ready for the big reveal! Sign up to stay in the loop.",
-        "desktop_content_position": "overlay",
-        "desktop_alignment": "left",
-        "klaviyo_form_id": "Vx3PJi",
-        "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "custom_liquid_FaxRfE": {
       "type": "custom-liquid",
       "settings": {
@@ -935,6 +935,7 @@
   "order": [
     "quick_button_caEbwf",
     "d0c5cff0-67a0-44b2-909d-a8de23fae9f1",
+    "custom_hero_klaviyo_8Deyyw",
     "e88125fd-54b1-4dc4-a7be-094d886854f5",
     "multicolumn_BWCRzU",
     "rich_text_fiC9M9",
@@ -951,7 +952,6 @@
     "image_with_text_8DqDj6",
     "a43145cd-9270-46e8-8a1e-04c26bb15842",
     "featured_collection",
-    "custom_hero_klaviyo_8Deyyw",
     "custom_liquid_FaxRfE",
     "7bdc6d37-1f4e-420c-8fbe-90c6654468b5",
     "image_banner_gMACFn"
