@@ -98,7 +98,7 @@
     margin-bottom: 10px;
   }
   
-  /* Remove container styles for desktop, but keep for mobile */
+  /* Remove container styles for both desktop and mobile */
   .enhanced-image-with-text-bg__container {
     background-color: transparent;
     padding: 0;
@@ -154,13 +154,13 @@
       text-shadow: none;
     }
     
-    /* Add container styling back for mobile */
+    /* Container remains transparent for mobile too */
     .enhanced-image-with-text-bg__container {
-      background-color: {{ section.settings.container_background_color }};
-      padding: 30px;
-      border-radius: {{ section.settings.container_border_radius }}px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      backdrop-filter: blur(10px);
+      background-color: transparent;
+      padding: 0;
+      border-radius: 0;
+      box-shadow: none;
+      backdrop-filter: none;
     }
   }
 
@@ -387,7 +387,7 @@
       {%- endfor -%}
     </div>
     
-    <!-- Container for buttons only (removed for desktop, visible on mobile) -->
+    <!-- Container for buttons only (no styling applied) -->
     <div class="enhanced-image-with-text-bg__container">
       {%- for block in section.blocks -%}
         {% case block.type %}
