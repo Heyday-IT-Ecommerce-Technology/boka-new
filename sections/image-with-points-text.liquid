@@ -1,42 +1,4 @@
-{
-      "type": "header",
-      "content": "Mobile Background Media Settings"
-    },
-    {
-      "type": "select",
-      "id": "mobile_media_type",
-      "label": "Mobile Background Media Type",
-      "options": [
-        {
-          "value": "image",
-          "label": "Image/GIF"
-        },
-        {
-          "value": "video",
-          "label": "Video (MP4)"
-        }
-      ],
-      "default": "image",
-      "info": "Choose between image/GIF or video background for mobile. If not set, desktop media will be used."
-    },
-    {
-      "type": "image_picker",
-      "id": "mobile_image",
-      "label": "Mobile Background Image/GIF",
-      "info": "Different image/GIF for mobile. If not set, desktop image will be used."
-    },
-    {
-      "type": "text",
-      "id": "mobile_background_video",
-      "label": "Mobile Background Video URL (MP4)",
-      "info": "Different video for mobile. Upload your MP4 video to Shopify files and paste the URL here."
-    },
-    {
-      "type": "image_picker",
-      "id": "mobile_video_poster",
-      "label": "Mobile Video Poster Image",
-      "info": "Optional: Image to show while mobile video loads"
-    },{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -519,6 +481,45 @@
     },
     {
       "type": "header",
+      "content": "Mobile Background Media Settings"
+    },
+    {
+      "type": "select",
+      "id": "mobile_media_type",
+      "label": "Mobile Background Media Type",
+      "options": [
+        {
+          "value": "image",
+          "label": "Image/GIF"
+        },
+        {
+          "value": "video",
+          "label": "Video (MP4)"
+        }
+      ],
+      "default": "image",
+      "info": "Choose between image/GIF or video background for mobile. If not set, desktop media will be used."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile Background Image/GIF",
+      "info": "Different image/GIF for mobile. If not set, desktop image will be used."
+    },
+    {
+      "type": "text",
+      "id": "mobile_background_video",
+      "label": "Mobile Background Video URL (MP4)",
+      "info": "Different video for mobile. Upload your MP4 video to Shopify files and paste the URL here."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_video_poster",
+      "label": "Mobile Video Poster Image",
+      "info": "Optional: Image to show while mobile video loads"
+    },
+    {
+      "type": "header",
       "content": "Content Settings"
     },
     {
@@ -884,16 +885,6 @@
           "id": "button_label",
           "default": "Register Now",
           "label": "First Button Label"
-        },
-        {
-          "type": "url",
-          "id": "button_link",
-          "label": "First Button Link"
-        },
-        {
-          "type": "text",
-          "id": "second_button_label",
-          "label": "Second Button Label"
         },
         {
           "type": "url",
