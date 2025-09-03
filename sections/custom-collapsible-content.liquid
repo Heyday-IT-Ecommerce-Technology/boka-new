@@ -24,10 +24,11 @@
     }
   }
 
-  /* Dynamic heading size based on range slider */
-  .section-{{ section.id }} .accordion__title--dynamic {
-    font-size: {{ section.settings.heading_font_size | divided_by: 10.0 }}rem;
-    line-height: {{ section.settings.heading_line_height | divided_by: 10.0 }};
+  /* Dynamic heading size based on range slider - with higher specificity */
+  .section-{{ section.id }} .accordion .accordion__title--dynamic,
+  .section-{{ section.id }} .accordion .accordion__title--dynamic.inline-richtext {
+    font-size: {{ section.settings.heading_font_size | divided_by: 10.0 }}rem !important;
+    line-height: {{ section.settings.heading_line_height | divided_by: 10.0 }} !important;
   }
 
   /* Custom accordion layout with expand/collapse on left and custom icon on right */
