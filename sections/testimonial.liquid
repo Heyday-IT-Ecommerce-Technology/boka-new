@@ -27,6 +27,71 @@
       "default": 24
     },
     {
+      "type": "select",
+      "id": "text_alignment",
+      "label": "Text Alignment",
+      "options": [
+        {"value": "left", "label": "Left"},
+        {"value": "center", "label": "Center"},
+        {"value": "right", "label": "Right"}
+      ],
+      "default": "center"
+    },
+    {
+      "type": "range",
+      "id": "member_name_font_size_desktop",
+      "label": "Member Name Font Size - Desktop (px)",
+      "min": 14,
+      "max": 36,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "member_name_font_size_mobile",
+      "label": "Member Name Font Size - Mobile (px)",
+      "min": 12,
+      "max": 28,
+      "step": 1,
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "job_title_font_size_desktop",
+      "label": "Job Title Font Size - Desktop (px)",
+      "min": 10,
+      "max": 24,
+      "step": 1,
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "job_title_font_size_mobile",
+      "label": "Job Title Font Size - Mobile (px)",
+      "min": 10,
+      "max": 20,
+      "step": 1,
+      "default": 13
+    },
+    {
+      "type": "range",
+      "id": "testimonial_font_size_desktop",
+      "label": "Testimonial Text Font Size - Desktop (px)",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "testimonial_font_size_mobile",
+      "label": "Testimonial Text Font Size - Mobile (px)",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "default": 15
+    },
+    {
       "type": "range",
       "id": "padding_top",
       "label": "Top padding (px)",
@@ -87,10 +152,19 @@
               </div>
             {% endif %}
           </div>
-          <div class="custom-multicolumn-content">
-            <h3 class="custom-multicolumn-member-name">{{ block.settings.name }}</h3>
-            <p class="custom-multicolumn-member-bio">{{ block.settings.short_bio }}</p>
-            <p class="custom-multicolumn-quote">{{ block.settings.quote }}</p>
+          <div class="custom-multicolumn-content" style="text-align: {{ section.settings.text_alignment }};">
+            <h3 class="custom-multicolumn-member-name" 
+                style="font-size: {{ section.settings.member_name_font_size_desktop }}px;">
+                {{ block.settings.name }}
+            </h3>
+            <p class="custom-multicolumn-member-bio" 
+               style="font-size: {{ section.settings.job_title_font_size_desktop }}px;">
+               {{ block.settings.short_bio }}
+            </p>
+            <p class="custom-multicolumn-quote" 
+               style="font-size: {{ section.settings.testimonial_font_size_desktop }}px;">
+               {{ block.settings.quote }}
+            </p>
           </div>
         </div>
       {% endfor %}
@@ -161,8 +235,9 @@
     width: 100%;
     height: 100%;
     background: #fff;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
     z-index: 1;
+    border-radius: 15px;
   }
   
   .hexagon-image img {
@@ -171,7 +246,8 @@
     object-fit: cover;
     position: relative;
     z-index: 2;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 90% 25%, 90% 75%, 50% 100%, 10% 75%, 10% 25%);
+    border-radius: 15px;
   }
   
   .custom-multicolumn-content {
@@ -179,21 +255,18 @@
     border-radius: 20px;
     padding: 50px 24px 24px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    text-align: center;
     width: 100%;
     position: relative;
     z-index: 1;
   }
   
   .custom-multicolumn-member-name {
-    font-size: 20px;
     font-weight: 700;
     margin: 0 0 8px 0;
     color: #333;
   }
   
   .custom-multicolumn-member-bio {
-    font-size: 14px;
     font-weight: 500;
     margin: 0 0 16px 0;
     color: #666;
@@ -202,7 +275,6 @@
   }
   
   .custom-multicolumn-quote {
-    font-size: 16px;
     line-height: 1.6;
     margin: 0;
     color: #555;
@@ -282,15 +354,15 @@
     }
     
     .custom-multicolumn-member-name {
-      font-size: 18px;
+      font-size: {{ section.settings.member_name_font_size_mobile }}px !important;
     }
     
     .custom-multicolumn-member-bio {
-      font-size: 13px;
+      font-size: {{ section.settings.job_title_font_size_mobile }}px !important;
     }
     
     .custom-multicolumn-quote {
-      font-size: 15px;
+      font-size: {{ section.settings.testimonial_font_size_mobile }}px !important;
       line-height: 1.5;
     }
     
