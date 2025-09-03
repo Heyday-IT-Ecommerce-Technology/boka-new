@@ -132,7 +132,7 @@
           "settings": {
             "heading": "How to use",
             "icon": "none",
-            "content": "<p>Clean teeth thoroughly with brushing and flossing. Take one tablet daily. Chew thoroughly and swallow. For optimal results, use consistently as part of your regular oral care routine.</p>",
+            "content": "<p>Apply a pea-sized amount to your toothbrush. Brush gently for two minutes, twice daily. No need to rinse. Great for adults and kids.</p>",
             "page": ""
           }
         },
@@ -141,7 +141,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Vitamin D, Vitamin E, Vitamin K, Chamomile Flower Powder, Streptococcus salivarius K12 (providing 1 billion CFU), Organic xylitol, Organic Tapioca Maltodextrin, Organic Tapioca Starch, Natural Flavor</p>",
+            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xylitol, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         }
@@ -806,7 +806,10 @@
       ],
       "name": "Image icon bg text",
       "settings": {
+        "media_type": "image",
         "image": "shopify://shop_images/Does_Probiotic_Toothpaste_Work.jpg",
+        "background_video": "",
+        "video_overlay_opacity": 30,
         "desktop_content_alignment": "left",
         "text_color": "#ffffff",
         "mobile_text_color": "#000000",
