@@ -166,7 +166,10 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}" class="accordion__summary--custom-layout">
                     <!-- Plus/Minus signs on the left -->
-                    <div class="accordion__expand-collapse"></div>
+                    <div class="accordion__expand-collapse">
+                        <span class="icon-expand">{% render 'icon-expand' %}</span>
+                        <span class="icon-collapse">{% render 'icon-collapse' %}</span>
+                    </div>
                     
                     <!-- Title wrapper -->
                     <div class="accordion__title-wrapper">
