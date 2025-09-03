@@ -9,6 +9,18 @@
       "default": "Meet the members"
     },
     {
+      "type": "color",
+      "id": "section_background_color",
+      "label": "Section Background Color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_background_color",
+      "label": "Card Background Color",
+      "default": "#ffffff"
+    },
+    {
       "type": "range",
       "id": "headline_font_size_desktop",
       "label": "Headline Font Size - Desktop (px)",
@@ -133,7 +145,7 @@
 {% endschema %}
 
 <div class="custom-multicolumn-wrapper"
-     style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
+     style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px; background-color: {{ section.settings.section_background_color }};">
   <h2 class="custom-multicolumn-headline"
       style="font-size: {{ section.settings.headline_font_size_desktop }}px; text-align: center;">
     {{ section.settings.headline }}
@@ -152,7 +164,8 @@
               </div>
             {% endif %}
           </div>
-          <div class="custom-multicolumn-content" style="text-align: {{ section.settings.text_alignment }};">
+          <div class="custom-multicolumn-content" 
+               style="text-align: {{ section.settings.text_alignment }}; background-color: {{ section.settings.card_background_color }};">
             <h3 class="custom-multicolumn-member-name" 
                 style="font-size: {{ section.settings.member_name_font_size_desktop }}px;">
                 {{ block.settings.name }}
@@ -252,7 +265,6 @@
   }
   
   .custom-multicolumn-content {
-    background: #fff;
     border-radius: 20px;
     padding: 50px 24px 24px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
