@@ -890,6 +890,7 @@
         "collapsible_row_gK8LnJ",
         "collapsible_row_xw4Y9f"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
@@ -911,6 +912,176 @@
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 36
       }
+    },
+    "testimonial_Q7hPXq": {
+      "type": "testimonial",
+      "blocks": {
+        "member_iWiHjj": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
+            "name": "",
+            "short_bio": "",
+            "quote": ""
+          }
+        },
+        "member_4Etxdm": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
+            "name": "",
+            "short_bio": "",
+            "quote": ""
+          }
+        },
+        "member_GRWHhX": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
+            "name": "",
+            "short_bio": "",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "member_iWiHjj",
+        "member_4Etxdm",
+        "member_GRWHhX"
+      ],
+      "name": "Testimonial Multicolumn",
+      "settings": {
+        "headline": "Speakers",
+        "section_background_color": "#ffffff",
+        "card_background_color": "#ffffff",
+        "headline_font_size_desktop": 32,
+        "headline_font_size_mobile": 24,
+        "text_alignment": "center",
+        "member_name_font_size_desktop": 20,
+        "member_name_font_size_mobile": 18,
+        "job_title_font_size_desktop": 14,
+        "job_title_font_size_mobile": 13,
+        "testimonial_font_size_desktop": 16,
+        "testimonial_font_size_mobile": 15,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "custom_collapsible_content_4nGTtt": {
+      "type": "custom-collapsible-content",
+      "blocks": {
+        "collapsible_row_VTRjKj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_JFkXC8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_66Hga7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_KW3DgR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_VTRjKj",
+        "collapsible_row_JFkXC8",
+        "collapsible_row_66Hga7",
+        "collapsible_row_KW3DgR"
+      ],
+      "name": "Custom Collapsible Cont",
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "",
+        "heading_font_size": 22,
+        "heading_line_height": 14,
+        "icon_size": 24,
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "rich_text_FPTExr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_npVrcX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_XEbWg6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_DHwcBb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_npVrcX",
+        "text_XEbWg6",
+        "button_DHwcBb"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
@@ -929,6 +1100,9 @@
     "rich_text_4yHMx6",
     "multicolumn_wemhNC",
     "custom_liquid_ChVgVh",
-    "collapsible_content_xNnXLV"
+    "collapsible_content_xNnXLV",
+    "testimonial_Q7hPXq",
+    "custom_collapsible_content_4nGTtt",
+    "rich_text_FPTExr"
   ]
 }
