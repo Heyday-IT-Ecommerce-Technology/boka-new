@@ -94,6 +94,10 @@
   details[open] .accordion__expand-collapse::before {
     content: '−';
   }
+
+  summary .icon-caret {
+    position: relative;
+  }
 {%- endstyle -%}
 
 {% if section.settings.color_scheme == 'custom' %}
@@ -166,7 +170,7 @@
                 >
                   <summary id="Summary-{{ block.id }}-{{ section.id }}" class="accordion__summary--custom-layout">
                     <!-- Plus/Minus signs on the left -->
-                    
+
                     <span class="icon-expand">{% render 'icon-expand' %}</span>
                     <span class="icon-collapse">{% render 'icon-collapse' %}</span>
                     
