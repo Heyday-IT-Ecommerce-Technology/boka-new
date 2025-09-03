@@ -1,0 +1,367 @@
+{% comment %} Testimonial code {% endcomment %}
+<div class="custom-multicolumn-wrapper"
+     style="padding-top: {{ section.settings.padding_top }}px; padding-bottom: {{ section.settings.padding_bottom }}px;">
+  <h2 class="custom-multicolumn-headline"
+      style="font-size: {{ section.settings.headline_font_size_desktop }}px; text-align: center;">
+    {{ section.settings.headline }}
+  </h2>
+
+  <div class="custom-slider-container">
+    <button class="slider-arrow left" aria-label="Previous">&#60;</button>
+    <div class="custom-multicolumn-grid" id="custom-multicolumn-slider">
+      <div class="slider-spacer"></div>
+      {% for block in section.blocks %}
+        <div class="custom-multicolumn-card" data-index="{{ forloop.index }}">
+          <div class="hexagon-image-container">
+            {% if block.settings.photo %}
+              <div class="hexagon-image">
+                <img src="{{ block.settings.photo | image_url: width: 600 }}" alt="{{ block.settings.name }}">
+              </div>
+            {% endif %}
+          </div>
+          <div class="custom-multicolumn-content">
+            <h3 class="custom-multicolumn-member-name">{{ block.settings.name }}</h3>
+            <p class="custom-multicolumn-member-bio">{{ block.settings.short_bio }}</p>
+            <p class="custom-multicolumn-quote">{{ block.settings.quote }}</p>
+          </div>
+        </div>
+      {% endfor %}
+      <div class="slider-spacer"></div>
+    </div>
+    <button class="slider-arrow right" aria-label="Next">&#62;</button>
+    <div class="slider-pagination" id="custom-multicolumn-pagination">
+      <span id="slider-current">1</span>/<span id="slider-total">{{ section.blocks.size }}</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .custom-multicolumn-headline {
+    margin-bottom: 60px;
+  }
+  
+  .custom-slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .custom-multicolumn-grid {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+    padding: 60px 16px 30px;
+  }
+  
+  .slider-spacer {
+    flex: 0 0 16px;
+  }
+  
+  .custom-multicolumn-card {
+    scroll-snap-align: center;
+    flex-shrink: 0;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .hexagon-image-container {
+    position: relative;
+    z-index: 2;
+    margin-bottom: -40px;
+  }
+  
+  .hexagon-image {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  .hexagon-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    z-index: 1;
+  }
+  
+  .hexagon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  }
+  
+  .custom-multicolumn-content {
+    background: #fff;
+    border-radius: 20px;
+    padding: 50px 24px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .custom-multicolumn-member-name {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 8px 0;
+    color: #333;
+  }
+  
+  .custom-multicolumn-member-bio {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 16px 0;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .custom-multicolumn-quote {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    color: #555;
+    font-style: italic;
+  }
+  
+  .slider-arrow {
+    display: none !important;
+  }
+  
+  .slider-pagination {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media (min-width: 768px) {
+    .slider-pagination {
+      display: none;
+    }
+    
+    .custom-multicolumn-grid {
+      overflow-x: auto !important;
+      scroll-snap-type: x mandatory;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+    
+    .custom-slider-container {
+      overflow: hidden;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .custom-slider-container {
+      overflow: visible;
+    }
+    
+    .custom-multicolumn-grid {
+      overflow-x: visible;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 16px 30px;
+      scroll-snap-type: none;
+      gap: 40px;
+    }
+    
+    .custom-multicolumn-card {
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 60px;
+    }
+    
+    .slider-spacer {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .custom-multicolumn-headline {
+      font-size: {{ section.settings.headline_font_size_mobile }}px !important;
+      margin-bottom: 40px;
+    }
+    
+    .custom-multicolumn-card {
+      width: 280px;
+    }
+    
+    .hexagon-image {
+      width: 100px;
+      height: 100px;
+    }
+    
+    .custom-multicolumn-content {
+      padding: 40px 20px 20px;
+      border-radius: 16px;
+    }
+    
+    .custom-multicolumn-member-name {
+      font-size: 18px;
+    }
+    
+    .custom-multicolumn-member-bio {
+      font-size: 13px;
+    }
+    
+    .custom-multicolumn-quote {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    
+    .custom-multicolumn-grid {
+      padding: 50px 16px 30px;
+      gap: 20px;
+    }
+    
+    .hexagon-image-container {
+      margin-bottom: -35px;
+    }
+  }
+</style>
+
+<script>
+  const grid = document.getElementById('custom-multicolumn-slider');
+  const paginationCurrent = document.getElementById('slider-current');
+  const paginationTotal = document.getElementById('slider-total');
+  const cards = grid.querySelectorAll('.custom-multicolumn-card');
+  const prevBtn = document.querySelector('.slider-arrow.left');
+  const nextBtn = document.querySelector('.slider-arrow.right');
+  let index = 0;
+  
+  const updatePagination = () => {
+    if (paginationCurrent) {
+      paginationCurrent.textContent = index + 1;
+    }
+  };
+  
+  updatePagination();
+  
+  const scrollToCard = (i) => {
+    const card = cards[i];
+    if (card) card.scrollIntoView({ behavior: 'smooth', inline: 'center' });
+  };
+  
+  if (nextBtn) {
+    nextBtn.addEventListener('click', () => {
+      if (index < cards.length - 1) {
+        index++;
+        scrollToCard(index);
+        updatePagination();
+      }
+    });
+  }
+  
+  if (prevBtn) {
+    prevBtn.addEventListener('click', () => {
+      if (index > 0) {
+        index--;
+        scrollToCard(index);
+        updatePagination();
+      }
+    });
+  }
+  
+  if (grid) {
+    grid.addEventListener('scroll', () => {
+      let closest = 0;
+      let closestDistance = Infinity;
+      cards.forEach((card, i) => {
+        const box = card.getBoundingClientRect();
+        const distance = Math.abs(box.left - window.innerWidth / 2 + box.width / 2);
+        if (distance < closestDistance) {
+          closest = i;
+          closestDistance = distance;
+        }
+      });
+      index = closest;
+      updatePagination();
+    });
+  }
+</script>
+
+{% schema %}
+{
+  "name": "Testimonial Multicolumn",
+  "settings": [
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Section Headline",
+      "default": "Meet the members"
+    },
+    {
+      "type": "range",
+      "id": "headline_font_size_desktop",
+      "label": "Headline Font Size - Desktop (px)",
+      "min": 16,
+      "max": 72,
+      "step": 1,
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "headline_font_size_mobile",
+      "label": "Headline Font Size - Mobile (px)",
+      "min": 12,
+      "max": 48,
+      "step": 1,
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Top padding (px)",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Bottom padding (px)",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "default": 40
+    }
+  ],
+  "blocks": [
+    {
+      "type": "member",
+      "name": "Column",
+      "settings": [
+        { "type": "image_picker", "id": "photo", "label": "Photo" },
+        { "type": "text", "id": "name", "label": "Name" },
+        { "type": "text", "id": "short_bio", "label": "Job Title/Position" },
+        { "type": "textarea", "id": "quote", "label": "Testimonial Text" }
+      ]
+    }
+  ],
+  "max_blocks": 9,
+  "presets": [
+    {
+      "name": "Testimonial Multicolumn",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}
