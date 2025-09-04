@@ -741,7 +741,7 @@
         "icon_text_GJqXKN": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify://shop_images/Lemon_Lavender.svg",
+            "icon": "shopify://shop_images/Oral_Probiotics.webp",
             "icon_alt": "Icon",
             "heading": "Oral Probiotics",
             "heading_font_size": 19,
@@ -753,7 +753,7 @@
         "icon_text_4YTFGj": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify://shop_images/Orange_Cream.svg",
+            "icon": "shopify://shop_images/n-Ha.webp",
             "icon_alt": "Icon",
             "heading": "Nano-hydroxyapatite",
             "heading_font_size": 16,
@@ -765,7 +765,7 @@
         "icon_text_xamHLj": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify://shop_images/Watermelon_Mint.svg",
+            "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
             "icon_alt": "Icon",
             "heading": "Xylitol",
             "heading_font_size": 16,
@@ -777,7 +777,7 @@
         "icon_text_LqzTbn": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify://shop_images/Strawberry_Mango.svg",
+            "icon": "shopify://shop_images/peppermint.webp",
             "icon_alt": "Icon",
             "heading": "Botanical extracts",
             "heading_font_size": 16,
@@ -1305,90 +1305,63 @@
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What are Vital Bite tablets?",
+            "heading": "What is Boka Probiotic Toothpaste?",
             "icon": "question_mark",
-            "row_content": "<p>Vital Bite tablets are chewable probiotics designed to support oral health by promoting a balanced oral microbiome.</p>",
+            "row_content": "<p>Boka Probiotic is a fluoride-free toothpaste formulated with clinically studied Lactobacillus paracasei probiotics. It supports a healthy oral microbiome.</p>",
             "page": ""
           }
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is BLIS K12, and how does it work?",
+            "heading": "How do probiotics benefit oral health?",
             "icon": "question_mark",
-            "row_content": "<p>BLIS K12 is a clinically proven probiotic that helps reduce bad breath, prevent plaque buildup, and maintain oral health.</p>",
+            "row_content": "<p>Probiotics balance the oral microbiome, helping good bacteria thrive for oral wellness.</p>",
             "page": ""
           }
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How often should I take Vital Bite?",
+            "heading": "What makes Boka Probiotic Toothpaste different from regular toothpaste?",
             "icon": "question_mark",
-            "row_content": "<p>Take one chewable tablet daily, preferably after brushing your teeth.</p>",
+            "row_content": "<p>Boka combines probiotics with nano-hydroxyapatite (n-Ha), a breakthrough mineral that mimics tooth enamel. It’s a fluoride-free alternative that’s suitable for daily use and has been researched for decades.</p>",
             "page": ""
           }
         },
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is the flavor of Vital Bite tablets?",
+            "heading": "Is Boka Probiotics Toothpaste safe for sensitive teeth?",
             "icon": "question_mark",
-            "row_content": "<p>Vital Bite tablets come in a refreshing peppermint flavor, making them enjoyable to chew.</p>",
+            "row_content": "<p>Yes, it’s gentle enough for sensitive teeth while still delivering the benefits of probiotics and n-Ha.</p>",
             "page": ""
           }
         },
         "collapsible_row_9qinTJ": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Are there any allergens in Vital Bite?",
+            "heading": "Can I use Boka Probiotic Toothpaste alongside my regular oral care routine?",
             "icon": "question_mark",
-            "row_content": "<p>Vital Bite tablets are nut-free, sodium-free, drug-free, and free from artificial flavors.</p>",
+            "row_content": "<p>Absolutely! You can use it as part of your daily brushing routine. It complements your existing oral care habits while supporting oral wellness with the power of probiotics.</p>",
             "page": ""
           }
         },
         "collapsible_row_rVMB4W": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can Vital Bite replace brushing or flossing?",
+            "heading": "Is Boka Probiotic Toothpaste safe for all ages?",
             "icon": "question_mark",
-            "row_content": "<p>No, Vital Bite supplements your oral care routine and should be used alongside brushing and flossing.</p>",
+            "row_content": "<p>Yes, it is safe for adults and children. However, if you have specific concerns, it’s always best to consult a dentist or healthcare professional.</p>",
             "page": ""
           }
         },
         "collapsible_row_bXhKjK": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Do I need to refrigerate the tablets?",
+            "heading": "Does Boka Probiotic Toothpaste contain any harmful ingredients?",
             "icon": "question_mark",
-            "row_content": "<p>No refrigeration needed! Vital Bite tablets are shelf-stable for up to 18 months from the manufacturing date, making them easy to store and perfect for maintaining a consistent oral care routine. With 30 chewable tablets per bottle, convenient, long-lasting oral health is always within reach.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_VhQ4q4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How long does a bottle last?",
-            "icon": "question_mark",
-            "row_content": "<p>Each bottle contains 30 tablets, providing a one-month supply when taken daily.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_UpzCUM": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Can children use Vital Bite?      ",
-            "icon": "question_mark",
-            "row_content": "<p>Vital Bite is designed for adults. Consult a doctor before giving it to children under 18.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_XzrN9V": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What sets Vital Bite apart from other oral probiotics? ",
-            "icon": "question_mark",
-            "row_content": "<p>Vital Bite combines BLIS K12 with essential vitamins D3, K2, and E, offering targeted oral health benefits and support for strong teeth and bones.</p>",
+            "row_content": "<p>No, it’s free from fluoride, sulfates, parabens, artificial flavors, and colors. It’s a clean, biocompatible formula. Just clean, safe ingredients for your oral health.</p>",
             "page": ""
           }
         }
@@ -1400,10 +1373,7 @@
         "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-4",
         "collapsible_row_9qinTJ",
         "collapsible_row_rVMB4W",
-        "collapsible_row_bXhKjK",
-        "collapsible_row_VhQ4q4",
-        "collapsible_row_UpzCUM",
-        "collapsible_row_XzrN9V"
+        "collapsible_row_bXhKjK"
       ],
       "custom_css": [
         "@media screen and (max-width: 749px) {h1 {font-size: 30px; }}"
