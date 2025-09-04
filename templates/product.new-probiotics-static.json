@@ -242,7 +242,7 @@
         "heading_MY69pp": {
           "type": "heading",
           "settings": {
-            "heading": "The New Way to Clean with <em>Probiotics</em>",
+            "heading": "The <em>Advanced</em> n-Ha Oral Probiotic Toothpaste",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -250,7 +250,7 @@
         "text_wRxqbk": {
           "type": "text",
           "settings": {
-            "text": "<p>Revolutionary, fluoride-free oral care integrating clinically studied Dental-Lac™ probiotics that support a healthy oral microbiome and science-backed, nature-inspired n-Ha.</p>",
+            "text": "<p>Formulated with Lactobacillus paracasei probiotics that are known to support the growth of good bacteria, promoting microbiome goodness with every brush.</p>",
             "text_style": "body"
           }
         },
@@ -270,7 +270,7 @@
         "button_hXfTfF"
       ],
       "settings": {
-        "image": "shopify://shop_images/probiotics_placehoder_new_08d324fc-f5e5-4aa4-821d-004b633d8ad3.png",
+        "image": "shopify://shop_images/What_s-New-Section.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -297,7 +297,7 @@
         "heading_hTbre6": {
           "type": "heading",
           "settings": {
-            "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
+            "heading": "Available In <em>Two Enhancing</em> Flavors",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -314,12 +314,12 @@
           "type": "icon_text",
           "settings": {
             "icon": "shopify://shop_images/1_9d3aa42f-0768-4e60-889e-9e32e57c40cd.png",
-            "icon_alt": "Icon",
-            "heading": "Feature Title",
+            "icon_alt": "Citrus Mint",
+            "heading": "Citrus Mint",
             "heading_tag": "default",
             "heading_font_size": 18,
             "heading_font_weight": "600",
-            "text": "<p><strong>Citrus Mint</strong> - Invigorating mint with bright citrus, eucalyptus, and subtle nutmeg</p>",
+            "text": "<p>Invigorate your senses with a blend of orange, lime, eucalyptus, and subtle nutmeg.</p>",
             "text_style": "body",
             "text_font_size": 16
           }
@@ -328,12 +328,12 @@
           "type": "icon_text",
           "settings": {
             "icon": "shopify://shop_images/Coco_Ginger.svg",
-            "icon_alt": "Icon",
-            "heading": "Feature Title",
+            "icon_alt": "Peppermint Blossom",
+            "heading": "Peppermint Blossom",
             "heading_tag": "default",
             "heading_font_size": 18,
             "heading_font_weight": "600",
-            "text": "<p><strong>Peppermint </strong>- Soothing blend of peppermint, spearmint, and ylang ylang.</p>",
+            "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral ylang ylang.</p>",
             "text_style": "body",
             "text_font_size": 16
           }
@@ -357,7 +357,7 @@
       ],
       "name": "Enhanced Image with Text",
       "settings": {
-        "image": "shopify://shop_images/bf0cf08fbdf5a30ac63ebcbe75ba467042621ffc.jpg",
+        "image": "shopify://shop_images/Flavors_Section_1.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -492,36 +492,36 @@
           "type": "feature",
           "settings": {
             "position": "top-left",
-            "icon": "shopify://shop_images/1_d3fa5066-9b3b-436c-bae4-78ad9d737baf.png",
-            "title": "Balanced Microbiome",
-            "description": "Powered by Dental-Lac™ Probiotics to support healthy bacteria oral wellness."
+            "icon": "shopify://shop_images/Icon_1.svg",
+            "title": "Probiotic Power",
+            "description": "Lactobacillus paracasei probiotics support healthy bacteria, contributing to oral wellness."
           }
         },
         "feature_hKPKij": {
           "type": "feature",
           "settings": {
             "position": "top-right",
-            "icon": "shopify://shop_images/Cinna_Mint.svg",
-            "title": "Fresh Breath, Daily",
-            "description": "Clinically researched probiotics help prevent odor and support freshness."
+            "icon": "shopify://shop_images/Icon_2.svg",
+            "title": "Helps Balance Oral Microbiome",
+            "description": "Probiotics support a healthy balance of good bacteria, promoting a stable oral environment."
           }
         },
         "feature_BGJJU6": {
           "type": "feature",
           "settings": {
             "position": "bottom-left",
-            "icon": "shopify://shop_images/Strawberry_Mango.svg",
-            "title": "Clean & Conscious",
-            "description": "Vegan, cruelty-free, and free from parabens and other harmful ingredients."
+            "icon": "shopify://shop_images/Icon_3.svg",
+            "title": "Supports Good Bacteria Growth",
+            "description": "hey nurture good bacteria, supporting your body’s natural defense system."
           }
         },
         "feature_KhKEJz": {
           "type": "feature",
           "settings": {
             "position": "bottom-right",
-            "icon": "shopify://shop_images/Whitening.svg",
-            "title": "Fluoride-Free",
-            "description": "Formulated with n-Ha to naturally strengthen enamel and fight bad breath."
+            "icon": "shopify://shop_images/Icon_4.svg",
+            "title": "Freshens Breath",
+            "description": "Brushing with probiotics helps keep breath fresh."
           }
         }
       },
@@ -605,7 +605,7 @@
         "column_AqQtYp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/1.png",
+            "image": "shopify://shop_images/how_to_use_1_aca6ead4-460d-42b3-bf98-aa6d1165c5ad.webp",
             "title": "Step 1: Brush Your Teeth",
             "text": "<p>Use a small amount and brush twice a day — just like you normally would.</p>",
             "link_label": "",
@@ -615,7 +615,7 @@
         "column_jnbHHx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/3.png",
+            "image": "shopify://shop_images/how_to_use_2_1.webp",
             "title": "Step 2: Take Your Time",
             "text": "<p>Brush gently for 2 full minutes to let the probiotics do their thing.</p>",
             "link_label": "",
@@ -625,7 +625,7 @@
         "column_AEbjTw": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/2.png",
+            "image": "shopify://shop_images/how_to_use_3_1.webp",
             "title": "Step 3: Skip the Rinse",
             "text": "<p>After brushing, spit but don’t rinse — this helps the probiotics stay and work longer.</p>",
             "link_label": "",
@@ -733,7 +733,7 @@
         "heading_ytqjCb": {
           "type": "heading",
           "settings": {
-            "heading": "Inside Boka’s\nProbiotic Toothpaste",
+            "heading": "What’s Inside Probiotic Toothpaste?",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -743,9 +743,9 @@
           "settings": {
             "icon": "shopify://shop_images/Lemon_Lavender.svg",
             "icon_alt": "Icon",
-            "heading": "Feature Title",
-            "heading_font_size": 24,
-            "text": "<p>Helps support the oral microbiome</p>",
+            "heading": "Oral Probiotics",
+            "heading_font_size": 19,
+            "text": "<p>Help support the oral microbiome</p>",
             "text_font_size": 14,
             "text_style": "body"
           }
