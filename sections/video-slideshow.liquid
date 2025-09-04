@@ -566,14 +566,14 @@
 });
 
 </script>
-
+{% if page.handle == 'dental-innovation-forum' %}
 <script type="text/javascript">
 	document.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){
 		window._klOnsite = window._klOnsite || []; 
 		window._klOnsite.push(['openForm', 'X2GpR4']);
 	});
 </script>
-
+{% endif %}
 {% schema %}
 {
   "name": "Slideshow with Video",
