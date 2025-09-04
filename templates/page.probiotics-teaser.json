@@ -140,7 +140,7 @@
     "featured_collection_EwniDz": {
       "type": "featured-collection",
       "custom_css": [
-        ".learn-more {display: none;}"
+        ".learn-more {display: none !important;}"
       ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
