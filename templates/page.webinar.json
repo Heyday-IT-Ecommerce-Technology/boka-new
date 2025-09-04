@@ -564,7 +564,7 @@
         "headline": "Speakers",
         "section_background_color": "#ffffff",
         "card_background_color": "#ffffff",
-        "headline_font_size_desktop": 32,
+        "headline_font_size_desktop": 38,
         "headline_font_size_mobile": 24,
         "text_alignment": "center",
         "member_name_font_size_desktop": 20,
