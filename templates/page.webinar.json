@@ -110,6 +110,65 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "rich_text_niYxnH": {
+      "type": "rich-text",
+      "blocks": {
+        "caption_TJm4DM": {
+          "type": "caption",
+          "settings": {
+            "caption": "ABOUT THE WEBINAR",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "heading_WNCF4Y": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_WYUkXw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_HQkr9r": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "caption_TJm4DM",
+        "heading_WNCF4Y",
+        "text_WYUkXw",
+        "button_HQkr9r"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "custom_liquid_V4CWFz": {
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
@@ -146,6 +205,7 @@
         "heading_YnycMz",
         "text_LMQ7y6"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
@@ -321,6 +381,7 @@
         "column_388RTh",
         "column_4AzhL3"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
@@ -346,61 +407,6 @@
         "padding_bottom": 70,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 30
-      }
-    },
-    "video_slideshow_KqVJpi": {
-      "type": "video-slideshow",
-      "blocks": {
-        "image_nMVnnV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
-            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
-            "heading": "Your Exclusive Rewards",
-            "image_link": "",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "Every attendee gets a Boka Kit of premium toothpastes and a chance to win $5,000 USD.",
-            "button_label": "REGISTER NOW",
-            "link": "shopify://blogs/news/how-probiotics-benefit-your-oral-microbiome",
-            "button_style_secondary": false,
-            "button_label2": "",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "custom_background_color": "#333333",
-            "custom_text_color": "#ffffff",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#ffffff",
-            "button_background_color_mobile": "#000000",
-            "button_foreground_color_mobile": "#ffffff",
-            "bottom_text_background_color": "#dce6cf",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
-          }
-        }
-      },
-      "block_order": [
-        "image_nMVnnV"
-      ],
-      "name": "Slideshow with Video",
-      "settings": {
-        "layout": "grid",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "enable_video_buttons": true,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "fadein_enabled": false,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_EVBRxA": {
@@ -517,6 +523,60 @@
         "padding_bottom_mobile": 0
       }
     },
+    "testimonial_Q7hPXq": {
+      "type": "testimonial",
+      "blocks": {
+        "member_iWiHjj": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
+            "name": "",
+            "short_bio": "",
+            "quote": ""
+          }
+        },
+        "member_4Etxdm": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
+            "name": "",
+            "short_bio": "",
+            "quote": ""
+          }
+        },
+        "member_GRWHhX": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Allan_1.webp",
+            "name": "",
+            "short_bio": "",
+            "quote": ""
+          }
+        }
+      },
+      "block_order": [
+        "member_iWiHjj",
+        "member_4Etxdm",
+        "member_GRWHhX"
+      ],
+      "name": "Testimonial Multicolumn",
+      "settings": {
+        "headline": "Speakers",
+        "section_background_color": "#ffffff",
+        "card_background_color": "#ffffff",
+        "headline_font_size_desktop": 32,
+        "headline_font_size_mobile": 24,
+        "text_alignment": "center",
+        "member_name_font_size_desktop": 20,
+        "member_name_font_size_mobile": 18,
+        "job_title_font_size_desktop": 14,
+        "job_title_font_size_mobile": 13,
+        "testimonial_font_size_desktop": 16,
+        "testimonial_font_size_mobile": 15,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
     "custom_multicolumn_section_xE9FTH": {
       "type": "custom-multicolumn-section",
       "blocks": {
@@ -575,6 +635,7 @@
         "member_wf4JkE",
         "member_K3mtjf"
       ],
+      "disabled": true,
       "custom_css": [
         ".custom-multicolumn-wrapper {background-color: #fafaf5; margin-top: 50px;}"
       ],
@@ -609,6 +670,7 @@
         "heading_KkNApT",
         "text_naTJCD"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text,.rich-text__wrapper,.rich-text__text {max-width: 700px !important; margin: 0 auto !important; text-align: center !important;}",
         ".rich-text__heading,.rich-text__text {line-height: 1.2 !important;}",
@@ -629,6 +691,62 @@
         "padding_bottom": 0,
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
+      }
+    },
+    "video_slideshow_KqVJpi": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_nMVnnV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Promo_Banner_Desktop_2.webp",
+            "image_mobile": "shopify://shop_images/Promo_Banner_Mobile_2.webp",
+            "heading": "Your Exclusive Rewards",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Every attendee gets a Boka Kit of premium toothpastes and a chance to win $5,000 USD.",
+            "button_label": "REGISTER NOW",
+            "link": "shopify://blogs/news/how-probiotics-benefit-your-oral-microbiome",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#ffffff",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#ffffff",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_nMVnnV"
+      ],
+      "disabled": true,
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "grid",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": false,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "multicolumn_zVFeeg": {
@@ -705,6 +823,7 @@
         "column_xPBjRr",
         "column_BrANj9"
       ],
+      "disabled": true,
       "custom_css": [
         ".inline-richtext {margin: auto;}"
       ],
@@ -757,6 +876,7 @@
         "heading_4jE49i",
         "text_JzExcM"
       ],
+      "disabled": true,
       "custom_css": [
         ".isolate {background: #f9e5db;}"
       ],
@@ -803,6 +923,7 @@
         "column_LYejEe",
         "column_qab3wy"
       ],
+      "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
@@ -832,6 +953,7 @@
     },
     "custom_liquid_ChVgVh": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<div class=\"as-seen-on-section\">\n  <h2 class=\"as-seen-on-title\">As Seen On</h2>\n  <div class=\"as-seen-on-logos-wrapper\">\n    <div class=\"as-seen-on-logos\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/real_simple.png?v=1741798410\" alt=\"Real simple logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/medium.png?v=1741798410\" alt=\"Medium logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/cnet.png?v=1741798411\" alt=\"Cnet logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/huffpost.png?v=1741798410\" alt=\"Huffpost logo\" loading=\"lazy\">\n      <!-- Duplicate logos for infinite scrolling -->\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vogue_3baa2d92-7316-4c7a-9f72-dd0e92ea3117.png?v=1739261765\" alt=\"Vogue logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/GQ_933a5a5b-db74-4b3e-a87f-874ec19c7bbf.png?v=1739261765\" alt=\"GQ logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/goop_ee8d5cc2-51db-4251-b0f8-4796fcada2d4.png?v=1739261765\" alt=\"Goop logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/fastcompany_1.png?v=1739265589\" alt=\"Fast Company logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/harpersbazaar.png?v=1739261764\" alt=\"Harper's Bazaar logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/vice.png?v=1739261765\" alt=\"Vice logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/oprahdaily.png?v=1739261765\" alt=\"Oprah Daily logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/theeverygirl.png?v=1739261765\" alt=\"The Every Girl logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/real_simple.png?v=1741798410\" alt=\"Real simple logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/medium.png?v=1741798410\" alt=\"Medium logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/cnet.png?v=1741798411\" alt=\"Cnet logo\" loading=\"lazy\">\n      <img src=\"https://cdn.shopify.com/s/files/1/2656/6094/files/huffpost.png?v=1741798410\" alt=\"Huffpost logo\" loading=\"lazy\">\n    </div>\n  </div>\n</div>\n\n\n<style>\n  .as-seen-on-section {\n    text-align: center;\n    padding: 40px 20px;\n    overflow: hidden;\n    background: #FFFFFF;\n    padding-bottom: 80px;\n    padding-top: 10px;\n  }\n\n  .as-seen-on-title {\n    font-size: 48px;\n    font-weight: regular;\n    margin-bottom: 80px;\n  }\n\n@media (max-width: 768px) {\n    .as-seen-on-title {\n      font-size: 32px;\n      margin-bottom: 40px;\n    }\n  }\n\n  .as-seen-on-logos-wrapper {\n    white-space: nowrap;\n    position: relative;\n    width: 100%;\n  }\n\n  .as-seen-on-logos {\n    display: flex;\n    gap: 50px;\n    align-items: center;\n    animation: scroll-logos 25s linear infinite;\n    width: max-content;\n  }\n\n  .as-seen-on-logos img {\n    max-width: 160px;\n    height: auto;\n    display: inline-block;\n  }\n\n  @keyframes scroll-logos {\n  from {\n    transform: translateX(0);\n  }\n  to {\n    transform: translateX(-50%);\n    }\n  }\n</style>",
@@ -913,60 +1035,6 @@
         "padding_bottom_mobile": 36
       }
     },
-    "testimonial_Q7hPXq": {
-      "type": "testimonial",
-      "blocks": {
-        "member_iWiHjj": {
-          "type": "member",
-          "settings": {
-            "photo": "shopify://shop_images/Allan_1.webp",
-            "name": "",
-            "short_bio": "",
-            "quote": ""
-          }
-        },
-        "member_4Etxdm": {
-          "type": "member",
-          "settings": {
-            "photo": "shopify://shop_images/Allan_1.webp",
-            "name": "",
-            "short_bio": "",
-            "quote": ""
-          }
-        },
-        "member_GRWHhX": {
-          "type": "member",
-          "settings": {
-            "photo": "shopify://shop_images/Allan_1.webp",
-            "name": "",
-            "short_bio": "",
-            "quote": ""
-          }
-        }
-      },
-      "block_order": [
-        "member_iWiHjj",
-        "member_4Etxdm",
-        "member_GRWHhX"
-      ],
-      "name": "Testimonial Multicolumn",
-      "settings": {
-        "headline": "Speakers",
-        "section_background_color": "#ffffff",
-        "card_background_color": "#ffffff",
-        "headline_font_size_desktop": 32,
-        "headline_font_size_mobile": 24,
-        "text_alignment": "center",
-        "member_name_font_size_desktop": 20,
-        "member_name_font_size_mobile": 18,
-        "job_title_font_size_desktop": 14,
-        "job_title_font_size_mobile": 13,
-        "testimonial_font_size_desktop": 16,
-        "testimonial_font_size_mobile": 15,
-        "padding_top": 40,
-        "padding_bottom": 40
-      }
-    },
     "custom_collapsible_content_4nGTtt": {
       "type": "custom-collapsible-content",
       "blocks": {
@@ -1024,7 +1092,7 @@
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
@@ -1070,12 +1138,12 @@
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "fadein_enabled": false,
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
@@ -1087,21 +1155,22 @@
   "order": [
     "main",
     "video_slideshow_U6jJPY",
+    "rich_text_niYxnH",
     "custom_liquid_V4CWFz",
     "rich_text_QK3pMq",
     "multicolumn_yxQxJd",
     "multicolumn_TEUfDC",
-    "video_slideshow_KqVJpi",
     "multicolumn_EVBRxA",
     "image_with_text_hcbjaT",
+    "testimonial_Q7hPXq",
     "custom_multicolumn_section_xE9FTH",
     "rich_text_TwzEeK",
+    "video_slideshow_KqVJpi",
     "multicolumn_zVFeeg",
     "rich_text_4yHMx6",
     "multicolumn_wemhNC",
     "custom_liquid_ChVgVh",
     "collapsible_content_xNnXLV",
-    "testimonial_Q7hPXq",
     "custom_collapsible_content_4nGTtt",
     "rich_text_FPTExr"
   ]
