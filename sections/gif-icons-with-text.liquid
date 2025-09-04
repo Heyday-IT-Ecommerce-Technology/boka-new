@@ -116,6 +116,10 @@
     object-fit: cover;
   }
 
+  div#test-title2 {
+    font-size: calc(var(--font-heading-scale) * 4.8rem);
+  }
+
   /* Dynamic font sizes for icon text blocks */
   {% for block in section.blocks %}
     {% if block.type == 'icon_text' %}
