@@ -644,7 +644,7 @@
       ],
       "settings": {
         "title": "How To Use",
-        "heading_size": "h0",
+        "heading_size": "h1",
         "heading_tag": "default",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -1270,7 +1270,7 @@
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
       ],
       "settings": {
-        "title": "You Might Also Like",
+        "title": "Complete Your Routine",
         "heading_size": "h0",
         "heading_tag": "h2",
         "description": "",
