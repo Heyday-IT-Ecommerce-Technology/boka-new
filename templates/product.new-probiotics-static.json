@@ -313,7 +313,7 @@
         "icon_text_LnrD7x": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify://shop_images/1_9d3aa42f-0768-4e60-889e-9e32e57c40cd.png",
+            "icon": "shopify://shop_images/citrus_1.webp",
             "icon_alt": "Citrus Mint",
             "heading": "Citrus Mint",
             "heading_tag": "default",
@@ -327,7 +327,7 @@
         "icon_text_hqGhrm": {
           "type": "icon_text",
           "settings": {
-            "icon": "shopify://shop_images/Coco_Ginger.svg",
+            "icon": "shopify://shop_images/peppermint.webp",
             "icon_alt": "Peppermint Blossom",
             "heading": "Peppermint Blossom",
             "heading_tag": "default",
@@ -493,7 +493,7 @@
           "settings": {
             "position": "top-left",
             "icon": "shopify://shop_images/Icon_1.svg",
-            "title": "Probiotic Power",
+            "title": "<b>Probiotic Power</b>",
             "description": "Lactobacillus paracasei probiotics support healthy bacteria, contributing to oral wellness."
           }
         },
@@ -502,7 +502,7 @@
           "settings": {
             "position": "top-right",
             "icon": "shopify://shop_images/Icon_2.svg",
-            "title": "Helps Balance Oral Microbiome",
+            "title": "<b>Helps Balance Oral Microbiome</b>",
             "description": "Probiotics support a healthy balance of good bacteria, promoting a stable oral environment."
           }
         },
@@ -511,7 +511,7 @@
           "settings": {
             "position": "bottom-left",
             "icon": "shopify://shop_images/Icon_3.svg",
-            "title": "Supports Good Bacteria Growth",
+            "title": "<b>Supports Good Bacteria Growth</b>",
             "description": "hey nurture good bacteria, supporting your body’s natural defense system."
           }
         },
@@ -520,7 +520,7 @@
           "settings": {
             "position": "bottom-right",
             "icon": "shopify://shop_images/Icon_4.svg",
-            "title": "Freshens Breath",
+            "title": "<b>Freshens Breath</b>",
             "description": "Brushing with probiotics helps keep breath fresh."
           }
         }
@@ -536,7 +536,7 @@
         "section_title": "Why Probiotics",
         "background_color": "#f8f9fa",
         "title_font_size": 38,
-        "feature_title_font_size": 20,
+        "feature_title_font_size": 18,
         "feature_description_font_size": 16,
         "icon_size": 60,
         "text_alignment": "center",
