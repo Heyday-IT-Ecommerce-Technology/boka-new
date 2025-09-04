@@ -139,6 +139,9 @@
     },
     "featured_collection_EwniDz": {
       "type": "featured-collection",
+      "custom_css": [
+        ".learn-more {display: none;}"
+      ],
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "title": "",
