@@ -31,7 +31,7 @@
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
           "settings": {
-            "text": "<p><strong>30 Chewable Tablets</strong><br/><strong>Flavor Profile: </strong>Peppermint</p>",
+            "text": "<p><em>NEW FLAVOR!</em></p>",
             "text_style": "body",
             "quick_add_hide": false
           }
@@ -80,10 +80,10 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/VB_Microbiome-balancing_BLIS_K12.png",
-            "heading_1": "Microbiome-balancing BLIS K12",
+            "heading_1": "Microbiome-balancing probiotics",
             "icon_2": "none",
             "image_2": "shopify://shop_images/VB_Teeth_and_gum-supporting_D3_K2.png",
-            "heading_2": "Teeth and gum-supporting D3 & K2",
+            "heading_2": "Bacteria-fighting xylitol",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -95,10 +95,10 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/VB_Bacteria-fighting_xylitol.png",
-            "heading_1": "Bacteria-fighting xylitol",
+            "heading_1": "Antioxidant-rich green tea",
             "icon_2": "none",
             "image_2": "shopify://shop_images/VB_Freshness-soothing_chamomile_and_peppermint.png",
-            "heading_2": "Freshness-soothing chamomile and peppermint",
+            "heading_2": "Invigorating mint and bright citrus",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -540,7 +540,7 @@
         "feature_description_font_size": 16,
         "icon_size": 60,
         "text_alignment": "center",
-        "product_image": "shopify://shop_images/1_efd042f8-df5b-4ada-ba11-19755657634a.png"
+        "product_image": "shopify://shop_images/Claims_Citrus_Mint_1.webp"
       }
     },
     "video_slideshow_6biYLH": {
@@ -1277,7 +1277,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best-sellers",
-        "products_to_show": 4,
+        "products_to_show": 11,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": false,
