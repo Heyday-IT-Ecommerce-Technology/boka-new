@@ -159,9 +159,9 @@
         "desktop_content_position": "left",
         "content_alignment": "left",
         "fadein_enabled": false,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "color_scheme": "custom",
+        "custom_background_color": "#fafaf5",
+        "custom_text_color": "#000000",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
@@ -171,6 +171,7 @@
     },
     "custom_liquid_V4CWFz": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
         "custom_liquid": "<script type=\"text/javascript\">\n\tdocument.querySelector('.banner__buttons').addEventListener('click', function (){\n\t\twindow._klOnsite = window._klOnsite || []; \n\t\twindow._klOnsite.push(['openForm', 'X2GpR4']);\n\t});\n</script>",
@@ -562,8 +563,8 @@
       "name": "Testimonial Multicolumn",
       "settings": {
         "headline": "Speakers",
-        "section_background_color": "#ffffff",
-        "card_background_color": "#ffffff",
+        "section_background_color": "#fafaf5",
+        "card_background_color": "#f1f1ed",
         "headline_font_size_desktop": 38,
         "headline_font_size_mobile": 24,
         "text_alignment": "center",
