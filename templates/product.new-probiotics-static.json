@@ -789,7 +789,7 @@
         "button_d7Kj9t": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "#",
             "second_button_label": "",
             "second_button_link": ""
