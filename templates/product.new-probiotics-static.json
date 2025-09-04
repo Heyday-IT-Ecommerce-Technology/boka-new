@@ -755,9 +755,9 @@
           "settings": {
             "icon": "shopify://shop_images/Orange_Cream.svg",
             "icon_alt": "Icon",
-            "heading": "Feature Title",
+            "heading": "Nano-hydroxyapatite",
             "heading_font_size": 16,
-            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text": "<p>Mimics tooth enamel</p>",
             "text_font_size": 14,
             "text_style": "body"
           }
@@ -767,9 +767,9 @@
           "settings": {
             "icon": "shopify://shop_images/Watermelon_Mint.svg",
             "icon_alt": "Icon",
-            "heading": "Feature Title",
+            "heading": "Xylitol",
             "heading_font_size": 16,
-            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text": "<p>Fights bacteria</p>",
             "text_font_size": 14,
             "text_style": "body"
           }
@@ -779,9 +779,9 @@
           "settings": {
             "icon": "shopify://shop_images/Strawberry_Mango.svg",
             "icon_alt": "Icon",
-            "heading": "Feature Title",
+            "heading": "Botanical extracts",
             "heading_font_size": 16,
-            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text": "<p>Provides refreshing flavors</p>",
             "text_font_size": 14,
             "text_style": "body"
           }
@@ -1176,10 +1176,10 @@
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "heading": "Say hello to probiotics",
+        "heading": "The Future of Oral Care",
         "heading_size": "h1",
         "heading_tag": "default",
-        "text": "n-Ha is a breakthrough material inspired by nature and backed by science, non-toxic when used as directed.",
+        "text": "Probiotics are more than just for your gut. Boka’s Probiotic Toothpaste is thoughtfully formulated to support your oral microbiome, helping it nourish and flourish.",
         "text_style": "body",
         "button_label_1": "TRY WHAT'S PROVEN",
         "button_link_1": "shopify://collections/all",
