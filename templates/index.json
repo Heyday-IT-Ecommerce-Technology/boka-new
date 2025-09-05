@@ -289,7 +289,8 @@
     "486363a0-4f38-49ec-8de8-3bcdfd569298": {
       "type": "featured-collection",
       "custom_css": [
-        ".collection__title--desktop-slider .title {text-align: center;}"
+        ".collection__title--desktop-slider .title {text-align: center;}",
+        ".learn-more {display: none !important;}"
       ],
       "settings": {
         "title": "",
