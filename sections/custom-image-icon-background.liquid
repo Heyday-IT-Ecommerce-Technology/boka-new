@@ -302,6 +302,7 @@
   {%- endif -%}
 
   {%- comment -%} Mobile-specific image {%- endcomment -%}
+   {{ block.settings.heading }}
   {%- if section.settings.mobile_image != blank and section.settings.media_type != 'video' -%}
     <img
       src="{{ section.settings.mobile_image | image_url: width: 750 }}"
