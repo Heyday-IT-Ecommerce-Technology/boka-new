@@ -540,7 +540,7 @@
         "feature_description_font_size": 16,
         "icon_size": 60,
         "text_alignment": "center",
-        "product_image": "shopify://shop_images/Claims_Citrus_Mint_1.webp"
+        "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
       }
     },
     "video_slideshow_6biYLH": {
@@ -654,7 +654,7 @@
         "full_width_enabled": true,
         "button_label": "SHOP NOW",
         "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets?selling_plan=1753153579",
-        "fadein_enabled": true,
+        "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "custom",
         "custom_background_color": "#ffffff",
