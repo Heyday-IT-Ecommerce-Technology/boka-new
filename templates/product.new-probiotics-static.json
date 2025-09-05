@@ -649,7 +649,7 @@
       ],
       "custom_css": [
         ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
-        "@media screen and (max-width: 749px) {.background-none .slider .multicolumn-card__info {padding-bottom: 1rem; padding-top: 3rem !important; } h3 {font-size: 25px; } p {font-size: 16px !important; }}"
+        "@media screen and (max-width: 749px) {.background-none .slider .multicolumn-card__info {padding-bottom: 1rem; padding-top: 3rem !important; } h3 {font-size: 25px; } p {font-size: 16px !important; } .slider-counter {font-size: 18px !important;}}"
       ],
       "settings": {
         "title": "How To Use",
