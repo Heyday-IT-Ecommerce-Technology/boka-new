@@ -164,6 +164,10 @@
     width: {{ section.settings.icon_size | default: 24 }}px;
     height: {{ section.settings.icon_size | default: 24 }}px;
     margin-top: 2px;
+    /* Fix for blurry icons */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
   }
   
   .icon-text-item__content {
@@ -217,8 +221,21 @@
     z-index: 1;
   }
 
-  /* Dynamic font size styles for each block - Desktop */
+  /* Dynamic font size styles for headings - Desktop */
   {%- for block in section.blocks -%}
+    {%- if block.type == 'heading' -%}
+      .heading-block-{{ block.id }} {
+        font-size: {{ block.settings.heading_font_size_desktop | default: 32 }}px;
+      }
+
+      /* Mobile font sizes for headings */
+      @media screen and (max-width: 749px) {
+        .heading-block-{{ block.id }} {
+          font-size: {{ block.settings.heading_font_size_mobile | default: 24 }}px;
+        }
+      }
+    {%- endif -%}
+
     {%- if block.type == 'icon_text' -%}
       .icon-text-block-{{ block.id }} .icon-text-item__heading {
         font-size: {{ block.settings.heading_font_size_desktop | default: 16 }}px;
@@ -318,7 +335,7 @@
         {% case block.type %}
           {%- when 'heading' -%}
             <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
-              class="image-with-text__heading inline-richtext image-headings {{ block.settings.heading_size }}"
+              class="image-with-text__heading inline-richtext image-headings {{ block.settings.heading_size }} heading-block-{{ block.id }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -340,7 +357,16 @@
           {%- when 'icon_text' -%}
             <div class="icon-text-item icon-text-block-{{ block.id }}" {{ block.shopify_attributes }}>
               {%- if block.settings.icon != blank -%}
-                <img src="{{ block.settings.icon | image_url: width: 60 }}" alt="{{ block.settings.icon_alt | escape }}" class="icon-text-item__icon">
+                {%- assign icon_size = section.settings.icon_size | default: 24 -%}
+                {%- assign icon_size_2x = icon_size | times: 2 -%}
+                <img 
+                  src="{{ block.settings.icon | image_url: width: icon_size_2x }}" 
+                  alt="{{ block.settings.icon_alt | escape }}" 
+                  class="icon-text-item__icon"
+                  width="{{ icon_size }}"
+                  height="{{ icon_size }}"
+                  loading="lazy"
+                >
               {%- endif -%}
               <div class="icon-text-item__content">
                 {%- if block.settings.heading != blank -%}
@@ -644,11 +670,12 @@
             }
           ],
           "default": "h1",
-          "label": "Heading Size"
+          "label": "Heading Size",
+          "info": "This will be overridden by the custom font sizes below"
         },
         {
           "type": "header",
-          "content": "Custom Font Sizes"
+          "content": "Custom Font Sizes (Override heading size above)"
         },
         {
           "type": "range",
@@ -797,7 +824,7 @@
           "type": "image_picker",
           "id": "icon",
           "label": "Icon",
-          "info": "Upload an icon file (PNG, JPG, SVG, or any image format)"
+          "info": "Upload an icon file (PNG, JPG, SVG, or any image format). For best quality, use SVG or upload at 2x the display size."
         },
         {
           "type": "text",
