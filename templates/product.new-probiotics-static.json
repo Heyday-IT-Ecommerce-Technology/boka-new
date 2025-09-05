@@ -537,6 +537,9 @@
         "feature_BGJJU6",
         "feature_KhKEJz"
       ],
+      "custom_css": [
+        "h3 {font-size: 21px;}"
+      ],
       "name": "Image with feature icons",
       "settings": {
         "section_title": "Why Probiotics",
