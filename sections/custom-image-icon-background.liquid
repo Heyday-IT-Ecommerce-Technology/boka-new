@@ -217,15 +217,26 @@
     z-index: 1;
   }
 
-  /* Dynamic font size styles for each block */
+  /* Dynamic font size styles for each block - Desktop */
   {%- for block in section.blocks -%}
     {%- if block.type == 'icon_text' -%}
       .icon-text-block-{{ block.id }} .icon-text-item__heading {
-        font-size: {{ block.settings.heading_font_size | default: 16 }}px;
+        font-size: {{ block.settings.heading_font_size_desktop | default: 16 }}px;
       }
       
       .icon-text-block-{{ block.id }} .icon-text-item__text {
-        font-size: {{ block.settings.text_font_size | default: 14 }}px;
+        font-size: {{ block.settings.text_font_size_desktop | default: 14 }}px;
+      }
+
+      /* Mobile font sizes */
+      @media screen and (max-width: 749px) {
+        .icon-text-block-{{ block.id }} .icon-text-item__heading {
+          font-size: {{ block.settings.heading_font_size_mobile | default: 14 }}px;
+        }
+        
+        .icon-text-block-{{ block.id }} .icon-text-item__text {
+          font-size: {{ block.settings.text_font_size_mobile | default: 12 }}px;
+        }
       }
     {%- endif -%}
   {%- endfor -%}
@@ -777,30 +788,58 @@
           "info": "Optional heading for this icon item"
         },
         {
+          "type": "header",
+          "content": "Desktop Font Sizes"
+        },
+        {
           "type": "range",
-          "id": "heading_font_size",
+          "id": "heading_font_size_desktop",
           "min": 10,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Heading Font Size (Desktop)",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "text_font_size_desktop",
+          "min": 8,
+          "max": 28,
+          "step": 1,
+          "unit": "px",
+          "label": "Text Font Size (Desktop)",
+          "default": 14
+        },
+        {
+          "type": "header",
+          "content": "Mobile Font Sizes"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "min": 8,
           "max": 32,
           "step": 1,
           "unit": "px",
-          "label": "Heading Font Size",
-          "default": 16
+          "label": "Heading Font Size (Mobile)",
+          "default": 14
+        },
+        {
+          "type": "range",
+          "id": "text_font_size_mobile",
+          "min": 6,
+          "max": 24,
+          "step": 1,
+          "unit": "px",
+          "label": "Text Font Size (Mobile)",
+          "default": 12
         },
         {
           "type": "richtext",
           "id": "text",
           "default": "<p>Add your text content here that will appear next to the icon.</p>",
           "label": "Text Content"
-        },
-        {
-          "type": "range",
-          "id": "text_font_size",
-          "min": 8,
-          "max": 24,
-          "step": 1,
-          "unit": "px",
-          "label": "Text Font Size",
-          "default": 14
         },
         {
           "type": "select",
