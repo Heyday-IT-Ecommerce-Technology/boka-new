@@ -538,7 +538,7 @@
         "feature_KhKEJz"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {h3 {font-size: 21px; font-weight: 400 !important; color: #000000; } p {font-size: 16px; color: #000000; }}"
+        "@media only screen and (max-width: 700px) {h3 {font-size: 21px; font-weight: 400 !important; color: #000000; } p {font-size: 16px !important; color: #000000; }}"
       ],
       "name": "Image with feature icons",
       "settings": {
