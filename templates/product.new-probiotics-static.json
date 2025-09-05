@@ -258,7 +258,7 @@
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
-            "button_link": "#ProductSubmitButton-template--16481886896171__main",
+            "button_link": "#variant-radios-template--16481886896171__main",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -815,7 +815,7 @@
         "button_d7Kj9t"
       ],
       "custom_css": [
-        ".icon-text-item__content{text-align: left;}"
+        ".icon-text-item__content {text-align: left;}"
       ],
       "name": "Image icon bg text",
       "settings": {
