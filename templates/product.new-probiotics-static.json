@@ -799,7 +799,7 @@
       "name": "Image icon bg text",
       "settings": {
         "media_type": "image",
-        "image": "shopify://shop_images/Ingredients_Section_Mobile_1_efe70aaf-c125-4902-8c2c-02b868e3f995.webp",
+        "image": "shopify://shop_images/Ingredients_Section_Desktop.png",
         "background_video": "",
         "video_overlay_opacity": 30,
         "desktop_content_alignment": "left",
