@@ -270,7 +270,7 @@
         "button_hXfTfF"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {#test-title1 {font-size: 30px !important; }}"
+        "@media only screen and (max-width: 700px) {#test-title1 {font-size: 30px !important; } p {font-size: 18px; }}"
       ],
       "settings": {
         "image": "shopify://shop_images/What_s-New-Section_d879f62b-5dda-4822-8766-1f09ac50c410.gif",
