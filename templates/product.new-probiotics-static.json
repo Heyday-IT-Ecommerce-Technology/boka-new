@@ -746,10 +746,10 @@
             "icon": "shopify://shop_images/Oral_Probiotics.webp",
             "icon_alt": "Icon",
             "heading": "Oral Probiotics",
-            "heading_font_size_desktop": 16,
-            "text_font_size_desktop": 14,
-            "heading_font_size_mobile": 14,
-            "text_font_size_mobile": 12,
+            "heading_font_size_desktop": 20,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 18,
+            "text_font_size_mobile": 16,
             "text": "<p>Help support the oral microbiome</p>",
             "text_style": "body"
           }
@@ -760,10 +760,10 @@
             "icon": "shopify://shop_images/n-Ha.webp",
             "icon_alt": "Icon",
             "heading": "Nano-hydroxyapatite",
-            "heading_font_size_desktop": 16,
-            "text_font_size_desktop": 14,
-            "heading_font_size_mobile": 14,
-            "text_font_size_mobile": 12,
+            "heading_font_size_desktop": 20,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 18,
+            "text_font_size_mobile": 16,
             "text": "<p>Mimics tooth enamel</p>",
             "text_style": "body"
           }
@@ -774,10 +774,10 @@
             "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
             "icon_alt": "Icon",
             "heading": "Xylitol",
-            "heading_font_size_desktop": 16,
-            "text_font_size_desktop": 14,
-            "heading_font_size_mobile": 14,
-            "text_font_size_mobile": 12,
+            "heading_font_size_desktop": 20,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 18,
+            "text_font_size_mobile": 16,
             "text": "<p>Fights bacteria</p>",
             "text_style": "body"
           }
@@ -788,10 +788,10 @@
             "icon": "shopify://shop_images/peppermint.webp",
             "icon_alt": "Icon",
             "heading": "Botanical extracts",
-            "heading_font_size_desktop": 16,
-            "text_font_size_desktop": 14,
-            "heading_font_size_mobile": 14,
-            "text_font_size_mobile": 12,
+            "heading_font_size_desktop": 20,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 18,
+            "text_font_size_mobile": 16,
             "text": "<p>Provides refreshing flavors</p>",
             "text_style": "body"
           }
