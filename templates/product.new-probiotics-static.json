@@ -258,7 +258,7 @@
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
-            "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
+            "button_link": "#ProductSubmitButton-template--16481886896171__main",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -342,7 +342,7 @@
           "type": "button",
           "settings": {
             "button_label": "FEEL THE FRESHNESS",
-            "button_link": "#",
+            "button_link": "#ProductSubmitButton-template--16481886896171__main",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -653,7 +653,7 @@
         "background_style": "none",
         "full_width_enabled": true,
         "button_label": "SHOP NOW",
-        "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets?selling_plan=1753153579",
+        "button_link": "#ProductSubmitButton-template--16481886896171__main",
         "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "custom",
@@ -744,6 +744,10 @@
             "icon": "shopify://shop_images/Oral_Probiotics.webp",
             "icon_alt": "Icon",
             "heading": "Oral Probiotics",
+            "heading_font_size_desktop": 16,
+            "text_font_size_desktop": 14,
+            "heading_font_size_mobile": 14,
+            "text_font_size_mobile": 12,
             "text": "<p>Help support the oral microbiome</p>",
             "text_style": "body"
           }
@@ -754,6 +758,10 @@
             "icon": "shopify://shop_images/n-Ha.webp",
             "icon_alt": "Icon",
             "heading": "Nano-hydroxyapatite",
+            "heading_font_size_desktop": 16,
+            "text_font_size_desktop": 14,
+            "heading_font_size_mobile": 14,
+            "text_font_size_mobile": 12,
             "text": "<p>Mimics tooth enamel</p>",
             "text_style": "body"
           }
@@ -764,6 +772,10 @@
             "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
             "icon_alt": "Icon",
             "heading": "Xylitol",
+            "heading_font_size_desktop": 16,
+            "text_font_size_desktop": 14,
+            "heading_font_size_mobile": 14,
+            "text_font_size_mobile": 12,
             "text": "<p>Fights bacteria</p>",
             "text_style": "body"
           }
@@ -774,6 +786,10 @@
             "icon": "shopify://shop_images/peppermint.webp",
             "icon_alt": "Icon",
             "heading": "Botanical extracts",
+            "heading_font_size_desktop": 16,
+            "text_font_size_desktop": 14,
+            "heading_font_size_mobile": 14,
+            "text_font_size_mobile": 12,
             "text": "<p>Provides refreshing flavors</p>",
             "text_style": "body"
           }
@@ -968,7 +984,7 @@
             "heading_tag": "default",
             "subheading": "Probiotics are more than just for your gut. Boka’s Probiotic Toothpaste is thoughtfully formulated to support your oral microbiome, helping it nourish and flourish.",
             "button_label": "TRY NOW",
-            "link": "",
+            "link": "#ProductSubmitButton-template--16481886896171__main",
             "button_style_secondary": false,
             "button_label2": "",
             "link2": "",
