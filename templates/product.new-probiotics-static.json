@@ -968,6 +968,8 @@
         "image_yP9e4x": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Say_Hi_To_Probiotics_Desktop.png",
+            "image_mobile": "shopify://shop_images/Say_Hi_To_Probiotics_Mobile.png",
             "heading": "Image slide",
             "image_link": "",
             "heading_size": "h1",
