@@ -265,7 +265,7 @@
 {%- endif -%}
 
 <div class="enhanced-image-with-text-bg{% if has_video %} enhanced-image-with-text-bg--video{% endif %} section-{{ section.id }}-padding">
-  {{ block.settings.heading }}
+  <h2>{{ block.settings.heading }}</h2>
   {%- if section.settings.media_type == 'video' and section.settings.background_video != blank -%}
     <video
       class="enhanced-image-with-text-bg__video"
