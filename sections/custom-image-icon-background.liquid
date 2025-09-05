@@ -44,6 +44,10 @@
     object-fit: cover;
     z-index: 1;
   }
+
+  .enhanced-image-with-text-bg__media-mobile {
+    display: none;
+  }
   
   .enhanced-image-with-text-bg__video {
     position: absolute;
@@ -96,8 +100,29 @@
       flex-direction: column;
       min-height: auto;
     }
-    
+
+    /* Hide desktop image and show mobile image on mobile */
+    .enhanced-image-with-text-bg__media {
+      {% if section.settings.mobile_image != blank %}
+        display: none;
+      {% endif %}
+    }
+
+    .enhanced-image-with-text-bg__media-mobile {
+      {% if section.settings.mobile_image != blank %}
+        display: block;
+        position: relative;
+        height: 300px;
+        margin-bottom: 20px;
+        width: 100%;
+        object-fit: cover;
+      {% endif %}
+    }
+
+    /* If no mobile image is set, show desktop image in mobile layout */
+    {% if section.settings.mobile_image == blank %}
     .enhanced-image-with-text-bg__media,
+    {% endif %}
     .enhanced-image-with-text-bg__video {
       position: relative;
       height: 300px;
@@ -247,6 +272,18 @@
   {%- else -%}
     <div class="enhanced-image-with-text-bg__media" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
   {%- endif -%}
+
+  {%- comment -%} Mobile-specific image {%- endcomment -%}
+  {%- if section.settings.mobile_image != blank and section.settings.media_type != 'video' -%}
+    <img
+      src="{{ section.settings.mobile_image | image_url: width: 750 }}"
+      alt="{{ section.settings.mobile_image.alt | escape }}"
+      loading="lazy"
+      class="enhanced-image-with-text-bg__media-mobile"
+      width="750"
+      height="400"
+    />
+  {%- endif -%}
   
   <div class="enhanced-image-with-text-bg__content enhanced-image-with-text-bg__content--{{ section.settings.desktop_content_alignment }}">
     <!-- Text Content Above Container -->
@@ -370,8 +407,14 @@
     {
       "type": "image_picker",
       "id": "image",
-      "label": "Background Image/GIF",
-      "info": "This image/GIF will be used as background. Also serves as fallback for video."
+      "label": "Background Image/GIF (Desktop)",
+      "info": "This image/GIF will be used as background on desktop and tablet. Also serves as fallback for video and mobile if no mobile image is set."
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Background Image/GIF (Mobile)",
+      "info": "Optional: Different image/GIF for mobile devices. If not set, desktop image will be used."
     },
     {
       "type": "text",
