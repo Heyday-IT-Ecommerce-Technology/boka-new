@@ -289,7 +289,12 @@
       {%- endif -%}
     </video>
   {%- elsif section.settings.image != blank -%}
-    {{ block.settings.heading }}
+    <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
+              class="image-with-text__heading inline-richtext image-headings {{ block.settings.heading_size }} heading-block-{{ block.id }}"
+              {{ block.shopify_attributes }}
+            >
+              {{ block.settings.heading }}
+            </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}>
     <img
       src="{{ section.settings.image | image_url: width: 1920 }}"
       alt="{{ section.settings.image.alt | escape }}"
