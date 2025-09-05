@@ -359,7 +359,7 @@
         "button_m4DR44"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {#test-title2 {font-size: 30px !important; } h3 {font-size: 25px; font-weight: 400; } p {font-size: 18px; font-weight: 400; }}"
+        "@media only screen and (max-width: 700px) {#test-title2 {font-size: 30px !important; } h3 {font-size: 25px; font-weight: 400; } p {font-size: 18px; font-weight: 400; color: #000000; }}"
       ],
       "name": "Enhanced Image with Text",
       "settings": {
@@ -538,7 +538,7 @@
         "feature_KhKEJz"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {h3 {font-size: 21px; font-weight: 400; }}"
+        "@media only screen and (max-width: 700px) {h3 {font-size: 21px; font-weight: 400; } p{color: #000000; }}"
       ],
       "name": "Image with feature icons",
       "settings": {
@@ -824,7 +824,7 @@
         "button_d7Kj9t"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {.image-with-text__heading {font-size: 30px;}}",
+        "@media only screen and (max-width: 700px) {.image-with-text__heading {font-size: 30px; }}",
         ".icon-text-item__content {text-align: left;}"
       ],
       "name": "Image icon bg text",
