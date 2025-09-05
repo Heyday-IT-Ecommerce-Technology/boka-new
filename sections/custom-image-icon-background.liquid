@@ -265,6 +265,7 @@
 {%- endif -%}
 
 <div class="enhanced-image-with-text-bg{% if has_video %} enhanced-image-with-text-bg--video{% endif %} section-{{ section.id }}-padding">
+  {{ block.settings.heading }}
   {%- if section.settings.media_type == 'video' and section.settings.background_video != blank -%}
     <video
       class="enhanced-image-with-text-bg__video"
@@ -302,7 +303,6 @@
   {%- endif -%}
 
   {%- comment -%} Mobile-specific image {%- endcomment -%}
-   {{ block.settings.heading }}
   {%- if section.settings.mobile_image != blank and section.settings.media_type != 'video' -%}
     <img
       src="{{ section.settings.mobile_image | image_url: width: 750 }}"
