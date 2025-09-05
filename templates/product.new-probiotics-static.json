@@ -359,7 +359,7 @@
         "button_m4DR44"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {#test-title2 {font-size: 30px !important; } h3{font-size: 25px; font-weight: 400; }}"
+        "@media only screen and (max-width: 700px) {#test-title2 {font-size: 30px !important; } h3 {font-size: 25px; font-weight: 400; } p {font-size: 18px; font-weight: 400; }}"
       ],
       "name": "Enhanced Image with Text",
       "settings": {
