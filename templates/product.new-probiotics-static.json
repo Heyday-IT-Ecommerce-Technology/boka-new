@@ -744,9 +744,7 @@
             "icon": "shopify://shop_images/Oral_Probiotics.webp",
             "icon_alt": "Icon",
             "heading": "Oral Probiotics",
-            "heading_font_size": 19,
             "text": "<p>Help support the oral microbiome</p>",
-            "text_font_size": 14,
             "text_style": "body"
           }
         },
@@ -756,9 +754,7 @@
             "icon": "shopify://shop_images/n-Ha.webp",
             "icon_alt": "Icon",
             "heading": "Nano-hydroxyapatite",
-            "heading_font_size": 16,
             "text": "<p>Mimics tooth enamel</p>",
-            "text_font_size": 14,
             "text_style": "body"
           }
         },
@@ -768,9 +764,7 @@
             "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
             "icon_alt": "Icon",
             "heading": "Xylitol",
-            "heading_font_size": 16,
             "text": "<p>Fights bacteria</p>",
-            "text_font_size": 14,
             "text_style": "body"
           }
         },
@@ -780,9 +774,7 @@
             "icon": "shopify://shop_images/peppermint.webp",
             "icon_alt": "Icon",
             "heading": "Botanical extracts",
-            "heading_font_size": 16,
             "text": "<p>Provides refreshing flavors</p>",
-            "text_font_size": 14,
             "text_style": "body"
           }
         },
@@ -968,7 +960,7 @@
         "image_yP9e4x": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Say_Hi_To_Probiotics_Desktop.png",
+            "image": "shopify://shop_images/Say_Hi_To_Probiotics_Desktop_1.png",
             "image_mobile": "shopify://shop_images/Say_Hi_To_Probiotics_Mobile.png",
             "heading": "The Future\nof Oral Care",
             "image_link": "",
