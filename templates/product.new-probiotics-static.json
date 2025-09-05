@@ -493,7 +493,7 @@
           "settings": {
             "position": "top-left",
             "icon": "shopify://shop_images/Icon_1.svg",
-            "title": "<b>Probiotic Power</b>",
+            "title": "Probiotic Power",
             "description": "Lactobacillus paracasei probiotics support healthy bacteria, contributing to oral wellness."
           }
         },
@@ -536,8 +536,8 @@
         "section_title": "Why Probiotics",
         "background_color": "#f6faf5",
         "title_font_size": 38,
-        "feature_title_font_size": 18,
-        "feature_description_font_size": 16,
+        "feature_title_font_size": 20,
+        "feature_description_font_size": 18,
         "icon_size": 60,
         "text_alignment": "center",
         "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
