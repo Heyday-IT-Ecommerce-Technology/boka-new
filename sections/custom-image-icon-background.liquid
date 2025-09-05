@@ -289,7 +289,6 @@
       {%- endif -%}
     </video>
   {%- elsif section.settings.image != blank -%}
-    {{ block.settings.heading }}
     <img
       src="{{ section.settings.image | image_url: width: 1920 }}"
       alt="{{ section.settings.image.alt | escape }}"
