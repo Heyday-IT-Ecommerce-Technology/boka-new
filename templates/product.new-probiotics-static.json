@@ -735,6 +735,8 @@
           "settings": {
             "heading": "What’s Inside Probiotic Toothpaste?",
             "heading_size": "h1",
+            "heading_font_size_desktop": 60,
+            "heading_font_size_mobile": 26,
             "heading_tag": "default"
           }
         },
@@ -811,6 +813,9 @@
         "icon_text_xamHLj",
         "icon_text_LqzTbn",
         "button_d7Kj9t"
+      ],
+      "custom_css": [
+        ".icon-text-item__content{text-align: left;}"
       ],
       "name": "Image icon bg text",
       "settings": {
