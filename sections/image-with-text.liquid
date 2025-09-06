@@ -20,6 +20,42 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  /* Custom font size styles for heading */
+  #shopify-section-{{ section.id }} .custom-heading-font-size {
+    font-size: {{ section.settings.heading_font_size_mobile }}px !important;
+    line-height: 1.2;
+  }
+
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .custom-heading-font-size {
+      font-size: {{ section.settings.heading_font_size_desktop }}px !important;
+    }
+  }
+
+  /* Custom font size styles for text */
+  #shopify-section-{{ section.id }} .custom-text-font-size {
+    font-size: {{ section.settings.text_font_size_mobile }}px !important;
+    line-height: 1.4;
+  }
+
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .custom-text-font-size {
+      font-size: {{ section.settings.text_font_size_desktop }}px !important;
+    }
+  }
+
+  /* Custom font size styles for caption */
+  #shopify-section-{{ section.id }} .custom-caption-font-size {
+    font-size: {{ section.settings.caption_font_size_mobile }}px !important;
+    line-height: 1.3;
+  }
+
+  @media screen and (min-width: 750px) {
+    #shopify-section-{{ section.id }} .custom-caption-font-size {
+      font-size: {{ section.settings.caption_font_size_desktop }}px !important;
+    }
+  }
 {%- endstyle -%}
 
 {% if section.settings.color_scheme == 'custom' %}
@@ -78,20 +114,20 @@
           {% case block.type %}
             {%- when 'heading' -%}
               <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
-                class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+                class="image-with-text__heading inline-richtext {{ block.settings.heading_size }} custom-heading-font-size"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.heading }}
               </{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}>
             {%- when 'caption' -%}
               <p
-                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }} custom-caption-font-size"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {{ block.settings.text_style }} custom-text-font-size" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
             {%- when 'button' -%}
@@ -310,6 +346,88 @@
       "label": "Text foreground color",
       "id": "custom_text_color",
       "default": "#FFFFFF"
+    },
+    {
+      "type": "header",
+      "content": "Font Size Settings"
+    },
+    {
+      "type": "paragraph",
+      "content": "Heading Font Sizes"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_mobile",
+      "min": 12,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading font size (Mobile)",
+      "default": 28,
+      "info": "Font size for headings on mobile devices"
+    },
+    {
+      "type": "range",
+      "id": "heading_font_size_desktop",
+      "min": 12,
+      "max": 70,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading font size (Desktop)",
+      "default": 48,
+      "info": "Font size for headings on desktop devices"
+    },
+    {
+      "type": "paragraph",
+      "content": "Body Text Font Sizes"
+    },
+    {
+      "type": "range",
+      "id": "text_font_size_mobile",
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Text font size (Mobile)",
+      "default": 16,
+      "info": "Font size for body text on mobile devices"
+    },
+    {
+      "type": "range",
+      "id": "text_font_size_desktop",
+      "min": 10,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "label": "Text font size (Desktop)",
+      "default": 18,
+      "info": "Font size for body text on desktop devices"
+    },
+    {
+      "type": "paragraph",
+      "content": "Caption Font Sizes"
+    },
+    {
+      "type": "range",
+      "id": "caption_font_size_mobile",
+      "min": 10,
+      "max": 28,
+      "step": 1,
+      "unit": "px",
+      "label": "Caption font size (Mobile)",
+      "default": 14,
+      "info": "Font size for captions on mobile devices"
+    },
+    {
+      "type": "range",
+      "id": "caption_font_size_desktop",
+      "min": 10,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Caption font size (Desktop)",
+      "default": 16,
+      "info": "Font size for captions on desktop devices"
     },
     {
       "type": "header",
