@@ -120,16 +120,62 @@
     font-size: calc(var(--font-heading-scale) * 4.8rem);
   }
 
-  /* Dynamic font sizes for icon text blocks */
+  /* Responsive font sizes for main heading block */
   {% for block in section.blocks %}
-    {% if block.type == 'icon_text' %}
-      .icon-text-block-{{ block.id }} .icon-text-item__heading {
-        font-size: {{ block.settings.heading_font_size | default: 18 }}px;
-        font-weight: {{ block.settings.heading_font_weight | default: 400 }};
+    {% if block.type == 'heading' %}
+      .section-{{ section.id }} .heading-block-{{ block.id }} {
+        font-size: {{ block.settings.heading_font_size_mobile | default: 24 }}px !important;
       }
       
-      .icon-text-block-{{ block.id }} .icon-text-item__text {
-        font-size: {{ block.settings.text_font_size | default: 16 }}px;
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }} .heading-block-{{ block.id }} {
+          font-size: {{ block.settings.heading_font_size_desktop | default: 32 }}px !important;
+        }
+      }
+    {% endif %}
+    
+    {% if block.type == 'text' %}
+      .section-{{ section.id }} .text-block-{{ block.id }} {
+        font-size: {{ block.settings.text_font_size_mobile | default: 14 }}px !important;
+      }
+      
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }} .text-block-{{ block.id }} {
+          font-size: {{ block.settings.text_font_size_desktop | default: 16 }}px !important;
+        }
+      }
+    {% endif %}
+    
+    {% if block.type == 'caption' %}
+      .section-{{ section.id }} .caption-block-{{ block.id }} {
+        font-size: {{ block.settings.caption_font_size_mobile | default: 12 }}px !important;
+      }
+      
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }} .caption-block-{{ block.id }} {
+          font-size: {{ block.settings.caption_font_size_desktop | default: 14 }}px !important;
+        }
+      }
+    {% endif %}
+    
+    {% if block.type == 'icon_text' %}
+      .section-{{ section.id }} .icon-text-block-{{ block.id }} .icon-text-item__heading {
+        font-size: {{ block.settings.heading_font_size_mobile | default: 16 }}px !important;
+        font-weight: {{ block.settings.heading_font_weight | default: 600 }};
+      }
+      
+      .section-{{ section.id }} .icon-text-block-{{ block.id }} .icon-text-item__text {
+        font-size: {{ block.settings.text_font_size_mobile | default: 14 }}px !important;
+      }
+      
+      @media screen and (min-width: 750px) {
+        .section-{{ section.id }} .icon-text-block-{{ block.id }} .icon-text-item__heading {
+          font-size: {{ block.settings.heading_font_size_desktop | default: 18 }}px !important;
+        }
+        
+        .section-{{ section.id }} .icon-text-block-{{ block.id }} .icon-text-item__text {
+          font-size: {{ block.settings.text_font_size_desktop | default: 16 }}px !important;
+        }
       }
     {% endif %}
   {% endfor %}
@@ -149,7 +195,7 @@
   {% endstyle %}
 {% endif %} 
 
-<div class="image-with-text enhanced-image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
+<div class="image-with-text enhanced-image-with-text image-with-text--{{ section.settings.content_layout }} section-{{ section.id }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding">
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %} page-width">
     
     <!-- Media Item (Image/GIF) -->
@@ -207,7 +253,7 @@
           {% case block.type %}
             {%- when 'heading' -%}
               <{% if block.settings.heading_tag != 'default' %}{{ block.settings.heading_tag }}{% else %}div{% endif %}
-                class="image-with-text__heading inline-richtext {{ block.settings.heading_size }}"
+                class="image-with-text__heading inline-richtext {{ block.settings.heading_size }} heading-block-{{ block.id }}"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.heading }}
@@ -215,14 +261,14 @@
             
             {%- when 'caption' -%}
               <p
-                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }} caption-block-{{ block.id }}"
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.caption | escape }}
               </p>
             
             {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
+              <div class="image-with-text__text rte {{ block.settings.text_style }} text-block-{{ block.id }}" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
             
@@ -702,6 +748,36 @@
           ],
           "default": "default",
           "info": "Div is the default tag of the heading"
+        },
+        {
+          "type": "header",
+          "content": "📱 Mobile Font Size"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "min": 12,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Heading Font Size",
+          "default": 24,
+          "info": "Font size for mobile devices (up to 749px)"
+        },
+        {
+          "type": "header",
+          "content": "🖥️ Desktop Font Size"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_desktop",
+          "min": 12,
+          "max": 80,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Heading Font Size",
+          "default": 32,
+          "info": "Font size for desktop devices (750px and up)"
         }
       ]
     },
@@ -751,6 +827,36 @@
           ],
           "default": "medium",
           "label": "t:sections.image-with-text.blocks.caption.settings.caption_size.label"
+        },
+        {
+          "type": "header",
+          "content": "📱 Mobile Font Size"
+        },
+        {
+          "type": "range",
+          "id": "caption_font_size_mobile",
+          "min": 8,
+          "max": 32,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Caption Font Size",
+          "default": 12,
+          "info": "Font size for mobile devices (up to 749px)"
+        },
+        {
+          "type": "header",
+          "content": "🖥️ Desktop Font Size"
+        },
+        {
+          "type": "range",
+          "id": "caption_font_size_desktop",
+          "min": 8,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Caption Font Size",
+          "default": 14,
+          "info": "Font size for desktop devices (750px and up)"
         }
       ]
     },
@@ -780,6 +886,36 @@
           ],
           "default": "body",
           "label": "t:sections.image-with-text.blocks.text.settings.text_style.label"
+        },
+        {
+          "type": "header",
+          "content": "📱 Mobile Font Size"
+        },
+        {
+          "type": "range",
+          "id": "text_font_size_mobile",
+          "min": 10,
+          "max": 32,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Text Font Size",
+          "default": 14,
+          "info": "Font size for mobile devices (up to 749px)"
+        },
+        {
+          "type": "header",
+          "content": "🖥️ Desktop Font Size"
+        },
+        {
+          "type": "range",
+          "id": "text_font_size_desktop",
+          "min": 10,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Text Font Size",
+          "default": 16,
+          "info": "Font size for desktop devices (750px and up)"
         }
       ]
     },
@@ -849,17 +985,6 @@
           "info": "Choose the semantic heading tag for SEO"
         },
         {
-          "type": "range",
-          "id": "heading_font_size",
-          "min": 12,
-          "max": 48,
-          "step": 1,
-          "unit": "px",
-          "label": "Heading Font Size",
-          "default": 18,
-          "info": "Control the size of the heading text"
-        },
-        {
           "type": "select",
           "id": "heading_font_weight",
           "options": [
@@ -889,6 +1014,36 @@
         },
         {
           "type": "header",
+          "content": "📱 Mobile Heading Font Size"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_mobile",
+          "min": 10,
+          "max": 48,
+          "step": 1,
+          "unit": "px",
+          "label": "Mobile Heading Font Size",
+          "default": 16,
+          "info": "Font size for mobile devices (up to 749px)"
+        },
+        {
+          "type": "header",
+          "content": "🖥️ Desktop Heading Font Size"
+        },
+        {
+          "type": "range",
+          "id": "heading_font_size_desktop",
+          "min": 10,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Heading Font Size",
+          "default": 18,
+          "info": "Font size for desktop devices (750px and up)"
+        },
+        {
+          "type": "header",
           "content": "Text Settings"
         },
         {
@@ -914,15 +1069,34 @@
           "label": "Text Style"
         },
         {
+          "type": "header",
+          "content": "📱 Mobile Text Font Size"
+        },
+        {
           "type": "range",
-          "id": "text_font_size",
-          "min": 10,
+          "id": "text_font_size_mobile",
+          "min": 8,
           "max": 32,
           "step": 1,
           "unit": "px",
-          "label": "Text Font Size",
+          "label": "Mobile Text Font Size",
+          "default": 14,
+          "info": "Font size for mobile devices (up to 749px)"
+        },
+        {
+          "type": "header",
+          "content": "🖥️ Desktop Text Font Size"
+        },
+        {
+          "type": "range",
+          "id": "text_font_size_desktop",
+          "min": 8,
+          "max": 40,
+          "step": 1,
+          "unit": "px",
+          "label": "Desktop Text Font Size",
           "default": 16,
-          "info": "Control the size of the body text"
+          "info": "Font size for desktop devices (750px and up)"
         }
       ]
     },
