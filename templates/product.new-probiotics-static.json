@@ -306,7 +306,9 @@
           "settings": {
             "heading": "Available In <em>Two Enhancing</em> Flavors",
             "heading_size": "h1",
-            "heading_tag": "default"
+            "heading_tag": "default",
+            "heading_font_size_mobile": 36,
+            "heading_font_size_desktop": 32
           }
         },
         "text_wPNEp3": {
@@ -314,7 +316,9 @@
           "disabled": true,
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
+            "text_style": "body",
+            "text_font_size_mobile": 14,
+            "text_font_size_desktop": 16
           }
         },
         "icon_text_LnrD7x": {
@@ -324,11 +328,13 @@
             "icon_alt": "Citrus Mint",
             "heading": "Citrus Mint",
             "heading_tag": "default",
-            "heading_font_size": 18,
             "heading_font_weight": "600",
+            "heading_font_size_mobile": 24,
+            "heading_font_size_desktop": 18,
             "text": "<p>Invigorate your senses with a blend of orange, lime, eucalyptus, and subtle nutmeg.</p>",
             "text_style": "body",
-            "text_font_size": 16
+            "text_font_size_mobile": 14,
+            "text_font_size_desktop": 16
           }
         },
         "icon_text_hqGhrm": {
@@ -338,11 +344,13 @@
             "icon_alt": "Peppermint Blossom",
             "heading": "Peppermint Blossom",
             "heading_tag": "default",
-            "heading_font_size": 18,
             "heading_font_weight": "600",
+            "heading_font_size_mobile": 24,
+            "heading_font_size_desktop": 23,
             "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral ylang ylang.</p>",
             "text_style": "body",
-            "text_font_size": 16
+            "text_font_size_mobile": 15,
+            "text_font_size_desktop": 15
           }
         },
         "button_m4DR44": {
@@ -363,7 +371,7 @@
         "button_m4DR44"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 700px) {#test-title2 {font-size: 30px !important; } h3 {font-size: 25px; font-weight: 400; color: #000000; } p {font-size: 18px; font-weight: 400; color: #000000; }}"
+        "@media only screen and (max-width: 700px) {h3 {font-weight: 400; color: #000000; } p {color: #000000; }}"
       ],
       "name": "Enhanced Image with Text",
       "settings": {
