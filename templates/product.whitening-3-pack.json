@@ -194,6 +194,7 @@
         "video_4Fy9WT",
         "video_YiVyhk"
       ],
+      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "From Our <em> Boka Fam</em>",
@@ -242,6 +243,12 @@
         "section_background_color": "rgba(0,0,0,0)",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#212529",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
