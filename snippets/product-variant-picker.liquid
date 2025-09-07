@@ -9,202 +9,6 @@
   Usage:
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
-
-<style>
-  .custom-select-wrapper {
-    position: relative;
-    width: 100%;
-  }
-
-  .custom-select {
-    position: relative;
-    width: 100%;
-  }
-
-  .custom-select__trigger {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.9rem 1rem;
-    background: #ffffff;
-    border: 1px solid #e8e8e8;
-    border-radius: 4rem;
-    cursor: pointer;
-  }
-
-  .custom-select__trigger svg {
-    width: 20px;
-    height: .6rem;
-  }
-
-  .custom-option-image {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    display: inline-flex;
-    align-items: center;
-    position: relative;
-    top: 2px;
-  }
-
-  .custom-select__current span:empty {
-    display: none;
-  }
-
-  .custom-select__options {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: #ffffff;
-    border: 1px solid #e8e8e8;
-    border-top: 0;
-    border-radius: 0 0 4px 4px;
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: all 0.2s;
-    z-index: 10;
-  }
-
-  .custom-select.open .custom-select__options {
-    max-height: 300px;
-    opacity: 1;
-    overflow-y: auto;
-    border-radius: 23px;
-  }
-
-  .custom-select__option {
-    padding: 0.8rem 1rem;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-  }
-
-  .custom-select__option:hover {
-    background: #f8f8f8;
-  }
-
-  .custom-select__option.selected {
-    background: #FFF5F1;
-  }
-
-  .hidden {
-    display: none;
-  }
-  
-  /* Color Pills Styles */
-  .color-pills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px;
-  }
-  
-  .color-pill {
-    display: flex;
-    align-items: center;
-    padding: 8px 12px;
-    border: 1px solid #e8e8e8;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.2s;
-    background: white;
-  }
-  
-  .color-pill:hover {
-    border-color: #ccc;
-  }
-  
-  .color-pill.selected {
-    border-color: #000;
-    background: #f0f0f0;
-  }
-  
-  .color-pill-swatch {
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    margin-right: 8px;
-    border: 1px solid #e8e8e8;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .color-pill-swatch img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .color-pill-name {
-    font-size: 14px;
-  }
-  
-  .color-option-selected {
-    margin-top: 5px;
-    font-size: 14px;
-    font-weight: 500;
-    display: none;
-  }
-
-  /* Color Swatch Styles (for button picker) */
-  .color-swatch-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .color-swatch {
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-    border: 1px solid #e8e8e8;
-    overflow: hidden;
-  }
-  
-  .color-swatch.selected {
-    box-shadow: 0 0 0 2px #000;
-  }
-  
-  .color-swatch img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .color-swatch-name {
-    margin-top: 5px;
-    font-size: 12px;
-    text-align: center;
-    display: block;
-  }
-  
-  .color-swatch-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .form__label{
-    font-size: 17.5px !important;
-  }
-
-  /* Color swatch color styles - matching product-variant-options */
-  .color-swatch-color {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-  }
-</style>
-
 {%- unless product.has_only_default_variant -%}
   {%- if block.settings.picker_type == 'button' -%}
     <variant-radios
@@ -227,6 +31,29 @@
         {{ product.variants | json }}
       </script>
     </variant-radios>
+
+    {% if template.name == 'product' and stickyAtc %}
+      <div class="sticky-atc-variant-selector">
+        {%- for option in product.options_with_values -%}
+          {%- unless option.name contains 'Color' or option.name contains 'color' -%}
+            <div class="product-form__input product-form__input--dropdown">
+              <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
+                {{ option.name }}
+              </label>
+              <div class="select">
+                <select
+                  class="select__select"
+                  data-variant-select="{{ option.name }}"
+                >
+                  {% render 'sticky-atc-variant-options', product: product, option: option, block: block %}
+                </select>
+                {% render 'icon-caret' %}
+              </div>
+            </div>
+          {%- endunless -%}
+        {%- endfor -%}
+      </div>
+    {% endif %}
   {%- else -%}
     <variant-selects
       id="variant-selects-{{ section.id }}"
@@ -239,221 +66,27 @@
       {{ block.shopify_attributes }}
     >
       {%- for option in product.options_with_values -%}
-        {% assign is_color_option = false %}
         {% if option.name contains 'Color' or option.name contains 'color' %}
-          {% assign is_color_option = true %}
-        {% endif %}
-        
-        {% if is_color_option %}
-          <!-- Color Swatches for Color Options -->
-          <div class="product-form__input product-form__input--color-swatches">
-            <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-              {{ option.name }} 
-              <span class="color-option-selected">
-                {%- if option.selected_value -%}
-                  {{ option.selected_value }}
-                {%- else -%}
-                  {{ option.values.first }}
-                {%- endif -%}
-              </span>
-            </label>
-            
-            <div class="color-swatch-container" data-option-index="{{ forloop.index0 }}">
-              {% for value in option.values %}
-                {% assign option_value = value | escape %}
-                {% assign option_image = nil %}
-                
-                {% comment %} Look for matching color in metaobjects {% endcomment %}
-                {% for color_option in shop.metaobjects.color_options.values %}
-                  {% if color_option.color_name == value %}
-                    {% assign option_image = color_option.color_image %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-                
-                {% assign is_selected = false %}
-                {% if option.selected_value == value %}
-                  {% assign is_selected = true %}
-                {% elsif option.selected_value == blank and forloop.first %}
-                  {% assign is_selected = true %}
-                {% endif %}
-                
-                <div class="color-swatch-wrapper">
-                  <div 
-                    class="color-swatch{% if is_selected %} selected{% endif %}" 
-                    data-value="{{ value | escape }}"
-                    data-option-index="{{ forloop.index0 }}"
-                    role="button"
-                    tabindex="0"
-                    aria-label="{{ value }}"
-                    title="{{ value }}"
-                  >
-                    {% if option_image %}
-                      <img src="{{ option_image | img_url: 'master' }}" alt="{{ option_value }}">
-                    {% else %}
-                      {% comment %} Enhanced color mapping - matching the working system {% endcomment %}
-                      {% assign color_value = value | replace: ' ', '' | downcase %}
-                      {% assign color_css = color_value %}
-                      
-                      {% comment %} Color mappings for better color representation {% endcomment %}
-                      {% case color_value %}
-                        {% when 'mint' %}
-                          {% assign color_css = '#d5eeda' %}
-                        {% when 'sage' %}
-                          {% assign color_css = '#9CAF88' %}
-                        {% when 'forest' or 'forestgreen' %}
-                          {% assign color_css = '#228B22' %}
-                        {% when 'navy' or 'navyblue' %}
-                          {% assign color_css = '#000080' %}
-                        {% when 'burgundy' or 'maroon' %}
-                          {% assign color_css = '#800020' %}
-                        {% when 'coral' %}
-                          {% assign color_css = '#FF7F50' %}
-                        {% when 'peach' %}
-                          {% assign color_css = '#FFCBA4' %}
-                        {% when 'lavender' %}
-                          {% assign color_css = '#E6E6FA' %}
-                        {% when 'cream' or 'ivory' %}
-                          {% assign color_css = '#F5F5DC' %}
-                        {% when 'charcoal' %}
-                          {% assign color_css = '#36454F' %}
-                        {% when 'rose' or 'rosegold' %}
-                          {% assign color_css = '#E8B4B8' %}
-                        {% when 'gold' %}
-                          {% assign color_css = '#FFD700' %}
-                        {% when 'silver' %}
-                          {% assign color_css = '#C0C0C0' %}
-                        {% when 'bronze' %}
-                          {% assign color_css = '#CD7F32' %}
-                        {% when 'copper' %}
-                          {% assign color_css = '#B87333' %}
-                        {% when 'teal' %}
-                          {% assign color_css = '#008080' %}
-                        {% when 'turquoise' %}
-                          {% assign color_css = '#40E0D0' %}
-                        {% when 'olive' %}
-                          {% assign color_css = '#808000' %}
-                        {% when 'khaki' %}
-                          {% assign color_css = '#F0E68C' %}
-                        {% when 'tan' %}
-                          {% assign color_css = '#D2B48C' %}
-                        {% when 'beige' %}
-                          {% assign color_css = '#F5F5DC' %}
-                        {% when 'mauve' %}
-                          {% assign color_css = '#E0B0FF' %}
-                        {% when 'plum' %}
-                          {% assign color_css = '#DDA0DD' %}
-                        {% when 'slate' %}
-                          {% assign color_css = '#708090' %}
-                        {% when 'stone' %}
-                          {% assign color_css = '#928E85' %}
-                        {% when 'ash' %}
-                          {% assign color_css = '#B2BEB5' %}
-                        {% else %}
-                          {% assign color_css = color_value %}
-                      {% endcase %}
-                      
-                      <span class="color-swatch-color" style="background-color: {{ color_css }};"></span>
-                    {% endif %}
-                  </div>
-                  <span class="color-swatch-name">{{ value }}</span>
-                </div>
-              {% endfor %}
-            </div>
-            
-            <!-- Hidden select for color options -->
-            <div class="visually-hidden">
-              <select
-                id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                class="select__select"
-                name="options[{{ option.name | escape }}]"
-                form="{{ product_form_id }}"
-              >
-                {% for value in option.values %}
-                  <option 
-                    value="{{ value | escape }}"
-                    {% if option.selected_value == value %}selected="selected"{% elsif option.selected_value == blank and forloop.first %}selected="selected"{% endif %}
-                  >
-                    {{ value }}
-                  </option>
-                {% endfor %}
-              </select>
-            </div>
-          </div>
+          {% comment %} Render color as pills with a hidden select for form submission {% endcomment %}
+          <fieldset class="js product-form__input" data-variant-select="{{ option.name }}">
+            <legend class="form__label">{{ option.name }}</legend>
+            {% render 'product-variant-options', product: product, option: option, block: block %}
+          </fieldset>
         {% else %}
-          <!-- Custom Dropdown for Non-Color Options -->
           <div class="product-form__input product-form__input--dropdown">
             <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
               {{ option.name }}
             </label>
-            
-            <div class="custom-select-wrapper">
-              <div class="custom-select">
-                <div class="custom-select__trigger">
-                  <span class="custom-select__current">
-                    <span class="custom-option-image"></span>
-                    {%- if option.selected_value -%}
-                      {{ option.selected_value }}
-                    {%- else -%}
-                      {{ option.values.first }}
-                    {%- endif -%}
-                  </span>
-                  {% render 'icon-caret' %}
-                </div>
-                <div class="custom-select__options">
-                  {% for value in option.values %}
-                    {% assign option_value = value | escape %}
-                    {% assign option_image = nil %}
-                    
-                    {% comment %} Look for matching option image in metaobjects {% endcomment %}
-                    {% for color_option in shop.metaobjects.color_options.values %}
-                      {% if color_option.color_name == value %}
-                        {% assign option_image = color_option.color_image %}
-                        {% break %}
-                      {% endif %}
-                    {% endfor %}
-                    
-                    {% assign is_selected = false %}
-                    {% if option.selected_value == value %}
-                      {% assign is_selected = true %}
-                    {% elsif option.selected_value == blank and forloop.first %}
-                      {% assign is_selected = true %}
-                    {% endif %}
-                    
-                    <div 
-                      class="custom-select__option{% if is_selected %} selected{% endif %}" 
-                      data-value="{{ value | escape }}"
-                      data-option-index="{{ forloop.index0 }}"
-                    >
-                      <span class="custom-option-image">
-                        {% if option_image %}
-                          <img src="{{ option_image | img_url: 'master' }}" alt="{{ option_value }}" style="width: 20px; height: 20px;">
-                        {% endif %}
-                      </span>
-                      {{ value }}
-                    </div>
-                  {% endfor %}
-                </div>
-              </div>
-            </div>
-            
-            <!-- Hidden actual select to maintain form functionality -->
-            <div class="visually-hidden">
+            <div class="select custom-select-wrapper">
               <select
                 id="Option-{{ section.id }}-{{ forloop.index0 }}"
                 class="select__select"
                 name="options[{{ option.name | escape }}]"
                 form="{{ product_form_id }}"
               >
-                {% for value in option.values %}
-                  <option 
-                    value="{{ value | escape }}"
-                    {% if option.selected_value == value %}selected="selected"{% elsif option.selected_value == blank and forloop.first %}selected="selected"{% endif %}
-                  >
-                    {{ value }}
-                  </option>
-                {% endfor %}
+                {% render 'product-variant-options', product: product, option: option, block: block %}
               </select>
+              {% render 'icon-caret' %}
             </div>
           </div>
         {% endif %}
@@ -520,126 +153,28 @@
   </div>
 </noscript>
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Initialize custom dropdowns
-  const customSelects = document.querySelectorAll('.custom-select');
+<style>
+  label.form__label {
+    font-size: 17.5px !important;
+    letter-spacing: 0 !important;
+}
+
+.product__info-container > * + * {
+  margin-top: 0;
+}
+
+.select__select {
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+.custom-select-wrapper{
+  max-width: 36rem !important;
+}
+
+body select, 
+body .select:after {
+  border-radius: 2em !important;
+}
   
-  customSelects.forEach(select => {
-    const trigger = select.querySelector('.custom-select__trigger');
-    const options = select.querySelectorAll('.custom-select__option');
-    const hiddenSelect = select.closest('.product-form__input').querySelector('select');
-    
-    if (!trigger || !hiddenSelect) return;
-    
-    // Toggle dropdown on click
-    trigger.addEventListener('click', (e) => {
-      e.stopPropagation();
-      // Close other dropdowns
-      customSelects.forEach(otherSelect => {
-        if (otherSelect !== select) {
-          otherSelect.classList.remove('open');
-        }
-      });
-      select.classList.toggle('open');
-    });
-    
-    // Handle option selection
-    options.forEach(option => {
-      option.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const value = option.getAttribute('data-value');
-        const optionImage = option.querySelector('.custom-option-image').innerHTML;
-        
-        // Update trigger text WITH the image html
-        select.querySelector('.custom-select__current').innerHTML = `<span class="custom-option-image">${optionImage}</span>${value}`;
-        
-        // Update hidden select
-        const hiddenOptions = hiddenSelect.querySelectorAll('option');
-        hiddenOptions.forEach((hiddenOption) => {
-          if (hiddenOption.value === value) {
-            hiddenSelect.value = value;
-          }
-        });
-        
-        // Trigger change event
-        hiddenSelect.dispatchEvent(new Event('change', { bubbles: true }));
-        
-        // Mark as selected
-        select.querySelectorAll('.custom-select__option').forEach(opt => {
-          opt.classList.remove('selected');
-        });
-        option.classList.add('selected');
-        
-        // Close dropdown
-        select.classList.remove('open');
-      });
-    });
-    
-    // Initialize with the first option selected (or pre-selected option)
-    const initialSelectedOption = select.querySelector('.custom-select__option.selected') || 
-                                select.querySelector('.custom-select__option');
-    if (initialSelectedOption) {
-      const initialImage = initialSelectedOption.querySelector('.custom-option-image').innerHTML;
-      const initialValue = initialSelectedOption.getAttribute('data-value');
-      select.querySelector('.custom-select__current').innerHTML = `<span class="custom-option-image">${initialImage}</span>${initialValue}`;
-    }
-  });
-  
-  // Close dropdowns when clicking outside
-  document.addEventListener('click', () => {
-    customSelects.forEach(select => {
-      select.classList.remove('open');
-    });
-  });
-  
-  // Initialize color swatches
-  const colorSwatchContainers = document.querySelectorAll('.color-swatch-container');
-  
-  colorSwatchContainers.forEach(container => {
-    const colorSwatches = container.querySelectorAll('.color-swatch');
-    const optionSelectedText = container.closest('.product-form__input').querySelector('.color-option-selected');
-    const hiddenSelect = container.closest('.product-form__input').querySelector('select');
-    
-    if (!hiddenSelect || !optionSelectedText) return;
-    
-    colorSwatches.forEach(swatch => {
-      swatch.addEventListener('click', () => {
-        const value = swatch.getAttribute('data-value');
-        
-        // Update the selected text display
-        optionSelectedText.textContent = value;
-        
-        // Update hidden select
-        hiddenSelect.value = value;
-        
-        // Trigger change event
-        hiddenSelect.dispatchEvent(new Event('change', { bubbles: true }));
-        
-        // Mark as selected
-        container.querySelectorAll('.color-swatch').forEach(s => {
-          s.classList.remove('selected');
-        });
-        swatch.classList.add('selected');
-      });
-      
-      // Add keyboard accessibility
-      swatch.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault();
-          swatch.click();
-        }
-      });
-    });
-    
-    // Initialize with selected or first option
-    const initialSelectedSwatch = container.querySelector('.color-swatch.selected') || 
-                                 container.querySelector('.color-swatch');
-    if (initialSelectedSwatch && optionSelectedText) {
-      const initialValue = initialSelectedSwatch.getAttribute('data-value');
-      optionSelectedText.textContent = initialValue;
-      hiddenSelect.value = initialValue;
-    }
-  });
-});
-</script>
+</style>
