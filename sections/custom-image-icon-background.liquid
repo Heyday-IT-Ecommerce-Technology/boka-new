@@ -73,6 +73,7 @@
     margin-bottom: 30px;
   }
   
+  /* Enhanced text color controls for all elements */
   .enhanced-image-with-text-bg__text-wrapper h1,
   .enhanced-image-with-text-bg__text-wrapper h2,
   .enhanced-image-with-text-bg__text-wrapper h3,
@@ -83,6 +84,31 @@
   .enhanced-image-with-text-bg__text-wrapper div {
     color: {{ section.settings.text_color }};
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  
+  /* Container text colors */
+  .enhanced-image-with-text-bg__container,
+  .enhanced-image-with-text-bg__container h1,
+  .enhanced-image-with-text-bg__container h2,
+  .enhanced-image-with-text-bg__container h3,
+  .enhanced-image-with-text-bg__container h4,
+  .enhanced-image-with-text-bg__container h5,
+  .enhanced-image-with-text-bg__container h6,
+  .enhanced-image-with-text-bg__container p,
+  .enhanced-image-with-text-bg__container div,
+  .enhanced-image-with-text-bg__container .rte,
+  .enhanced-image-with-text-bg__container .image-with-text__heading,
+  .enhanced-image-with-text-bg__container .image-with-text__text {
+    color: {{ section.settings.container_text_color }};
+  }
+  
+  /* Icon text specific colors */
+  .enhanced-image-with-text-bg__container .icon-text-item__heading {
+    color: {{ section.settings.icon_heading_color }};
+  }
+  
+  .enhanced-image-with-text-bg__container .icon-text-item__text {
+    color: {{ section.settings.icon_text_color }};
   }
   
   .enhanced-image-with-text-bg__container {
@@ -134,6 +160,7 @@
       padding: 0 20px 20px;
     }
     
+    /* Mobile text colors - override desktop colors */
     .enhanced-image-with-text-bg__text-wrapper h1,
     .enhanced-image-with-text-bg__text-wrapper h2,
     .enhanced-image-with-text-bg__text-wrapper h3,
@@ -144,6 +171,31 @@
     .enhanced-image-with-text-bg__text-wrapper div {
       color: {{ section.settings.mobile_text_color }};
       text-shadow: none;
+    }
+    
+    /* Mobile container text colors */
+    .enhanced-image-with-text-bg__container,
+    .enhanced-image-with-text-bg__container h1,
+    .enhanced-image-with-text-bg__container h2,
+    .enhanced-image-with-text-bg__container h3,
+    .enhanced-image-with-text-bg__container h4,
+    .enhanced-image-with-text-bg__container h5,
+    .enhanced-image-with-text-bg__container h6,
+    .enhanced-image-with-text-bg__container p,
+    .enhanced-image-with-text-bg__container div,
+    .enhanced-image-with-text-bg__container .rte,
+    .enhanced-image-with-text-bg__container .image-with-text__heading,
+    .enhanced-image-with-text-bg__container .image-with-text__text {
+      color: {{ section.settings.mobile_container_text_color }};
+    }
+    
+    /* Mobile icon text colors */
+    .enhanced-image-with-text-bg__container .icon-text-item__heading {
+      color: {{ section.settings.mobile_icon_heading_color }};
+    }
+    
+    .enhanced-image-with-text-bg__container .icon-text-item__text {
+      color: {{ section.settings.mobile_icon_text_color }};
     }
   }
 
@@ -502,21 +554,67 @@
     },
     {
       "type": "header",
-      "content": "Text Colors"
+      "content": "Text Colors - Desktop"
     },
     {
       "type": "color",
       "id": "text_color",
-      "label": "Text Color (Desktop)",
+      "label": "Caption Text Color (Above Container)",
       "default": "#FFFFFF",
-      "info": "Color for text over the background media"
+      "info": "Color for caption text displayed above the container"
+    },
+    {
+      "type": "color",
+      "id": "container_text_color",
+      "label": "Container Text Color",
+      "default": "#000000",
+      "info": "Color for headings and text inside the container"
+    },
+    {
+      "type": "color",
+      "id": "icon_heading_color",
+      "label": "Icon Heading Color",
+      "default": "#000000",
+      "info": "Color for icon item headings"
+    },
+    {
+      "type": "color",
+      "id": "icon_text_color",
+      "label": "Icon Text Color",
+      "default": "#666666",
+      "info": "Color for icon item text content"
+    },
+    {
+      "type": "header",
+      "content": "Text Colors - Mobile"
     },
     {
       "type": "color",
       "id": "mobile_text_color",
-      "label": "Text Color (Mobile)",
+      "label": "Mobile Caption Text Color",
       "default": "#000000",
-      "info": "Color for text below media on mobile"
+      "info": "Color for caption text on mobile devices"
+    },
+    {
+      "type": "color",
+      "id": "mobile_container_text_color",
+      "label": "Mobile Container Text Color",
+      "default": "#000000",
+      "info": "Color for headings and text inside container on mobile"
+    },
+    {
+      "type": "color",
+      "id": "mobile_icon_heading_color",
+      "label": "Mobile Icon Heading Color",
+      "default": "#000000",
+      "info": "Color for icon item headings on mobile"
+    },
+    {
+      "type": "color",
+      "id": "mobile_icon_text_color",
+      "label": "Mobile Icon Text Color",
+      "default": "#666666",
+      "info": "Color for icon item text on mobile"
     },
     {
       "type": "header",
