@@ -233,6 +233,7 @@
         "video_a9HBAm",
         "video_xqrKr4"
       ],
+      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "From Our <em> Boka Fam</em>",
