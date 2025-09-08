@@ -31,7 +31,7 @@
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
           "settings": {
-            "text": "<p><em>NEW FLAVOR!</em></p>",
+            "text": "<p><em>NEW FLAVORS!</em></p>",
             "text_style": "body",
             "quick_add_hide": false
           }
@@ -97,8 +97,7 @@
             "image_1": "shopify://shop_images/Icon_4.svg",
             "heading_1": "Antioxidant-rich green tea",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Icon_1.svg",
-            "heading_2": "Invigorating mint and bright citrus",
+            "heading_2": "",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -141,7 +140,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xylitol, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
+            "content": "<p><strong>Citrus Mint: </strong>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xylitol, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p><p><strong>Peppermint Blossom:</strong> Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xylitol, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         }
@@ -258,7 +257,7 @@
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
-            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "button_link": "shopify://products/probiotics-kits",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -357,7 +356,7 @@
           "type": "button",
           "settings": {
             "button_label": "FEEL THE FRESHNESS",
-            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "button_link": "shopify://products/probiotics-kits",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -525,7 +524,7 @@
         "background_style": "none",
         "full_width_enabled": true,
         "button_label": "BEGIN YOUR ROUTINE",
-        "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+        "button_link": "shopify://products/probiotics-kits",
         "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "custom",
@@ -673,7 +672,7 @@
             "heading_tag": "default",
             "subheading": "Probiotics are more than just for your gut. Boka’s Probiotic Toothpaste is thoughtfully formulated to support your oral microbiome, helping it nourish and flourish.",
             "button_label": "TRY NOW",
-            "link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "link": "shopify://products/probiotics-kits",
             "button_style_secondary": false,
             "button_label2": "",
             "link2": "",
