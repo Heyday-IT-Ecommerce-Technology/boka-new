@@ -258,7 +258,7 @@
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
-            "button_link": "#ProductInfo-template--16481886896171__main",
+            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
             "second_button_label": "",
             "second_button_link": ""
           }
