@@ -79,10 +79,10 @@
             "orientation": "inlined",
             "layout": "vertical",
             "icon_1": "none",
-            "image_1": "shopify://shop_images/aloe_Vera.png",
-            "heading_1": "Soothing aloe vera",
+            "image_1": "shopify://shop_images/Icon_2.svg",
+            "heading_1": "Microbiome-balancing probiotics",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/xylitol.png",
+            "image_2": "shopify://shop_images/Icon_3.svg",
             "heading_2": "Bacteria-fighting xylitol",
             "padding_top": 14,
             "padding_bottom": 0
@@ -94,11 +94,11 @@
             "orientation": "inlined",
             "layout": "vertical",
             "icon_1": "none",
-            "image_1": "shopify://shop_images/green_tea.png",
+            "image_1": "shopify://shop_images/Icon_4.svg",
             "heading_1": "Antioxidant-rich green tea",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/mint_0c749aca-a6fb-4b41-aafb-aa19ecfd69b4.png",
-            "heading_2": "Refreshing mint",
+            "image_2": "shopify://shop_images/Icon_1.svg",
+            "heading_2": "Soothing peppermint and floral notes",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -188,6 +188,12 @@
         "section_background_color": "rgba(0,0,0,0)",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#212529",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 20,
@@ -220,7 +226,7 @@
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -233,7 +239,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/probiotics_placehoder_new_08d324fc-f5e5-4aa4-821d-004b633d8ad3.png",
+        "image": "shopify://shop_images/What_s-New-Section_d879f62b-5dda-4822-8766-1f09ac50c410.gif",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -244,6 +250,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -260,7 +272,7 @@
         "heading_n96pNK": {
           "type": "heading",
           "settings": {
-            "heading": "Available In\nTwo <em> Crave-worthy Flavors:</em>",
+            "heading": "Available In <em>Two Enhancing</em> Flavors",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -276,7 +288,7 @@
           "type": "button",
           "settings": {
             "button_label": "FEEL THE FRESHNESS",
-            "button_link": "shopify://collections/all",
+            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -292,7 +304,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/probiotics_placeholder_flavors.png",
+        "image": "shopify://shop_images/Flavors_Section_1.webp",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -303,6 +315,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -488,6 +506,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -522,8 +546,8 @@
             "custom_background_color": "#333333",
             "custom_text_color": "#000000",
             "button_background_color": "#000000",
-            "button_foreground_color": "#FFFFFF",
-            "bottom_text_background_color": "#DCE6CF",
+            "button_foreground_color": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
             "bottom_text_foreground_color": "#000000",
             "text_alignment_mobile": "center",
             "mobile_content_position": "bottom"
@@ -570,8 +594,8 @@
             "custom_background_color": "#333333",
             "custom_text_color": "#000000",
             "button_background_color": "#000000",
-            "button_foreground_color": "#FFFFFF",
-            "bottom_text_background_color": "#DCE6CF",
+            "button_foreground_color": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
             "bottom_text_foreground_color": "#000000",
             "text_alignment_mobile": "center",
             "mobile_content_position": "bottom"
