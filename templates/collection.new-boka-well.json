@@ -1137,8 +1137,8 @@
         "button_yct3jP": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "FEEL THE FRESHNESS",
+            "button_link": "shopify://collections/boka-probiotics",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -1151,6 +1151,7 @@
         "icon_text_3AFPJd",
         "button_yct3jP"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Enhanced Image with Text",
       "settings": {
@@ -1176,6 +1177,70 @@
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_icons_FMNdet": {
+      "type": "image-with-icons",
+      "blocks": {
+        "feature_EHaCwV": {
+          "type": "feature",
+          "settings": {
+            "position": "top-left",
+            "icon": "shopify://shop_images/Icon_1.svg",
+            "title": "Promotes Oral <br> Wellness",
+            "description": ""
+          }
+        },
+        "feature_WacBBk": {
+          "type": "feature",
+          "settings": {
+            "position": "top-right",
+            "icon": "shopify://shop_images/Icon_2.svg",
+            "title": "Helps Balance <br> Oral Microbiome",
+            "description": ""
+          }
+        },
+        "feature_XhfAkf": {
+          "type": "feature",
+          "settings": {
+            "position": "bottom-left",
+            "icon": "shopify://shop_images/Icon_3.svg",
+            "title": "Supports Good <br> Bacteria Growth",
+            "description": ""
+          }
+        },
+        "feature_W9kUBn": {
+          "type": "feature",
+          "settings": {
+            "position": "bottom-right",
+            "icon": "shopify://shop_images/Icon_4.svg",
+            "title": "Freshens <br> Breath",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_EHaCwV",
+        "feature_WacBBk",
+        "feature_XhfAkf",
+        "feature_W9kUBn"
+      ],
+      "name": "Image with feature icons",
+      "settings": {
+        "section_title": "Why Probiotics",
+        "background_color": "#f6faf5",
+        "title_font_size_desktop": 48,
+        "title_font_size_mobile": 30,
+        "title_text_color": "#000000",
+        "feature_title_font_size_desktop": 24,
+        "feature_title_font_size_mobile": 22,
+        "feature_title_text_color": "#333333",
+        "feature_description_font_size_desktop": 18,
+        "feature_description_font_size_mobile": 16,
+        "feature_description_text_color": "#666666",
+        "icon_size": 60,
+        "text_alignment": "center",
+        "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
       }
     },
     "e1c2be8a-c503-489a-b63e-982e50c35a28": {
@@ -1418,6 +1483,7 @@
         "collapsible_row_BXWHmA",
         "collapsible_row_nNfbar"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
@@ -1493,6 +1559,7 @@
     "image_with_bulleted_text_eJMgW7",
     "image_with_text_FyCQbh",
     "gif_icons_with_text_6HgdDN",
+    "image_with_icons_FMNdet",
     "e1c2be8a-c503-489a-b63e-982e50c35a28",
     "rich_text_KG9hfa"
   ]
