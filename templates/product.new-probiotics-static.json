@@ -80,10 +80,10 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/Icon_2.svg",
-            "heading_1": "Microbiome-balancing probiotics",
+            "heading_1": "Supports Microbiome Balance",
             "icon_2": "none",
             "image_2": "shopify://shop_images/Icon_3.svg",
-            "heading_2": "Bacteria-fighting xylitol",
+            "heading_2": "Bacteria-fighting Properties",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -95,10 +95,10 @@
             "layout": "vertical",
             "icon_1": "none",
             "image_1": "shopify://shop_images/Icon_4.svg",
-            "heading_1": "Antioxidant-rich green tea",
+            "heading_1": "Freshens Breath",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/Icon_1.svg",
-            "heading_2": "Invigorating mint and bright citrus",
+            "image_2": "shopify://shop_images/Hero_Icon_4.webp",
+            "heading_2": "Fluoride-Free",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -409,8 +409,8 @@
           "settings": {
             "position": "top-left",
             "icon": "shopify://shop_images/Icon_1.svg",
-            "title": "Probiotic Power",
-            "description": "<em>Lactobacillus paracasei</em> probiotics support healthy bacteria, contributing to oral wellness."
+            "title": "Promotes Oral Wellness",
+            "description": ""
           }
         },
         "feature_hKPKij": {
@@ -419,7 +419,7 @@
             "position": "top-right",
             "icon": "shopify://shop_images/Icon_2.svg",
             "title": "Helps Balance Oral Microbiome",
-            "description": "Probiotics support a healthy balance of good bacteria, promoting a stable oral environment."
+            "description": ""
           }
         },
         "feature_BGJJU6": {
@@ -428,7 +428,7 @@
             "position": "bottom-left",
             "icon": "shopify://shop_images/Icon_3.svg",
             "title": "Supports Good Bacteria Growth",
-            "description": "They nurture good bacteria, supporting your body’s natural defense system."
+            "description": ""
           }
         },
         "feature_KhKEJz": {
@@ -437,7 +437,7 @@
             "position": "bottom-right",
             "icon": "shopify://shop_images/Icon_4.svg",
             "title": "Freshens Breath",
-            "description": "Brushing with probiotics helps keep breath fresh."
+            "description": ""
           }
         }
       },
@@ -572,7 +572,7 @@
           "settings": {
             "icon": "shopify://shop_images/n-Ha.webp",
             "icon_alt": "Icon",
-            "heading": "Nano-hydroxyapatite",
+            "heading": "Nano-Hydroxyapatite",
             "heading_font_size_desktop": 25,
             "text_font_size_desktop": 18,
             "heading_font_size_mobile": 21,
@@ -605,7 +605,7 @@
             "text_font_size_desktop": 18,
             "heading_font_size_mobile": 21,
             "text_font_size_mobile": 16,
-            "text": "<p>Provides refreshing flavors</p>",
+            "text": "<p>Provide refreshing flavors</p>",
             "text_style": "body"
           }
         },
