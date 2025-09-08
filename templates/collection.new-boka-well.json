@@ -160,6 +160,69 @@
         "padding_bottom_mobile": 80
       }
     },
+    "image_with_text_exHcMj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rPLNVg": {
+          "type": "heading",
+          "settings": {
+            "heading": "The <em>Advanced</em> n-Ha Oral Probiotic Toothpaste",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_kVpUhP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Formulated with <em>Lactobacillus paracasei </em>probiotics that are known to support the growth of good bacteria, promoting microbiome goodness with every brush.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_dGcCei": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_rPLNVg",
+        "text_kVpUhP",
+        "button_dGcCei"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/What_s-New-Section_d879f62b-5dda-4822-8766-1f09ac50c410.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "heading_font_size_mobile": 30,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 130,
+        "padding_bottom": 100,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -695,7 +758,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/boka-probiotics",
+            "button_link_1": "shopify://collections/boka-well",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -853,7 +916,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/boka-probiotics",
+            "button_link": "shopify://collections/boka-well",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -976,7 +1039,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/boka-probiotics",
+            "button_link": "shopify://collections/boka-well",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -1013,6 +1076,105 @@
         "padding_top_tablet": 40,
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "gif_icons_with_text_6HgdDN": {
+      "type": "gif-icons-with-text",
+      "blocks": {
+        "heading_zN3icD": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available In <em>Two <br>Enhancing</em> Flavors",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "heading_font_size_mobile": 24,
+            "heading_font_size_desktop": 32
+          }
+        },
+        "text_UAzxPC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body",
+            "text_font_size_mobile": 14,
+            "text_font_size_desktop": 16
+          }
+        },
+        "icon_text_gd3gwE": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/citrus_1.webp",
+            "icon_alt": "Citrus Mint",
+            "heading": "Citrus Mint",
+            "heading_tag": "default",
+            "heading_font_weight": "400",
+            "heading_font_size_mobile": 21,
+            "heading_font_size_desktop": 25,
+            "text": "<p>Invigorate your senses with a blend of orange, lime, eucalyptus, and subtle nutmeg.</p>",
+            "text_style": "body",
+            "text_font_size_mobile": 16,
+            "text_font_size_desktop": 18
+          }
+        },
+        "icon_text_3AFPJd": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/peppermint.webp",
+            "icon_alt": "Peppermint Blossom",
+            "heading": "Peppermint Blossom",
+            "heading_tag": "default",
+            "heading_font_weight": "600",
+            "heading_font_size_mobile": 21,
+            "heading_font_size_desktop": 25,
+            "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral Ylang-ylang.</p>",
+            "text_style": "body",
+            "text_font_size_mobile": 16,
+            "text_font_size_desktop": 18
+          }
+        },
+        "button_yct3jP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_zN3icD",
+        "text_UAzxPC",
+        "icon_text_gd3gwE",
+        "icon_text_3AFPJd",
+        "button_yct3jP"
+      ],
+      "custom_css": [],
+      "name": "Enhanced Image with Text",
+      "settings": {
+        "image": "shopify://shop_images/Flavors_Section_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "text_bg_opacity": 80,
+        "content_bg_opacity": 5,
+        "icon_size": 70,
+        "color_scheme": "background-1",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#DAE9CF",
+        "custom_text_color": "#FFFFFF",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
         "padding_bottom_mobile": 50
       }
     },
@@ -1315,6 +1477,7 @@
     "banner",
     "video_slideshow_x7HM8r",
     "e9540f45-142d-4b00-acd5-49caf5c23d70",
+    "image_with_text_exHcMj",
     "product-grid",
     "rich_text_UmMiV9",
     "multicolumn_w3gfhR",
@@ -1329,6 +1492,7 @@
     "image_with_text_eDPcWf",
     "image_with_bulleted_text_eJMgW7",
     "image_with_text_FyCQbh",
+    "gif_icons_with_text_6HgdDN",
     "e1c2be8a-c503-489a-b63e-982e50c35a28",
     "rich_text_KG9hfa"
   ]
