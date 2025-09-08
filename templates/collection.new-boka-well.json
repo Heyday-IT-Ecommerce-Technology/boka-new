@@ -194,6 +194,7 @@
         "text_kVpUhP",
         "button_dGcCei"
       ],
+      "disabled": true,
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/What_s-New-Section_d879f62b-5dda-4822-8766-1f09ac50c410.gif",
