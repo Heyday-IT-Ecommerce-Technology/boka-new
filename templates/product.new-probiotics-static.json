@@ -372,7 +372,8 @@
       ],
       "custom_css": [
         "@media only screen and (max-width: 700px) {h3 {font-weight: 400; color: #000000; }}",
-        " p {color: #000000; }"
+        "h3 {color: #000000; }",
+        "p {color: #000000;}"
       ],
       "name": "Enhanced Image with Text",
       "settings": {
