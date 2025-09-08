@@ -79,10 +79,10 @@
             "orientation": "inlined",
             "layout": "vertical",
             "icon_1": "none",
-            "image_1": "shopify://shop_images/VB_Microbiome-balancing_BLIS_K12.png",
+            "image_1": "shopify://shop_images/Icon_2.svg",
             "heading_1": "Microbiome-balancing probiotics",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/VB_Teeth_and_gum-supporting_D3_K2.png",
+            "image_2": "shopify://shop_images/Icon_3.svg",
             "heading_2": "Bacteria-fighting xylitol",
             "padding_top": 0,
             "padding_bottom": 0
@@ -94,10 +94,10 @@
             "orientation": "inlined",
             "layout": "vertical",
             "icon_1": "none",
-            "image_1": "shopify://shop_images/VB_Bacteria-fighting_xylitol.png",
+            "image_1": "shopify://shop_images/Icon_4.svg",
             "heading_1": "Antioxidant-rich green tea",
             "icon_2": "none",
-            "image_2": "shopify://shop_images/VB_Freshness-soothing_chamomile_and_peppermint.png",
+            "image_2": "shopify://shop_images/Icon_1.svg",
             "heading_2": "Invigorating mint and bright citrus",
             "padding_top": 0,
             "padding_bottom": 0
@@ -857,7 +857,7 @@
       ],
       "custom_css": [
         ".icon-text-item__content {text-align: left;}",
-        "@media only screen and (max-width: 720px) {.image-with-text__heading {text-align: center;}}"
+        "@media only screen and (max-width: 720px) {.image-with-text__heading {text-align: center; }}"
       ],
       "name": "Image icon bg text",
       "settings": {
