@@ -673,10 +673,10 @@
       ],
       "custom_css": [
         ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
-        "@media screen and (max-width: 749px) {h1 {font-size: 30px !important; } .background-none .slider .multicolumn-card__info {padding-bottom: 1rem; padding-top: 3rem !important; } h3 {font-size: 21px; } p {font-size: 16px !important; } .slider-counter {font-size: 18px !important; font-weight: 400 !important; }}",
+        "@media screen and (max-width: 749px) {h1 {font-size: 30px !important; } .background-none .slider .multicolumn-card__info {padding-bottom: 1rem; padding-top: 3rem !important; } h3 {font-size: 21px; } p {font-size: 16px !important; } .slider-counter {font-size: 18px !important; font-weight: 400 !important; } .small-hide {display: block !important; }}",
         "h1 {font-size: 48px;}",
         "h3 {font-size: 25px;}",
-        "a.link.underlined-link.large-up-hide {display: none;}"
+        ".large-up-hide {display: none;}"
       ],
       "settings": {
         "title": "How To Use",
