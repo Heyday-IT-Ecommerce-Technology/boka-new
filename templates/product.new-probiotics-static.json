@@ -250,7 +250,7 @@
         "text_wRxqbk": {
           "type": "text",
           "settings": {
-            "text": "<p>Formulated with Lactobacillus paracasei probiotics that are known to support the growth of good bacteria, promoting microbiome goodness with every brush.</p>",
+            "text": "<p>Formulated with <em>Lactobacillus paracasei </em>probiotics that are known to support the growth of good bacteria, promoting microbiome goodness with every brush.</p>",
             "text_style": "body"
           }
         },
@@ -258,7 +258,7 @@
           "type": "button",
           "settings": {
             "button_label": "START FLOURISHING",
-            "button_link": "#ProductInfo-template--16481886896171__main",
+            "button_link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -357,7 +357,7 @@
           "type": "button",
           "settings": {
             "button_label": "FEEL THE FRESHNESS",
-            "button_link": "#ProductInfo-template--16481886896171__main",
+            "button_link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -568,10 +568,10 @@
         "feature_title_font_size_desktop": 24,
         "feature_title_font_size_mobile": 22,
         "feature_title_text_color": "#000000",
-        "feature_description_font_size_desktop": 16,
+        "feature_description_font_size_desktop": 18,
         "feature_description_font_size_mobile": 16,
         "feature_description_text_color": "#000000",
-        "icon_size": 70,
+        "icon_size": 60,
         "text_alignment": "center",
         "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
       }
@@ -688,7 +688,7 @@
         "background_style": "none",
         "full_width_enabled": true,
         "button_label": "BEGIN YOUR ROUTINE",
-        "button_link": "#ProductInfo-template--16481886896171__main",
+        "button_link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste",
         "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "custom",
@@ -1043,7 +1043,7 @@
             "heading_tag": "default",
             "subheading": "Probiotics are more than just for your gut. Boka’s Probiotic Toothpaste is thoughtfully formulated to support your oral microbiome, helping it nourish and flourish.",
             "button_label": "TRY NOW",
-            "link": "#ProductInfo-template--16481886896171__main",
+            "link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste",
             "button_style_secondary": false,
             "button_label2": "",
             "link2": "",
@@ -1072,8 +1072,8 @@
       ],
       "custom_css": [
         ".h1 {font-size: 48px !important;}",
-        "p {font-size: 18px;}",
-        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important; } p {font-size: 16px !important; }}"
+        "p {font-size: 16px;}",
+        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important; }}"
       ],
       "name": "Slideshow with Video",
       "settings": {
@@ -1404,7 +1404,7 @@
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
       ],
       "settings": {
-        "title": "Complete Your Routine",
+        "title": "Complete <em>Your Routine</em>",
         "heading_size": "h0",
         "heading_tag": "h2",
         "description": "",
@@ -1425,7 +1425,7 @@
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 50,
         "padding_bottom": 40,
