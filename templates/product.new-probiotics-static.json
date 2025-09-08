@@ -427,7 +427,7 @@
           "settings": {
             "position": "bottom-left",
             "icon": "shopify://shop_images/Icon_3.svg",
-            "title": "Supports Good<br> Bacteria Growth",
+            "title": "Supports Good <br> Bacteria Growth",
             "description": ""
           }
         },
