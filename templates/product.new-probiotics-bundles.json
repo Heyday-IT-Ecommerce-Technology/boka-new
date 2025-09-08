@@ -1,0 +1,974 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "yotpo_product_reviews_star_rating_nRVwYV": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_on_subscription_products": false
+          }
+        },
+        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><em>NEW FLAVOR!</em></p>",
+            "text_style": "body",
+            "quick_add_hide": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "color_names": "white, blue, mint, pink",
+            "color_hex": "#FFFFFF, #46627B, #D5EBCD, #F4B6B7"
+          }
+        },
+        "recharge_subscriptions_subscription_widget_v2_Y3VetV": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "ab30e277-8d13-4c9c-b973-b5f18ebcc515": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "text": "<h3><a href=\"/collections/nano-hydroxyapatite_n-ha_toothpaste\" title=\"Nano-hydroxyapatite (N-Ha) Toothpaste\">Shop Other Flavors</a></h3>",
+            "text_style": "subtitle",
+            "quick_add_hide": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "af067451-b82f-4114-8006-9a547e9c2157": {
+          "type": "icon-with-text",
+          "settings": {
+            "orientation": "inlined",
+            "layout": "vertical",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/Icon_2.svg",
+            "heading_1": "Microbiome-balancing probiotics",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/Icon_3.svg",
+            "heading_2": "Bacteria-fighting xylitol",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "b4620176-8a50-42c9-8121-6df15e9ca481": {
+          "type": "icon-with-text",
+          "settings": {
+            "orientation": "inlined",
+            "layout": "vertical",
+            "icon_1": "none",
+            "image_1": "shopify://shop_images/Icon_4.svg",
+            "heading_1": "Antioxidant-rich green tea",
+            "icon_2": "none",
+            "image_2": "shopify://shop_images/Icon_1.svg",
+            "heading_2": "Invigorating mint and bright citrus",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "8f4ac970-3a15-4b7d-823a-82ce6560b8df": {
+          "type": "complementary",
+          "disabled": true,
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        },
+        "collapsible_tab_9Ri3zn": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_iwBANr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "How to use",
+            "icon": "none",
+            "content": "<p>Apply a pea-sized amount to your toothbrush. Brush gently for two minutes, twice daily. No need to rinse. Great for adults and kids.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_NnPN3E": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xylitol, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "yotpo_product_reviews_star_rating_nRVwYV",
+        "price",
+        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
+        "variant_picker",
+        "recharge_subscriptions_subscription_widget_v2_Y3VetV",
+        "buy_buttons",
+        "quantity_selector",
+        "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
+        "description",
+        "af067451-b82f-4114-8006-9a547e9c2157",
+        "b4620176-8a50-42c9-8121-6df15e9ca481",
+        "8f4ac970-3a15-4b7d-823a-82ce6560b8df",
+        "collapsible_tab_9Ri3zn",
+        "collapsible_tab_iwBANr",
+        "collapsible_tab_NnPN3E"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "enable_sticky_atc": true,
+        "media_size": "large",
+        "lazyload": false,
+        "constrain_to_viewport": false,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "padding_top_tablet": 36,
+        "padding_bottom_tablet": 70,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 60
+      }
+    },
+    "yt_shorts_UB9GXL": {
+      "type": "yt-shorts",
+      "blocks": {
+        "video_yMjf33": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/wSmOtINc64g?feature=share",
+            "description": "Describe the video"
+          }
+        },
+        "video_7qfjhT": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "",
+            "description": "Describe the video"
+          }
+        },
+        "video_H7fRzT": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "",
+            "description": "Describe the video"
+          }
+        },
+        "video_izwm4Q": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "",
+            "description": "Describe the video"
+          }
+        }
+      },
+      "block_order": [
+        "video_yMjf33",
+        "video_7qfjhT",
+        "video_H7fRzT",
+        "video_izwm4Q"
+      ],
+      "disabled": true,
+      "name": "t:sections.yt-shorts.presets.name",
+      "settings": {
+        "yt_shorts_title": "From Our <em>Boka Fam</em>",
+        "heading_size": "h1",
+        "auto_center": false,
+        "columns": 1,
+        "button_label": "Button label",
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_MD37kF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MY69pp": {
+          "type": "heading",
+          "settings": {
+            "heading": "The <em>Advanced</em> n-Ha Oral Probiotic Toothpaste",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_wRxqbk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Formulated with <em>Lactobacillus paracasei </em>probiotics that are known to support the growth of good bacteria, promoting microbiome goodness with every brush.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_hXfTfF": {
+          "type": "button",
+          "settings": {
+            "button_label": "START FLOURISHING",
+            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_MY69pp",
+        "text_wRxqbk",
+        "button_hXfTfF"
+      ],
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/What_s-New-Section_d879f62b-5dda-4822-8766-1f09ac50c410.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "heading_font_size_mobile": 30,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "gif_icons_with_text_mNBBNg": {
+      "type": "gif-icons-with-text",
+      "blocks": {
+        "heading_hTbre6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available In <em>Two Enhancing</em> Flavors",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "heading_font_size_mobile": 30,
+            "heading_font_size_desktop": 48
+          }
+        },
+        "text_wPNEp3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body",
+            "text_font_size_mobile": 14,
+            "text_font_size_desktop": 16
+          }
+        },
+        "icon_text_LnrD7x": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/citrus_1.webp",
+            "icon_alt": "Citrus Mint",
+            "heading": "Citrus Mint",
+            "heading_tag": "default",
+            "heading_font_weight": "400",
+            "heading_font_size_mobile": 21,
+            "heading_font_size_desktop": 25,
+            "text": "<p>Invigorate your senses with a blend of orange, lime, eucalyptus, and subtle nutmeg.</p>",
+            "text_style": "body",
+            "text_font_size_mobile": 16,
+            "text_font_size_desktop": 18
+          }
+        },
+        "icon_text_hqGhrm": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/peppermint.webp",
+            "icon_alt": "Peppermint Blossom",
+            "heading": "Peppermint Blossom",
+            "heading_tag": "default",
+            "heading_font_weight": "400",
+            "heading_font_size_mobile": 21,
+            "heading_font_size_desktop": 25,
+            "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral Ylang-ylang.</p>",
+            "text_style": "body",
+            "text_font_size_mobile": 16,
+            "text_font_size_desktop": 18
+          }
+        },
+        "button_m4DR44": {
+          "type": "button",
+          "settings": {
+            "button_label": "FEEL THE FRESHNESS",
+            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_hTbre6",
+        "text_wPNEp3",
+        "icon_text_LnrD7x",
+        "icon_text_hqGhrm",
+        "button_m4DR44"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {h3 {font-weight: 400; }}",
+        "h3 {color: #000000;}",
+        "p {color: #000000;}"
+      ],
+      "name": "Enhanced Image with Text",
+      "settings": {
+        "image": "shopify://shop_images/Flavors_Section_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "text_bg_opacity": 80,
+        "content_bg_opacity": 5,
+        "icon_size": 70,
+        "color_scheme": "background-1",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#dae9cf",
+        "custom_text_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_icons_XVJdzR": {
+      "type": "image-with-icons",
+      "blocks": {
+        "feature_Y8cKWi": {
+          "type": "feature",
+          "settings": {
+            "position": "top-left",
+            "icon": "shopify://shop_images/Icon_1.svg",
+            "title": "Probiotic Power",
+            "description": "<em>Lactobacillus paracasei</em> probiotics support healthy bacteria, contributing to oral wellness."
+          }
+        },
+        "feature_hKPKij": {
+          "type": "feature",
+          "settings": {
+            "position": "top-right",
+            "icon": "shopify://shop_images/Icon_2.svg",
+            "title": "Helps Balance Oral Microbiome",
+            "description": "Probiotics support a healthy balance of good bacteria, promoting a stable oral environment."
+          }
+        },
+        "feature_BGJJU6": {
+          "type": "feature",
+          "settings": {
+            "position": "bottom-left",
+            "icon": "shopify://shop_images/Icon_3.svg",
+            "title": "Supports Good Bacteria Growth",
+            "description": "They nurture good bacteria, supporting your body’s natural defense system."
+          }
+        },
+        "feature_KhKEJz": {
+          "type": "feature",
+          "settings": {
+            "position": "bottom-right",
+            "icon": "shopify://shop_images/Icon_4.svg",
+            "title": "Freshens Breath",
+            "description": "Brushing with probiotics helps keep breath fresh."
+          }
+        }
+      },
+      "block_order": [
+        "feature_Y8cKWi",
+        "feature_hKPKij",
+        "feature_BGJJU6",
+        "feature_KhKEJz"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {h3 {font-weight: 400 !important; }}"
+      ],
+      "name": "Image with feature icons",
+      "settings": {
+        "section_title": "Why Probiotics",
+        "background_color": "#f6faf5",
+        "title_font_size_desktop": 48,
+        "title_font_size_mobile": 30,
+        "title_text_color": "#000000",
+        "feature_title_font_size_desktop": 24,
+        "feature_title_font_size_mobile": 22,
+        "feature_title_text_color": "#000000",
+        "feature_description_font_size_desktop": 18,
+        "feature_description_font_size_mobile": 16,
+        "feature_description_text_color": "#000000",
+        "icon_size": 60,
+        "text_alignment": "center",
+        "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
+      }
+    },
+    "multicolumn_CUjKAz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AqQtYp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/how_to_use_1_aca6ead4-460d-42b3-bf98-aa6d1165c5ad.webp",
+            "title": "Step 1: Brush Your Teeth",
+            "text": "<p>Use a small amount and brush twice a day — just like you normally would.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jnbHHx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/how_to_use_2_1.webp",
+            "title": "Step 2: Take Your Time",
+            "text": "<p>Brush gently for 2 full minutes to let the probiotics do their thing.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_AEbjTw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/how_to_use_3_1.webp",
+            "title": "Step 3: Skip the Rinse",
+            "text": "<p>After brushing, spit but don’t rinse — this helps the probiotics stay and work longer.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AqQtYp",
+        "column_jnbHHx",
+        "column_AEbjTw"
+      ],
+      "custom_css": [
+        ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
+        "@media screen and (max-width: 749px) {h1 {font-size: 30px !important; } .background-none .slider .multicolumn-card__info {padding-bottom: 1rem; padding-top: 3rem !important; } h3 {font-size: 21px; } p {font-size: 16px !important; } .slider-counter {font-size: 18px !important; font-weight: 400 !important; } .small-hide {display: block !important; }}",
+        "h1 {font-size: 48px;}",
+        "h3 {font-size: 25px;}",
+        ".large-up-hide {display: none;}"
+      ],
+      "settings": {
+        "title": "How To Use",
+        "heading_size": "h1",
+        "heading_tag": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": true,
+        "button_label": "BEGIN YOUR ROUTINE",
+        "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 100,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 52
+      }
+    },
+    "custom_image_icon_background_FCaA3Y": {
+      "type": "custom-image-icon-background",
+      "blocks": {
+        "heading_ytqjCb": {
+          "type": "heading",
+          "settings": {
+            "heading": "What’s Inside Probiotic Toothpaste?",
+            "heading_size": "h1",
+            "heading_font_size_desktop": 48,
+            "heading_font_size_mobile": 30,
+            "heading_tag": "default"
+          }
+        },
+        "icon_text_GJqXKN": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Oral_Probiotics.webp",
+            "icon_alt": "Icon",
+            "heading": "Oral Probiotics",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Help support the oral microbiome</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_4YTFGj": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/n-Ha.webp",
+            "icon_alt": "Icon",
+            "heading": "Nano-hydroxyapatite",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Mimics tooth enamel</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_xamHLj": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
+            "icon_alt": "Icon",
+            "heading": "Xylitol",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Fights bacteria</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_LqzTbn": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/peppermint.webp",
+            "icon_alt": "Icon",
+            "heading": "Botanical extracts",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Provides refreshing flavors</p>",
+            "text_style": "body"
+          }
+        },
+        "button_d7Kj9t": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "#",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_ytqjCb",
+        "icon_text_GJqXKN",
+        "icon_text_4YTFGj",
+        "icon_text_xamHLj",
+        "icon_text_LqzTbn",
+        "button_d7Kj9t"
+      ],
+      "custom_css": [
+        ".icon-text-item__content {text-align: left;}",
+        "@media only screen and (max-width: 749px) {.image-with-text__heading {text-align: center; }}"
+      ],
+      "name": "Image icon bg text",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/Ingredients_Section_Desktop_2.webp",
+        "mobile_image": "shopify://shop_images/Ingredients_Section_Mobile_2.webp",
+        "background_video": "",
+        "video_overlay_opacity": 30,
+        "desktop_content_alignment": "left",
+        "text_color": "#ffffff",
+        "container_text_color": "#000000",
+        "icon_heading_color": "#000000",
+        "icon_text_color": "#000000",
+        "mobile_text_color": "#000000",
+        "mobile_container_text_color": "#000000",
+        "mobile_icon_heading_color": "#000000",
+        "mobile_icon_text_color": "#000000",
+        "container_background_color": "#ffffff",
+        "container_border_radius": 12,
+        "icon_size": 60,
+        "section_background_color": "#ffffff",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "video_slideshow_p7Kmpf": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_yP9e4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Say_Hi_To_Probiotics_Desktop_d933352a-bbdf-46f5-89ce-0cc091d95d6e.webp",
+            "image_mobile": "shopify://shop_images/Say_Hi_To_Probiotics_Mobile_a3d4641b-ec3d-4b14-9cd5-f7c543713b90.webp",
+            "heading": "The Future\nof Oral Care",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Probiotics are more than just for your gut. Boka’s Probiotic Toothpaste is thoughtfully formulated to support your oral microbiome, helping it nourish and flourish.",
+            "button_label": "TRY NOW",
+            "link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "custom",
+            "custom_background_color": "#ffffff",
+            "custom_text_color": "#000000",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#ffffff",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_yP9e4x"
+      ],
+      "custom_css": [
+        ".h1 {font-size: 48px !important;}",
+        "p {font-size: 18px;}",
+        "@media only screen and (max-width: 749px) {.h1 {font-size: 30px !important; } p {font-size: 16px !important; }}"
+      ],
+      "name": "Slideshow with Video",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "enable_video_buttons": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": false,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".title {text-align: center; font-size: 52px;}",
+        "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
+      ],
+      "settings": {
+        "title": "Complete <em>Your Routine</em>",
+        "heading_size": "h0",
+        "heading_tag": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 40,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "672bfbbb-3f35-4988-bf92-66ed4484892b": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Boka Probiotic Toothpaste?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka Probiotic is a fluoride-free toothpaste formulated with clinically studied Lactobacillus paracasei probiotics. It supports a healthy oral microbiome.</p>",
+            "page": ""
+          }
+        },
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do probiotics benefit oral health?",
+            "icon": "question_mark",
+            "row_content": "<p>Probiotics balance the oral microbiome, helping good bacteria thrive for oral wellness.</p>",
+            "page": ""
+          }
+        },
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Boka Probiotic Toothpaste different from regular toothpaste?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka combines probiotics with nano-hydroxyapatite (n-Ha), a breakthrough mineral that mimics tooth enamel. It’s a fluoride-free alternative that’s suitable for daily use and has been researched for decades.</p>",
+            "page": ""
+          }
+        },
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Probiotics Toothpaste safe for sensitive teeth?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, it’s gentle enough for sensitive teeth while still delivering the benefits of probiotics and n-Ha.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9qinTJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use Boka Probiotic Toothpaste alongside my regular oral care routine?",
+            "icon": "question_mark",
+            "row_content": "<p>Absolutely! You can use it as part of your daily brushing routine. It complements your existing oral care habits while supporting oral wellness with the power of probiotics.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rVMB4W": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Probiotic Toothpaste safe for all ages?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, it is safe for adults and children. However, if you have specific concerns, it’s always best to consult a dentist or healthcare professional.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_bXhKjK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does Boka Probiotic Toothpaste contain any harmful ingredients?",
+            "icon": "question_mark",
+            "row_content": "<p>No, it’s free from fluoride, sulfates, parabens, artificial flavors, and colors. It’s a clean, biocompatible formula. Just clean, safe ingredients for your oral health.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-1",
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-2",
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-3",
+        "template--15200207929387__672bfbbb-3f35-4988-bf92-66ed4484892b-collapsible_row-4",
+        "collapsible_row_9qinTJ",
+        "collapsible_row_rVMB4W",
+        "collapsible_row_bXhKjK"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 749px) {h1 {font-size: 30px; }}"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h0",
+        "heading_tag": "h2",
+        "heading_alignment": "center",
+        "description": "",
+        "layout": "none",
+        "color_scheme": "custom",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "rich_text_H9x3E9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zzBaMm": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_ajBbT6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_dFJGnw": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "#ProductInfo-template--16481886896171__main",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zzBaMm",
+        "text_ajBbT6",
+        "button_dFJGnw"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "Best Sellers",
+        "heading_alignment": "center",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 60,
+        "padding_bottom": 40,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
+      }
+    },
+    "174007755647b47e76": {
+      "type": "apps",
+      "blocks": {
+        "yotpo_product_reviews_reviews_3qKH39": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "yotpo_product_reviews_reviews_3qKH39"
+      ],
+      "settings": {
+        "include_margins": true,
+        "css_class": "",
+        "custom_color_enabled": false,
+        "custom_background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 30,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 10
+      }
+    }
+  },
+  "order": [
+    "main",
+    "yt_shorts_UB9GXL",
+    "image_with_text_MD37kF",
+    "gif_icons_with_text_mNBBNg",
+    "image_with_icons_XVJdzR",
+    "multicolumn_CUjKAz",
+    "custom_image_icon_background_FCaA3Y",
+    "video_slideshow_p7Kmpf",
+    "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8",
+    "672bfbbb-3f35-4988-bf92-66ed4484892b",
+    "rich_text_H9x3E9",
+    "related-products",
+    "174007755647b47e76"
+  ]
+}
