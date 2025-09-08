@@ -1,1 +1,1228 @@
-{"sections":{"banner":{"type":"main-collection-banner","disabled":true,"settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"video_slideshow_x7HM8r":{"type":"video-slideshow","blocks":{"image_VW6ik4":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Collection_Banner_Desktop_73c602ba-9d4c-4057-b58d-fb8e4b3a7d66.webp","image_mobile":"shopify:\/\/shop_images\/Collection_Banner_Desktop.webp","heading":"Advanced Essentials Collection","image_link":"","heading_size":"h1","heading_tag":"h1","subheading":"Get 25% off—no cap. Ends July 15! <b> USE DISCOUNT CODE:  25OFFJULY <\/b>","button_label":"","link":"https:\/\/www.boka.com\/collections\/for-testing-purposes-only","button_style_secondary":false,"button_label2":"","link2":"https:\/\/www.boka.com\/collections\/for-testing-purposes-only","button_style_secondary2":true,"box_align":"middle-left","show_text_box":true,"text_alignment":"left","image_overlay_opacity":0,"color_scheme":"custom","custom_background_color":"rgba(0,0,0,0)","custom_text_color":"#000000","mobile_custom_text_color":"#000000","button_background_color":"#000000","button_foreground_color":"#ffffff","button_background_color_mobile":"#000000","button_foreground_color_mobile":"#ffffff","bottom_text_background_color":"#dce6cf","bottom_text_foreground_color":"#000000","text_alignment_mobile":"center","mobile_content_position":"center"}},"video_kWkfYz":{"type":"video","disabled":true,"settings":{"heading":"Video slide","heading_size":"h1","heading_tag":"default","subheading":"Tell your brand's story through images","enable_fullscreen_link":true,"button_label":"SHOP","link":"","button_style_secondary":false,"button_label2":"LEARN MORE","link2":"","button_style_secondary2":false,"box_align":"middle-center","show_text_box":true,"text_alignment":"center","image_overlay_opacity":0,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff","mobile_custom_text_color":"#000000","button_background_color":"#000000","button_foreground_color":"#ffffff","bottom_text_background_color":"#dce6cf","bottom_text_foreground_color":"#000000","text_alignment_mobile":"center","mobile_content_position":"bottom"}}},"block_order":["image_VW6ik4","video_kWkfYz"],"settings":{"layout":"full_bleed","slide_height":"small","slider_visual":"none","enable_video_buttons":true,"auto_rotate":false,"change_slides_speed":5,"image_behavior":"none","fadein_enabled":false,"show_text_below":true,"accessibility_info":"Slideshow about our brand"}},"e9540f45-142d-4b00-acd5-49caf5c23d70":{"type":"image-banner","blocks":{"template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0":{"type":"heading","settings":{"heading":"Boka Well","heading_size":"h1","heading_tag":"h1"}},"template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1":{"type":"text","settings":{"text":"Easy-to-take pre + probiotic supplements to keep your microbiome in check.","text_use_html":false,"text_html":"","text_style":"body"}}},"block_order":["template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0","template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1"],"disabled":true,"settings":{"enable_fullwidth":true,"image":"shopify:\/\/shop_images\/boka_well_placeholder.png","image_mobile":"shopify:\/\/shop_images\/boka_well_mobile_placeholder.png","image_overlay_opacity":0,"image_height":"adapt","image_height_mobile":"adapt","desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"custom","custom_background_color":"#333333","custom_text_color":"#000000","button_background_color":"#000000","button_foreground_color":"#ffffff","image_behavior":"none","mobile_content_alignment":"center","mobile_content_position":"top","stack_images_on_mobile":false,"show_text_below":false,"padding_top":0,"padding_bottom":0,"padding_top_tablet":80,"padding_bottom_tablet":80,"padding_top_mobile":80,"padding_bottom_mobile":80}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"2","enable_merchandising_card":false,"card_bg_color":"#fecb8b","card_text_color":"#000000","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":true,"bg_image_position":"center","card_image_mobile":"shopify:\/\/shop_images\/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png","bg_image_link":"","card_image_url":"","card_text_alignment_desktop":"left","card_text_alignment_mobile":"left","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"Pain-free whitening for sensitive smiles.","card_text":"<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.<\/p>","button_text":"Shop Now","button_url":"shopify:\/\/products\/rapid-radiance-teeth-whitening-kit","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"rich_text_UmMiV9":{"type":"rich-text","blocks":{"heading_AHRLXN":{"type":"heading","settings":{"heading":"Boka Well <em>Benefits,<br><\/em>\nFrom a Healthy Smile to<br>\nWhole-Body Wellness","heading_size":"h1","heading_tag":"default"}},"text_89y7GE":{"type":"text","disabled":true,"settings":{"text":"<p>Your mouth is home to a complex microbiome that affects everything from your breath to your immune system.<\/p>"}}},"block_order":["heading_AHRLXN","text_89y7GE"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","fadein_enabled":true,"color_scheme":"custom","custom_background_color":"#ffffff","custom_text_color":"#090909","full_width":true,"padding_top":40,"padding_bottom":52,"padding_top_mobile":36,"padding_bottom_mobile":36}},"multicolumn_w3gfhR":{"type":"multicolumn","blocks":{"column_mRxiXk":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_1_Freshens_Breath_1739dee9-74ff-44a9-8c81-b7417f5b861e.png","title":"<strong>Freshens Breath<\/strong>","text":"<p>Powered by BLIS K12, a probiotic strain, it lessens severity on bad breath.<\/p>","link_label":"","link":""}},"column_cX6D7B":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_2_Supports_Oral_Health_03a05cba-8341-42d9-b76f-aeeb2e769af8.png","title":"<strong>Supports Oral Health<\/strong>","text":"<p>Our oral supplements support healthy levels of beneficial bacteria in the mouth.<\/p>","link_label":"","link":""}},"column_tQteW4":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_3_Boosts_Gut_Health_1080379a-4936-4006-a4b1-ce834553856f.png","title":"<strong>Improves Immune Function<\/strong>","text":"<p>Our pre+probiotics helps maintain a healthy oral microbiome, affecting everything from the mouth to your immune system.<\/p>","link_label":"","link":""}},"column_nJGG7f":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png","title":"<strong>Supports Healthy Teeth & Gums<\/strong>","text":"<p>Helps maintain strong teeth and healthy gums, supporting overall oral cavity health for a cleaner, fresher mouth.<\/p>","link_label":"","link":""}}},"block_order":["column_mRxiXk","column_cX6D7B","column_tQteW4","column_nJGG7f"],"disabled":true,"settings":{"title":"","heading_size":"h2","heading_tag":"default","image_width":"half","image_ratio":"adapt","columns_desktop":4,"column_alignment":"center","background_style":"none","full_width_enabled":false,"button_label":"SHOP NOW","button_link":"https:\/\/www.boka.com\/collections\/boka-well","fadein_enabled":true,"column_heading_background_color":"","color_scheme":"custom","custom_background_color":"#ffffff","custom_text_color":"#000000","columns_tablet":"2","columns_mobile":"1","swipe_on_mobile":true,"padding_top":65,"padding_bottom":50,"padding_top_mobile":10,"padding_bottom_mobile":35}},"video_with_text_zt3YdH":{"type":"video-with-text","blocks":{"heading_Y4wxxe":{"type":"heading","settings":{"heading":"How To Effectively <em>Use<\/em> Our Supplements","heading_size":"h1","heading_tag":"default"}},"text_YEEaG6":{"type":"text","settings":{"text":"<p><strong>Pro Stix Powder:<\/strong> Our lavender lemonade-flavored, pixie stick-style dietary supplement is easy to take and comes in a 30-stick pack. Usage Instructions:<\/p><ul><li><strong>Tear open one stick<\/strong><\/li><li><strong>Pour directly into your mouth—no water is needed<\/strong><\/li><li><strong>Take one stick daily<\/strong><\/li><\/ul><p><strong>Vital Bite Tablet: <\/strong>Our peppermint-flavored, chewable dietary supplement is easy to take and come in a 30-tablet bottle. Usage Instructions: <\/p><ul><li><strong>Chew one tablet thoroughly<\/strong><\/li><li><strong>Take once a day<\/strong><\/li><\/ul>","text_style":"body"}},"button_7fdXVW":{"type":"button","settings":{"button_label":"SHOP NOW","button_link":"https:\/\/www.boka.com\/collections\/boka-well","second_button_label":"","second_button_link":""}}},"block_order":["heading_Y4wxxe","text_YEEaG6","button_7fdXVW"],"disabled":true,"settings":{"video":"shopify:\/\/files\/videos\/teeth whitening_gif_with_text_f853b867-b6bf-485c-af37-a23685df6964.mp4","video_url":"https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc","description":"","enable_video_looping":true,"enable_video_autoplay":true,"show_controls":false,"desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","desktop_narrow_width_enabled":false,"color_scheme":"background-1","section_background_color":"#dae9cf","custom_background_color":"#dae9cf","custom_text_color":"#ffffff","mobile_content_alignment":"left","full_width_video":false,"padding_top":130,"padding_bottom":50,"padding_top_tablet":30,"padding_bottom_tablet":40,"padding_top_mobile":20,"padding_bottom_mobile":50}},"image_with_bulleted_text_MnHdrb":{"type":"image-with-bulleted-text","blocks":{"text_HC4Dde":{"type":"text","settings":{"text":"<p>Supports oral health.<\/p>","text_style":"body"}},"text_FHPy4L":{"type":"text","settings":{"text":"<p>Freshens breath, keeping mouth odor away.<\/p>","text_style":"body"}},"text_a7zt7W":{"type":"text","settings":{"text":"<p>Available in single-serve packets, perfect for on-the-go use.<\/p>","text_style":"body"}},"text_LzqWcR":{"type":"text","settings":{"text":"<p>Lavender Lemonade flavor adds a fun, refreshing twist.<\/p>","text_style":"body"}}},"block_order":["text_HC4Dde","text_FHPy4L","text_a7zt7W","text_LzqWcR"],"disabled":true,"custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/CP_Boka_Powder.webp","height":"large","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","heading":"Pro Stix Pre + Probiotic <em>Powder<\/em>.","heading_size":"h1","heading_tag":"default","caption":"For busy individuals, travelers, and anyone wanting a quick, portable, and flavorful way to support oral health on-the-go.","text_style":"subtitle","text_size":"small","button_label":"SHOP PRO STIX","button_link":"https:\/\/www.boka.com\/products\/pro-stix-probiotic-powder","second_button_label":"","second_button_link":"","content_layout":"overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#e4d9ba","custom_text_color":"#000000","bullets_color":"#090909","bullets_line_color":"#000000","image_behavior":"none","mobile_heading_alignment":"center","mobile_content_alignment":"left","padding_top":100,"padding_bottom":100,"padding_top_tablet":0,"padding_bottom_tablet":0,"padding_top_mobile":0,"padding_bottom_mobile":0}},"multicolumn_iPHKyM":{"type":"multicolumn","blocks":{"column_tDbGJJ":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/PDP_Pro_Stix_How_to_use_1.png","title":"<strong>Step 1: Brush Your Teeth<\/strong>","text":"<p>Start by thoroughly brushing your teeth as you normally do to ensure a clean mouth.<\/p>","link_label":"","link":""}},"column_rUxipg":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/PDP_Pro_Stix_How_to_use_2.png","title":"<strong>Step 2: Pour One Stick<\/strong>","text":"<p>After brushing, take one stick and pour the powder in your mouth—it’s a simple way to add prebiotics and probiotics to your daily routine.<\/p>","link_label":"","link":""}},"column_ypBMH9":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/PDP_Pro_Stix_How_to_use_3.png","title":"<strong>Step 3: Feel the Difference <\/strong>","text":"<p>Enjoy fresher breath, healthier gums, and a balanced oral microbiome over time.<\/p>","link_label":"","link":""}}},"block_order":["column_tDbGJJ","column_rUxipg","column_ypBMH9"],"disabled":true,"custom_css":[".inline-richtext {margin: auto;}"],"settings":{"title":"How To <em>Effectively Use<\/em> Pro Stix","heading_size":"h1","heading_tag":"default","image_width":"full","image_ratio":"square","columns_desktop":3,"column_alignment":"center","background_style":"none","full_width_enabled":false,"button_label":"","button_link":"","fadein_enabled":false,"column_heading_background_color":"","color_scheme":"background-1","custom_background_color":"#f1ebdd","custom_text_color":"#000000","columns_tablet":"1","columns_mobile":"1","swipe_on_mobile":true,"padding_top":0,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"image_with_bulleted_text_4rb4Vx":{"type":"image-with-bulleted-text","blocks":{"text_yUEqWj":{"type":"text","settings":{"text":"<p>Supports stronger bones and teeth.<\/p>","text_style":"body"}},"text_LrVrY4":{"type":"text","settings":{"text":"<p>Promotes fresher breath, keeping mouth odor away.<\/p>","text_style":"body"}},"text_dxhP6P":{"type":"text","settings":{"text":"<p>Available in convenient chewable tablets for easy daily use.<\/p>","text_style":"body"}},"text_dmDbKM":{"type":"text","settings":{"text":"<p>Refreshing peppermint flavor for a pleasant supplement experience.<\/p>","text_style":"body"}}},"block_order":["text_yUEqWj","text_LrVrY4","text_dxhP6P","text_dmDbKM"],"disabled":true,"custom_css":["@media only screen and (min-width: 640px) {.image-with-text {margin-bottom: 100px; }}"],"settings":{"image":"shopify:\/\/shop_images\/CP_Boka_Tablet.webp","height":"large","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"top","desktop_content_alignment":"left","heading":"Vital Bite Pre + Probiotic <em>Tablets<\/em>","heading_size":"h1","heading_tag":"default","caption":"Perfect for those seeking an all-in-one solution for oral wellness, ideal for routine lovers wanting a simple habit for a healthier smile.","text_style":"subtitle","text_size":"small","button_label":"SHOP VITAL BITE","button_link":"https:\/\/www.boka.com\/products\/vital-bite-probiotic-tablets","second_button_label":"","second_button_link":"","content_layout":"overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#d9c899","custom_text_color":"#000000","bullets_color":"#090909","bullets_line_color":"#000000","image_behavior":"none","mobile_heading_alignment":"center","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36,"padding_top_tablet":0,"padding_bottom_tablet":0,"padding_top_mobile":0,"padding_bottom_mobile":0}},"multicolumn_GMRghF":{"type":"multicolumn","blocks":{"column_RRLqFm":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/PDP_Vital_Bite_How_to_use_1_5a4697e9-9845-4743-ab24-6d3ca4ce4871.webp","title":"<strong>Step 1: Brush Your Teeth<\/strong>","text":"<p>Start by thoroughly brushing your teeth as you normally do to ensure a clean mouth.<\/p>","link_label":"","link":""}},"column_kH8HjP":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/PDP_Vital_Bite_How_to_use_2.png","title":"<strong>Step 2: Chew One Tablet<\/strong>","text":"<p>After brushing, take one chewable tablet—it’s a simple way to add prebiotics and probiotics to your daily routine.<\/p>","link_label":"","link":""}},"column_Wwy3tU":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/PDP_Vital_Bite_How_to_use_3_0f9b73bc-5726-4530-8db7-a2f6f9a22acc.webp","title":"<strong>Step 3: Feel the Difference <\/strong>","text":"<p>Enjoy fresher breath, healthier gums, and a balanced oral microbiome over time.<\/p>","link_label":"","link":""}}},"block_order":["column_RRLqFm","column_kH8HjP","column_Wwy3tU"],"disabled":true,"custom_css":[".inline-richtext {margin: auto;}"],"settings":{"title":"How To <em>Effectively<\/em> <em>Use<\/em> Vital Bite","heading_size":"h1","heading_tag":"default","image_width":"full","image_ratio":"square","columns_desktop":3,"column_alignment":"center","background_style":"none","full_width_enabled":false,"button_label":"","button_link":"","fadein_enabled":false,"column_heading_background_color":"","color_scheme":"background-1","custom_background_color":"#f1ebdd","custom_text_color":"#000000","columns_tablet":"1","columns_mobile":"1","swipe_on_mobile":true,"padding_top":0,"padding_bottom":70,"padding_top_mobile":36,"padding_bottom_mobile":36}},"image_banner_ccjCYR":{"type":"image-banner","blocks":{"heading_af4CKh":{"type":"heading","disabled":true,"settings":{"heading":"Why Choose Us","heading_size":"h1","heading_tag":"h1"}},"text_eHcyfN":{"type":"text","disabled":true,"settings":{"text":"Give customers details about the banner image(s) or content on the template.","text_use_html":false,"text_html":"","text_style":"body"}},"buttons_YMUaNP":{"type":"buttons","disabled":true,"settings":{"button_label_1":"SHOP NOW","button_link_1":"shopify:\/\/collections\/boka-well","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["heading_af4CKh","text_eHcyfN","buttons_YMUaNP"],"disabled":true,"settings":{"enable_fullwidth":false,"image":"shopify:\/\/shop_images\/CP_Competitors_Desktop_73c33842-bdb7-453b-a81c-abaa94210cc8.webp","image_mobile":"shopify:\/\/shop_images\/CP_Competitors_Mobile_69108619-5c20-4111-a1e8-7fa8c4493ca5.webp","image_overlay_opacity":0,"image_height":"medium","image_height_mobile":"small","desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"center","color_scheme":"custom","custom_background_color":"#ffffff","custom_text_color":"#090909","button_background_color":"#000000","button_foreground_color":"#ffffff","image_behavior":"none","mobile_content_alignment":"center","mobile_content_position":"center","stack_images_on_mobile":false,"show_text_below":false,"padding_top":100,"padding_bottom":100,"padding_top_tablet":80,"padding_bottom_tablet":80,"padding_top_mobile":80,"padding_bottom_mobile":76}},"1734536635ac806ce3":{"type":"apps","disabled":true,"settings":{"include_margins":true,"css_class":"","custom_color_enabled":true,"custom_background_color":"","padding_top":0,"padding_bottom":30,"padding_top_tablet":0,"padding_bottom_tablet":30,"padding_top_mobile":0,"padding_bottom_mobile":10}},"multicolumn_YJKeFb":{"type":"multicolumn","blocks":{"column_tqiNPe":{"type":"column","settings":{"title":"<strong>Just do it!!<\/strong>","text":"<p>⭐️⭐️⭐️⭐️⭐️<br\/>\"If you have been searching for an answer for your bad breath, here it is!!!\"<\/p><p>- Hannah<\/p>","link_label":"SHOP NOW","link":"shopify:\/\/products\/vital-bite-probiotic-tablets"}},"column_rtnAzk":{"type":"column","settings":{"title":"<strong>Love the powder!<\/strong>","text":"<p>⭐️⭐️⭐️⭐️⭐️<br\/>\"The ingredients feel so intentional—probiotics and antioxidants, calming chamomile and even vitamins K & D for bone health\"<\/p><p>- Sarah<\/p>","link_label":"SHOP NOW","link":"https:\/\/www.boka.com\/products\/pro-stix-probiotic-powder"}},"column_iVPiqm":{"type":"column","settings":{"title":"<strong>I love these!<\/strong>","text":"<p>⭐️⭐️⭐️⭐️⭐️<br\/>\"These are so convenient and have a refreshing taste and for anyone committed to taking their oral care to the next level\"<\/p><p>- Victoria<\/p>","link_label":"SHOP NOW","link":"https:\/\/www.boka.com\/products\/vital-bite-probiotic-tablets"}},"column_dyxQ8x":{"type":"column","settings":{"title":"<strong>Just try it!<\/strong>","text":"<p>⭐️⭐️⭐️⭐️⭐️<br\/>\"I’ve been using the Vital Bite Pre + Probiotic Tablets for about a month now, and I am beyond impressed!\"<\/p><p><\/p><p>- CJ H<\/p>","link_label":"SHOP NOW","link":"https:\/\/www.boka.com\/products\/vital-bite-probiotic-tablets"}}},"block_order":["column_tqiNPe","column_rtnAzk","column_iVPiqm","column_dyxQ8x"],"disabled":true,"custom_css":[".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",".multicolumn-card {background-color: #f1ebdd !important;}",".multicolumn-card__info {padding: 3rem;}"],"settings":{"title":"What Customers Are Saying","heading_size":"h1","heading_tag":"default","image_width":"half","image_ratio":"circle","columns_desktop":4,"column_alignment":"center","background_style":"primary","full_width_enabled":false,"button_label":"","button_link":"","fadein_enabled":false,"column_heading_background_color":"","color_scheme":"custom","custom_background_color":"#cdb87a","custom_text_color":"#090909","columns_tablet":"1","columns_mobile":"1","swipe_on_mobile":true,"padding_top":30,"padding_bottom":80,"padding_top_mobile":0,"padding_bottom_mobile":36}},"image_with_text_eDPcWf":{"type":"image-with-text","blocks":{"heading_RL9JXk":{"type":"heading","settings":{"heading":"Science-Backed, Clinically <br><em> Proven Wellness. <\/em>","heading_size":"h1","heading_tag":"default"}},"text_dXqnLi":{"type":"text","settings":{"text":"<p>Pro Stix and Vital Bite both feature <strong>BLIS K12 <\/strong>to support your oral microbiome, fresh breath, and healthy gums. With nut-free, sodium-free, and drug-free formulations, they are ideal for oral health and immunity. Vital Bite also helps strengthen teeth and bones, promoting optimal calcium absorption.<\/p><p>Vital Bite also includes Vitamins D3 and K2. D3 is essential for calcium absorption, while K2 works alongside D3 to direct calcium to the bones and teeth, preventing it from accumulating in soft tissues.<\/p>","text_style":"body"}},"button_zmJBEa":{"type":"button","settings":{"button_label":"SHOP NOW","button_link":"shopify:\/\/collections\/boka-well","second_button_label":"","second_button_link":""}}},"block_order":["heading_RL9JXk","text_dXqnLi","button_zmJBEa"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/CP_Boka_Powder_Tablet_Logos_6951f26d-d6d2-4988-9e73-fc45306b6d36.webp","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#fafaf5","custom_background_color":"#fafaf5","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":100,"padding_bottom":66,"padding_top_tablet":40,"padding_bottom_tablet":40,"padding_top_mobile":50,"padding_bottom_mobile":50}},"image_with_bulleted_text_eJMgW7":{"type":"image-with-bulleted-text","blocks":{"text_gJELXr":{"type":"text","settings":{"text":"<p><strong>Supports Oral Health:<\/strong> Prebiotics and probiotics, including BLIS K12, promote a healthy oral microbiome, supporting fresh breath, strong teeth, and healthy gums.<\/p>","text_style":"body"}},"text_KiKtcJ":{"type":"text","settings":{"text":"<p><strong>Improves Immune Function:<\/strong> By balancing the oral microbiome, prebiotics and probiotics help strengthen your immune system, benefiting overall health and well-being.<\/p>","text_style":"body"}}},"block_order":["text_gJELXr","text_KiKtcJ"],"disabled":true,"custom_css":[".custom-image-with-bulletted-text .image-with-text__text.subtitle,.custom-image-with-bulletted-text .image-with-text__text.body {font-size: 18px; line-height: 1.4;}"],"settings":{"image":"shopify:\/\/shop_images\/CP_Boka_Powder_Tablet.webp","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"middle","desktop_content_alignment":"left","heading":"A Daily Dose Of <em>Wellness<\/em>","heading_size":"h1","heading_tag":"default","caption":"Brushing and flossing are just the beginning of oral care. Your oral microbiome plays a vital role in your health, affecting everything from your mouth to your immune system.<br><br> Boka Well’s oral supplements make it easier to achieve the harmony your mouth and body need for total well-being.<br><br> Try our oral supplements and enjoy overall health:","text_style":"subtitle","text_size":"small","button_label":"SHOP NOW","button_link":"https:\/\/www.boka.com\/collections\/boka-well","second_button_label":"","second_button_link":"","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#ffffff","custom_background_color":"#f1ebdd","custom_text_color":"#000000","bullets_color":"#090909","bullets_line_color":"#000000","image_behavior":"none","mobile_heading_alignment":"center","mobile_content_alignment":"left","padding_top":0,"padding_bottom":100,"padding_top_tablet":0,"padding_bottom_tablet":0,"padding_top_mobile":0,"padding_bottom_mobile":0}},"image_with_text_FyCQbh":{"type":"image-with-text","blocks":{"heading_edyykU":{"type":"heading","settings":{"heading":"A Daily Dose Of <em>Wellness<\/em>","heading_size":"h1","heading_tag":"default"}},"text_H4UBVn":{"type":"text","settings":{"text":"<p>Brushing and flossing are just the start of oral care. Your mouth’s microbiome affects breath, immunity, and wellness. A balanced microbiome is key—and Boka Well pre+probiotics make it simple to achieve the harmony your mouth and body needs for total well-being.<\/p>","text_style":"body"}},"button_nLRTBE":{"type":"button","settings":{"button_label":"SHOP NOW","button_link":"shopify:\/\/collections\/boka-well","second_button_label":"","second_button_link":""}}},"block_order":["heading_edyykU","text_H4UBVn","button_nLRTBE"],"disabled":true,"settings":{"image":"shopify:\/\/shop_images\/CP_Boka_Powder_Tablet.webp","height":"adapt","desktop_image_width":"medium","layout":"text_first","desktop_content_position":"middle","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"custom","section_background_color":"#fafaf5","custom_background_color":"#fafaf5","custom_text_color":"#000000","image_behavior":"none","mobile_content_alignment":"center","padding_top":0,"padding_bottom":66,"padding_top_tablet":40,"padding_bottom_tablet":40,"padding_top_mobile":0,"padding_bottom_mobile":50}},"e1c2be8a-c503-489a-b63e-982e50c35a28":{"type":"collapsible-content","blocks":{"template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"What is Boka Well?","icon":"question_mark","row_content":"<p>Boka Well is a line of prebiotic and probiotic supplements designed to support a healthy oral microbiome, promote fresh breath, reduce plaque, combat inflammation, and more. Our supplements also benefit gut health and immune function, offering a holistic approach to balancing oral and overall wellness.<\/p>","page":""}},"template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"How do prebiotics and probiotics benefit oral health?","icon":"question_mark","row_content":"<p>Prebiotics support oral health by nourishing good bacteria in the mouth, helping them thrive and maintain a balanced microbiome. Probiotics complement this by reducing harmful bacteria that cause bad breath, plaque buildup, and inflammation, promoting a healthier oral environment.<\/p>","page":""}},"template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"Can I use Boka Well with my regular toothpaste?","icon":"question_mark","row_content":"<p>Yes, you can use Boka Well supplements alongside your regular toothpaste. Boka Well's prebiotic and probiotic supplements support oral health by maintaining a balanced microbiome, complementing the benefits of your daily brushing routine.<\/p><p>If you have specific health concerns or conditions, consult your dentist or healthcare provider before adding new supplements to your regimen.<\/p>","page":""}},"template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4":{"type":"collapsible_row","settings":{"heading":"Is Boka Well safe for all ages?","icon":"question_mark","row_content":"<p>Our supplements are generally safe but require caution for specific groups. Individuals under 18, pregnant or nursing, taking medications, or with medical conditions should consult their doctor before use.<\/p>","page":""}},"16ab04bf-3b77-4c35-b24e-778a14934e1f":{"type":"collapsible_row","settings":{"heading":"How should I take Boka Well supplements?","icon":"question_mark","row_content":"<p>To take Boka Well supplements, follow these guidelines:<br\/><br\/><strong>Pro Stix Pre + Probiotic Powder:<\/strong><\/p><ul><li>Tear open one stick of powder.<\/li><li>Pour the powder directly into your mouth—no water is needed.<\/li><li>Enjoy one stick per day.<\/li><\/ul><p><\/p><p><strong>Vital Bite Pre + Probiotic Tablets:<\/strong><\/p><ul><li>Chew one tablet thoroughly.<\/li><li>Take once a day.<\/li><\/ul>","page":""}},"collapsible_row_JzDKce":{"type":"collapsible_row","settings":{"heading":"Are there any side effects associated with Boka Well?","icon":"question_mark","row_content":"<p>Our supplements are generally safe for most people. However, if you experience any adverse reactions, discontinue use immediately and consult your doctor.<\/p>","page":""}},"collapsible_row_g8ymPC":{"type":"collapsible_row","settings":{"heading":"Can Boka Well improve my breath?","icon":"question_mark","row_content":"<p>Boka Well can help improve your breath. Our prebiotic and probiotic supplements support a balanced oral microbiome, promoting fresh breath.<\/p>","page":""}},"collapsible_row_xaLYbg":{"type":"collapsible_row","settings":{"heading":"Do Boka Well supplements require refrigeration?","icon":"question_mark","row_content":"<p>Boka Well supplements do not require refrigeration. They are shelf-stable and can be stored in a cool, dry place to maintain effectiveness.<\/p>","page":""}},"collapsible_row_YWDyjn":{"type":"collapsible_row","settings":{"heading":"Can I take Boka Well supplements if I have dietary restrictions?","icon":"question_mark","row_content":"<p>Our supplements accommodate certain dietary restrictions, but not all. For detailed information on ingredients and compatibility with your dietary needs, please visit <a href=\"https:\/\/www.boka.com\/products\/pro-stix-probiotic-powder?selling_plan=1753186347\"><span style=\"text-decoration:underline\">Boka Well<\/span><\/a><\/p>","page":""}},"collapsible_row_6kc8xV":{"type":"collapsible_row","settings":{"heading":"What’s the difference between Pro Stix and Vital Bite?","icon":"question_mark","row_content":"<p>The main difference between Vital Bite and Pro Stix lies in their form and consumption method. Pro Stix is a powdered probiotic supplement that can be poured directly into your mouth without water, while Vital Bite is a chewable probiotic tablet.<\/p>","page":""}},"collapsible_row_Ymn7JG":{"type":"collapsible_row","settings":{"heading":"Do Boka Well products contain live probiotic cultures?","icon":"question_mark","row_content":"<p>Yes, Boka Well products contain live probiotic cultures designed to support a healthy oral microbiome. These probiotics help promote good bacteria and overall oral health.<\/p>","page":""}},"collapsible_row_cjXFKa":{"type":"collapsible_row","settings":{"heading":"Are both of these okay to swallow?","icon":"question_mark","row_content":"<p>Pro Stix powder is designed to be ingested by pouring it directly into your mouth, with no water needed. Vital Bite is intended to be chewed thoroughly before swallowing for optimal results.<\/p>","page":""}},"collapsible_row_BXWHmA":{"type":"collapsible_row","settings":{"heading":"How soon will we start seeing results with Boka Well?","icon":"question_mark","row_content":"<p>The time it takes to see results with Boka Well can vary from person to person. For the best and fastest results, it's important to take the supplements consistently alongside regular oral care practices like brushing and flossing.<\/p>","page":""}},"collapsible_row_nNfbar":{"type":"collapsible_row","settings":{"heading":"How long should we use it to get the best results? A week? A month?","icon":"question_mark","row_content":"<p><strong> <\/strong>There's no specific length of time for using our supplements to get the best results, as everyone's health journey is unique and ongoing. It's best to consult your doctor for planned prolonged use to ensure it's safe for you.<\/p>","page":""}}},"block_order":["template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1","template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2","template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3","template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4","16ab04bf-3b77-4c35-b24e-778a14934e1f","collapsible_row_JzDKce","collapsible_row_g8ymPC","collapsible_row_xaLYbg","collapsible_row_YWDyjn","collapsible_row_6kc8xV","collapsible_row_Ymn7JG","collapsible_row_cjXFKa","collapsible_row_BXWHmA","collapsible_row_nNfbar"],"disabled":true,"settings":{"caption":"","heading":"Frequently Asked Questions","heading_size":"h1","heading_tag":"h2","heading_alignment":"left","description":"","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":100,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"rich_text_KG9hfa":{"type":"rich-text","blocks":{"button_iMgALP":{"type":"button","settings":{"button_label":"SHOP NOW","button_link":"https:\/\/www.boka.com\/collections\/boka-well","button_style_secondary":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["button_iMgALP"],"disabled":true,"settings":{"desktop_content_position":"center","content_alignment":"center","fadein_enabled":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff","full_width":true,"padding_top":40,"padding_bottom":52,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","video_slideshow_x7HM8r","e9540f45-142d-4b00-acd5-49caf5c23d70","product-grid","rich_text_UmMiV9","multicolumn_w3gfhR","video_with_text_zt3YdH","image_with_bulleted_text_MnHdrb","multicolumn_iPHKyM","image_with_bulleted_text_4rb4Vx","multicolumn_GMRghF","image_banner_ccjCYR","1734536635ac806ce3","multicolumn_YJKeFb","image_with_text_eDPcWf","image_with_bulleted_text_eJMgW7","image_with_text_FyCQbh","e1c2be8a-c503-489a-b63e-982e50c35a28","rich_text_KG9hfa"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "video_slideshow_x7HM8r": {
+      "type": "video-slideshow",
+      "blocks": {
+        "image_VW6ik4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Collection_Banner_Desktop_73c602ba-9d4c-4057-b58d-fb8e4b3a7d66.webp",
+            "image_mobile": "shopify://shop_images/Collection_Banner_Desktop.webp",
+            "heading": "Advanced Essentials Collection",
+            "image_link": "",
+            "heading_size": "h1",
+            "heading_tag": "h1",
+            "subheading": "Get 25% off—no cap. Ends July 15! <b> USE DISCOUNT CODE:  25OFFJULY </b>",
+            "button_label": "",
+            "link": "https://www.boka.com/collections/for-testing-purposes-only",
+            "button_style_secondary": false,
+            "button_label2": "",
+            "link2": "https://www.boka.com/collections/for-testing-purposes-only",
+            "button_style_secondary2": true,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "custom",
+            "custom_background_color": "rgba(0,0,0,0)",
+            "custom_text_color": "#000000",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#ffffff",
+            "button_background_color_mobile": "#000000",
+            "button_foreground_color_mobile": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "center"
+          }
+        },
+        "video_kWkfYz": {
+          "type": "video",
+          "disabled": true,
+          "settings": {
+            "heading": "Video slide",
+            "heading_size": "h1",
+            "heading_tag": "default",
+            "subheading": "Tell your brand's story through images",
+            "enable_fullscreen_link": true,
+            "button_label": "SHOP",
+            "link": "",
+            "button_style_secondary": false,
+            "button_label2": "LEARN MORE",
+            "link2": "",
+            "button_style_secondary2": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "custom_background_color": "#333333",
+            "custom_text_color": "#ffffff",
+            "mobile_custom_text_color": "#000000",
+            "button_background_color": "#000000",
+            "button_foreground_color": "#ffffff",
+            "bottom_text_background_color": "#dce6cf",
+            "bottom_text_foreground_color": "#000000",
+            "text_alignment_mobile": "center",
+            "mobile_content_position": "bottom"
+          }
+        }
+      },
+      "block_order": [
+        "image_VW6ik4",
+        "video_kWkfYz"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "none",
+        "enable_video_buttons": true,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "fadein_enabled": false,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "e9540f45-142d-4b00-acd5-49caf5c23d70": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boka Well",
+            "heading_size": "h1",
+            "heading_tag": "h1"
+          }
+        },
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1": {
+          "type": "text",
+          "settings": {
+            "text": "Easy-to-take pre + probiotic supplements to keep your microbiome in check.",
+            "text_use_html": false,
+            "text_html": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0",
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_fullwidth": true,
+        "image": "shopify://shop_images/boka_well_placeholder.png",
+        "image_mobile": "shopify://shop_images/boka_well_mobile_placeholder.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "image_height_mobile": "adapt",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "custom",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_foreground_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "top",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "enable_merchandising_card": false,
+        "card_bg_color": "#fecb8b",
+        "card_text_color": "#000000",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": true,
+        "bg_image_position": "center",
+        "card_image_mobile": "shopify://shop_images/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "left",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "Pain-free whitening for sensitive smiles.",
+        "card_text": "<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.</p>",
+        "button_text": "Shop Now",
+        "button_url": "shopify://products/rapid-radiance-teeth-whitening-kit",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "rich_text_UmMiV9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AHRLXN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Boka Well <em>Benefits,<br></em>\nFrom a Healthy Smile to<br>\nWhole-Body Wellness",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_89y7GE": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Your mouth is home to a complex microbiome that affects everything from your breath to your immune system.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AHRLXN",
+        "text_89y7GE"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#090909",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "multicolumn_w3gfhR": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_mRxiXk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_1_Freshens_Breath_1739dee9-74ff-44a9-8c81-b7417f5b861e.png",
+            "title": "<strong>Freshens Breath</strong>",
+            "text": "<p>Powered by BLIS K12, a probiotic strain, it lessens severity on bad breath.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cX6D7B": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_2_Supports_Oral_Health_03a05cba-8341-42d9-b76f-aeeb2e769af8.png",
+            "title": "<strong>Supports Oral Health</strong>",
+            "text": "<p>Our oral supplements support healthy levels of beneficial bacteria in the mouth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tQteW4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_3_Boosts_Gut_Health_1080379a-4936-4006-a4b1-ce834553856f.png",
+            "title": "<strong>Improves Immune Function</strong>",
+            "text": "<p>Our pre+probiotics helps maintain a healthy oral microbiome, affecting everything from the mouth to your immune system.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_nJGG7f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Icon_4_Enhances_Immunity_caf4597e-fd5a-40b1-9079-3e4c8b765b96.png",
+            "title": "<strong>Supports Healthy Teeth & Gums</strong>",
+            "text": "<p>Helps maintain strong teeth and healthy gums, supporting overall oral cavity health for a cleaner, fresher mouth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_mRxiXk",
+        "column_cX6D7B",
+        "column_tQteW4",
+        "column_nJGG7f"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "heading_tag": "default",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": false,
+        "button_label": "SHOP NOW",
+        "button_link": "https://www.boka.com/collections/boka-well",
+        "fadein_enabled": true,
+        "column_heading_background_color": "",
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#000000",
+        "columns_tablet": "2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 65,
+        "padding_bottom": 50,
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 35
+      }
+    },
+    "video_with_text_zt3YdH": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_Y4wxxe": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Effectively <em>Use</em> Our Supplements",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_YEEaG6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Pro Stix Powder:</strong> Our lavender lemonade-flavored, pixie stick-style dietary supplement is easy to take and comes in a 30-stick pack. Usage Instructions:</p><ul><li><strong>Tear open one stick</strong></li><li><strong>Pour directly into your mouth—no water is needed</strong></li><li><strong>Take one stick daily</strong></li></ul><p><strong>Vital Bite Tablet: </strong>Our peppermint-flavored, chewable dietary supplement is easy to take and come in a 30-tablet bottle. Usage Instructions: </p><ul><li><strong>Chew one tablet thoroughly</strong></li><li><strong>Take once a day</strong></li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_7fdXVW": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https://www.boka.com/collections/boka-well",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y4wxxe",
+        "text_YEEaG6",
+        "button_7fdXVW"
+      ],
+      "disabled": true,
+      "settings": {
+        "video": "shopify://files/videos/teeth whitening_gif_with_text_f853b867-b6bf-485c-af37-a23685df6964.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "enable_video_looping": true,
+        "enable_video_autoplay": true,
+        "show_controls": false,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "desktop_narrow_width_enabled": false,
+        "color_scheme": "background-1",
+        "section_background_color": "#dae9cf",
+        "custom_background_color": "#dae9cf",
+        "custom_text_color": "#ffffff",
+        "mobile_content_alignment": "left",
+        "full_width_video": false,
+        "padding_top": 130,
+        "padding_bottom": 50,
+        "padding_top_tablet": 30,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_bulleted_text_MnHdrb": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_HC4Dde": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supports oral health.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_FHPy4L": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Freshens breath, keeping mouth odor away.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_a7zt7W": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Available in single-serve packets, perfect for on-the-go use.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_LzqWcR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lavender Lemonade flavor adds a fun, refreshing twist.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_HC4Dde",
+        "text_FHPy4L",
+        "text_a7zt7W",
+        "text_LzqWcR"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "image": "shopify://shop_images/CP_Boka_Powder.webp",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "heading": "Pro Stix Pre + Probiotic <em>Powder</em>.",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "For busy individuals, travelers, and anyone wanting a quick, portable, and flavorful way to support oral health on-the-go.",
+        "text_style": "subtitle",
+        "text_size": "small",
+        "button_label": "SHOP PRO STIX",
+        "button_link": "https://www.boka.com/products/pro-stix-probiotic-powder",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#e4d9ba",
+        "custom_text_color": "#000000",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "multicolumn_iPHKyM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tDbGJJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Pro_Stix_How_to_use_1.png",
+            "title": "<strong>Step 1: Brush Your Teeth</strong>",
+            "text": "<p>Start by thoroughly brushing your teeth as you normally do to ensure a clean mouth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rUxipg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Pro_Stix_How_to_use_2.png",
+            "title": "<strong>Step 2: Pour One Stick</strong>",
+            "text": "<p>After brushing, take one stick and pour the powder in your mouth—it’s a simple way to add prebiotics and probiotics to your daily routine.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ypBMH9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Pro_Stix_How_to_use_3.png",
+            "title": "<strong>Step 3: Feel the Difference </strong>",
+            "text": "<p>Enjoy fresher breath, healthier gums, and a balanced oral microbiome over time.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_tDbGJJ",
+        "column_rUxipg",
+        "column_ypBMH9"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".inline-richtext {margin: auto;}"
+      ],
+      "settings": {
+        "title": "How To <em>Effectively Use</em> Pro Stix",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": false,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#f1ebdd",
+        "custom_text_color": "#000000",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "image_with_bulleted_text_4rb4Vx": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_yUEqWj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Supports stronger bones and teeth.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_LrVrY4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promotes fresher breath, keeping mouth odor away.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_dxhP6P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Available in convenient chewable tablets for easy daily use.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_dmDbKM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Refreshing peppermint flavor for a pleasant supplement experience.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_yUEqWj",
+        "text_LrVrY4",
+        "text_dxhP6P",
+        "text_dmDbKM"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media only screen and (min-width: 640px) {.image-with-text {margin-bottom: 100px; }}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CP_Boka_Tablet.webp",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "heading": "Vital Bite Pre + Probiotic <em>Tablets</em>",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "Perfect for those seeking an all-in-one solution for oral wellness, ideal for routine lovers wanting a simple habit for a healthier smile.",
+        "text_style": "subtitle",
+        "text_size": "small",
+        "button_label": "SHOP VITAL BITE",
+        "button_link": "https://www.boka.com/products/vital-bite-probiotic-tablets",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#d9c899",
+        "custom_text_color": "#000000",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "multicolumn_GMRghF": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RRLqFm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Vital_Bite_How_to_use_1_5a4697e9-9845-4743-ab24-6d3ca4ce4871.webp",
+            "title": "<strong>Step 1: Brush Your Teeth</strong>",
+            "text": "<p>Start by thoroughly brushing your teeth as you normally do to ensure a clean mouth.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kH8HjP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Vital_Bite_How_to_use_2.png",
+            "title": "<strong>Step 2: Chew One Tablet</strong>",
+            "text": "<p>After brushing, take one chewable tablet—it’s a simple way to add prebiotics and probiotics to your daily routine.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wwy3tU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PDP_Vital_Bite_How_to_use_3_0f9b73bc-5726-4530-8db7-a2f6f9a22acc.webp",
+            "title": "<strong>Step 3: Feel the Difference </strong>",
+            "text": "<p>Enjoy fresher breath, healthier gums, and a balanced oral microbiome over time.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RRLqFm",
+        "column_kH8HjP",
+        "column_Wwy3tU"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".inline-richtext {margin: auto;}"
+      ],
+      "settings": {
+        "title": "How To <em>Effectively</em> <em>Use</em> Vital Bite",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "full_width_enabled": false,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "background-1",
+        "custom_background_color": "#f1ebdd",
+        "custom_text_color": "#000000",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 70,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "image_banner_ccjCYR": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_af4CKh": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Why Choose Us",
+            "heading_size": "h1",
+            "heading_tag": "h1"
+          }
+        },
+        "text_eHcyfN": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_use_html": false,
+            "text_html": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_YMUaNP": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "SHOP NOW",
+            "button_link_1": "shopify://collections/boka-probiotics",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_af4CKh",
+        "text_eHcyfN",
+        "buttons_YMUaNP"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_fullwidth": false,
+        "image": "shopify://shop_images/CP_Competitors_Desktop_73c33842-bdb7-453b-a81c-abaa94210cc8.webp",
+        "image_mobile": "shopify://shop_images/CP_Competitors_Mobile_69108619-5c20-4111-a1e8-7fa8c4493ca5.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "image_height_mobile": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#090909",
+        "button_background_color": "#000000",
+        "button_foreground_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 76
+      }
+    },
+    "1734536635ac806ce3": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true,
+        "css_class": "",
+        "custom_color_enabled": true,
+        "custom_background_color": "",
+        "padding_top": 0,
+        "padding_bottom": 30,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 30,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 10
+      }
+    },
+    "multicolumn_YJKeFb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_tqiNPe": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Just do it!!</strong>",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<br/>\"If you have been searching for an answer for your bad breath, here it is!!!\"</p><p>- Hannah</p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify://products/vital-bite-probiotic-tablets"
+          }
+        },
+        "column_rtnAzk": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Love the powder!</strong>",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<br/>\"The ingredients feel so intentional—probiotics and antioxidants, calming chamomile and even vitamins K & D for bone health\"</p><p>- Sarah</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://www.boka.com/products/pro-stix-probiotic-powder"
+          }
+        },
+        "column_iVPiqm": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>I love these!</strong>",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<br/>\"These are so convenient and have a refreshing taste and for anyone committed to taking their oral care to the next level\"</p><p>- Victoria</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://www.boka.com/products/vital-bite-probiotic-tablets"
+          }
+        },
+        "column_dyxQ8x": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Just try it!</strong>",
+            "text": "<p>⭐️⭐️⭐️⭐️⭐️<br/>\"I’ve been using the Vital Bite Pre + Probiotic Tablets for about a month now, and I am beyond impressed!\"</p><p></p><p>- CJ H</p>",
+            "link_label": "SHOP NOW",
+            "link": "https://www.boka.com/products/vital-bite-probiotic-tablets"
+          }
+        }
+      },
+      "block_order": [
+        "column_tqiNPe",
+        "column_rtnAzk",
+        "column_iVPiqm",
+        "column_dyxQ8x"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
+        ".multicolumn-card {background-color: #f1ebdd !important;}",
+        ".multicolumn-card__info {padding: 3rem;}"
+      ],
+      "settings": {
+        "title": "What Customers Are Saying",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "image_width": "half",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "full_width_enabled": false,
+        "button_label": "",
+        "button_link": "",
+        "fadein_enabled": false,
+        "column_heading_background_color": "",
+        "color_scheme": "custom",
+        "custom_background_color": "#cdb87a",
+        "custom_text_color": "#090909",
+        "columns_tablet": "1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 30,
+        "padding_bottom": 80,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "image_with_text_eDPcWf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RL9JXk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Science-Backed, Clinically <br><em> Proven Wellness. </em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_dXqnLi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pro Stix and Vital Bite both feature <strong>BLIS K12 </strong>to support your oral microbiome, fresh breath, and healthy gums. With nut-free, sodium-free, and drug-free formulations, they are ideal for oral health and immunity. Vital Bite also helps strengthen teeth and bones, promoting optimal calcium absorption.</p><p>Vital Bite also includes Vitamins D3 and K2. D3 is essential for calcium absorption, while K2 works alongside D3 to direct calcium to the bones and teeth, preventing it from accumulating in soft tissues.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_zmJBEa": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/boka-probiotics",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RL9JXk",
+        "text_dXqnLi",
+        "button_zmJBEa"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/CP_Boka_Powder_Tablet_Logos_6951f26d-d6d2-4988-9e73-fc45306b6d36.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#fafaf5",
+        "custom_background_color": "#fafaf5",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 66,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 50,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "image_with_bulleted_text_eJMgW7": {
+      "type": "image-with-bulleted-text",
+      "blocks": {
+        "text_gJELXr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Supports Oral Health:</strong> Prebiotics and probiotics, including BLIS K12, promote a healthy oral microbiome, supporting fresh breath, strong teeth, and healthy gums.</p>",
+            "text_style": "body"
+          }
+        },
+        "text_KiKtcJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Improves Immune Function:</strong> By balancing the oral microbiome, prebiotics and probiotics help strengthen your immune system, benefiting overall health and well-being.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_gJELXr",
+        "text_KiKtcJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".custom-image-with-bulletted-text .image-with-text__text.subtitle,.custom-image-with-bulletted-text .image-with-text__text.body {font-size: 18px; line-height: 1.4;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/CP_Boka_Powder_Tablet.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "heading": "A Daily Dose Of <em>Wellness</em>",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "caption": "Brushing and flossing are just the beginning of oral care. Your oral microbiome plays a vital role in your health, affecting everything from your mouth to your immune system.<br><br> Boka Well’s oral supplements make it easier to achieve the harmony your mouth and body need for total well-being.<br><br> Try our oral supplements and enjoy overall health:",
+        "text_style": "subtitle",
+        "text_size": "small",
+        "button_label": "SHOP NOW",
+        "button_link": "https://www.boka.com/collections/boka-well",
+        "second_button_label": "",
+        "second_button_link": "",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#ffffff",
+        "custom_background_color": "#f1ebdd",
+        "custom_text_color": "#000000",
+        "bullets_color": "#090909",
+        "bullets_line_color": "#000000",
+        "image_behavior": "none",
+        "mobile_heading_alignment": "center",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "padding_top_tablet": 0,
+        "padding_bottom_tablet": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "image_with_text_FyCQbh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_edyykU": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Daily Dose Of <em>Wellness</em>",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "text_H4UBVn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brushing and flossing are just the start of oral care. Your mouth’s microbiome affects breath, immunity, and wellness. A balanced microbiome is key—and Boka Well pre+probiotics make it simple to achieve the harmony your mouth and body needs for total well-being.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_nLRTBE": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/boka-probiotics",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_edyykU",
+        "text_H4UBVn",
+        "button_nLRTBE"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/CP_Boka_Powder_Tablet.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "custom",
+        "section_background_color": "#fafaf5",
+        "custom_background_color": "#fafaf5",
+        "custom_text_color": "#000000",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 66,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50
+      }
+    },
+    "e1c2be8a-c503-489a-b63e-982e50c35a28": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Boka Well?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka Well is a line of prebiotic and probiotic supplements designed to support a healthy oral microbiome, promote fresh breath, reduce plaque, combat inflammation, and more. Our supplements also benefit gut health and immune function, offering a holistic approach to balancing oral and overall wellness.</p>",
+            "page": ""
+          }
+        },
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do prebiotics and probiotics benefit oral health?",
+            "icon": "question_mark",
+            "row_content": "<p>Prebiotics support oral health by nourishing good bacteria in the mouth, helping them thrive and maintain a balanced microbiome. Probiotics complement this by reducing harmful bacteria that cause bad breath, plaque buildup, and inflammation, promoting a healthier oral environment.</p>",
+            "page": ""
+          }
+        },
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use Boka Well with my regular toothpaste?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, you can use Boka Well supplements alongside your regular toothpaste. Boka Well's prebiotic and probiotic supplements support oral health by maintaining a balanced microbiome, complementing the benefits of your daily brushing routine.</p><p>If you have specific health concerns or conditions, consult your dentist or healthcare provider before adding new supplements to your regimen.</p>",
+            "page": ""
+          }
+        },
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Well safe for all ages?",
+            "icon": "question_mark",
+            "row_content": "<p>Our supplements are generally safe but require caution for specific groups. Individuals under 18, pregnant or nursing, taking medications, or with medical conditions should consult their doctor before use.</p>",
+            "page": ""
+          }
+        },
+        "16ab04bf-3b77-4c35-b24e-778a14934e1f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I take Boka Well supplements?",
+            "icon": "question_mark",
+            "row_content": "<p>To take Boka Well supplements, follow these guidelines:<br/><br/><strong>Pro Stix Pre + Probiotic Powder:</strong></p><ul><li>Tear open one stick of powder.</li><li>Pour the powder directly into your mouth—no water is needed.</li><li>Enjoy one stick per day.</li></ul><p></p><p><strong>Vital Bite Pre + Probiotic Tablets:</strong></p><ul><li>Chew one tablet thoroughly.</li><li>Take once a day.</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_JzDKce": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there any side effects associated with Boka Well?",
+            "icon": "question_mark",
+            "row_content": "<p>Our supplements are generally safe for most people. However, if you experience any adverse reactions, discontinue use immediately and consult your doctor.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_g8ymPC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can Boka Well improve my breath?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka Well can help improve your breath. Our prebiotic and probiotic supplements support a balanced oral microbiome, promoting fresh breath.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xaLYbg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do Boka Well supplements require refrigeration?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka Well supplements do not require refrigeration. They are shelf-stable and can be stored in a cool, dry place to maintain effectiveness.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YWDyjn": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I take Boka Well supplements if I have dietary restrictions?",
+            "icon": "question_mark",
+            "row_content": "<p>Our supplements accommodate certain dietary restrictions, but not all. For detailed information on ingredients and compatibility with your dietary needs, please visit <a href=\"https://www.boka.com/products/pro-stix-probiotic-powder?selling_plan=1753186347\"><span style=\"text-decoration:underline\">Boka Well</span></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6kc8xV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What’s the difference between Pro Stix and Vital Bite?",
+            "icon": "question_mark",
+            "row_content": "<p>The main difference between Vital Bite and Pro Stix lies in their form and consumption method. Pro Stix is a powdered probiotic supplement that can be poured directly into your mouth without water, while Vital Bite is a chewable probiotic tablet.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Ymn7JG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do Boka Well products contain live probiotic cultures?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, Boka Well products contain live probiotic cultures designed to support a healthy oral microbiome. These probiotics help promote good bacteria and overall oral health.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cjXFKa": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are both of these okay to swallow?",
+            "icon": "question_mark",
+            "row_content": "<p>Pro Stix powder is designed to be ingested by pouring it directly into your mouth, with no water needed. Vital Bite is intended to be chewed thoroughly before swallowing for optimal results.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BXWHmA": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How soon will we start seeing results with Boka Well?",
+            "icon": "question_mark",
+            "row_content": "<p>The time it takes to see results with Boka Well can vary from person to person. For the best and fastest results, it's important to take the supplements consistently alongside regular oral care practices like brushing and flossing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nNfbar": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long should we use it to get the best results? A week? A month?",
+            "icon": "question_mark",
+            "row_content": "<p><strong> </strong>There's no specific length of time for using our supplements to get the best results, as everyone's health journey is unique and ongoing. It's best to consult your doctor for planned prolonged use to ensure it's safe for you.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3",
+        "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
+        "16ab04bf-3b77-4c35-b24e-778a14934e1f",
+        "collapsible_row_JzDKce",
+        "collapsible_row_g8ymPC",
+        "collapsible_row_xaLYbg",
+        "collapsible_row_YWDyjn",
+        "collapsible_row_6kc8xV",
+        "collapsible_row_Ymn7JG",
+        "collapsible_row_cjXFKa",
+        "collapsible_row_BXWHmA",
+        "collapsible_row_nNfbar"
+      ],
+      "disabled": true,
+      "settings": {
+        "caption": "",
+        "heading": "Frequently Asked Questions",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "heading_alignment": "left",
+        "description": "",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 100,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "rich_text_KG9hfa": {
+      "type": "rich-text",
+      "blocks": {
+        "button_iMgALP": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https://www.boka.com/collections/boka-well",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "button_iMgALP"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "video_slideshow_x7HM8r",
+    "e9540f45-142d-4b00-acd5-49caf5c23d70",
+    "product-grid",
+    "rich_text_UmMiV9",
+    "multicolumn_w3gfhR",
+    "video_with_text_zt3YdH",
+    "image_with_bulleted_text_MnHdrb",
+    "multicolumn_iPHKyM",
+    "image_with_bulleted_text_4rb4Vx",
+    "multicolumn_GMRghF",
+    "image_banner_ccjCYR",
+    "1734536635ac806ce3",
+    "multicolumn_YJKeFb",
+    "image_with_text_eDPcWf",
+    "image_with_bulleted_text_eJMgW7",
+    "image_with_text_FyCQbh",
+    "e1c2be8a-c503-489a-b63e-982e50c35a28",
+    "rich_text_KG9hfa"
+  ]
+}

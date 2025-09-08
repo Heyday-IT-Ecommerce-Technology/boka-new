@@ -695,7 +695,7 @@
           "disabled": true,
           "settings": {
             "button_label_1": "SHOP NOW",
-            "button_link_1": "shopify://collections/boka-well",
+            "button_link_1": "shopify://collections/boka-probiotics",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -853,7 +853,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/boka-well",
+            "button_link": "shopify://collections/boka-probiotics",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -976,7 +976,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify://collections/boka-well",
+            "button_link": "shopify://collections/boka-probiotics",
             "second_button_label": "",
             "second_button_link": ""
           }
