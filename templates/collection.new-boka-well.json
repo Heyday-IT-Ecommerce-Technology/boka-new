@@ -1225,6 +1225,7 @@
         "feature_XhfAkf",
         "feature_W9kUBn"
       ],
+      "disabled": true,
       "name": "Image with feature icons",
       "settings": {
         "section_title": "Why Probiotics",
@@ -1241,6 +1242,131 @@
         "icon_size": 60,
         "text_alignment": "center",
         "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
+      }
+    },
+    "custom_image_icon_background_rpMBgD": {
+      "type": "custom-image-icon-background",
+      "blocks": {
+        "heading_Mb36CQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "What’s Inside Probiotic Toothpaste?",
+            "heading_size": "h1",
+            "heading_font_size_desktop": 48,
+            "heading_font_size_mobile": 30,
+            "heading_tag": "default"
+          }
+        },
+        "text_BNLwfx": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_GyXbeC": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Oral_Probiotics.webp",
+            "icon_alt": "Oral Probiotics",
+            "heading": "Oral Probiotics",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Add your text content here that will appear next to the icon.</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_aU79cm": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/n-Ha.webp",
+            "icon_alt": "Oral Probiotics",
+            "heading": "Nano-Hydroxyapatite",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Mimics tooth enamel</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_btHmUz": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
+            "icon_alt": "Xylitol",
+            "heading": "Xylitol",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Fights Bacteria</p>",
+            "text_style": "body"
+          }
+        },
+        "icon_text_wpeLjF": {
+          "type": "icon_text",
+          "settings": {
+            "icon": "shopify://shop_images/peppermint.webp",
+            "icon_alt": "Botanical Extracts",
+            "heading": "Botanical Extracts",
+            "heading_font_size_desktop": 25,
+            "text_font_size_desktop": 18,
+            "heading_font_size_mobile": 21,
+            "text_font_size_mobile": 16,
+            "text": "<p>Provide refreshing flavors</p>",
+            "text_style": "body"
+          }
+        },
+        "button_NDg84f": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "second_button_label": "",
+            "second_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_Mb36CQ",
+        "text_BNLwfx",
+        "icon_text_GyXbeC",
+        "icon_text_aU79cm",
+        "icon_text_btHmUz",
+        "icon_text_wpeLjF",
+        "button_NDg84f"
+      ],
+      "name": "Image/gif icon bg text",
+      "settings": {
+        "media_type": "image",
+        "image": "shopify://shop_images/Ingredients_Section_Desktop.png",
+        "mobile_image": "shopify://shop_images/Ingredients_Section_Mobile_2.webp",
+        "background_video": "",
+        "video_overlay_opacity": 30,
+        "desktop_content_alignment": "left",
+        "text_color": "#FFFFFF",
+        "container_text_color": "#000000",
+        "icon_heading_color": "#000000",
+        "icon_text_color": "#666666",
+        "mobile_text_color": "#000000",
+        "mobile_container_text_color": "#000000",
+        "mobile_icon_heading_color": "#000000",
+        "mobile_icon_text_color": "#666666",
+        "container_background_color": "#FFFFFF",
+        "container_border_radius": 12,
+        "icon_size": 60,
+        "section_background_color": "#FFFFFF",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_top_tablet": 40,
+        "padding_bottom_tablet": 40,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20
       }
     },
     "e1c2be8a-c503-489a-b63e-982e50c35a28": {
@@ -1560,6 +1686,7 @@
     "image_with_text_FyCQbh",
     "gif_icons_with_text_6HgdDN",
     "image_with_icons_FMNdet",
+    "custom_image_icon_background_rpMBgD",
     "e1c2be8a-c503-489a-b63e-982e50c35a28",
     "rich_text_KG9hfa"
   ]
