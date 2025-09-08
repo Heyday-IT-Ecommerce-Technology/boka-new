@@ -357,7 +357,7 @@
           "type": "button",
           "settings": {
             "button_label": "FEEL THE FRESHNESS",
-            "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+            "button_link": "#ProductInfo-template--16692648476715__main",
             "second_button_label": "",
             "second_button_link": ""
           }
@@ -525,7 +525,7 @@
         "background_style": "none",
         "full_width_enabled": true,
         "button_label": "BEGIN YOUR ROUTINE",
-        "button_link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste",
+        "button_link": "#ProductInfo-template--16692648476715__main",
         "fadein_enabled": false,
         "column_heading_background_color": "",
         "color_scheme": "custom",
