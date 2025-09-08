@@ -164,7 +164,7 @@
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 24,
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -1019,8 +1019,81 @@
     "e1c2be8a-c503-489a-b63e-982e50c35a28": {
       "type": "collapsible-content",
       "blocks": {
+        "collapsible_row_ed4iBM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is Boka Probiotic Toothpaste?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka Probiotic is a fluoride-free toothpaste formulated with clinically studied Lactobacillus paracasei probiotics. It supports a healthy oral microbiome.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CnUTUY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do probiotics benefit oral health?",
+            "icon": "question_mark",
+            "row_content": "<p>Probiotics balance the oral microbiome, helping good bacteria thrive for oral wellness.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zFD9EP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What makes Boka Probiotic Toothpaste different from regular toothpaste?",
+            "icon": "question_mark",
+            "row_content": "<p>Boka combines probiotics with nano-hydroxyapatite (n-Ha), a breakthrough mineral that mimics tooth enamel. It’s a fluoride-free alternative that’s suitable for daily use and has been researched for decades.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_WcCzcQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What flavors are available?",
+            "icon": "question_mark",
+            "row_content": "<p>Choose from two flavors: Citrus Mint and Peppermint Blossom. Both mood-enhancing and fresh for your breath.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4Gr9nx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Probiotics Toothpaste safe for sensitive teeth?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, it’s gentle enough for sensitive teeth while still delivering the benefits of probiotics and n-Ha.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nmN7Ed": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use Boka Probiotic Toothpaste alongside my regular oral care routine?",
+            "icon": "question_mark",
+            "row_content": "<p>Absolutely! You can use it as part of your daily brushing routine. It complements your existing oral care habits while supporting oral wellness with the power of probiotics.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RpiabC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Probiotic Toothpaste safe for all ages?",
+            "icon": "question_mark",
+            "row_content": "<p>Yes, it is safe for adults and children. However, if you have specific concerns, it’s always best to consult a dentist or healthcare professional.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3rDxHW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does Boka Probiotic Toothpaste contain any harmful ingredients?",
+            "icon": "question_mark",
+            "row_content": "<p>No, it’s free from fluoride, sulfates, parabens, artificial flavors, and colors. It’s a clean, biocompatible formula. Just clean, safe ingredients for your oral health.</p>",
+            "page": ""
+          }
+        },
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What is Boka Well?",
             "icon": "question_mark",
@@ -1030,6 +1103,7 @@
         },
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How do prebiotics and probiotics benefit oral health?",
             "icon": "question_mark",
@@ -1039,6 +1113,7 @@
         },
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Can I use Boka Well with my regular toothpaste?",
             "icon": "question_mark",
@@ -1048,6 +1123,7 @@
         },
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Is Boka Well safe for all ages?",
             "icon": "question_mark",
@@ -1057,6 +1133,7 @@
         },
         "16ab04bf-3b77-4c35-b24e-778a14934e1f": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How should I take Boka Well supplements?",
             "icon": "question_mark",
@@ -1066,6 +1143,7 @@
         },
         "collapsible_row_JzDKce": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Are there any side effects associated with Boka Well?",
             "icon": "question_mark",
@@ -1075,6 +1153,7 @@
         },
         "collapsible_row_g8ymPC": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Can Boka Well improve my breath?",
             "icon": "question_mark",
@@ -1084,6 +1163,7 @@
         },
         "collapsible_row_xaLYbg": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Do Boka Well supplements require refrigeration?",
             "icon": "question_mark",
@@ -1093,6 +1173,7 @@
         },
         "collapsible_row_YWDyjn": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Can I take Boka Well supplements if I have dietary restrictions?",
             "icon": "question_mark",
@@ -1102,6 +1183,7 @@
         },
         "collapsible_row_6kc8xV": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What’s the difference between Pro Stix and Vital Bite?",
             "icon": "question_mark",
@@ -1111,6 +1193,7 @@
         },
         "collapsible_row_Ymn7JG": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Do Boka Well products contain live probiotic cultures?",
             "icon": "question_mark",
@@ -1120,6 +1203,7 @@
         },
         "collapsible_row_cjXFKa": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "Are both of these okay to swallow?",
             "icon": "question_mark",
@@ -1129,6 +1213,7 @@
         },
         "collapsible_row_BXWHmA": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How soon will we start seeing results with Boka Well?",
             "icon": "question_mark",
@@ -1138,6 +1223,7 @@
         },
         "collapsible_row_nNfbar": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "How long should we use it to get the best results? A week? A month?",
             "icon": "question_mark",
@@ -1147,6 +1233,14 @@
         }
       },
       "block_order": [
+        "collapsible_row_ed4iBM",
+        "collapsible_row_CnUTUY",
+        "collapsible_row_zFD9EP",
+        "collapsible_row_WcCzcQ",
+        "collapsible_row_4Gr9nx",
+        "collapsible_row_nmN7Ed",
+        "collapsible_row_RpiabC",
+        "collapsible_row_3rDxHW",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-3",
@@ -1162,7 +1256,6 @@
         "collapsible_row_BXWHmA",
         "collapsible_row_nNfbar"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Frequently Asked Questions",
