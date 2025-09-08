@@ -1070,7 +1070,8 @@
         "image_yP9e4x"
       ],
       "custom_css": [
-        ".h1 {font-size: 48px !important;}"
+        ".h1 {font-size: 48px !important;}",
+        "p {font-size: 16px;}"
       ],
       "name": "Slideshow with Video",
       "settings": {
