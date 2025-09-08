@@ -1071,7 +1071,8 @@
       ],
       "custom_css": [
         ".h1 {font-size: 48px !important;}",
-        "p {font-size: 16px;}"
+        "p {font-size: 16px;}",
+        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important;}}"
       ],
       "name": "Slideshow with Video",
       "settings": {
