@@ -1376,7 +1376,6 @@
       "blocks": {
         "image_wLEBfN": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Say_Hi_To_Probiotics_Desktop_d933352a-bbdf-46f5-89ce-0cc091d95d6e.webp",
             "image_mobile": "shopify://shop_images/Say_Hi_To_Probiotics_Mobile_a3d4641b-ec3d-4b14-9cd5-f7c543713b90.webp",
@@ -1413,16 +1412,17 @@
       "block_order": [
         "image_wLEBfN"
       ],
+      "custom_css": [],
       "name": "Slideshow with Video",
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "medium",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
-        "enable_video_buttons": true,
+        "enable_video_buttons": false,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
-        "fadein_enabled": true,
+        "fadein_enabled": false,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
