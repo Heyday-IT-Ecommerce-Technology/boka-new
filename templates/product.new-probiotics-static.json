@@ -571,7 +571,7 @@
         "feature_description_font_size_desktop": 16,
         "feature_description_font_size_mobile": 16,
         "feature_description_text_color": "#000000",
-        "icon_size": 60,
+        "icon_size": 70,
         "text_alignment": "center",
         "product_image": "shopify://shop_images/BK_Claims_Banner_1.gif"
       }
@@ -1073,7 +1073,7 @@
       "custom_css": [
         ".h1 {font-size: 48px !important;}",
         "p {font-size: 18px;}",
-        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important; } p {font-size: 16px !important;}}"
+        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important; } p {font-size: 16px !important; }}"
       ],
       "name": "Slideshow with Video",
       "settings": {
