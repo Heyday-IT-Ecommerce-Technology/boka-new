@@ -347,7 +347,7 @@
             "heading_font_weight": "400",
             "heading_font_size_mobile": 21,
             "heading_font_size_desktop": 25,
-            "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral ylang ylang.</p>",
+            "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral Ylang-ylang.</p>",
             "text_style": "body",
             "text_font_size_mobile": 16,
             "text_font_size_desktop": 18
@@ -518,7 +518,7 @@
             "position": "top-left",
             "icon": "shopify://shop_images/Icon_1.svg",
             "title": "Probiotic Power",
-            "description": "Lactobacillus paracasei probiotics support healthy bacteria, contributing to oral wellness."
+            "description": "<em>Lactobacillus paracasei</em> probiotics support healthy bacteria, contributing to oral wellness."
           }
         },
         "feature_hKPKij": {
@@ -536,7 +536,7 @@
             "position": "bottom-left",
             "icon": "shopify://shop_images/Icon_3.svg",
             "title": "Supports Good Bacteria Growth",
-            "description": "hey nurture good bacteria, supporting your body’s natural defense system."
+            "description": "They nurture good bacteria, supporting your body’s natural defense system."
           }
         },
         "feature_KhKEJz": {
