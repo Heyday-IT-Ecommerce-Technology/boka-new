@@ -856,7 +856,8 @@
         "button_d7Kj9t"
       ],
       "custom_css": [
-        ".icon-text-item__content {text-align: left;}"
+        ".icon-text-item__content {text-align: left;}",
+        "@media only screen and (max-width: 720px) {.image-with-text__heading {text-align: center;}}"
       ],
       "name": "Image icon bg text",
       "settings": {
@@ -1072,7 +1073,7 @@
       "custom_css": [
         ".h1 {font-size: 48px !important;}",
         "p {font-size: 16px;}",
-        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important;}}"
+        "@media only screen and (max-width: 720px) {.h1 {font-size: 30px !important; }}"
       ],
       "name": "Slideshow with Video",
       "settings": {
