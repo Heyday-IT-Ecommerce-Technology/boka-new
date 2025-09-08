@@ -275,7 +275,7 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "color_scheme": "custom",
@@ -409,7 +409,7 @@
           "settings": {
             "position": "top-left",
             "icon": "shopify://shop_images/Icon_1.svg",
-            "title": "Promotes Oral <br> Wellness",
+            "title": "Promotes Oral  Wellness",
             "description": ""
           }
         },
@@ -418,7 +418,7 @@
           "settings": {
             "position": "top-right",
             "icon": "shopify://shop_images/Icon_2.svg",
-            "title": "Helps Balance <br> Oral Microbiome",
+            "title": "Helps Balance  Oral Microbiome",
             "description": ""
           }
         },
@@ -427,7 +427,7 @@
           "settings": {
             "position": "bottom-left",
             "icon": "shopify://shop_images/Icon_3.svg",
-            "title": "Supports Good <br> Bacteria Growth",
+            "title": "Supports Good  Bacteria Growth",
             "description": ""
           }
         },
@@ -673,7 +673,7 @@
             "heading_tag": "default",
             "subheading": "Probiotics are more than just for your gut. Boka’s Probiotic Toothpaste is thoughtfully formulated to support your oral microbiome, helping it nourish and flourish.",
             "button_label": "TRY NOW",
-            "link": "#ProductInfo-template--16481886896171__main",
+            "link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste",
             "button_style_secondary": false,
             "button_label2": "",
             "link2": "",
