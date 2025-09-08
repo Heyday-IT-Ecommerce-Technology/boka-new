@@ -71,7 +71,7 @@
                     {% else %}
                       href="{{ block.settings.button_link }}"
                     {% endif %}
-                    class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                    class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %} {% if page.handle == 'dental-innovation-forum' %}klaviyo_form_trigger {% endif %}"
                   >
                     {{- block.settings.button_label | escape -}}
                   </a>
@@ -95,6 +95,13 @@
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+	document.querySelector('.klaviyo_form_trigger').addEventListener('click', function (){
+		window._klOnsite = window._klOnsite || []; 
+		window._klOnsite.push(['openForm', 'X2GpR4']);
+	});
+</script>
 
 {% schema %}
 {
