@@ -164,6 +164,9 @@
         "collapsible_tab_iwBANr",
         "collapsible_tab_NnPN3E"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 1100px) {.icon-with-text--inlined {justify-content: unset; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
