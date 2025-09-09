@@ -226,6 +226,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".learn-more {display: none !important;}"
+      ],
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 3,
