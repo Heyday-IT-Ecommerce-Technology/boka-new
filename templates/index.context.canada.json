@@ -1,1 +1,120 @@
-{"parent":"index.json","context":{"market":"canada"},"sections":{"quick_button_caEbwf":{"settings":{},"blocks":{"button_FhD7Dx":{"disabled":false,"settings":{"button_text":"Refresh Mint Whitening","button_link":"https:\/\/www.boka.com\/products\/refresh-mint-whitening-toothpaste"}},"button_TdRgtz":{"type":"button","disabled":false,"settings":{"button_text":"Ela Mint Toothpaste","button_link":"https:\/\/www.boka.com\/products\/ela-mint-toothpaste"}},"button_M9e73G":{"type":"button","disabled":false,"settings":{"button_text":"Toothpaste","button_link":"https:\/\/www.boka.com\/collections\/nano-hydroxyapatite_n-ha_toothpaste"}}},"block_order":["button_FhD7Dx","button_TdRgtz","button_M9e73G","button_gnHgxC"]},"e88125fd-54b1-4dc4-a7be-094d886854f5":{"settings":{},"blocks":{"image_RJU7Ux":{"settings":{"image":"shopify:\/\/shop_images\/Homepage_Desktop_1.png","image_mobile":"shopify:\/\/shop_images\/Homepage_Mobile_1.png","heading":"Smile Brighter, Canada—We Now Ship to You!","image_link":"shopify:\/\/products\/refresh-mint-whitening-toothpaste","subheading":"Boka now delivers clean, effective oral care right to your doorstep, from coast to coast!","link":"shopify:\/\/products\/refresh-mint-whitening-toothpaste"}}}},"486363a0-4f38-49ec-8de8-3bcdfd569298":{"settings":{"products_to_show":4,"enable_desktop_slider":false,"columns_mobile":"2","swipe_on_mobile":false},"blocks":{}},"3d719ebc-5747-4557-bde5-5de02b7b2fc5":{"settings":{},"blocks":{"template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-0":{"disabled":true,"settings":{}},"73c0b949-e66d-4387-afc1-9a703b3d17ea":{"disabled":true,"settings":{}},"template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-1":{"disabled":true,"settings":{}},"template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-2":{"disabled":true,"settings":{}},"bd853185-e53c-409b-b649-7bfe232991ed":{"disabled":true,"settings":{}}}},"6f7f3f41-c0cd-4ccc-959f-70c21729812b":{"settings":{},"blocks":{"5cf37aee-fda8-45af-be01-89c02f1550fe":{"settings":{"image":"shopify:\/\/shop_images\/BOK_1205_HPBanner_WhiteningToothpaste1pk_Opt2_Desktop.jpg","image_mobile":"shopify:\/\/shop_images\/BOK_1205_HPBanner_WhiteningToothpaste1pk_Opt2_Mobile.png","heading":"Now Shipping to Canada","subheading":"We are excited to offer shipping to Canada for all Boka toothpaste!","button_label":"Shop n-Ha Toothpaste","link":"shopify:\/\/collections\/nano-hydroxyapatite_n-ha_toothpaste"}}}}}}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "market": "canada"
+  },
+  "sections": {
+    "quick_button_caEbwf": {
+      "settings": {},
+      "blocks": {
+        "button_FhD7Dx": {
+          "disabled": false,
+          "settings": {
+            "button_text": "Refresh Mint Whitening",
+            "button_link": "https://www.boka.com/products/refresh-mint-whitening-toothpaste"
+          }
+        },
+        "button_TdRgtz": {
+          "type": "button",
+          "disabled": false,
+          "settings": {
+            "button_text": "Ela Mint Toothpaste",
+            "button_link": "https://www.boka.com/products/ela-mint-toothpaste"
+          }
+        },
+        "button_M9e73G": {
+          "type": "button",
+          "disabled": false,
+          "settings": {
+            "button_text": "Toothpaste",
+            "button_link": "https://www.boka.com/collections/nano-hydroxyapatite_n-ha_toothpaste"
+          }
+        }
+      },
+      "block_order": [
+        "button_FhD7Dx",
+        "button_TdRgtz",
+        "button_M9e73G",
+        "button_gnHgxC"
+      ]
+    },
+    "e88125fd-54b1-4dc4-a7be-094d886854f5": {
+      "settings": {},
+      "blocks": {
+        "image_RJU7Ux": {
+          "settings": {
+            "image": "shopify://shop_images/Homepage_Desktop_1.png",
+            "image_mobile": "shopify://shop_images/Homepage_Mobile_1.png",
+            "heading": "Smile Brighter, Canada—We Now Ship to You!",
+            "image_link": "shopify://products/refresh-mint-whitening-toothpaste",
+            "subheading": "Boka now delivers clean, effective oral care right to your doorstep, from coast to coast!",
+            "link": "shopify://products/refresh-mint-whitening-toothpaste"
+          }
+        }
+      }
+    },
+    "486363a0-4f38-49ec-8de8-3bcdfd569298": {
+      "settings": {
+        "products_to_show": 4,
+        "enable_desktop_slider": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false
+      },
+      "blocks": {}
+    },
+    "3d719ebc-5747-4557-bde5-5de02b7b2fc5": {
+      "settings": {},
+      "blocks": {
+        "73c0b949-e66d-4387-afc1-9a703b3d17ea": {
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-0": {
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-1": {
+          "disabled": true,
+          "settings": {}
+        },
+        "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-2": {
+          "disabled": true,
+          "settings": {}
+        },
+        "bd853185-e53c-409b-b649-7bfe232991ed": {
+          "disabled": true,
+          "settings": {}
+        }
+      }
+    },
+    "6f7f3f41-c0cd-4ccc-959f-70c21729812b": {
+      "settings": {},
+      "blocks": {
+        "5cf37aee-fda8-45af-be01-89c02f1550fe": {
+          "settings": {
+            "image": "shopify://shop_images/BOK_1205_HPBanner_WhiteningToothpaste1pk_Opt2_Desktop.jpg",
+            "image_mobile": "shopify://shop_images/BOK_1205_HPBanner_WhiteningToothpaste1pk_Opt2_Mobile.png",
+            "heading": "Now Shipping to Canada",
+            "subheading": "We are excited to offer shipping to Canada for all Boka toothpaste!",
+            "button_label": "Shop n-Ha Toothpaste",
+            "link": "shopify://collections/nano-hydroxyapatite_n-ha_toothpaste"
+          }
+        }
+      }
+    },
+    "multicolumn_BWCRzU": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {}
+    }
+  }
+}
