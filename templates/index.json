@@ -120,19 +120,20 @@
       "blocks": {
         "image_RJU7Ux": {
           "type": "image",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
-            "image_mobile": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
-            "heading": "Something's Blooming...",
-            "image_link": "https://www.boka.com/pages/new-product-teaser",
+            "image": "shopify://shop_images/HP-Main-Banner-Desktop.gif",
+            "image_mobile": "shopify://shop_images/HP-Main-Banner-Mobile.gif",
+            "heading": "Nourish & Flourish",
+            "image_link": "shopify://collections/boka-probiotics",
             "heading_size": "h1",
             "heading_tag": "default",
-            "subheading": "A revolutionary oral care upgrade is coming on Sept 9. <br> Get ready to flourish from within.",
-            "button_label": "LEARN MORE",
-            "link": "https://www.boka.com/pages/new-product-teaser",
+            "subheading": "Support your oral microbiome with fluoride-free, probiotic toothpaste.",
+            "button_label": "SHOP NOW",
+            "link": "shopify://collections/boka-probiotics",
             "button_style_secondary": false,
             "button_label2": "",
-            "link2": "https://www.boka.com/pages/new-product-teaser",
+            "link2": "shopify://collections/boka-probiotics",
             "button_style_secondary2": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -156,7 +157,6 @@
       "block_order": [
         "image_RJU7Ux"
       ],
-      "disabled": true,
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
@@ -394,6 +394,15 @@
     "3d719ebc-5747-4557-bde5-5de02b7b2fc5": {
       "type": "collection-list",
       "blocks": {
+        "73c0b949-e66d-4387-afc1-9a703b3d17ea": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "boka-probiotics",
+            "image": "shopify://shop_images/Collection_Banner.webp",
+            "image_mobile": "shopify://shop_images/Collection_Banner.webp",
+            "custom_title": "BOKA PROBIOTICS"
+          }
+        },
         "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-0": {
           "type": "featured_collection",
           "settings": {
@@ -401,15 +410,6 @@
             "image": "shopify://shop_images/Boka_Homepage_PLP_Toothpaste_320x310_ec97aedc-afa7-484f-8101-33264d28481e.jpg",
             "image_mobile": "shopify://shop_images/Boka_Homepage_PLP_Toothpaste_320x310_f5b962e8-e57f-4d92-ae0a-323bdfd0ca32.jpg",
             "custom_title": "TOOTHPASTE"
-          }
-        },
-        "73c0b949-e66d-4387-afc1-9a703b3d17ea": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "boka-probiotics",
-            "image": "shopify://shop_images/boka-well-hp.jpg",
-            "image_mobile": "shopify://shop_images/boka-well-hp.jpg",
-            "custom_title": "BOKA WELL"
           }
         },
         "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-1": {
@@ -441,8 +441,8 @@
         }
       },
       "block_order": [
-        "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-0",
         "73c0b949-e66d-4387-afc1-9a703b3d17ea",
+        "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-0",
         "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-1",
         "template--15124824358955__3d719ebc-5747-4557-bde5-5de02b7b2fc5-168429602056114b30-2",
         "bd853185-e53c-409b-b649-7bfe232991ed"
@@ -513,6 +513,7 @@
       "block_order": [
         "5cf37aee-fda8-45af-be01-89c02f1550fe"
       ],
+      "disabled": true,
       "custom_css": [
         "@media only screen and (max-width: 749px) {.banner__buttons {width: 100%; justify-content: center; } .banner__buttons > a.button.button--primary {max-width: 155px; }}"
       ],
@@ -730,6 +731,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#ffffff",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -786,6 +793,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
