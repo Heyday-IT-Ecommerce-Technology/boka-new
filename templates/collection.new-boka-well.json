@@ -1196,7 +1196,7 @@
           "settings": {
             "position": "top-right",
             "icon": "shopify://shop_images/Icon_2.svg",
-            "title": "Designed for the <br> Oral Microbiome",
+            "title": "Designed for the  Oral Microbiome",
             "description": ""
           }
         },
@@ -1339,6 +1339,10 @@
         "icon_text_btHmUz",
         "icon_text_wpeLjF",
         "button_NDg84f"
+      ],
+      "custom_css": [
+        ".icon-text-item__content {text-align: left;}",
+        "@media only screen and (max-width: 749px) {.image-with-text__heading {text-align: center; }}"
       ],
       "name": "Image/gif icon bg text",
       "settings": {
