@@ -409,7 +409,7 @@
           "settings": {
             "position": "top-left",
             "icon": "shopify://shop_images/Icon_1.svg",
-            "title": "Promotes Oral  Wellness",
+            "title": "Promotes Oral <br>  Wellness",
             "description": ""
           }
         },
@@ -427,7 +427,7 @@
           "settings": {
             "position": "bottom-left",
             "icon": "shopify://shop_images/Icon_3.svg",
-            "title": "Supports Good  Bacteria Growth",
+            "title": "Supports Good <br>  Bacteria Growth",
             "description": ""
           }
         },
