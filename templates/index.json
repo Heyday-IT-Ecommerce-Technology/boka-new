@@ -176,27 +176,38 @@
         "column_BK9wUp": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/KN_Promo_Banner_Free_Shipping_NTB_02.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Featured_Banner_Citrus_Mint.webp",
+            "title": "<strong>Say </strong><em><strong>Hello</strong></em><strong> to Citrus Mint Probiotic Toothpaste</strong>",
+            "text": "<p>Invigorate your senses with a blend of orange, lime, eucalyptus, and subtle nutmeg.</p>",
             "link_label": "SHOP NOW",
-            "link": "shopify://collections/best-sellers"
+            "link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste"
           }
         },
         "column_xWWrJU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/KN_Promo_Banner_Free_Shipping_NTB_02.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/Featured_Banner_Peppermint_Blossom.webp",
+            "title": "<strong>Say </strong><em><strong>Hello</strong></em><strong> to Peppermint Blossom Probiotic Toothpaste</strong>",
+            "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral Ylang-ylang.</p>",
             "link_label": "SHOP NOW",
-            "link": "shopify://collections/best-sellers"
+            "link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste"
+          }
+        },
+        "column_mW3K7M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Featured_Banner_Bundle.webp",
+            "title": "<em><strong>Stock Up</strong></em><strong> On Microbiome Goodness!</strong>",
+            "text": "<p>Whether you’re in the mood for invigorating Citrus Mint or calming Peppermint Blossom, this flavor bundle is for you. </p>",
+            "link_label": "SHOP NOW",
+            "link": "shopify://products/probiotics-bundles"
           }
         }
       },
       "block_order": [
         "column_BK9wUp",
-        "column_xWWrJU"
+        "column_xWWrJU",
+        "column_mW3K7M"
       ],
       "disabled": true,
       "name": "t:sections.multicolumn.presets.name",
@@ -206,7 +217,7 @@
         "heading_tag": "default",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
         "full_width_enabled": false,
@@ -221,9 +232,9 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
+        "padding_bottom_mobile": 0
       }
     },
     "rich_text_fiC9M9": {
