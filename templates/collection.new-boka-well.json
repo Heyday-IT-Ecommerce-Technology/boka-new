@@ -1428,6 +1428,39 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_collection_VdNhaB": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "<em>Complete </em>Your Routine",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "e1c2be8a-c503-489a-b63e-982e50c35a28": {
       "type": "collapsible-content",
       "blocks": {
@@ -1746,6 +1779,7 @@
     "image_with_icons_FMNdet",
     "custom_image_icon_background_rpMBgD",
     "video_slideshow_8DrCP9",
+    "featured_collection_VdNhaB",
     "e1c2be8a-c503-489a-b63e-982e50c35a28",
     "rich_text_KG9hfa"
   ]
