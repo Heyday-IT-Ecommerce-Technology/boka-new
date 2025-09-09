@@ -1,1 +1,165 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"2","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_TQFrGX": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_B3rHBg": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_bET7mV": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_A7arqw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_PHBRCD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_VTVBYW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_dKAUG7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_Qwc6F8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "question_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_B3rHBg",
+        "collapsible_row_bET7mV",
+        "collapsible_row_A7arqw",
+        "collapsible_row_PHBRCD",
+        "collapsible_row_VTVBYW",
+        "collapsible_row_dKAUG7",
+        "collapsible_row_Qwc6F8"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_TQFrGX"
+  ]
+}
