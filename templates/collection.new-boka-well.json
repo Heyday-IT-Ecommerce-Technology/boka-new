@@ -1297,6 +1297,7 @@
         },
         "icon_text_btHmUz": {
           "type": "icon_text",
+          "disabled": true,
           "settings": {
             "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
             "icon_alt": "Xylitol",
