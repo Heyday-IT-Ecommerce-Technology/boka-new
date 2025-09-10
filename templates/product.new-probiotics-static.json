@@ -141,7 +141,7 @@
           "settings": {
             "heading": "Ingredients",
             "icon": "none",
-            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Xylitol, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
+            "content": "<p>Water, Glycerin, Hydrated Silica, Sorbitol, Silica, Hydroxyapatite*, Sodium Benzoate, Contains bacteria-fighting properties, Sodium Lauroyl Sarcosinate, Natural Flavor, Xanthan Gum, Maltodextrin, Lactobacillus paracasei, Dimethyl Sulfone, Stevia Rebaudiana Leaf/Stem Extract, Sodium Bicarbonate, Menthol, Aloe Barbadensis Leaf Juice, Camellia Sinensis Leaf Extract, Cucumis Sativus (Cucumber) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Persea Gratissima (Avocado) Fruit Extract. *Nano</p>",
             "page": ""
           }
         }
@@ -586,15 +586,16 @@
         },
         "icon_text_xamHLj": {
           "type": "icon_text",
+          "disabled": true,
           "settings": {
             "icon": "shopify://shop_images/Xylitol_0a156128-a9e5-4feb-89d7-05e92eac49e3.webp",
             "icon_alt": "Icon",
-            "heading": "Xylitol",
+            "heading": "Contains bacteria-fighting properties",
             "heading_font_size_desktop": 25,
             "text_font_size_desktop": 18,
             "heading_font_size_mobile": 21,
             "text_font_size_mobile": 16,
-            "text": "<p>Fights bacteria</p>",
+            "text": "",
             "text_style": "body"
           }
         },
