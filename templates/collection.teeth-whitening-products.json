@@ -1,1 +1,189 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"2","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","bg_image_link":"","card_image_url":"","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"collapsible_content_GaTyNb":{"type":"collapsible-content","blocks":{"collapsible_row_GGcFRf":{"type":"collapsible_row","settings":{"heading":"Are teeth whitening products safe to use?","icon":"none","row_content":"<p>Generally, teeth whitening products are safe when used as directed. However, it's essential to follow the instructions provided with the product to avoid potential side effects such as tooth sensitivity or gum irritation.<\/p>","page":""}},"collapsible_row_aJYYmM":{"type":"collapsible_row","settings":{"heading":"How long does it take to see results?","icon":"none","row_content":"<p>The timeframe for noticeable results can vary depending on the product and the severity of staining. Some products may show results after a few uses, while others may take several weeks of consistent use.<\/p>","page":""}},"collapsible_row_cKabND":{"type":"collapsible_row","settings":{"heading":"How long do the effects of teeth whitening last?","icon":"none","row_content":"<p>The duration of whitening effects can vary depending on factors such as diet, oral hygiene habits, and lifestyle choices (like smoking or consuming staining foods and beverages). In general, the effects of teeth whitening can last from several months to a year or more.<\/p>","page":""}},"collapsible_row_EycrT9":{"type":"collapsible_row","disabled":true,"settings":{"heading":"What teeth whitening products does Boka offer?","icon":"none","row_content":"<p>We offer <a href=\"https:\/\/www.boka.com\/products\/refresh-mint-whitening-toothpaste\"><span style=\"text-decoration:underline\">whitening toothpaste<\/span><\/a>, <a href=\"https:\/\/www.boka.com\/products\/whitening-strips\"><span style=\"text-decoration:underline\">whitening strips<\/span><\/a>, <a href=\"https:\/\/www.boka.com\/products\/express-glow-whitening-pen\"><span style=\"text-decoration:underline\">whitening pens<\/span><\/a>, and <a href=\"https:\/\/www.boka.com\/collections\/bright-and-white\/products\/rapid-radiance-teeth-whitening-kit\"><span style=\"text-decoration:underline\">whitening kits<\/span><\/a>.<\/p>","page":""}},"collapsible_row_94KUp6":{"type":"collapsible_row","disabled":true,"settings":{"heading":"Are Boka's teeth whitening products suitable for sensitive teeth?","icon":"none","row_content":"<p>We offer options specifically designed for sensitive teeth, such as <a href=\"https:\/\/www.boka.com\/products\/whitening-strips\"><span style=\"text-decoration:underline\">Sensitive Smile Whitening Strips<\/span><\/a>. These products are formulated to minimize discomfort while effectively whitening teeth.<\/p>","page":""}},"collapsible_row_dWKePr":{"type":"collapsible_row","disabled":true,"settings":{"heading":"Do Boka's teeth whitening products contain fluoride?","icon":"none","row_content":"<p>Our products are fluoride-free and instead use nano-hydroxyapatite (n-Ha) for enamel remineralization and whitening.<\/p>","page":""}},"collapsible_row_6WT3dG":{"type":"collapsible_row","disabled":true,"settings":{"heading":"How does Boka's Express Glow Whitening Pen work?","icon":"none","row_content":"<p>Our whitening pen features a stain-busting whitening gel powered by Phthalimido-Peroxy-Caproic Acid (PAP) and nano-hydroxyapatite (n-Ha). It targets and eliminates compounds that cause teeth discoloration while forming a protective barrier over teeth.<\/p>","page":""}},"collapsible_row_3edWGM":{"type":"collapsible_row","disabled":true,"settings":{"heading":"How does Boka's Refresh Mint Teeth Whitening n-Ha Toothpaste work?","icon":"none","row_content":"<p>Our toothpaste contains nano-hydroxyapatite (n-Ha), a calcium compound that strengthens enamel and whitens teeth naturally. It's fluoride-free and safe for everyday use.<\/p>","page":""}}},"block_order":["collapsible_row_GGcFRf","collapsible_row_aJYYmM","collapsible_row_cKabND","collapsible_row_EycrT9","collapsible_row_94KUp6","collapsible_row_dWKePr","collapsible_row_6WT3dG","collapsible_row_3edWGM"],"settings":{"caption":"","heading":"Questions About Boka Teeth Whitening Products","heading_size":"h1","heading_tag":"default","heading_alignment":"center","description":"Are you curious about Boka Teeth Whitening Products? Don't worry; we've got you covered. Take a look at these frequently asked questions below to get the answers you need.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid","collapsible_content_GaTyNb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_GaTyNb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are teeth whitening products safe to use?",
+            "icon": "none",
+            "row_content": "<p>Yes, Boka’s teeth whitening products are thoughtfully formulated with carefully selected ingredients. Our whitening toothpaste and related products focus on natural solutions for daily use. When used as directed, these products help remove surface stains without the need for harsh bleaching agents</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJYYmM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long does it take to see results?",
+            "icon": "none",
+            "row_content": "<p>The timeframe for visible results can vary depending on the product and the degree of discoloration. Boka’s teeth whitening products are designed to help reduce the appearance of surface stains from foods, drinks, and daily habits over time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKabND": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long do the effects of teeth whitening last?",
+            "icon": "none",
+            "row_content": "<p>The duration of visible effects depends on lifestyle habits and how often staining substances are consumed. Continued use of Boka’s teeth whitening products may help reduce the appearance of surface stains over time. Unlike some bleaching treatments, Boka’s formulas use natural ingredients. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_BWhNk3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of Boka’s whitening products compared to other brands?",
+            "icon": "none",
+            "row_content": "<p>Unlike some over-the-counter whitening products with peroxide, Boka’s toothpaste and oral care collection offer a gentle option for those looking to reduce the appearance of surface stains from daily routines. Our products are formulated with carefully selected ingredients and provide a clean, refreshing mint flavor—without the need for LED light kits, bleaching gel, or other aggressive treatments.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EycrT9": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "What teeth whitening products does Boka offer?",
+            "icon": "none",
+            "row_content": "<p>We offer <a href=\"https://www.boka.com/products/refresh-mint-whitening-toothpaste\"><span style=\"text-decoration:underline\">whitening toothpaste</span></a>, <a href=\"https://www.boka.com/products/whitening-strips\"><span style=\"text-decoration:underline\">whitening strips</span></a>, <a href=\"https://www.boka.com/products/express-glow-whitening-pen\"><span style=\"text-decoration:underline\">whitening pens</span></a>, and <a href=\"https://www.boka.com/collections/bright-and-white/products/rapid-radiance-teeth-whitening-kit\"><span style=\"text-decoration:underline\">whitening kits</span></a>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_94KUp6": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Are Boka's teeth whitening products suitable for sensitive teeth?",
+            "icon": "none",
+            "row_content": "<p>We offer options specifically designed for sensitive teeth, such as <a href=\"https://www.boka.com/products/whitening-strips\"><span style=\"text-decoration:underline\">Sensitive Smile Whitening Strips</span></a>. These products are formulated to minimize discomfort while effectively whitening teeth.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dWKePr": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Do Boka's teeth whitening products contain fluoride?",
+            "icon": "none",
+            "row_content": "<p>Our products are fluoride-free and instead use nano-hydroxyapatite (n-Ha) for enamel remineralization and whitening.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6WT3dG": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How does Boka's Express Glow Whitening Pen work?",
+            "icon": "none",
+            "row_content": "<p>Our whitening pen features a stain-busting whitening gel powered by Phthalimido-Peroxy-Caproic Acid (PAP) and nano-hydroxyapatite (n-Ha). It targets and eliminates compounds that cause teeth discoloration while forming a protective barrier over teeth.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3edWGM": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "How does Boka's Refresh Mint Teeth Whitening n-Ha Toothpaste work?",
+            "icon": "none",
+            "row_content": "<p>Our toothpaste contains nano-hydroxyapatite (n-Ha), a calcium compound that strengthens enamel and whitens teeth naturally. It's fluoride-free and safe for everyday use.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGcFRf",
+        "collapsible_row_aJYYmM",
+        "collapsible_row_cKabND",
+        "collapsible_row_BWhNk3",
+        "collapsible_row_EycrT9",
+        "collapsible_row_94KUp6",
+        "collapsible_row_dWKePr",
+        "collapsible_row_6WT3dG",
+        "collapsible_row_3edWGM"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Boka Teeth Whitening Products",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "Are you curious about Boka Teeth Whitening Products? Don't worry; we've got you covered. Take a look at these frequently asked questions below to get the answers you need.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_GaTyNb"
+  ]
+}
