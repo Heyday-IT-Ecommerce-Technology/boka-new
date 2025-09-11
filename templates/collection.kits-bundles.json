@@ -1,1 +1,201 @@
-{"sections":{"e9540f45-142d-4b00-acd5-49caf5c23d70":{"type":"image-banner","blocks":{"template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0":{"type":"heading","settings":{"heading":"Kit up. Smile on.","heading_size":"h1","heading_tag":"default"}},"template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1":{"type":"text","settings":{"text":"We created these mouth-lovin’ combos just for you.","text_use_html":false,"text_html":"","text_style":"body"}}},"block_order":["template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0","template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1"],"disabled":true,"settings":{"enable_fullwidth":false,"image":"shopify:\/\/shop_images\/Boka_PLPBanner_Bundles_Desktop.png","image_mobile":"shopify:\/\/shop_images\/Boka_PLPBanner_Bundles_Mobile.png","image_overlay_opacity":0,"image_height":"small","image_height_mobile":"medium","desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"custom","custom_background_color":"#333333","custom_text_color":"#000000","button_background_color":"#000000","button_foreground_color":"#ffffff","image_behavior":"none","mobile_content_alignment":"center","mobile_content_position":"top","stack_images_on_mobile":false,"show_text_below":false,"padding_top":0,"padding_bottom":0,"padding_top_tablet":80,"padding_bottom_tablet":80,"padding_top_mobile":80,"padding_bottom_mobile":80}},"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"2","enable_merchandising_card":false,"card_bg_color":"#fae5db","card_text_color":"#000000","card_columns":"two","card_column_position":1,"card_row_position":3,"image_as_bg":true,"bg_image_position":"center","card_image_desktop":"shopify:\/\/shop_images\/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png","card_image_mobile":"shopify:\/\/shop_images\/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png","bg_image_link":"","card_image_url":"","card_text_alignment_desktop":"left","card_text_alignment_mobile":"left","card_text_position_desktop":"flex-start","card_text_position_mobile":"flex-start","card_title":"Pain-free whitening for sensitive smiles.","card_text":"<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.<\/p>","button_text":"SHOP NOW","button_url":"shopify:\/\/products\/rapid-radiance-teeth-whitening-kit","padding_top":0,"padding_bottom":0,"padding_top_mobile":0,"padding_bottom_mobile":0}},"f92fd29e-3a03-4402-a1ae-d52552ca3804":{"type":"collapsible-content","blocks":{"template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-1":{"type":"collapsible_row","settings":{"heading":"What is an oral care kit?","icon":"none","row_content":"<p>An oral care kit or dental care kit is a package containing essential dental hygiene items like toothbrushes, toothpaste, floss, mouthwash, and other such tools. It offers a complete set for maintaining oral health and promoting good hygiene practices.<\/p>","page":""}},"template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-2":{"type":"collapsible_row","settings":{"heading":"What are the benefits of using a dental care kit?","icon":"none","row_content":"<p>Using a dental care kit offers several benefits, including:<\/p><ul><li><strong>Comprehensive Care: <\/strong>Provides all necessary dental products in one package for thorough oral hygiene.<\/li><li><strong>Convenience: <\/strong>Streamlines your dental routine with easy access to all essentials.<\/li><li><strong>Healthy Habits: <\/strong>Encourages consistent dental habits, fostering long-term oral health.<\/li><li><strong>Cost-Effective: <\/strong>Often more affordable than purchasing individual products separately.<\/li><li><strong>Travel-Friendly: <\/strong>Compact kits are convenient for travel, ensuring oral care on the go.<\/li><\/ul>","page":""}},"template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-3":{"type":"collapsible_row","settings":{"heading":"What are the items included in Boka’s oral care kit?","icon":"none","row_content":"<p>Boka's complete oral care kit includes a comprehensive set of dental essentials:<\/p><ul><li><strong>Toothpaste:<\/strong> 1 tube, 4oz, for effective cleaning and freshness.<\/li><li><strong>Toothbrush: <\/strong>1 classic brush with activated charcoal bristles.<\/li><li><strong>Dental Floss: <\/strong>1 pack, 30 yards, for thorough interdental cleaning.<\/li><li><strong>Tongue Cleaner: <\/strong>1 Rasana Tongue Cleaner to improve oral hygiene.<\/li><li><strong>Mouthwash Tablets: <\/strong>1 pack, 90 tablets, of Restore Mouthwash for minty-fresh breathl.<\/li><\/ul><p>This complete kit ensures a thorough oral care routine, promoting healthy teeth and gums.<\/p>","page":""}}},"block_order":["template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-1","template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-2","template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-3"],"settings":{"caption":"","heading":"Questions About Oral Care Kit","heading_size":"h1","heading_tag":"h2","heading_alignment":"left","description":"Oral care kits are a great way to keep your teeth and gums healthy. In this FAQ section, we'll answer all your questions about oral care kits.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["e9540f45-142d-4b00-acd5-49caf5c23d70","banner","product-grid","f92fd29e-3a03-4402-a1ae-d52552ca3804"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e9540f45-142d-4b00-acd5-49caf5c23d70": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kit up. Smile on.",
+            "heading_size": "h1",
+            "heading_tag": "default"
+          }
+        },
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1": {
+          "type": "text",
+          "settings": {
+            "text": "We created these mouth-lovin’ combos just for you.",
+            "text_use_html": false,
+            "text_html": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-0",
+        "template--15161031983147__e9540f45-142d-4b00-acd5-49caf5c23d70-1686941015a949c762-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_fullwidth": false,
+        "image": "shopify://shop_images/Boka_PLPBanner_Bundles_Desktop.png",
+        "image_mobile": "shopify://shop_images/Boka_PLPBanner_Bundles_Mobile.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "image_height_mobile": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "custom",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#000000",
+        "button_background_color": "#000000",
+        "button_foreground_color": "#ffffff",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "mobile_content_position": "top",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_tablet": 80,
+        "padding_bottom_tablet": 80,
+        "padding_top_mobile": 80,
+        "padding_bottom_mobile": 80
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "enable_merchandising_card": false,
+        "card_bg_color": "#fae5db",
+        "card_text_color": "#000000",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 3,
+        "image_as_bg": true,
+        "bg_image_position": "center",
+        "card_image_desktop": "shopify://shop_images/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png",
+        "card_image_mobile": "shopify://shop_images/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "left",
+        "card_text_position_desktop": "flex-start",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "Pain-free whitening for sensitive smiles.",
+        "card_text": "<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.</p>",
+        "button_text": "SHOP NOW",
+        "button_url": "shopify://products/rapid-radiance-teeth-whitening-kit",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0
+      }
+    },
+    "f92fd29e-3a03-4402-a1ae-d52552ca3804": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is an oral care kit?",
+            "icon": "none",
+            "row_content": "<p>An oral care kit is a package with essentials like a toothbrush, toothpaste, floss, and mouthwash. These kits are designed to support your daily routine and offer a convenient way to keep your mouth clean, both at home and on the go.</p>",
+            "page": ""
+          }
+        },
+        "template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of using a dental care kit?",
+            "icon": "none",
+            "row_content": "<p>Using a dental care kit ensures several benefits, including:</p><ul><li><strong>Comprehensive Care: </strong>Provides all necessary dental products in one package for a simplified oral care routine.</li><li><strong>Convenience: </strong>Streamlines your dental routine with easy access to all essentials.</li><li><strong>Healthy Habits: </strong>Makes it easier to practice consistent brushing and flossing.</li><li><strong>Cost-Effective: </strong>Often more affordable than purchasing individual products separately.</li><li><strong>Travel-Friendly: </strong>Compact kits are convenient for travel, ensuring oral care on the go.</li></ul>",
+            "page": ""
+          }
+        },
+        "template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the items included in Boka’s oral care kit?",
+            "icon": "none",
+            "row_content": "<p>Boka's complete oral care kit includes a comprehensive set of dental essentials:</p><ul><li><strong>Toothpaste:</strong> 1 tube, 4oz, for effective cleaning and freshness.</li><li><strong>Toothbrush: </strong>1 classic brush with activated charcoal bristles.</li><li><strong>Dental Floss: </strong>1 pack, 30 yards, for thorough interdental cleaning.</li><li><strong>Tongue Cleaner: </strong>1 Rasana Tongue Cleaner to improve oral hygiene.</li><li><strong>Mouthwash Tablets: </strong>1 pack, 90 tablets, of Restore Mouthwash for minty-fresh breathl.</li></ul><p>This complete kit makes it easy to follow a thorough oral care routine every day.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pe8BYb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why choose Boka’s oral care bundle over buying items separately?",
+            "icon": "none",
+            "row_content": "<p>It’s a convenient solution that saves you time and keeps all your essentials in one place.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xQQDXF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do oral care kits support professional-level oral hygiene at home?",
+            "icon": "none",
+            "row_content": "<p>By using a toothbrush with activated charcoal bristles, fluoride-free toothpaste with nano-hydroxyapatite, gentle floss, and alcohol-free mouthwash, you can keep up your oral care routine between dentist visits.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-1",
+        "template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-2",
+        "template--15166705270827__f92fd29e-3a03-4402-a1ae-d52552ca3804-collapsible_row-3",
+        "collapsible_row_pe8BYb",
+        "collapsible_row_xQQDXF"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Oral Care Kit",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "heading_alignment": "left",
+        "description": "Explore our FAQs to learn how these thoughtfully designed bundles can simplify your routine with professional-grade essentials for a clean, fresh mouth.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "e9540f45-142d-4b00-acd5-49caf5c23d70",
+    "banner",
+    "product-grid",
+    "f92fd29e-3a03-4402-a1ae-d52552ca3804"
+  ]
+}
