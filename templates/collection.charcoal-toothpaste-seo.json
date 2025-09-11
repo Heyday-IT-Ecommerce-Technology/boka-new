@@ -1,1 +1,154 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"1","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"collapsible_content_GaTyNb":{"type":"collapsible-content","blocks":{"collapsible_row_GGcFRf":{"type":"collapsible_row","settings":{"heading":"What is activated charcoal, and how does it work in toothpaste?","icon":"none","row_content":"<p>Activated charcoal is a fine black powder that is highly absorbent. It helps remove surface stains and toxins from your teeth and gums.<\/p>","page":""}},"collapsible_row_aJYYmM":{"type":"collapsible_row","settings":{"heading":"What is n-Ha, and what are its benefits for teeth?","icon":"none","row_content":"<p>Nano-hydroxyapatite (n-Ha) is a naturally occurring mineral that is the main component of tooth enamel. It helps to strengthen and rebuild enamel, reduce sensitivity, and promote overall oral health.<\/p>","page":""}},"collapsible_row_cKabND":{"type":"collapsible_row","settings":{"heading":"Is this toothpaste safe for daily use?","icon":"none","row_content":"<p>Yes, our Charcoal Yuzu Mint Whitening n-Ha Toothpaste is safe for daily use. It has a low abrasivity rating of 72 and is formulated with gentle polishing agents to protect your enamel.<\/p>","page":""}},"collapsible_row_EycrT9":{"type":"collapsible_row","settings":{"heading":"Can I use this toothpaste if I have sensitive teeth?","icon":"none","row_content":"<p>Absolutely! n-Ha is known to help reduce tooth sensitivity, making this toothpaste a great choice for those with sensitive teeth.<\/p>","page":""}},"collapsible_row_94KUp6":{"type":"collapsible_row","settings":{"heading":"Does this toothpaste contain fluoride?","icon":"none","row_content":"<p>No, our toothpaste is fluoride-free. It utilizes n-Ha for remineralization and strengthening of teeth.<\/p>","page":""}},"collapsible_row_RLi9jR":{"type":"collapsible_row","settings":{"heading":"Is this toothpaste vegan and cruelty-free?","icon":"none","row_content":"<p>Yes, our toothpaste is both vegan and cruelty-free. We do not use any animal-derived ingredients or test on animals.<\/p>","page":""}}},"block_order":["collapsible_row_GGcFRf","collapsible_row_aJYYmM","collapsible_row_cKabND","collapsible_row_EycrT9","collapsible_row_94KUp6","collapsible_row_RLi9jR"],"settings":{"caption":"","heading":"Questions About Boka Charcoal Toothpaste","heading_size":"h1","heading_tag":"default","heading_alignment":"center","description":"We've got answers! Below, you'll find a list of frequently asked questions about our innovative activated charcoal n-Ha toothpaste.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid","collapsible_content_GaTyNb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_GaTyNb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is activated charcoal, and how does it work in toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Charcoal toothpaste is included for its ability to help lift and remove surface stains from your teeth.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJYYmM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is n-Ha, and what are its benefits for teeth?",
+            "icon": "none",
+            "row_content": "<p>Nano-hydroxyapatite (n-Ha) is a naturally occurring mineral that is a main component of tooth enamel. It is included in Boka’s formula along with activated charcoal for a gentle, daily clean.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKabND": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this toothpaste safe for daily use?",
+            "icon": "none",
+            "row_content": "<p>Yes, our Charcoal Yuzu Mint n-Ha Toothpaste is safe for daily use and is formulated with gentle polishing agents for a low abrasivity clean.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EycrT9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I use this toothpaste if I have sensitive teeth?",
+            "icon": "none",
+            "row_content": "<p>Absolutely! Activated charcoal toothpaste can be a choice for individuals looking for gentle oral care. With natural peppermint oil and mint flavor, it is suitable for those with sensitive teeth.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_94KUp6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does this toothpaste contain fluoride?",
+            "icon": "none",
+            "row_content": "<p>No, our charcoal toothpaste is fluoride-free. Instead of fluoride, it contains n-Ha and is made without harsh chemicals.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_RLi9jR": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is this toothpaste vegan and cruelty-free?",
+            "icon": "none",
+            "row_content": "<p>Instead, we focus on natural ingredients like peppermint oil and xylitol for a refreshing brushing experience.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGcFRf",
+        "collapsible_row_aJYYmM",
+        "collapsible_row_cKabND",
+        "collapsible_row_EycrT9",
+        "collapsible_row_94KUp6",
+        "collapsible_row_RLi9jR"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Boka Charcoal Toothpaste",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "We've got answers! Below, you'll find a list of frequently asked questions about our innovative activated charcoal whitening toothpaste with n-Ha.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_GaTyNb"
+  ]
+}
