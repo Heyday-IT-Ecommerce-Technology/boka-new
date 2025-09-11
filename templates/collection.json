@@ -104,6 +104,7 @@
         "collapsible_row_A7arqw",
         "collapsible_row_PHBRCD"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
