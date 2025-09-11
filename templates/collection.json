@@ -64,63 +64,36 @@
         "collapsible_row_B3rHBg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "How does Boka toothpaste for sensitive teeth help reduce tooth sensitivity?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Boka’s toothpastes for sensitive teeth are formulated with nano-hydroxyapatite, a mineral studied for its use in oral care products. This ingredient is included in our formulas designed for gentle brushing and daily use.</p>",
             "page": ""
           }
         },
         "collapsible_row_bET7mV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "What makes Boka a great option for people with sensitive teeth?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Boka stands out because our sensitive toothpaste combines modern science with natural ingredients. Our formulas are free from fluoride, SLS, parabens, and artificial dyes, and are designed for people with sensitive gums or those prone to reactions from certain ingredients.</p>",
             "page": ""
           }
         },
         "collapsible_row_A7arqw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Can Boka’s toothpaste help with surface stains if I have sensitive teeth?",
             "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>Unlike some whitening formulas that may increase tooth sensitivity, Boka’s options are designed to gently remove surface stains without abrasive ingredients. Our toothpastes for sensitive teeth contain nano-hydroxyapatite and are formulated for daily use.</p>",
             "page": ""
           }
         },
         "collapsible_row_PHBRCD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
+            "heading": "Why do some people choose nano-hydroxyapatite toothpaste for sensitive teeth?",
             "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_VTVBYW": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_dKAUG7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Qwc6F8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "question_mark",
-            "row_content": "",
+            "row_content": "<p>While ADA-approved toothpastes for sensitive teeth often contain fluoride or stannous fluoride, some people are interested in alternatives like nano-hydroxyapatite, an ingredient studied for use in oral care. Boka’s toothpaste is fluoride-free and made with natural ingredients for those who prefer a different option.</p>",
             "page": ""
           }
         }
@@ -129,10 +102,7 @@
         "collapsible_row_B3rHBg",
         "collapsible_row_bET7mV",
         "collapsible_row_A7arqw",
-        "collapsible_row_PHBRCD",
-        "collapsible_row_VTVBYW",
-        "collapsible_row_dKAUG7",
-        "collapsible_row_Qwc6F8"
+        "collapsible_row_PHBRCD"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
@@ -141,12 +111,12 @@
         "heading_size": "h1",
         "heading_tag": "default",
         "heading_alignment": "center",
-        "description": "",
+        "description": "Have questions about Boka’s toothpastes for sensitive teeth? Browse our FAQs to learn how our gentle, fluoride-free solutions are designed for people with tooth sensitivity. Find out more about our ingredients and how they compare to traditional fluoride toothpaste.",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
