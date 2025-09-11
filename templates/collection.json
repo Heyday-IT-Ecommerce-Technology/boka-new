@@ -64,36 +64,36 @@
         "collapsible_row_B3rHBg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What is xylitol toothpaste, and how does it support oral health?",
+            "heading": "",
             "icon": "question_mark",
-            "row_content": "<p>Xylitol toothpaste is a type of toothpaste formulated with xylitol, a naturally occurring sugar alcohol studied for its use in oral care. Unlike sugar, xylitol works to reduce certain bacteria in the mouth that contribute to tooth decay and cavities.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_bET7mV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does xylitol help prevent cavities and tooth decay?",
+            "heading": "",
             "icon": "question_mark",
-            "row_content": "<p>Xylitol works by interfering with the growth of cavity-causing bacteria. These bacteria cannot metabolize xylitol the way they do sugar, which means less acid is produced, acid being a primary contributor to plaque buildup and tooth decay. </p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_A7arqw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Is xylitol toothpaste safe for children?",
+            "heading": "",
             "icon": "question_mark",
-            "row_content": "<p>Yes, Boka’s xylitol toothpaste is suitable for children and can be an option for families looking to avoid fluoride. Xylitol is studied for its use in oral care products for kids and does not rely on artificial ingredients or harsh chemicals.</p>",
+            "row_content": "",
             "page": ""
           }
         },
         "collapsible_row_PHBRCD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How often should I use xylitol toothpaste?",
+            "heading": "",
             "icon": "question_mark",
-            "row_content": "<p>Xylitol toothpaste can be used daily, brushing at least twice a day as part of your oral care routine. Regular use, combined with flossing and a balanced diet, can help you maintain good brushing habits.</p>",
+            "row_content": "",
             "page": ""
           }
         }
@@ -107,11 +107,11 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "Questions About Boka Xylitol Toothpaste",
+        "heading": "FAQ's",
         "heading_size": "h1",
         "heading_tag": "default",
         "heading_alignment": "center",
-        "description": "Have questions about Boka’s xylitol toothpaste? Browse our FAQs to discover how this naturally derived ingredient is used in toothpaste and how it can help reduce bacteria and plaque. Boka’s fluoride-free toothpaste is thoughtfully formulated with clean, natural ingredients, while offering a refreshing mint flavor.",
+        "description": "",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
