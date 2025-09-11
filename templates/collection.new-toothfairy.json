@@ -109,6 +109,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#000000",
         "custom_text_color": "#ffffff",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -343,6 +349,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#dae9cf",
         "custom_text_color": "#ffffff",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 80,
@@ -399,6 +411,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#ffffff",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 50,
@@ -625,7 +643,7 @@
           "settings": {
             "heading": "Is nano-hydroxyapatite toothpaste safe for kids?",
             "icon": "none",
-            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
+            "row_content": "<p>Yes, Boka’s nano-hydroxyapatite toothpaste for kids is specifically formulated to be safe for children, even if swallowed. It provides daily mineral support for gentle cleaning without the need for fluoride.</p>",
             "page": ""
           }
         },
@@ -634,7 +652,16 @@
           "settings": {
             "heading": "What are the benefits of using Boka’s n-Ha toothpaste for kids?",
             "icon": "none",
-            "row_content": "<p>Using nano-hydroxyapatite (n-Ha) toothpaste, like Boka's, offers several benefits for kids:</p><ul><li><strong>Fluoride-Free Formula </strong>– Provides oral care without the use of fluoride</li><li><strong>Mimics Tooth Enamel</strong>: Our proprietary and innovative formula includes Nano-hydroxyapatite (n-Ha) - a biomimetic mineral form of the same ingredient that naturally makes up 97% of your teeth material and 70% of your dentin.</li><li><strong>Helps Remove Surface Stains</strong> – Gently cleans the tooth surface for a polished appearance</li><li><strong>Freshens Breath</strong> – Leaves the mouth feeling clean and refreshed</li><li><strong>Sulfate- & Paraben-Free</strong> – Made without harsh chemicals for a gentle daily routine</li><li><strong>Vegan-Friendly</strong> – Formulated without artificial flavors, and never tested on animals </li></ul>",
+            "row_content": "<p>Using nano-hydroxyapatite (n-Ha) toothpaste, like Boka's, offers several benefits for kids:</p><ul><li><strong>Nano-hydroxyapatite</strong>: Includes an ingredient researched for its role in oral care products</li><li><strong>Surface Stain Remova</strong>l: Formulated to help remove surface stains</li><li><strong>Freshens Breath</strong>: Leaves breath feeling fresh</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CpFBrM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I remineralize my child's teeth?",
+            "icon": "none",
+            "row_content": "<p>One approach is daily brushing with a toothpaste for kids that contains nano-hydroxyapatite. Regular dental visits are important to create the right care plan for your child. Nano-hydroxyapatite is studied for its use in oral care products, and your dentist can discuss options based on your child’s specific needs.</p>",
             "page": ""
           }
         },
@@ -643,7 +670,7 @@
           "settings": {
             "heading": "What are the flavors of Boka toothpaste available for kids?",
             "icon": "none",
-            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a>, <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a> and <a href=\"https://www.boka.com/collections/kids/products/strawberry-mango-n-ha-toothpaste\">Strawberry Mango</a>.</p>",
+            "row_content": "<p>Boka Kids' Toothpaste comes in two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a> and <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint</span></a>, with natural ingredients that make brushing enjoyable and leave breath feeling fresh.</p>",
             "page": ""
           }
         },
@@ -656,12 +683,30 @@
             "page": ""
           }
         },
+        "collapsible_row_ewp6wj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Which kids’ toothpaste options contain nano-hydroxyapatite?",
+            "icon": "none",
+            "row_content": "<p>Boka’s toothpaste for kids includes nano-hydroxyapatite. Check out the two flavors: <a href=\"https://www.boka.com/collections/kids/products/orange-cream-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Orange Cream</span></a> and <a href=\"https://www.boka.com/collections/kids/products/watermelon-mint-n-ha-toothpaste\"><span style=\"text-decoration:underline\">Watermelon Mint.</span></a></p>",
+            "page": ""
+          }
+        },
         "fcdc03f5-1552-493d-9d04-47760da9f0df": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can my child use Boka Kids' Toothpaste if they have sensitive teeth?",
             "icon": "none",
-            "row_content": "<p>Yes, nano-hydroxyapatite toothpaste is safe for kids. It’s a gentle, fluoride-free option that’s appropriate for daily use. Just be sure to supervise their brushing and use a pea-sized amount to avoid swallowing.</p>",
+            "row_content": "<p>Yes, our fluoride-free toothpaste is designed for kids with sensitive teeth. It contains nano-hydroxyapatite, an ingredient researched for use in oral care products.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4BDnWc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why do some dentists choose hydroxyapatite toothpaste for children?",
+            "icon": "none",
+            "row_content": "<p>Some dentists recommend hydroxyapatite toothpaste as a fluoride alternative. Nano-hydroxyapatite is studied for use in oral care products. Boka’s toothpaste for kids provides gentle cleaning with fun flavors like strawberry, mint, and bubblegum, making brushing enjoyable.</p>",
             "page": ""
           }
         }
@@ -677,9 +722,12 @@
         "collapsible_row_ajqd7y",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-1",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-2",
+        "collapsible_row_CpFBrM",
         "template--15180629016619__e1c2be8a-c503-489a-b63e-982e50c35a28-collapsible_row-4",
         "16ab04bf-3b77-4c35-b24e-778a14934e1f",
-        "fcdc03f5-1552-493d-9d04-47760da9f0df"
+        "collapsible_row_ewp6wj",
+        "fcdc03f5-1552-493d-9d04-47760da9f0df",
+        "collapsible_row_4BDnWc"
       ],
       "settings": {
         "caption": "",
