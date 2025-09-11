@@ -1,1 +1,184 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"1","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"collapsible_content_GaTyNb":{"type":"collapsible-content","blocks":{"collapsible_row_GGcFRf":{"type":"collapsible_row","settings":{"heading":"Are gluten-free toothpaste formulations as effective as regular toothpaste?","icon":"none","row_content":"<p>Yes, gluten-free toothpaste formulations are designed to be as effective as their traditional counterparts in promoting oral health. They typically contain similar active ingredients like fluoride or nano-hydroxyapatite for remineralizing teeth and maintaining overall dental hygiene.<\/p>","page":""}},"collapsible_row_aJYYmM":{"type":"collapsible_row","settings":{"heading":"What is the main ingredient in Boka Toothpaste?","icon":"none","row_content":"<p>Boka Toothpaste uses nano-hydroxyapatite (n-Ha) as its main ingredient, a form of calcium that constitutes a significant portion of tooth enamel and dentin.<\/p>","page":""}},"collapsible_row_cKabND":{"type":"collapsible_row","settings":{"heading":"What are the benefits of using nano-hydroxyapatite (n-Ha) in toothpaste?","icon":"none","row_content":"<p>Nano-hydroxyapatite (n-Ha) is restorative for teeth, making it an effective alternative to fluoride. It helps rebuild teeth without the toxins found in fluoride, providing a safe and beneficial option for oral care.<\/p>","page":""}},"collapsible_row_EycrT9":{"type":"collapsible_row","settings":{"heading":"Are gluten-free toothpaste options limited?","icon":"none","row_content":"<p>No, the market for gluten-free toothpaste has expanded, offering a variety of options. Many reputable oral care brands like Boka now provide gluten-free alternatives, making it easier for individuals with gluten sensitivity to find a product that suits their preferences.<\/p>","page":""}},"collapsible_row_94KUp6":{"type":"collapsible_row","settings":{"heading":"Can children use this gluten-free toothpaste?","icon":"none","row_content":"<p>Our toothpaste options are formulated with non-toxic ingredients, such as nano-hydroxyapatite. This makes it a completely safe fluoride-free alternative for children.<\/p>","page":""}},"collapsible_row_6bQrba":{"type":"collapsible_row","settings":{"heading":"Is Boka toothpaste safe for daily use?","icon":"none","row_content":"<p>Yes, Boka toothpaste is formulated for daily use. It not only meets the specific needs of individuals avoiding gluten but also provides effective and nourishing oral care for a healthy smile.<\/p>","page":""}},"collapsible_row_k3HikD":{"type":"collapsible_row","settings":{"heading":"Why should I choose gluten-free toothpaste like Boka?","icon":"none","row_content":"<p>Choosing gluten-free toothpaste is essential for individuals who follow a gluten-free lifestyle or have gluten-related sensitivities. Boka offers a toothpaste option that caters to these needs while promoting overall oral health.<\/p>","page":""}},"collapsible_row_mwgGYr":{"type":"collapsible_row","settings":{"heading":"Are there gluten-free options for other oral care products by Boka?","icon":"none","row_content":"<p>Yes, Boka offers a range of gluten-free oral care products, including <a href=\"https:\/\/www.boka.com\/products\/restore-mouthwash\"><span style=\"text-decoration:underline\">mouthwash tablets<\/span><\/a>, <a href=\"https:\/\/www.boka.com\/products\/rapid-radiance-teeth-whitening-kit\"><span style=\"text-decoration:underline\">teeth whitening kits<\/span><\/a>, and <a href=\"https:\/\/www.boka.com\/collections\/floss\"><span style=\"text-decoration:underline\">floss<\/span><\/a>, allowing individuals to maintain a complete and gluten-free oral care routine.<\/p>","page":""}}},"block_order":["collapsible_row_GGcFRf","collapsible_row_aJYYmM","collapsible_row_cKabND","collapsible_row_EycrT9","collapsible_row_94KUp6","collapsible_row_6bQrba","collapsible_row_k3HikD","collapsible_row_mwgGYr"],"settings":{"caption":"","heading":"Questions About Boka Gluten Free Toothpaste","heading_size":"h1","heading_tag":"default","heading_alignment":"center","description":"Do you struggle to find gluten-free toothpaste products that meet your specific needs and preferences? Boka understands your pain points and is here to answer some common questions about gluten-free toothpaste products.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#FFFFFF","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid","collapsible_content_GaTyNb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_GaTyNb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are gluten-free toothpaste formulations as effective as regular toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Yes, gluten-free toothpaste formulations typically contain similar active ingredients like fluoride or nano-hydroxyapatite as traditional toothpaste.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJYYmM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the main ingredient in Boka Toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Boka Toothpaste uses nano-hydroxyapatite (n-Ha) as its main ingredient, a form of calcium that makes up a significant portion of tooth enamel and dentin. It’s a good option for consumers looking for gluten-free toothpaste brands without unnecessary additives.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKabND": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of using nano-hydroxyapatite (n-Ha) in toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Nano-hydroxyapatite (n-Ha) is used as an alternative to fluoride in some toothpastes. It is included for its role in oral care product formulations.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EycrT9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are gluten-free toothpaste options limited?",
+            "icon": "none",
+            "row_content": "<p>No, the market for gluten-free toothpaste has expanded, offering a variety of options. Many reputable oral care brands like Boka now provide gluten-free alternatives, making it easier for individuals with gluten sensitivity to find a product that suits their preferences.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_94KUp6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can children use this gluten-free toothpaste?",
+            "icon": "none",
+            "row_content": "<p>Our toothpaste options are formulated with inspiration from nature and backed by science ingredients, such as nano-hydroxyapatite. This provides a fluoride-free option for children.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6bQrba": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka toothpaste safe for daily use?",
+            "icon": "none",
+            "row_content": "<p>Yes, Boka toothpaste is formulated for daily use and is suitable for individuals avoiding gluten.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_k3HikD": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why should I choose gluten-free toothpaste like Boka?",
+            "icon": "none",
+            "row_content": "<p>Choosing gluten-free toothpaste is important for individuals who follow a gluten-free lifestyle or have gluten-related sensitivities. Boka offers a toothpaste option that caters to these needs.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mwgGYr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there gluten-free options for other oral care products by Boka?",
+            "icon": "none",
+            "row_content": "<p>Yes, Boka offers a range of gluten-free oral care products, including <a href=\"https://www.boka.com/products/restore-mouthwash\"><span style=\"text-decoration:underline\">mouthwash tablets</span></a>, <a href=\"https://www.boka.com/products/rapid-radiance-teeth-whitening-kit\"><span style=\"text-decoration:underline\">teeth whitening kits</span></a>, and <a href=\"https://www.boka.com/collections/floss\"><span style=\"text-decoration:underline\">floss</span></a>, allowing individuals to maintain a complete and gluten-free oral care routine.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Fi37C8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are the benefits of switching to gluten-free toothpaste?",
+            "icon": "none",
+            "row_content": "<p>For individuals with celiac or gluten-related sensitivities, using gluten free toothpaste can help reduce unnecessary exposure to potential irritants through the mouth or skin. Boka’s gluten-free toothpaste is made with clean, natural ingredients and eliminates the worry of accidental gluten ingestion.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGcFRf",
+        "collapsible_row_aJYYmM",
+        "collapsible_row_cKabND",
+        "collapsible_row_EycrT9",
+        "collapsible_row_94KUp6",
+        "collapsible_row_6bQrba",
+        "collapsible_row_k3HikD",
+        "collapsible_row_mwgGYr",
+        "collapsible_row_Fi37C8"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Boka Gluten Free Toothpaste",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "Do you struggle to find gluten-free toothpaste products that meet your specific needs and preferences? Boka understands your pain points and is here to answer some common questions about gluten-free toothpaste products for people avoiding gluten.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_GaTyNb"
+  ]
+}
