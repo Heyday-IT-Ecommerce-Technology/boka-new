@@ -1,1 +1,174 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"show_collection_description":true,"show_collection_image":false,"color_scheme":"background-1","custom_background_color":"#333333","custom_text_color":"#ffffff"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":24,"columns_desktop":4,"image_ratio":"portrait","show_secondary_image":true,"show_vendor":false,"show_rating":false,"enable_quick_add":true,"enable_learn_more":true,"enable_filtering":false,"filter_type":"horizontal","enable_sorting":false,"columns_mobile":"1","enable_merchandising_card":false,"card_bg_color":"","card_text_color":"","card_columns":"two","card_column_position":1,"card_row_position":2,"image_as_bg":false,"bg_image_position":"center","card_text_alignment_desktop":"left","card_text_alignment_mobile":"center","card_text_position_desktop":"center","card_text_position_mobile":"flex-start","card_title":"","card_text":"","button_text":"","button_url":"","padding_top":20,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}},"collapsible_content_GaTyNb":{"type":"collapsible-content","blocks":{"collapsible_row_GGcFRf":{"type":"collapsible_row","settings":{"heading":"What are PFAS and why are they a problem in dental floss?","icon":"none","row_content":"<p>PFAS are a group of harmful chemicals used for their water- and stain-resistant properties. In some traditional flosses, PFAS can potentially be absorbed into your body, posing concerns for long-term health.<\/p>","page":""}},"collapsible_row_aJYYmM":{"type":"collapsible_row","settings":{"heading":"Is PFAS-free floss as effective as traditional floss?","icon":"none","row_content":"<p>Yes! Ela Mint Floss is carefully designed with a vegetable wax coating and ideal thickness to remove plaque and debris just as well as traditional floss but without chemical concerns.<\/p>","page":""}},"collapsible_row_cKabND":{"type":"collapsible_row","settings":{"heading":"Are there other benefits to using Boka Floss?","icon":"none","row_content":"<p>Yes! In addition to being PFAS-free, our flosses are also free from BPA, Teflon, parabens, and SLS. <\/p>","page":""}},"collapsible_row_EycrT9":{"type":"collapsible_row","settings":{"heading":"Does Boka Floss come in different flavors?","icon":"none","row_content":"<p>Yes! In addition to our classic <a href=\"https:\/\/www.boka.com\/products\/ela-mint-floss\"><span style=\"text-decoration:underline\">Ela Mint<\/span><\/a>, we also offer a <a href=\"https:\/\/www.boka.com\/products\/cinna-mint-floss\"><span style=\"text-decoration:underline\">Cinna Mint<\/span><\/a> flavor for a warm, spicy twist. <\/p>","page":""}},"collapsible_row_94KUp6":{"type":"collapsible_row","settings":{"heading":"Is Boka Floss suitable for sensitive gums?","icon":"none","row_content":"<p>Yes! Our gentle formula and smooth coating are designed to be comfortable even for those with sensitive gums.<\/p>","page":""}},"collapsible_row_6bQrba":{"type":"collapsible_row","settings":{"heading":"How often should I replace my Floss?","icon":"none","row_content":"<p>Dentists generally recommend replacing your floss container every 1-2 months to prevent bacteria build-up and maintain optimal hygiene.<\/p>","page":""}}},"block_order":["collapsible_row_GGcFRf","collapsible_row_aJYYmM","collapsible_row_cKabND","collapsible_row_EycrT9","collapsible_row_94KUp6","collapsible_row_6bQrba"],"settings":{"caption":"","heading":"Questions About Boka PFAS-Free Floss","heading_size":"h1","heading_tag":"default","heading_alignment":"center","description":"Have questions about Boka's PFAS-free floss? Browse our FAQs to learn how it can improve your oral care routine. Find out about PFAS health concerns and our floss's effectiveness.","layout":"none","color_scheme":"background-1","container_color_scheme":"background-2","custom_background_color":"#333333","custom_text_color":"#ffffff","open_first_collapsible_row":false,"image_ratio":"adapt","desktop_layout":"image_second","padding_top":36,"padding_bottom":36,"padding_top_mobile":36,"padding_bottom_mobile":36}}},"order":["banner","product-grid","collapsible_content_GaTyNb"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "enable_merchandising_card": false,
+        "card_bg_color": "",
+        "card_text_color": "",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": false,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "center",
+        "card_text_position_desktop": "center",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "",
+        "card_text": "",
+        "button_text": "",
+        "button_url": "",
+        "padding_top": 20,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
+    "collapsible_content_GaTyNb": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are PFAS and why are they a problem in dental floss?",
+            "icon": "none",
+            "row_content": "<p>PFAS are a group of harmful substances used in some products for their water- and stain-resistant properties. Some dental flosses—especially those marketed for their glide or slick feel—have been found to contain PTFE or other PFAS chemicals linked to health risks. Consumer studies show PFAS can enter the bloodstream through exposure during regular use, raising concerns about long-term health impacts, including possible links to cancer.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_X3TBa4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are There PFAS-Free Floss Alternatives?",
+            "icon": "none",
+            "row_content": "<p>Flossing with PFAS-free floss is an option for those looking to avoid PFAS in their oral care routine. Recent advancements have led to more dental floss brands committed to eliminating PFAS from their products. This shift also supports more sustainable practices.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_aJYYmM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is PFAS-free floss as effective as traditional floss?",
+            "icon": "none",
+            "row_content": "<p>Yes! Boka’s PFAS-free dental floss is designed to remove plaque and debris from between teeth, just like conventional options, but without PFAS, PTFE, or other added chemicals. Our floss features a smooth, waxed glide with a natural, vegetable-based coating.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cKabND": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Are there other benefits to using Boka Floss?",
+            "icon": "none",
+            "row_content": "<p>Boka offers a vegan option that’s gentle on gums, with natural ingredients and a smooth texture.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EycrT9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does Boka Floss come in different flavors?",
+            "icon": "none",
+            "row_content": "<p>Yes! Both options are designed to help keep your mouth clean.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_94KUp6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is Boka Floss suitable for sensitive gums?",
+            "icon": "none",
+            "row_content": "<p>Our products are designed for those with sensitive gums and teeth, offering smooth, clean performance without plastic-based or chemically coated floss.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_6bQrba": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often should I replace my Floss?",
+            "icon": "none",
+            "row_content": "<p>Dentists generally recommend replacing your floss container every 1-2 months.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UnhqgJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why choose Boka over other floss brands containing PFAS?",
+            "icon": "none",
+            "row_content": "<p>Boka’s PFAS-free floss is made with natural alternatives and is a biodegradable option for those wanting to reduce reliance on plastic floss picks or synthetic coatings. If you’re looking for a cleaner and eco-conscious choice, Boka is a great option for your daily routine.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_GGcFRf",
+        "collapsible_row_X3TBa4",
+        "collapsible_row_aJYYmM",
+        "collapsible_row_cKabND",
+        "collapsible_row_EycrT9",
+        "collapsible_row_94KUp6",
+        "collapsible_row_6bQrba",
+        "collapsible_row_UnhqgJ"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Questions About Boka PFAS-Free Floss",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "heading_alignment": "center",
+        "description": "Have questions about Boka's PFAS-free floss? Browse our FAQs to learn more about PFAS, our ingredient standards, and how our floss compares to traditional options.",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#ffffff",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "collapsible_content_GaTyNb"
+  ]
+}
