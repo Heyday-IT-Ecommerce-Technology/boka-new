@@ -64,36 +64,36 @@
         "collapsible_row_B3rHBg": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How does Boka toothpaste for sensitive teeth help reduce tooth sensitivity?",
+            "heading": "What is xylitol toothpaste, and how does it support oral health?",
             "icon": "question_mark",
-            "row_content": "<p>Boka’s toothpastes for sensitive teeth are formulated with nano-hydroxyapatite, a mineral studied for its use in oral care products. This ingredient is included in our formulas designed for gentle brushing and daily use.</p>",
+            "row_content": "<p>Xylitol toothpaste is a type of toothpaste formulated with xylitol, a naturally occurring sugar alcohol studied for its use in oral care. Unlike sugar, xylitol works to reduce certain bacteria in the mouth that contribute to tooth decay and cavities.</p>",
             "page": ""
           }
         },
         "collapsible_row_bET7mV": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "What makes Boka a great option for people with sensitive teeth?",
+            "heading": "How does xylitol help prevent cavities and tooth decay?",
             "icon": "question_mark",
-            "row_content": "<p>Boka stands out because our sensitive toothpaste combines modern science with natural ingredients. Our formulas are free from fluoride, SLS, parabens, and artificial dyes, and are designed for people with sensitive gums or those prone to reactions from certain ingredients.</p>",
+            "row_content": "<p>Xylitol works by interfering with the growth of cavity-causing bacteria. These bacteria cannot metabolize xylitol the way they do sugar, which means less acid is produced, acid being a primary contributor to plaque buildup and tooth decay. </p>",
             "page": ""
           }
         },
         "collapsible_row_A7arqw": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Can Boka’s toothpaste help with surface stains if I have sensitive teeth?",
+            "heading": "Is xylitol toothpaste safe for children?",
             "icon": "question_mark",
-            "row_content": "<p>Unlike some whitening formulas that may increase tooth sensitivity, Boka’s options are designed to gently remove surface stains without abrasive ingredients. Our toothpastes for sensitive teeth contain nano-hydroxyapatite and are formulated for daily use.</p>",
+            "row_content": "<p>Yes, Boka’s xylitol toothpaste is suitable for children and can be an option for families looking to avoid fluoride. Xylitol is studied for its use in oral care products for kids and does not rely on artificial ingredients or harsh chemicals.</p>",
             "page": ""
           }
         },
         "collapsible_row_PHBRCD": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Why do some people choose nano-hydroxyapatite toothpaste for sensitive teeth?",
+            "heading": "How often should I use xylitol toothpaste?",
             "icon": "question_mark",
-            "row_content": "<p>While ADA-approved toothpastes for sensitive teeth often contain fluoride or stannous fluoride, some people are interested in alternatives like nano-hydroxyapatite, an ingredient studied for use in oral care. Boka’s toothpaste is fluoride-free and made with natural ingredients for those who prefer a different option.</p>",
+            "row_content": "<p>Xylitol toothpaste can be used daily, brushing at least twice a day as part of your oral care routine. Regular use, combined with flossing and a balanced diet, can help you maintain good brushing habits.</p>",
             "page": ""
           }
         }
@@ -107,11 +107,11 @@
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
-        "heading": "FAQs",
+        "heading": "Questions About Boka Xylitol Toothpaste",
         "heading_size": "h1",
         "heading_tag": "default",
         "heading_alignment": "center",
-        "description": "Have questions about Boka’s toothpastes for sensitive teeth? Browse our FAQs to learn how our gentle, fluoride-free solutions are designed for people with tooth sensitivity. Find out more about our ingredients and how they compare to traditional fluoride toothpaste.",
+        "description": "Have questions about Boka’s xylitol toothpaste? Browse our FAQs to discover how this naturally derived ingredient is used in toothpaste and how it can help reduce bacteria and plaque. Boka’s fluoride-free toothpaste is thoughtfully formulated with clean, natural ingredients, while offering a refreshing mint flavor.",
         "layout": "none",
         "color_scheme": "background-1",
         "container_color_scheme": "background-2",
