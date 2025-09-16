@@ -208,14 +208,21 @@
         "video_H7fRzT": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/AaWGXO4wABA?feature=share",
             "description": "Describe the video"
           }
         },
         "video_izwm4Q": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/JjuOGvuD1sk?feature=share",
+            "description": "Describe the video"
+          }
+        },
+        "video_RUHx7A": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/bAd5OZCC68U?feature=share",
             "description": "Describe the video"
           }
         }
@@ -224,7 +231,8 @@
         "video_yMjf33",
         "video_7qfjhT",
         "video_H7fRzT",
-        "video_izwm4Q"
+        "video_izwm4Q",
+        "video_RUHx7A"
       ],
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
