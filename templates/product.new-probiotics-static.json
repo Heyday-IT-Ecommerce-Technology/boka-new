@@ -30,6 +30,7 @@
         },
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "text": "<p><em>NEW FLAVOR!</em></p>",
             "text_style": "body",
@@ -170,7 +171,7 @@
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
-        "media_size": "large",
+        "media_size": "medium",
         "lazyload": false,
         "constrain_to_viewport": false,
         "media_fit": "contain",
