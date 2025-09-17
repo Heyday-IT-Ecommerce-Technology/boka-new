@@ -198,14 +198,14 @@
         "video_7qfjhT": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/IvU0IVBPVrI",
             "description": "Describe the video"
           }
         },
         "video_H7fRzT": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/ds83Kaet8tg",
             "description": "Describe the video"
           }
         },
@@ -223,13 +223,12 @@
         "video_H7fRzT",
         "video_izwm4Q"
       ],
-      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "From Our <em>Boka Fam</em>",
         "heading_size": "h1",
         "auto_center": false,
-        "columns": 1,
+        "columns": 3,
         "button_label": "Button label",
         "button_link": "",
         "padding_top": 36,
