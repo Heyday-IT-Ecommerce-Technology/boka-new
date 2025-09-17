@@ -215,14 +215,14 @@
         "video_izwm4Q": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/JjuOGvuD1sk?feature=share",
+            "yt_shorts_link": "https://youtube.com/shorts/DbpUZ8IniHE?feature=share",
             "description": "Describe the video"
           }
         },
         "video_RUHx7A": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/bAd5OZCC68U?feature=share",
+            "yt_shorts_link": "https://youtube.com/shorts/frjgibrLt0A?feature=share",
             "description": "Describe the video"
           }
         }
@@ -234,7 +234,6 @@
         "video_izwm4Q",
         "video_RUHx7A"
       ],
-      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "From Our <em>Boka Fam</em>",
