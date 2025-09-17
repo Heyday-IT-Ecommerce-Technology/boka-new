@@ -489,7 +489,7 @@ document.addEventListener('focusin', (event) => {
       $anchor.attr("aria-label", ariaLabel);
     });
 
-  // $("div#menu-drawer").removeAttr("tabindex");
+  $("div#menu-drawer").removeAttr("tabindex");
 
   $(".drawer__inner").each(function () {
     const $closeBtn = $(this).find(
@@ -594,8 +594,8 @@ $('.header__icon--menu').on('click', function () {
         $(this).attr('aria-expanded', !expanded);
 });
 
-// const $drawer = $('#Details-menu-drawer-container');
-  // const $menuDrawer = $('#menu-drawer');
+const $drawer = $('#Details-menu-drawer-container');
+  const $menuDrawer = $('#menu-drawer');
 
   function trapFocus($container) {
     const focusableSelectors = [
