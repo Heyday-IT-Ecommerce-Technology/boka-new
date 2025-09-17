@@ -105,6 +105,15 @@
             "row_content": "<p>{{ collection.metafields.custom[\"5_faqs_collection_desc\"].value }}</p>",
             "page": ""
           }
+        },
+        "collapsible_row_t3K6PH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "{{ block.settings.page.metafields.custom[\"6_faqs_collection_title\"].value }}",
+            "icon": "none",
+            "row_content": "<p>{{ block.settings.page.metafields.custom[\"6_faqs_collection_desc\"].value }}</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -112,7 +121,8 @@
         "collapsible_row_bET7mV",
         "collapsible_row_A7arqw",
         "collapsible_row_PHBRCD",
-        "collapsible_row_Aim9kU"
+        "collapsible_row_Aim9kU",
+        "collapsible_row_t3K6PH"
       ],
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
