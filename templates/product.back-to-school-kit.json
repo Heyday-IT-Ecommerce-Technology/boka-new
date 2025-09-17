@@ -470,6 +470,7 @@
       "block_order": [
         "buttons_9Q8Qt8"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/Why_Choose_Boka_Toothpaste_Desktop.webp",
@@ -621,6 +622,7 @@
         "text_7JXrPk",
         "buttons_R6E9Ej"
       ],
+      "disabled": true,
       "settings": {
         "enable_fullwidth": false,
         "image": "shopify://shop_images/BDF_Powered_By_Nature_Desktop.webp",
