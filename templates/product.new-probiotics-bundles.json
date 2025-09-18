@@ -191,7 +191,7 @@
         "video_yMjf33": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "https://youtube.com/shorts/wSmOtINc64g?feature=share",
+            "yt_shorts_link": "https://youtube.com/shorts/0GmjdPaAztE",
             "description": "Describe the video"
           }
         },
@@ -212,7 +212,7 @@
         "video_izwm4Q": {
           "type": "video",
           "settings": {
-            "yt_shorts_link": "",
+            "yt_shorts_link": "https://youtube.com/shorts/-ijsFjJSFa0",
             "description": "Describe the video"
           }
         }
@@ -228,7 +228,7 @@
         "yt_shorts_title": "From Our <em>Boka Fam</em>",
         "heading_size": "h1",
         "auto_center": false,
-        "columns": 3,
+        "columns": 4,
         "button_label": "Button label",
         "button_link": "",
         "padding_top": 36,
