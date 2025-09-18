@@ -579,7 +579,7 @@
             {%- when 'complementary' -%}
               <product-recommendations class="complementary-products quick-add-hidden no-js-hidden{% if block.settings.make_collapsible_row %} is-accordion{% endif %}{% if block.settings.enable_quick_add %} complementary-products-contains-quick-add{% endif %}" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
                 {%- if recommendations.performed and recommendations.products_count > 0 -%}
-                  <aside role="none" {{ block.shopify_attributes }}{% if block.settings.make_collapsible_row %} class="product__accordion accordion"{% endif %}>
+                  <aside aria-label="{{ 'accessibility.complementary_products' | t }}" {{ block.shopify_attributes }}{% if block.settings.make_collapsible_row %} class="product__accordion accordion"{% endif %}>
                     <div class="complementary-products__container">
                       {%- if block.settings.make_collapsible_row -%}
                         <details id="Details-{{ block.id }}-{{ section.id }}" open>
@@ -599,7 +599,7 @@
                       {%- endif -%}
                       <slideshow-component class="slider-mobile-gutter">
                         {%- assign number_of_slides = recommendations.products_count | plus: 0.0 | divided_by: block.settings.products_per_page | ceil -%}
-                        <div id="Slider-{{ block.id }}" class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere" {% if number_of_slides > 1 %}role="list" aria-label="{{ 'general.slider.name' | t }}"{% endif %}>
+                        <div id="Slider-{{ block.id }}" class="contains-card contains-card--product complementary-slider grid grid--1-col slider slider--everywhere" role="list"{% if number_of_slides > 1 %} aria-label="{{ 'general.slider.name' | t }}"{% endif %}>
                           {%- for i in (1..number_of_slides) -%}
                             <div id="Slide-{{ block.id }}-{{ forloop.index }}" class="complementary-slide complementary-slide--{{ settings.card_style }} grid__item slider__slide slideshow__slide" tabindex="-1" role="group"{% if number_of_slides > 1 %} aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"{% endif %}>
                               <ul class="list-unstyled" role="list">
@@ -754,61 +754,50 @@
     endif
   -%}
 
-
   <script type="application/ld+json">
-{
-  "@context": "http://schema.org/",
-  "@type": "Product",
-  "name": {{ product.title | json }},
-  "url": {{ request.origin | append: product.url | json }},
-  {% if seo_media -%}
-    "image": [
-      {{ seo_media | image_url: width: 1920 | prepend: "https:" | json }}
-    ],
-  {%- endif %}
-  "description": {{ product.description | strip_html | json }},
-  {% if product.selected_or_first_available_variant.sku != blank -%}
-    "sku": {{ product.selected_or_first_available_variant.sku | json }},
-  {%- endif %}
-  "brand": {
-    "@type": "Brand",
-    "name": {{ product.vendor | json }}
-  },
-  {% if product.metafields.yotpo.reviews_count and product.metafields.yotpo.reviews_count != "0" and product.metafields.yotpo.reviews_count != 0 %}
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": {{ product.metafields.yotpo.reviews_average | json }},
-    "reviewCount": {{ product.metafields.yotpo.reviews_count | json }},
-    "bestRating": "5",
-    "worstRating": "1"
-  },
-  {% endif %}
-  "offers": [
-    {%- for variant in product.variants -%}
-      {
-        "@type" : "Offer",
-        {%- if variant.sku != blank -%}
-          "sku": {{ variant.sku | json }},
-        {%- endif -%}
-        {%- if variant.barcode.size == 12 -%}
-          "gtin12": {{ variant.barcode }},
-        {%- endif -%}
-        {%- if variant.barcode.size == 13 -%}
-          "gtin13": {{ variant.barcode }},
-        {%- endif -%}
-        {%- if variant.barcode.size == 14 -%}
-          "gtin14": {{ variant.barcode }},
-        {%- endif -%}
-        "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
-        "price" : {{ variant.price | divided_by: 100.00 | json }},
-        "priceCurrency" : {{ cart.currency.iso_code | json }},
-        "url" : {{ request.origin | append: variant.url | json }}
-      }{% unless forloop.last %},{% endunless %}
-    {%- endfor -%}
-  ]
-}
-</script>
-
+    {
+      "@context": "http://schema.org/",
+      "@type": "Product",
+      "name": {{ product.title | json }},
+      "url": {{ request.origin | append: product.url | json }},
+      {% if seo_media -%}
+        "image": [
+          {{ seo_media | image_url: width: 1920 | prepend: "https:" | json }}
+        ],
+      {%- endif %}
+      "description": {{ product.description | strip_html | json }},
+      {% if product.selected_or_first_available_variant.sku != blank -%}
+        "sku": {{ product.selected_or_first_available_variant.sku | json }},
+      {%- endif %}
+      "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | json }}
+      },
+      "offers": [
+        {%- for variant in product.variants -%}
+          {
+            "@type" : "Offer",
+            {%- if variant.sku != blank -%}
+              "sku": {{ variant.sku | json }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 12 -%}
+              "gtin12": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 13 -%}
+              "gtin13": {{ variant.barcode }},
+            {%- endif -%}
+            {%- if variant.barcode.size == 14 -%}
+              "gtin14": {{ variant.barcode }},
+            {%- endif -%}
+            "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+            "price" : {{ variant.price | divided_by: 100.00 | json }},
+            "priceCurrency" : {{ cart.currency.iso_code | json }},
+            "url" : {{ request.origin | append: variant.url | json }}
+          }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }
+  </script>
 
 <script>
 // sticky-atc.js
@@ -823,32 +812,6 @@ document.addEventListener('DOMContentLoaded', function() {
   const priceEl = document.getElementById('sticky-atc-price');
   const mediaEl = document.getElementById('sticky-atc-media');
   const subEl = document.getElementById('sticky-atc-sub');
-  const changeLinkEl = document.getElementById('sticky-atc-change-link');
-
-  // Function to check if Recharge subscription widget exists
-  function hasRechargeWidget() {
-    const rechargeSelectors = [
-      'input[name*="subscription"]',
-      'select[name*="subscription"]',
-      'input[name*="selling_plan"]',
-      'select[name*="selling_plan"]',
-      '.rc-selling-plan',
-      '.rc-subscription',
-      '.rc-widget',
-      '[data-subscription-widget]',
-      '.subscription-widget',
-      '.subscription-options',
-      '.recharge-subscription-widget',
-      '.subscription-selector'
-    ];
-
-    for (const selector of rechargeSelectors) {
-      if (document.querySelector(selector)) {
-        return true;
-      }
-    }
-    return false;
-  }
 
   // Function to get current Recharge subscription settings
   function getRechargeSubscriptionInfo() {
@@ -1012,25 +975,11 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  // Function to update delivery message and visibility based on subscription selection
+  // Function to update delivery message based on subscription selection
   function updateDeliveryMessage() {
-    const hasWidget = hasRechargeWidget();
-    
-    if (!hasWidget) {
-      // Hide both delivery text and change link if no Recharge widget
-      subEl.style.display = 'none';
-      changeLinkEl.style.display = 'none';
-      return;
-    }
-
-    // Show change link if Recharge widget exists
-    changeLinkEl.style.display = 'inline';
-    
     const subscriptionInfo = getRechargeSubscriptionInfo();
     
     if (subscriptionInfo.isSubscription) {
-      subEl.style.display = 'block';
-      
       if (subscriptionInfo.interval) {
         let intervalText = subscriptionInfo.interval.toLowerCase().trim();
         
@@ -1054,7 +1003,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     } else {
-      subEl.style.display = 'block';
       subEl.textContent = 'One-time purchase';
     }
   }
