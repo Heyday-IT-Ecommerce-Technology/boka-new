@@ -811,8 +811,7 @@
 
 
 <script>
-// sticky-atc.js - Clean version for Dawn Theme v9.0
-// sticky-atc.js - Updated version with Recharge pricing support
+// sticky-atc.js - Merged version with both price updates and delivery text functionality
 document.addEventListener('DOMContentLoaded', function() {
   const sticky = document.getElementById('sticky-atc');
   const mainForm = document.querySelector('form[action^="/cart/add"]');
@@ -824,10 +823,36 @@ document.addEventListener('DOMContentLoaded', function() {
   const priceEl = document.getElementById('sticky-atc-price');
   const mediaEl = document.getElementById('sticky-atc-media');
   const subEl = document.getElementById('sticky-atc-sub');
+  const changeLinkEl = document.getElementById('sticky-atc-change-link');
 
   // Store original variant prices for fallback
   let originalVariantPrices = {};
   let currentProduct = null;
+
+  // Function to check if Recharge subscription widget exists
+  function hasRechargeWidget() {
+    const rechargeSelectors = [
+      'input[name*="subscription"]',
+      'select[name*="subscription"]',
+      'input[name*="selling_plan"]',
+      'select[name*="selling_plan"]',
+      '.rc-selling-plan',
+      '.rc-subscription',
+      '.rc-widget',
+      '[data-subscription-widget]',
+      '.subscription-widget',
+      '.subscription-options',
+      '.recharge-subscription-widget',
+      '.subscription-selector'
+    ];
+
+    for (const selector of rechargeSelectors) {
+      if (document.querySelector(selector)) {
+        return true;
+      }
+    }
+    return false;
+  }
 
   // Function to get current Recharge subscription settings
   function getRechargeSubscriptionInfo() {
@@ -1087,11 +1112,25 @@ document.addEventListener('DOMContentLoaded', function() {
     priceEl.innerHTML = priceHtml;
   }
 
-  // Function to update delivery message based on subscription selection
+  // Function to update delivery message and visibility based on subscription selection
   function updateDeliveryMessage() {
+    const hasWidget = hasRechargeWidget();
+    
+    if (!hasWidget) {
+      // Hide both delivery text and change link if no Recharge widget
+      subEl.style.display = 'none';
+      if (changeLinkEl) changeLinkEl.style.display = 'none';
+      return;
+    }
+
+    // Show change link if Recharge widget exists
+    if (changeLinkEl) changeLinkEl.style.display = 'inline';
+    
     const subscriptionInfo = getRechargeSubscriptionInfo();
     
     if (subscriptionInfo.isSubscription) {
+      subEl.style.display = 'block';
+      
       if (subscriptionInfo.interval) {
         let intervalText = subscriptionInfo.interval.toLowerCase().trim();
         
@@ -1115,6 +1154,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     } else {
+      subEl.style.display = 'block';
       subEl.textContent = 'One-time purchase';
     }
   }
@@ -1512,7 +1552,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Subscription listeners - Enhanced to update pricing
+  // Subscription listeners - Enhanced to update both pricing and delivery message
   document.addEventListener('change', function(e) {
     if (e.target.matches('input[name*="subscription"], select[name*="subscription"], input[name*="selling_plan"], select[name*="selling_plan"], .rc-selling-plan input, .rc-subscription input, .rc-widget input, .subscription-widget input, .subscription-widget select, .subscription-options input, .subscription-options select')) {
       setTimeout(function() {
@@ -1565,9 +1605,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 100);
 });
 </script>
-
-
-
 </section>
 
 <style>
