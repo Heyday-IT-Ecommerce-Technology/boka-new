@@ -197,13 +197,12 @@
         "video_UjRELn",
         "video_nYLAFh"
       ],
-      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "From Our <em> Boka Fam</em>",
         "heading_size": "h1",
         "auto_center": false,
-        "columns": 4,
+        "columns": 3,
         "button_label": "Button label",
         "button_link": "",
         "padding_top": 0,
