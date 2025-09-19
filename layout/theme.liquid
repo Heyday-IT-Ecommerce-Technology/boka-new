@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}">
+<html class="no-js" lang="{{ request.locale.iso_code }}" -{{ template.prefix }}>
   
   <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -9,7 +9,7 @@
     })(window, document, "clarity", "script", "on9rzzxvfp");
 </script>
   
-  <head -{{ template.prefix }}->
+  <head>
     <script defer src="https://d2zd0wa1vpt7j9.cloudfront.net/4c66154a82137096/wwai_section_analytics.js"></script>
      <script defer src="https://d2zd0wa1vpt7j9.cloudfront.net/engagement_metrics_visualisation.js"></script>
 {% render 'visually_io_sdk' %}
