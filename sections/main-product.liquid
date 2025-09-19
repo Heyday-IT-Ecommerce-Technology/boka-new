@@ -811,7 +811,8 @@
 
 
 <script>
-// sticky-atc.js
+// sticky-atc.js - Clean version for Dawn Theme v9.0
+// sticky-atc.js - Updated version with Recharge pricing support
 document.addEventListener('DOMContentLoaded', function() {
   const sticky = document.getElementById('sticky-atc');
   const mainForm = document.querySelector('form[action^="/cart/add"]');
@@ -823,32 +824,10 @@ document.addEventListener('DOMContentLoaded', function() {
   const priceEl = document.getElementById('sticky-atc-price');
   const mediaEl = document.getElementById('sticky-atc-media');
   const subEl = document.getElementById('sticky-atc-sub');
-  const changeLinkEl = document.getElementById('sticky-atc-change-link');
 
-  // Function to check if Recharge subscription widget exists
-  function hasRechargeWidget() {
-    const rechargeSelectors = [
-      'input[name*="subscription"]',
-      'select[name*="subscription"]',
-      'input[name*="selling_plan"]',
-      'select[name*="selling_plan"]',
-      '.rc-selling-plan',
-      '.rc-subscription',
-      '.rc-widget',
-      '[data-subscription-widget]',
-      '.subscription-widget',
-      '.subscription-options',
-      '.recharge-subscription-widget',
-      '.subscription-selector'
-    ];
-
-    for (const selector of rechargeSelectors) {
-      if (document.querySelector(selector)) {
-        return true;
-      }
-    }
-    return false;
-  }
+  // Store original variant prices for fallback
+  let originalVariantPrices = {};
+  let currentProduct = null;
 
   // Function to get current Recharge subscription settings
   function getRechargeSubscriptionInfo() {
@@ -894,6 +873,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     let interval = null;
     let isSubscription = false;
+    let sellingPlanId = null;
 
     if (subscriptionElement.type === 'radio' || subscriptionElement.type === 'checkbox') {
       isSubscription = subscriptionElement.checked;
@@ -959,6 +939,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
       
+      sellingPlanId = subscriptionElement.value || 
+                     subscriptionElement.getAttribute('data-selling-plan-id') ||
+                     subscriptionElement.getAttribute('data-selling-plan');
+      
     } else if (subscriptionElement.tagName === 'SELECT') {
       const selectedOption = subscriptionElement.options[subscriptionElement.selectedIndex];
       isSubscription = selectedOption.value !== '' && selectedOption.value !== 'one-time' && selectedOption.value !== '0';
@@ -995,14 +979,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
           }
         }
+        
+        sellingPlanId = selectedOption.value || 
+                       selectedOption.getAttribute('data-selling-plan-id') ||
+                       selectedOption.getAttribute('data-selling-plan');
       }
-    }
-
-    let sellingPlanId = null;
-    if (isSubscription) {
-      sellingPlanId = subscriptionElement.value || 
-                     subscriptionElement.getAttribute('data-selling-plan-id') ||
-                     subscriptionElement.getAttribute('data-selling-plan');
     }
 
     return {
@@ -1012,25 +993,105 @@ document.addEventListener('DOMContentLoaded', function() {
     };
   }
 
-  // Function to update delivery message and visibility based on subscription selection
-  function updateDeliveryMessage() {
-    const hasWidget = hasRechargeWidget();
-    
-    if (!hasWidget) {
-      // Hide both delivery text and change link if no Recharge widget
-      subEl.style.display = 'none';
-      changeLinkEl.style.display = 'none';
-      return;
-    }
+  // Function to get selling plan pricing
+  function getSellingPlanPricing(variantId, sellingPlanId) {
+    return new Promise((resolve, reject) => {
+      if (!currentProduct || !sellingPlanId) {
+        reject('No product data or selling plan ID');
+        return;
+      }
 
-    // Show change link if Recharge widget exists
-    changeLinkEl.style.display = 'inline';
+      const variant = currentProduct.variants.find(v => v.id == variantId);
+      if (!variant) {
+        reject('Variant not found');
+        return;
+      }
+
+      // Find the selling plan
+      let sellingPlan = null;
+      let sellingPlanGroup = null;
+      
+      if (currentProduct.selling_plan_groups) {
+        for (const group of currentProduct.selling_plan_groups) {
+          for (const plan of group.selling_plans) {
+            if (plan.id == sellingPlanId) {
+              sellingPlan = plan;
+              sellingPlanGroup = group;
+              break;
+            }
+          }
+          if (sellingPlan) break;
+        }
+      }
+
+      if (!sellingPlan) {
+        reject('Selling plan not found');
+        return;
+      }
+
+      // Calculate the subscription price
+      let subscriptionPrice = variant.price;
+      let subscriptionComparePrice = variant.compare_at_price;
+
+      // Apply selling plan price adjustments
+      if (sellingPlan.price_adjustments && sellingPlan.price_adjustments.length > 0) {
+        const adjustment = sellingPlan.price_adjustments[0];
+        
+        if (adjustment.value_type === 'percentage') {
+          // Percentage discount
+          const discountAmount = (variant.price * adjustment.value) / 100;
+          subscriptionPrice = variant.price - discountAmount;
+        } else if (adjustment.value_type === 'fixed_amount') {
+          // Fixed amount discount
+          subscriptionPrice = variant.price - adjustment.value;
+        } else if (adjustment.value_type === 'price') {
+          // Fixed price
+          subscriptionPrice = adjustment.value;
+        }
+      }
+
+      // Ensure price doesn't go below 0
+      subscriptionPrice = Math.max(0, subscriptionPrice);
+
+      resolve({
+        price: subscriptionPrice,
+        compare_at_price: subscriptionComparePrice,
+        original_price: variant.price,
+        selling_plan: sellingPlan,
+        selling_plan_group: sellingPlanGroup
+      });
+    });
+  }
+
+  // Function to update price display
+  function updatePriceDisplay(priceData) {
+    let priceHtml = '';
     
+    if (typeof Shopify !== 'undefined' && Shopify.formatMoney) {
+      priceHtml = Shopify.formatMoney(priceData.price, window.theme?.moneyFormat || "{{ shop.money_format }}");
+      
+      // Show compare at price if it exists and is higher
+      if (priceData.compare_at_price && priceData.compare_at_price > priceData.price) {
+        priceHtml += `<span class="sticky-atc__compare">
+                       ${Shopify.formatMoney(priceData.compare_at_price, window.theme?.moneyFormat || "{{ shop.money_format }}")}
+                     </span>`;
+      }
+    } else {
+      priceHtml = `$${(priceData.price / 100).toFixed(2)}`;
+      
+      if (priceData.compare_at_price && priceData.compare_at_price > priceData.price) {
+        priceHtml += `<span class="sticky-atc__compare">$${(priceData.compare_at_price / 100).toFixed(2)}</span>`;
+      }
+    }
+    
+    priceEl.innerHTML = priceHtml;
+  }
+
+  // Function to update delivery message based on subscription selection
+  function updateDeliveryMessage() {
     const subscriptionInfo = getRechargeSubscriptionInfo();
     
     if (subscriptionInfo.isSubscription) {
-      subEl.style.display = 'block';
-      
       if (subscriptionInfo.interval) {
         let intervalText = subscriptionInfo.interval.toLowerCase().trim();
         
@@ -1054,60 +1115,94 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     } else {
-      subEl.style.display = 'block';
       subEl.textContent = 'One-time purchase';
     }
   }
 
   // Function to fetch selling plan interval from product data
   function fetchSellingPlanInterval(sellingPlanId) {
-    const productHandle = window.location.pathname.split('/').pop();
-    
-    fetch(`/products/${productHandle}.js`)
-      .then(response => response.json())
-      .then(product => {
-        if (product.selling_plan_groups) {
-          for (const group of product.selling_plan_groups) {
-            for (const plan of group.selling_plans) {
-              if (plan.id == sellingPlanId) {
-                let intervalText = '';
-                if (plan.price_adjustments && plan.price_adjustments[0]) {
-                  const adjustment = plan.price_adjustments[0];
-                  if (adjustment.order_count) {
-                    const count = adjustment.order_count;
-                    const unit = group.name.toLowerCase().includes('month') ? 'month' : 
-                               group.name.toLowerCase().includes('week') ? 'week' : 
-                               group.name.toLowerCase().includes('day') ? 'day' : 'delivery';
-                    
-                    intervalText = `${count} ${unit}${count > 1 ? 's' : ''}`;
-                  }
-                }
-                
-                if (!intervalText && plan.name) {
-                  const planName = plan.name.toLowerCase();
-                  const match = planName.match(/(\d+)\s*(day|days|week|weeks|month|months)/);
-                  if (match) {
-                    intervalText = `${match[1]} ${match[2]}`;
-                  }
-                }
-                
-                if (intervalText) {
-                  subEl.textContent = `Delivery every ${intervalText}`;
-                } else {
-                  subEl.textContent = 'Subscription delivery';
-                }
-                return;
-              }
+    if (!currentProduct || !currentProduct.selling_plan_groups) {
+      subEl.textContent = 'Subscription delivery';
+      return;
+    }
+
+    for (const group of currentProduct.selling_plan_groups) {
+      for (const plan of group.selling_plans) {
+        if (plan.id == sellingPlanId) {
+          let intervalText = '';
+          if (plan.price_adjustments && plan.price_adjustments[0]) {
+            const adjustment = plan.price_adjustments[0];
+            if (adjustment.order_count) {
+              const count = adjustment.order_count;
+              const unit = group.name.toLowerCase().includes('month') ? 'month' : 
+                         group.name.toLowerCase().includes('week') ? 'week' : 
+                         group.name.toLowerCase().includes('day') ? 'day' : 'delivery';
+              
+              intervalText = `${count} ${unit}${count > 1 ? 's' : ''}`;
             }
           }
+          
+          if (!intervalText && plan.name) {
+            const planName = plan.name.toLowerCase();
+            const match = planName.match(/(\d+)\s*(day|days|week|weeks|month|months)/);
+            if (match) {
+              intervalText = `${match[1]} ${match[2]}`;
+            }
+          }
+          
+          if (intervalText) {
+            subEl.textContent = `Delivery every ${intervalText}`;
+          } else {
+            subEl.textContent = 'Subscription delivery';
+          }
+          return;
         }
-        
-        subEl.textContent = 'Subscription delivery';
-      })
-      .catch(error => {
-        console.error('Error fetching selling plan data:', error);
-        subEl.textContent = 'Subscription delivery';
-      });
+      }
+    }
+    
+    subEl.textContent = 'Subscription delivery';
+  }
+
+  // Function to update price based on subscription selection
+  function updatePricing() {
+    if (!mainForm) return;
+    
+    const variantIdInput = mainForm.querySelector('[name="id"]');
+    if (!variantIdInput) return;
+    
+    const variantId = variantIdInput.value;
+    const subscriptionInfo = getRechargeSubscriptionInfo();
+    
+    if (subscriptionInfo.isSubscription && subscriptionInfo.sellingPlanId) {
+      // Get subscription pricing
+      getSellingPlanPricing(variantId, subscriptionInfo.sellingPlanId)
+        .then(priceData => {
+          updatePriceDisplay(priceData);
+        })
+        .catch(error => {
+          // Fall back to original variant pricing
+          if (currentProduct) {
+            const variant = currentProduct.variants.find(v => v.id == variantId);
+            if (variant) {
+              updatePriceDisplay({
+                price: variant.price,
+                compare_at_price: variant.compare_at_price
+              });
+            }
+          }
+        });
+    } else {
+      // Use original variant pricing
+      if (currentProduct) {
+        const variant = currentProduct.variants.find(v => v.id == variantId);
+        if (variant) {
+          updatePriceDisplay({
+            price: variant.price,
+            compare_at_price: variant.compare_at_price
+          });
+        }
+      }
+    }
   }
 
   function updateSticky() {
@@ -1126,34 +1221,43 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateDeliveryMessage();
 
-    fetch(`/products/${window.location.pathname.split('/')[2]}.js`)
-      .then(response => response.json())
-      .then(product => {
-        const variant = product.variants.find(v => v.id == variantId);
-        if (!variant) return;
+    // Fetch product data if we don't have it
+    if (!currentProduct) {
+      fetch(`/products/${window.location.pathname.split('/')[2]}.js`)
+        .then(response => response.json())
+        .then(product => {
+          currentProduct = product;
+          
+          // Store original prices for reference
+          product.variants.forEach(variant => {
+            originalVariantPrices[variant.id] = {
+              price: variant.price,
+              compare_at_price: variant.compare_at_price
+            };
+          });
+          
+          const variant = product.variants.find(v => v.id == variantId);
+          if (!variant) return;
 
-        titleEl.textContent = product.title;
-        variantEl.textContent = variant.title;
+          titleEl.textContent = product.title;
+          variantEl.textContent = variant.title;
+          
+          // Update pricing based on subscription selection
+          updatePricing();
+        })
+        .catch(error => {
+          // Silent fail
+        });
+    } else {
+      const variant = currentProduct.variants.find(v => v.id == variantId);
+      if (!variant) return;
 
-        let priceHtml = '';
-        if (typeof Shopify !== 'undefined' && Shopify.formatMoney) {
-          priceHtml = Shopify.formatMoney(variant.price, window.theme?.moneyFormat || "{{ shop.money_format }}");
-          if (variant.compare_at_price && variant.compare_at_price > variant.price) {
-            priceHtml += `<span class="sticky-atc__compare">
-                           ${Shopify.formatMoney(variant.compare_at_price, window.theme?.moneyFormat || "{{ shop.money_format }}")}
-                         </span>`;
-          }
-        } else {
-          priceHtml = `$${(variant.price / 100).toFixed(2)}`;
-          if (variant.compare_at_price && variant.compare_at_price > variant.price) {
-            priceHtml += `<span class="sticky-atc__compare">$${(variant.compare_at_price / 100).toFixed(2)}</span>`;
-          }
-        }
-        priceEl.innerHTML = priceHtml;
-      })
-      .catch(error => {
-        console.error('Error updating sticky ATC:', error);
-      });
+      titleEl.textContent = currentProduct.title;
+      variantEl.textContent = variant.title;
+      
+      // Update pricing based on subscription selection
+      updatePricing();
+    }
   }
 
   // Show/hide sticky bar on scroll
@@ -1175,20 +1279,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
   window.addEventListener('scroll', handleScroll);
 
-  // FIXED: Proper Dawn v9.0 cart refresh function
+  // Dawn v9.0 cart refresh function
   function refreshCartDrawer() {
     return new Promise((resolve, reject) => {
-      console.log('Starting Dawn v9.0 cart refresh...');
-      
-      // Get the cart drawer element
       const cartDrawer = document.querySelector('cart-drawer');
       if (!cartDrawer) {
-        console.error('Cart drawer not found');
         reject('Cart drawer not found');
         return;
       }
 
-      // Use Dawn's sections API to get fresh cart content
       fetch(`${window.location.origin}/?sections=cart-drawer,cart-icon-bubble`, {
         method: 'GET',
         headers: {
@@ -1197,8 +1296,6 @@ document.addEventListener('DOMContentLoaded', function() {
       })
       .then(response => response.json())
       .then(sections => {
-        console.log('Sections API response:', sections);
-        
         // Update cart drawer content
         if (sections['cart-drawer']) {
           const parser = new DOMParser();
@@ -1206,28 +1303,23 @@ document.addEventListener('DOMContentLoaded', function() {
           const newCartDrawer = newDoc.querySelector('cart-drawer');
           
           if (newCartDrawer) {
-            // Replace the inner content but keep the cart-drawer element
             cartDrawer.innerHTML = newCartDrawer.innerHTML;
             
-            // Re-initialize any scripts that might be in the new content
+            // Re-initialize scripts in new content
             const scripts = cartDrawer.querySelectorAll('script');
             scripts.forEach(script => {
               if (script.src) {
-                // External script - create new script element
                 const newScript = document.createElement('script');
                 newScript.src = script.src;
                 document.head.appendChild(newScript);
               } else if (script.textContent) {
-                // Inline script - execute it
                 try {
                   eval(script.textContent);
                 } catch (e) {
-                  console.log('Script execution skipped:', e);
+                  // Silent fail
                 }
               }
             });
-            
-            console.log('Cart drawer content updated successfully');
           }
         }
         
@@ -1241,7 +1333,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (newBubble) {
               cartIconBubble.outerHTML = newBubble.outerHTML;
-              console.log('Cart icon bubble updated');
             }
           }
         }
@@ -1249,7 +1340,6 @@ document.addEventListener('DOMContentLoaded', function() {
         resolve(cartDrawer);
       })
       .catch(error => {
-        console.error('Sections API failed:', error);
         reject(error);
       });
     });
@@ -1257,21 +1347,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Function to safely open cart drawer
   function openCartDrawer(cartDrawer) {
-    console.log('Opening cart drawer...');
-    
-    // Ensure the drawer is properly initialized before opening
     setTimeout(() => {
       if (typeof cartDrawer.open === 'function') {
         cartDrawer.open();
-        console.log('Cart drawer opened via open() method');
       } else {
-        // Manual open for older versions
         cartDrawer.classList.add('animate', 'active');
         cartDrawer.setAttribute('open', '');
         document.body.classList.add('overflow-hidden');
-        console.log('Cart drawer opened manually');
         
-        // Dispatch custom event to notify other scripts
         document.dispatchEvent(new CustomEvent('cart-drawer:open', {
           detail: { cartDrawer }
         }));
@@ -1284,19 +1367,13 @@ document.addEventListener('DOMContentLoaded', function() {
     atcButton.addEventListener('click', function(e) {
       e.preventDefault();
       
-      if (!mainForm) {
-        console.error('Main form not found');
-        return;
-      }
+      if (!mainForm) return;
 
       const formData = new FormData(mainForm);
       const variantId = formData.get('id');
       const quantity = formData.get('quantity') || 1;
       
-      if (!variantId) {
-        console.error('No variant ID found');
-        return;
-      }
+      if (!variantId) return;
 
       const subscriptionInfo = getRechargeSubscriptionInfo();
       
@@ -1318,8 +1395,6 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       Object.assign(cartData, allFormData);
-
-      console.log('Adding to cart:', cartData);
 
       // Disable button to prevent double clicks
       atcButton.disabled = true;
@@ -1352,8 +1427,6 @@ document.addEventListener('DOMContentLoaded', function() {
         return response.json();
       })
       .then(data => {
-        console.log('Successfully added to cart:', data);
-        
         // Re-enable button
         atcButton.disabled = false;
         atcButton.innerHTML = originalText;
@@ -1365,8 +1438,6 @@ document.addEventListener('DOMContentLoaded', function() {
             openCartDrawer(cartDrawer);
           })
           .catch(error => {
-            console.error('Error refreshing cart drawer:', error);
-            // Fallback: just try to open the existing drawer
             const cartDrawer = document.querySelector('cart-drawer');
             if (cartDrawer) {
               openCartDrawer(cartDrawer);
@@ -1374,8 +1445,6 @@ document.addEventListener('DOMContentLoaded', function() {
           });
       })
       .catch(error => {
-        console.error('Error adding to cart:', error);
-        
         // Re-enable button
         atcButton.disabled = false;
         atcButton.innerHTML = originalText;
@@ -1443,19 +1512,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Subscription listeners
+  // Subscription listeners - Enhanced to update pricing
   document.addEventListener('change', function(e) {
     if (e.target.matches('input[name*="subscription"], select[name*="subscription"], input[name*="selling_plan"], select[name*="selling_plan"], .rc-selling-plan input, .rc-subscription input, .rc-widget input, .subscription-widget input, .subscription-widget select, .subscription-options input, .subscription-options select')) {
-      setTimeout(updateDeliveryMessage, 100);
+      setTimeout(function() {
+        updateDeliveryMessage();
+        updatePricing();
+      }, 100);
     }
   });
 
   document.addEventListener('recharge:subscription-changed', function(e) {
-    setTimeout(updateDeliveryMessage, 100);
+    setTimeout(function() {
+      updateDeliveryMessage();
+      updatePricing();
+    }, 100);
   });
 
   document.addEventListener('selling_plan:change', function(e) {
-    setTimeout(updateDeliveryMessage, 100);
+    setTimeout(function() {
+      updateDeliveryMessage();
+      updatePricing();
+    }, 100);
   });
 
   const subscriptionWidgets = document.querySelectorAll('.rc-widget, .subscription-widget, .subscription-options, [data-subscription-widget]');
@@ -1463,7 +1541,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const observer = new MutationObserver(function(mutations) {
       mutations.forEach(function(mutation) {
         if (mutation.type === 'childList' || mutation.type === 'attributes') {
-          setTimeout(updateDeliveryMessage, 100);
+          setTimeout(function() {
+            updateDeliveryMessage();
+            updatePricing();
+          }, 100);
         }
       });
     });
@@ -1484,6 +1565,9 @@ document.addEventListener('DOMContentLoaded', function() {
   }, 100);
 });
 </script>
+
+
+
 </section>
 
 <style>
