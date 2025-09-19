@@ -809,9 +809,8 @@
 }
 </script>
 
-
 <script>
-// sticky-atc.js - Merged version with both price updates and delivery text functionality
+// sticky-atc.js - Optimized version without setTimeout delays
 document.addEventListener('DOMContentLoaded', function() {
   const sticky = document.getElementById('sticky-atc');
   const mainForm = document.querySelector('form[action^="/cart/add"]');
@@ -828,6 +827,42 @@ document.addEventListener('DOMContentLoaded', function() {
   // Store original variant prices for fallback
   let originalVariantPrices = {};
   let currentProduct = null;
+  let updateInProgress = false;
+  let pendingUpdate = false;
+
+  // Debounce function to prevent multiple rapid updates
+  function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout);
+        func(...args);
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+    };
+  }
+
+  // Request Animation Frame based update queue
+  function requestUpdate(callback) {
+    if (updateInProgress) {
+      pendingUpdate = true;
+      return;
+    }
+    
+    updateInProgress = true;
+    requestAnimationFrame(() => {
+      try {
+        callback();
+      } finally {
+        updateInProgress = false;
+        if (pendingUpdate) {
+          pendingUpdate = false;
+          requestUpdate(callback);
+        }
+      }
+    });
+  }
 
   // Function to check if Recharge subscription widget exists
   function hasRechargeWidget() {
@@ -1245,7 +1280,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
 
-  function updateSticky() {
+  // Combined update function
+  function performStickyUpdate() {
     if (!mainForm) return;
     
     const variantIdInput = mainForm.querySelector('[name="id"]');
@@ -1298,6 +1334,18 @@ document.addEventListener('DOMContentLoaded', function() {
       // Update pricing based on subscription selection
       updatePricing();
     }
+  }
+
+  // Debounced update function
+  const debouncedStickyUpdate = debounce(performStickyUpdate, 16); // ~60fps
+  const debouncedSubscriptionUpdate = debounce(() => {
+    updateDeliveryMessage();
+    updatePricing();
+  }, 16);
+
+  // Optimized update function using requestAnimationFrame
+  function updateSticky() {
+    requestUpdate(performStickyUpdate);
   }
 
   // Show/hide sticky bar on scroll
@@ -1387,7 +1435,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Function to safely open cart drawer
   function openCartDrawer(cartDrawer) {
-    setTimeout(() => {
+    requestAnimationFrame(() => {
       if (typeof cartDrawer.open === 'function') {
         cartDrawer.open();
       } else {
@@ -1399,7 +1447,7 @@ document.addEventListener('DOMContentLoaded', function() {
           detail: { cartDrawer }
         }));
       }
-    }, 100);
+    });
   }
 
   // Handle sticky ATC button click
@@ -1503,22 +1551,18 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Variant change listeners
+  // Variant change listeners - using immediate execution
   if (mainForm) {
     mainForm.addEventListener('change', function(e) {
       if (e.target.name === 'id' || e.target.type === 'radio' || e.target.tagName === 'SELECT') {
-        setTimeout(updateSticky, 100);
+        debouncedStickyUpdate();
       }
     });
   }
 
-  document.addEventListener('variant:change', function(e) {
-    setTimeout(updateSticky, 100);
-  });
-
-  document.addEventListener('product:variant-change', function(e) {
-    setTimeout(updateSticky, 100);
-  });
+  // Custom events - immediate execution
+  document.addEventListener('variant:change', debouncedStickyUpdate);
+  document.addEventListener('product:variant-change', debouncedStickyUpdate);
 
   if (mainForm) {
     const variantIdInput = mainForm.querySelector('[name="id"]');
@@ -1536,58 +1580,39 @@ document.addEventListener('DOMContentLoaded', function() {
         attributeFilter: ['value'] 
       });
 
+      // Use RAF instead of setInterval for better performance
       let lastValue = variantIdInput.value;
-      setInterval(function() {
+      function checkForValueChange() {
         if (variantIdInput.value !== lastValue) {
           lastValue = variantIdInput.value;
           updateSticky();
         }
-      }, 500);
+        requestAnimationFrame(checkForValueChange);
+      }
+      requestAnimationFrame(checkForValueChange);
     }
   }
 
   document.addEventListener('click', function(e) {
     if (e.target.matches('.product-form__input input[type="radio"], .product-form__input label, .variant-input, .single-option-selector')) {
-      setTimeout(updateSticky, 150);
+      // Use RAF for smooth updates after click
+      requestAnimationFrame(() => debouncedStickyUpdate());
     }
   });
 
-  // Subscription listeners - Enhanced to update both pricing and delivery message
+  // Subscription listeners - immediate execution with debouncing
   document.addEventListener('change', function(e) {
     if (e.target.matches('input[name*="subscription"], select[name*="subscription"], input[name*="selling_plan"], select[name*="selling_plan"], .rc-selling-plan input, .rc-subscription input, .rc-widget input, .subscription-widget input, .subscription-widget select, .subscription-options input, .subscription-options select')) {
-      setTimeout(function() {
-        updateDeliveryMessage();
-        updatePricing();
-      }, 100);
+      debouncedSubscriptionUpdate();
     }
   });
 
-  document.addEventListener('recharge:subscription-changed', function(e) {
-    setTimeout(function() {
-      updateDeliveryMessage();
-      updatePricing();
-    }, 100);
-  });
-
-  document.addEventListener('selling_plan:change', function(e) {
-    setTimeout(function() {
-      updateDeliveryMessage();
-      updatePricing();
-    }, 100);
-  });
+  document.addEventListener('recharge:subscription-changed', debouncedSubscriptionUpdate);
+  document.addEventListener('selling_plan:change', debouncedSubscriptionUpdate);
 
   const subscriptionWidgets = document.querySelectorAll('.rc-widget, .subscription-widget, .subscription-options, [data-subscription-widget]');
   subscriptionWidgets.forEach(function(widget) {
-    const observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
-        if (mutation.type === 'childList' || mutation.type === 'attributes') {
-          setTimeout(function() {
-            updateDeliveryMessage();
-            updatePricing();
-          }, 100);
-        }
-      });
-    });
+    const observer = new MutationObserver(debouncedSubscriptionUpdate);
     
     observer.observe(widget, { 
       childList: true, 
@@ -1597,12 +1622,12 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 
-  // Initial update
-  setTimeout(function() {
+  // Initial update - immediate execution
+  requestAnimationFrame(() => {
     if (!sticky.classList.contains('hidden')) {
       updateSticky();
     }
-  }, 100);
+  });
 });
 </script>
 </section>
