@@ -343,7 +343,7 @@
           "settings": {
             "image": "shopify://shop_images/Xylitol.jpg",
             "title": "<strong>Xylitol</strong>",
-            "text": "<p>Fights bacteria</p>",
+            "text": "<p>Refreshes your mouth with a mild, clean flavor</p>",
             "link_label": "",
             "link": ""
           }
@@ -577,6 +577,12 @@
         "section_background_color": "#ffffff",
         "custom_background_color": "#dae9cf",
         "custom_text_color": "#ffffff",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
