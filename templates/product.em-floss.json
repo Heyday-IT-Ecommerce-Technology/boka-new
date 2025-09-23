@@ -111,6 +111,9 @@
         "b4620176-8a50-42c9-8121-6df15e9ca481",
         "f64f4756-37a0-4c99-a1d5-6c47d0c46eb6"
       ],
+      "custom_css": [
+        "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
