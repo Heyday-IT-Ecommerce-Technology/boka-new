@@ -146,6 +146,9 @@
         "b4620176-8a50-42c9-8121-6df15e9ca481",
         "3bb0f008-808d-4593-a3b5-c0260163ce80"
       ],
+      "custom_css": [
+        "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
@@ -203,6 +206,12 @@
         "section_background_color": "rgba(0,0,0,0)",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#212529",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 70,
