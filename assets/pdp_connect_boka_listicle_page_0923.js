@@ -5,10 +5,10 @@ window.__WWAI__ = window.__WWAI__ || {};
 window.__WWAI__.useMockSubscription = true;
 
 // Options: "local" | "sandbox" | "prod"
-window.__WWAI__.deployMode = "local";
+window.__WWAI__.deployMode = "prod";
 
 // Enables dev/debugger mode, values are dev, prod
-window.__WWAI__.MODE = "dev";
+window.__WWAI__.MODE = "prod";
 
 // Controls Liquid-product rendering
 window.__WWAI__.RENDER_WITH_LIQUID = true;
