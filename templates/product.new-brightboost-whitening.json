@@ -167,6 +167,9 @@
         "af067451-b82f-4114-8006-9a547e9c2157",
         "icon_with_text_V6zWW9"
       ],
+      "custom_css": [
+        "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
