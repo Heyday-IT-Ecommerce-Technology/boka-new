@@ -155,7 +155,7 @@
         "2528d338-1b96-4ed2-a747-8c0333201bf1"
       ],
       "custom_css": [
-        "@media only screen and (max-width: 1200px) {.cta-buttons {order: 1 !important; }}"
+        "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
       ],
       "settings": {
         "enable_sticky_info": true,
