@@ -142,7 +142,8 @@
         "8f4ac970-3a15-4b7d-823a-82ce6560b8df"
       ],
       "custom_css": [
-        ".icon-with-text img {aspect-ratio: 2 / 1;}"
+        ".icon-with-text img {aspect-ratio: 2 / 1;}",
+        "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
       ],
       "settings": {
         "enable_sticky_info": true,
