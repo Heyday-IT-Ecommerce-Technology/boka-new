@@ -1928,8 +1928,18 @@ div#sticky-atc__button{
   }
 
   .sticky-atc__texts {
-  margin-left: 1rem;
+    margin-left: 1rem;
+  }
 }
+
+@media screen and (min-width: 320px) and (max-width: 360px) {
+  #sticky-atc-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    max-width: 160px;
+  }
 }
 
 </style>
