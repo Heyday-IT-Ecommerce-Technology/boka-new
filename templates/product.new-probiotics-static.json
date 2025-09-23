@@ -166,7 +166,8 @@
         "collapsible_tab_NnPN3E"
       ],
       "custom_css": [
-        "@media screen and (min-width: 1100px) {.icon-with-text--inlined {justify-content: unset; }}"
+        "@media screen and (min-width: 1100px) {.icon-with-text--inlined {justify-content: unset; }}",
+        "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
       ],
       "settings": {
         "enable_sticky_info": true,
