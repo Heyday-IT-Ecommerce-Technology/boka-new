@@ -96,69 +96,15 @@
             "row_content": "<p>Unlike some over-the-counter whitening products with peroxide, Boka’s toothpaste and oral care collection offer a gentle option for those looking to reduce the appearance of surface stains from daily routines. Our products are formulated with carefully selected ingredients and provide a clean, refreshing mint flavor—without the need for LED light kits, bleaching gel, or other aggressive treatments.</p>",
             "page": ""
           }
-        },
-        "collapsible_row_EycrT9": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "What teeth whitening products does Boka offer?",
-            "icon": "none",
-            "row_content": "<p>We offer <a href=\"https://www.boka.com/products/refresh-mint-whitening-toothpaste\"><span style=\"text-decoration:underline\">whitening toothpaste</span></a>, <a href=\"https://www.boka.com/products/whitening-strips\"><span style=\"text-decoration:underline\">whitening strips</span></a>, <a href=\"https://www.boka.com/products/express-glow-whitening-pen\"><span style=\"text-decoration:underline\">whitening pens</span></a>, and <a href=\"https://www.boka.com/collections/bright-and-white/products/rapid-radiance-teeth-whitening-kit\"><span style=\"text-decoration:underline\">whitening kits</span></a>.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_94KUp6": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Are Boka's teeth whitening products suitable for sensitive teeth?",
-            "icon": "none",
-            "row_content": "<p>We offer options specifically designed for sensitive teeth, such as <a href=\"https://www.boka.com/products/whitening-strips\"><span style=\"text-decoration:underline\">Sensitive Smile Whitening Strips</span></a>. These products are formulated to minimize discomfort while effectively whitening teeth.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_dWKePr": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Do Boka's teeth whitening products contain fluoride?",
-            "icon": "none",
-            "row_content": "<p>Our products are fluoride-free and instead use nano-hydroxyapatite (n-Ha) for enamel remineralization and whitening.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_6WT3dG": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "How does Boka's Express Glow Whitening Pen work?",
-            "icon": "none",
-            "row_content": "<p>Our whitening pen features a stain-busting whitening gel powered by Phthalimido-Peroxy-Caproic Acid (PAP) and nano-hydroxyapatite (n-Ha). It targets and eliminates compounds that cause teeth discoloration while forming a protective barrier over teeth.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_3edWGM": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "How does Boka's Refresh Mint Teeth Whitening n-Ha Toothpaste work?",
-            "icon": "none",
-            "row_content": "<p>Our toothpaste contains nano-hydroxyapatite (n-Ha), a calcium compound that strengthens enamel and whitens teeth naturally. It's fluoride-free and safe for everyday use.</p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "collapsible_row_GGcFRf",
         "collapsible_row_aJYYmM",
         "collapsible_row_cKabND",
-        "collapsible_row_BWhNk3",
-        "collapsible_row_EycrT9",
-        "collapsible_row_94KUp6",
-        "collapsible_row_dWKePr",
-        "collapsible_row_6WT3dG",
-        "collapsible_row_3edWGM"
+        "collapsible_row_BWhNk3"
       ],
+      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Questions About Boka Teeth Whitening Products",
@@ -200,7 +146,7 @@
         "fadein_enabled": true,
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52,
