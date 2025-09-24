@@ -90,6 +90,7 @@
         },
         "collapsible_row_BWhNk3": {
           "type": "collapsible_row",
+          "disabled": true,
           "settings": {
             "heading": "What are the benefits of Boka’s whitening products compared to other brands?",
             "icon": "none",
@@ -104,7 +105,6 @@
         "collapsible_row_cKabND",
         "collapsible_row_BWhNk3"
       ],
-      "disabled": true,
       "settings": {
         "caption": "",
         "heading": "Questions About Boka Teeth Whitening Products",
