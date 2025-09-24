@@ -179,11 +179,40 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
+    },
+    "rich_text_RqXiAN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9JMAQ3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>*WHITENING: With Regular brushing, helps remove surface stains.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_9JMAQ3"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "fadein_enabled": true,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "collapsible_content_GaTyNb"
+    "collapsible_content_GaTyNb",
+    "rich_text_RqXiAN"
   ]
 }
