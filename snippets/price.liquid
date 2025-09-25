@@ -59,7 +59,7 @@
         {{ money_price }}
       </span>
     </div>
-    <div class="price__sale">
+    <div class="price__sale{% if template == 'product' %}price__sale__pdp{% endif %}">
       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <p class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</p>
         <p>
