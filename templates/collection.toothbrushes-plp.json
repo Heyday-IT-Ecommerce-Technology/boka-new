@@ -78,7 +78,7 @@
       "settings": {
         "products_per_page": 24,
         "columns_desktop": 4,
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
@@ -88,7 +88,7 @@
         "filter_type": "horizontal",
         "enable_sorting": false,
         "columns_mobile": "2",
-        "enable_merchandising_card": true,
+        "enable_merchandising_card": false,
         "card_bg_color": "",
         "card_text_color": "",
         "card_columns": "one",
