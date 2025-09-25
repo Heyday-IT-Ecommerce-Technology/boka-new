@@ -88,7 +88,7 @@
             "heading_1": "Soothing aloe vera",
             "icon_2": "none",
             "image_2": "shopify://shop_images/xylitol.png",
-            "heading_2": "Bacteria-fighting xylitol",
+            "heading_2": "No artificial flavors or colors",
             "padding_top": 14,
             "padding_bottom": 0
           }
@@ -271,7 +271,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "toothpaste-pdp-collection",
+        "collection": "best-sellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
