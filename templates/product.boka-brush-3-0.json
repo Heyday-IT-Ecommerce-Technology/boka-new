@@ -25,41 +25,18 @@
         "price": {
           "type": "price",
           "settings": {
-            "hide_on_subscription_products": true
+            "hide_on_subscription_products": false
           }
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
-        },
-        "boka_subs_widget_yUbeNT": {
-          "type": "boka_subs_widget",
-          "settings": {
-            "otp_label": "One-time purchase",
-            "subscription_label": "Subscribe & Save",
-            "subscription_sub_label": "Save 20% on every subscription",
-            "default_selection": "subs",
-            "border_color": "#e1e0e0",
-            "text_color": "#000000",
-            "selected_bgcolor": "#fafaf5",
-            "selected_border": "#000000"
-          }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Boka Brush 3.0<br/>2 Brush Heads </strong>with charcoal bristles<strong> <br/>Travel Case<br/>Magnetic Charging Block</strong></p>",
-            "text_style": "body",
-            "quick_add_hide": false
           }
         },
         "custom_liquid_gWqVH9": {
@@ -87,6 +64,7 @@
         },
         "recharge_subscriptions_subscription_widget_v2_8KXYU3": {
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
           "settings": {}
         },
         "description": {
@@ -140,9 +118,7 @@
         "yotpo_product_reviews_star_rating_thfdFD",
         "price",
         "quantity_selector",
-        "boka_subs_widget_yUbeNT",
         "buy_buttons",
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
         "custom_liquid_gWqVH9",
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
         "variant_picker",
@@ -237,7 +213,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "toothpaste-pdp-collection",
+        "collection": "best-sellers",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
@@ -282,104 +258,6 @@
         "padding_bottom_tablet": 40,
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20
-      }
-    },
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
-      "type": "image-with-bulleted-text",
-      "blocks": {
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Advanced sonic technology</p>",
-            "text_style": "body"
-          }
-        },
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Waterproof</p>",
-            "text_style": "body"
-          }
-        },
-        "93b178e4-2598-45c7-b4a1-fd50f417768b": {
-          "type": "text",
-          "settings": {
-            "text": "<p>2-minute timer (with 30 second alerts)</p>",
-            "text_style": "body"
-          }
-        },
-        "6f829075-8538-46cf-852c-3bb0c8fb002d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Rechargeable li-ion battery lasts over 25 days</p>",
-            "text_style": "body"
-          }
-        },
-        "d80da3aa-4a84-46b3-a144-4e00120b9190": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Magnetic docking station</p>",
-            "text_style": "body"
-          }
-        },
-        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87": {
-          "type": "text",
-          "settings": {
-            "text": "<p>30-day money back guarantee</p>",
-            "text_style": "body"
-          }
-        },
-        "ccc0d76b-6c08-4549-8e9b-a329f37b1515": {
-          "type": "text",
-          "settings": {
-            "text": "<p>2-year warranty</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--15124824588331__a02ced5f-9a2c-4bfd-989c-12be8442c58a-16843740867ef11f43-0",
-        "a0ac8f6f-6799-4755-a95f-5f059a6f0b5b",
-        "93b178e4-2598-45c7-b4a1-fd50f417768b",
-        "6f829075-8538-46cf-852c-3bb0c8fb002d",
-        "d80da3aa-4a84-46b3-a144-4e00120b9190",
-        "4aa669c9-1b55-40e7-a34e-9b5dd74e8c87",
-        "ccc0d76b-6c08-4549-8e9b-a329f37b1515"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/Boka_Lifestyle_Powerbrush_798x634_11ce6a89-ccb3-4796-aab1-e8e48e29b63d.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "heading": "Brush up on the deets",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "caption": "",
-        "text_style": "subtitle",
-        "text_size": "medium",
-        "button_label": "",
-        "button_link": "",
-        "second_button_label": "",
-        "second_button_link": "",
-        "content_layout": "no-overlap",
-        "color_scheme": "custom",
-        "section_background_color": "#9b7c64",
-        "custom_background_color": "#9b7c64",
-        "custom_text_color": "#ffffff",
-        "bullets_color": "#ffffff",
-        "bullets_line_color": "#ffffff",
-        "image_behavior": "none",
-        "mobile_heading_alignment": "center",
-        "mobile_content_alignment": "left",
-        "padding_top": 70,
-        "padding_bottom": 70,
-        "padding_top_tablet": 30,
-        "padding_bottom_tablet": 30,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
       }
     },
     "13bf477d-9ff5-4e98-aa65-67538cea8e94": {
@@ -1401,114 +1279,6 @@
         "margin_bottom_mobile": 40
       }
     },
-    "d284a299-c23a-4869-b074-afb072bd39b5": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is sonic technology in the context of toothbrushes?",
-            "icon": "none",
-            "row_content": "<p>Sonic technology refers to the use of high-frequency vibrations, typically at a rate of thousands of cycles per minute, to create powerful cleaning motions in electric toothbrushes. These vibrations help dislodge plaque and debris more effectively than manual brushing.</p>",
-            "page": ""
-          }
-        },
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does sonic technology differ from other electric toothbrush technologies?",
-            "icon": "none",
-            "row_content": "<p>Sonic technology produces rapid back-and-forth movements, while other electric toothbrushes might rotate or oscillate. Sonic toothbrushes use the power of vibrations to clean teeth and gums thoroughly.</p>",
-            "page": ""
-          }
-        },
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What are the advantages of using a toothbrush with sonic technology?",
-            "icon": "none",
-            "row_content": "<p>Sonic toothbrushes offer a more thorough and gentle cleaning experience. The high-frequency vibrations help reach areas between teeth and along the gumline, providing a dentist-like clean feeling. Additionally, sonic technology can stimulate saliva flow, promoting natural oral cleansing.</p>",
-            "page": ""
-          }
-        },
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How does the Boka Brush 2.0's sonic technology work, and why is it beneficial?",
-            "icon": "none",
-            "row_content": "<p>Our electric toothbrush utilizes advanced sonic technology, generating 30,000 vibrations per minute, replicating the just-left-the-dentist feel. This powerful yet gentle motion ensures a thorough clean, reaching areas that manual brushing might miss.</p>",
-            "page": ""
-          }
-        },
-        "d4d0cb50-a6a2-43e2-912b-c3498256243a": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What sets apart the activated charcoal bristles in Boka Brush 2.0?",
-            "icon": "none",
-            "row_content": "<p>It is designed to limit bacteria growth and offer a softer brushing experience. These bristles prevent overbrushing, reducing the risk of gum recession, sensitivity and enhancing overall oral health.</p>",
-            "page": ""
-          }
-        },
-        "a1a41318-2f7a-45f2-9da1-d2708d0a9db3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Does this product come with a built-in timer feature?",
-            "icon": "none",
-            "row_content": "<p>Yes, our electric toothbrush has a 2-minute timer with 30-second alerts, encouraging you to brush for the recommended duration and evenly cover all areas of your mouth for a comprehensive clean.</p>",
-            "page": ""
-          }
-        },
-        "1cb31ae2-4628-4ea7-aa20-198d39556bbd": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How often should I replace the brush head of my electric toothbrush?",
-            "icon": "none",
-            "row_content": "<p>Ideally, you should replace the brush head every three to four months or sooner if the bristles show signs of wear. Regular replacement ensures optimal cleaning effectiveness.</p>",
-            "page": ""
-          }
-        },
-        "dd6ab279-89ec-4493-b7e1-cc309bf6e7a1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How do I clean and maintain my electric toothbrush?",
-            "icon": "none",
-            "row_content": "<p>You can clean your toothbrush regularly by rinsing the brush head thoroughly after each use and allowing it to air dry. Additionally, remove the brush head periodically and clean the handle base to prevent bacterial buildup. Refer to the user manual for specific cleaning instructions.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-1",
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-2",
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-3",
-        "template--15159097229355__d284a299-c23a-4869-b074-afb072bd39b5-collapsible_row-4",
-        "d4d0cb50-a6a2-43e2-912b-c3498256243a",
-        "a1a41318-2f7a-45f2-9da1-d2708d0a9db3",
-        "1cb31ae2-4628-4ea7-aa20-198d39556bbd",
-        "dd6ab279-89ec-4493-b7e1-cc309bf6e7a1"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "",
-        "heading": "Questions About Boka Sonic Electric Toothbrush",
-        "heading_size": "h1",
-        "heading_tag": "h2",
-        "heading_alignment": "center",
-        "description": "Learn more about our innovative electric toothbrush and its cutting-edge sonic technology below!",
-        "layout": "none",
-        "color_scheme": "background-1",
-        "container_color_scheme": "background-2",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
-      }
-    },
     "dabd8db4-4f20-4fa0-8d56-e5c232215f0f": {
       "type": "rich-text",
       "blocks": {
@@ -1586,9 +1356,7 @@
     "85272ee1-d7ec-498c-985b-6761fcc6f38f",
     "4ade24a0-f3db-41b7-aa6f-749f2e3656a3",
     "related-products",
-    "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
-    "d284a299-c23a-4869-b074-afb072bd39b5",
     "dabd8db4-4f20-4fa0-8d56-e5c232215f0f",
     "1684207833f45c861d",
     "17400757701f912978"
