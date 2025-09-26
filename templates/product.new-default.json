@@ -163,6 +163,39 @@
         "padding_bottom_mobile": 60
       }
     },
+    "featured_collection_bk6RWf": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "title": "<em>Complete</em> Your Routine",
+        "heading_size": "h1",
+        "heading_tag": "default",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-sellers",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "custom_background_color": "#333333",
+        "custom_text_color": "#FFFFFF",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
+      }
+    },
     "yt_shorts_cRzjGH": {
       "type": "yt-shorts",
       "blocks": {
@@ -692,6 +725,7 @@
   },
   "order": [
     "main",
+    "featured_collection_bk6RWf",
     "yt_shorts_cRzjGH",
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "multicolumn_6G7iCQ",
