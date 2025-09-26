@@ -30,7 +30,6 @@
         },
         "variant_picker": {
           "type": "variant_picker",
-          "disabled": true,
           "settings": {
             "picker_type": "button",
             "color_names": "white, blue, mint, pink",
@@ -183,7 +182,7 @@
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
         "custom_background_color": "#333333",
-        "custom_text_color": "#FFFFFF",
+        "custom_text_color": "#ffffff",
         "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
