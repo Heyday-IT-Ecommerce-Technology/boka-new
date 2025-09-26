@@ -166,6 +166,56 @@
         "padding_bottom_mobile": 20
       }
     },
+    "yt_shorts_7mrnPE": {
+      "type": "yt-shorts",
+      "blocks": {
+        "video_FxDCrh": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/Ek57iTe94X0?feature=share",
+            "description": ""
+          }
+        },
+        "video_6VcqVA": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/ZIOM1LbIvyI?feature=share",
+            "description": ""
+          }
+        },
+        "video_dTE6Eb": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/9GynqcaP5jI",
+            "description": ""
+          }
+        },
+        "video_QqTYFd": {
+          "type": "video",
+          "settings": {
+            "yt_shorts_link": "https://youtube.com/shorts/3N-wNQw19IU?feature=share",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_FxDCrh",
+        "video_6VcqVA",
+        "video_dTE6Eb",
+        "video_QqTYFd"
+      ],
+      "name": "t:sections.yt-shorts.presets.name",
+      "settings": {
+        "yt_shorts_title": "From Our<em> Boka Fam</em>",
+        "heading_size": "h1",
+        "auto_center": false,
+        "columns": 4,
+        "button_label": "Button label",
+        "button_link": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a": {
       "type": "image-with-bulleted-text",
       "blocks": {
@@ -730,6 +780,7 @@
   },
   "order": [
     "main",
+    "yt_shorts_7mrnPE",
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
     "custom_liquid_hL9Mbr",
     "multicolumn_6G7iCQ",
