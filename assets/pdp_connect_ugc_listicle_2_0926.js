@@ -287,7 +287,7 @@ window.__WWAI__.WWAI_PRODUCT_GROUP_CONFIG = {
         "defaultProduct": "nano-n-ha-toothpaste-family-3-pack",
         "defaultVariantOption1": "Orange Cream",
         "defaultVariantOption2": "Strawberry Mango",
-        "defaultVariantOption3": "Orange Cream",
+        "defaultVariantOption3": "Watermelon Mint",
         "allProducts": "nano-n-ha-toothpaste-family-3-pack",
         "allOptions": {
           "option1": "Orange Cream | Watermelon Mint | Strawberry Mango",
