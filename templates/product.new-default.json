@@ -145,7 +145,7 @@
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
-        "media_size": "medium",
+        "media_size": "small",
         "lazyload": false,
         "constrain_to_viewport": false,
         "media_fit": "contain",
