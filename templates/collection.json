@@ -124,6 +124,7 @@
         "collapsible_row_Aim9kU",
         "collapsible_row_t3K6PH"
       ],
+      "disabled": true,
       "name": "t:sections.collapsible_content.presets.name",
       "settings": {
         "caption": "",
