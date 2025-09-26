@@ -145,9 +145,9 @@
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
-        "media_size": "small",
+        "media_size": "medium",
         "lazyload": false,
-        "constrain_to_viewport": false,
+        "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
         "media_position": "left",
