@@ -16,16 +16,16 @@
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
-          "settings": {
-            "hide_on_subscription_products": true
-          }
-        },
         "yotpo_product_reviews_star_rating_Jpxdwz": {
           "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "hide_on_subscription_products": false
           }
         },
         "variant_picker": {
@@ -36,12 +36,12 @@
             "color_hex": "#FFFFFF, #46627B, #D5EBCD, #F4B6B7"
           }
         },
-        "recharge_subscriptions_subscription_widget_v2_YmxgLa": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {}
-        },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {}
+        },
+        "recharge_subscriptions_subscription_widget_v2_YmxgLa": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
         },
         "buy_buttons": {
@@ -92,6 +92,7 @@
         "af067451-b82f-4114-8006-9a547e9c2157": {
           "type": "icon-with-text",
           "name": "Claims 1 & 2",
+          "disabled": true,
           "settings": {
             "orientation": "inlined",
             "layout": "vertical",
@@ -108,6 +109,7 @@
         "icon_with_text_V6zWW9": {
           "type": "icon-with-text",
           "name": "Claims 3 & 4",
+          "disabled": true,
           "settings": {
             "orientation": "inlined",
             "layout": "vertical",
@@ -124,11 +126,11 @@
       },
       "block_order": [
         "title",
-        "price",
         "yotpo_product_reviews_star_rating_Jpxdwz",
+        "price",
         "variant_picker",
-        "recharge_subscriptions_subscription_widget_v2_YmxgLa",
         "quantity_selector",
+        "recharge_subscriptions_subscription_widget_v2_YmxgLa",
         "buy_buttons",
         "description",
         "8f4ac970-3a15-4b7d-823a-82ce6560b8df",
@@ -143,7 +145,7 @@
       "settings": {
         "enable_sticky_info": true,
         "enable_sticky_atc": true,
-        "media_size": "large",
+        "media_size": "small",
         "lazyload": false,
         "constrain_to_viewport": false,
         "media_fit": "contain",
@@ -203,6 +205,7 @@
         "video_a9HBAm",
         "video_xqrKr4"
       ],
+      "disabled": true,
       "name": "t:sections.yt-shorts.presets.name",
       "settings": {
         "yt_shorts_title": "{{ product.metafields.custom.ugc_title.value }}",
@@ -257,6 +260,7 @@
         "93b178e4-2598-45c7-b4a1-fd50f417768b",
         "6f829075-8538-46cf-852c-3bb0c8fb002d"
       ],
+      "disabled": true,
       "name": "A clean you feel good about",
       "settings": {
         "image": "{{ product.metafields.custom.a_clean_you_can_feel_good_about_image.value }}",
@@ -335,6 +339,7 @@
         "column_4nTd9b",
         "column_3U6yrb"
       ],
+      "disabled": true,
       "custom_css": [
         ".inline-richtext {margin: auto;}",
         "@media screen and (max-width: 749px) {.inline-richtext {margin-left: auto !important; margin-right: auto !important; text-align: center !important; }}"
@@ -368,6 +373,7 @@
     },
     "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
         ".title {text-align: center; font-size: 52px;}",
         "@media screen and (max-width: 749px) {.title {font-size: 30px; }}"
@@ -457,6 +463,7 @@
         "column_68Mc7p",
         "column_GefQYG"
       ],
+      "disabled": true,
       "custom_css": [
         ".title-wrapper-with-link .title {margin: auto !important; text-align: center !important; margin-top: 50px !important;}",
         ".multicolumn-card {background-color: #fafaf5 !important;}",
@@ -606,6 +613,7 @@
         "collapsible_row_QcLBtp",
         "collapsible_row_dnEjhR"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 749px) {h1 {font-size: 30px; }}"
       ],
