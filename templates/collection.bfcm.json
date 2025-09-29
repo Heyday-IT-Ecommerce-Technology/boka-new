@@ -302,14 +302,14 @@
           "type": "heading",
           "settings": {
             "heading": "Your best smile is just a BFCM deal away!",
-            "heading_size": "h1",
-            "heading_tag": "default"
+            "heading_size": "h0",
+            "heading_tag": "h2"
           }
         },
         "text_mFQYpt": {
           "type": "text",
           "settings": {
-            "text": "<h3>Brighten your routine with Boka’s revolutionary oral care products—natural toothpaste, electric toothbrushes, and everything in between. Get glowing smiles and healthy gums at prices you’ll be thrilled to brush up on. Dental health meets deep discounts for a happier, healthier you!</h3>",
+            "text": "<p>Brighten your routine with Boka’s revolutionary oral care products—natural toothpaste, electric toothbrushes, and everything in between. Get glowing smiles and healthy gums at prices you’ll be thrilled to brush up on. Dental health meets deep discounts for a happier, healthier you!</p>",
             "text_style": "body"
           }
         },
@@ -340,6 +340,12 @@
         "section_background_color": "#fafaf5",
         "custom_background_color": "#fafaf5",
         "custom_text_color": "#000000",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 130,
@@ -369,6 +375,24 @@
       "type": "collapsible-content",
       "blocks": {
         "collapsible_row_GGcFRf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What kinds of Black Friday and Cyber Monday deals can I expect from Boka?",
+            "icon": "none",
+            "row_content": "<p>We offer Black Friday deals on oral care products like our electric toothbrushes, Nano-hydroxyapatite toothpaste, teeth whitening kits, and oral care kits. Whether you're shopping for kids, looking to improve your brushing routine, or hoping to level up with a water flosser, Boka bundles it all with great discounts. These limited-time offers are the best time to upgrade your routine and save big.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cRRWJi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long do the Black Friday and Cyber Monday deals last?",
+            "icon": "none",
+            "row_content": "<p>Our BFCM deals are available for a limited time only. </p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_hgN6ij": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can you tell me more about Boka as a brand?",
@@ -443,6 +467,8 @@
       },
       "block_order": [
         "collapsible_row_GGcFRf",
+        "collapsible_row_cRRWJi",
+        "collapsible_row_hgN6ij",
         "collapsible_row_aJYYmM",
         "collapsible_row_cKabND",
         "collapsible_row_EycrT9",
