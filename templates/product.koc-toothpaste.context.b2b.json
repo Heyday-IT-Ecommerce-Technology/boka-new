@@ -8,7 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "parent": "product.koc-toothpaste.json",
+  "parent": "product.orange-cream.json",
   "context": {
     "b2b": true
   },
