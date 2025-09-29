@@ -210,6 +210,9 @@
         "column_xWWrJU",
         "column_mW3K7M"
       ],
+      "custom_css": [
+        ".column-heading {padding: unset;}"
+      ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
