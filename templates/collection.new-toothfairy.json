@@ -71,48 +71,43 @@
         "padding_bottom_mobile": 10
       }
     },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
+    "product-grid": {
+      "type": "main-collection-product-grid",
       "settings": {
-        "show_collection_description": false,
-        "show_collection_image": false,
-        "color_scheme": "custom",
-        "custom_background_color": "#ffffff",
-        "custom_text_color": "#ffffff"
-      }
-    },
-    "featured_collection_HD8r3D": {
-      "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "heading_tag": "default",
-        "description": "",
-        "show_description": true,
-        "description_style": "body",
-        "collection": "kids",
-        "products_to_show": 25,
+        "products_per_page": 24,
         "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": true,
+        "enable_learn_more": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
+        "enable_merchandising_card": false,
+        "card_bg_color": "#fecb8b",
+        "card_text_color": "#000000",
+        "card_columns": "two",
+        "card_column_position": 1,
+        "card_row_position": 2,
+        "image_as_bg": true,
+        "bg_image_position": "center",
+        "bg_image_link": "",
+        "card_image_url": "",
+        "card_text_alignment_desktop": "left",
+        "card_text_alignment_mobile": "left",
+        "card_text_position_desktop": "flex-start",
+        "card_text_position_mobile": "flex-start",
+        "card_title": "Pain-free whitening for sensitive smiles.",
+        "card_text": "<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.</p>",
+        "button_text": "Shop Now",
+        "button_url": "shopify://products/rapid-radiance-teeth-whitening-kit",
+        "padding_top": 0,
         "padding_bottom": 36,
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0
+        "padding_top_mobile": 36,
+        "padding_bottom_mobile": 36
       }
     },
     "rich_text_7jAHMk": {
@@ -205,48 +200,6 @@
         "fadein_enabled": false,
         "show_text_below": true,
         "accessibility_info": ""
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
-      "settings": {
-        "products_per_page": 24,
-        "columns_desktop": 4,
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "enable_learn_more": true,
-        "enable_filtering": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "2",
-        "enable_merchandising_card": false,
-        "card_bg_color": "#fecb8b",
-        "card_text_color": "#000000",
-        "card_columns": "two",
-        "card_column_position": 1,
-        "card_row_position": 2,
-        "image_as_bg": true,
-        "bg_image_position": "center",
-        "card_image_desktop": "shopify://shop_images/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png",
-        "card_image_mobile": "shopify://shop_images/Untitled-1-01_2e7924e0-cbca-4d1a-b7be-45ac889db3fc.png",
-        "bg_image_link": "",
-        "card_image_url": "",
-        "card_text_alignment_desktop": "left",
-        "card_text_alignment_mobile": "left",
-        "card_text_position_desktop": "flex-start",
-        "card_text_position_mobile": "flex-start",
-        "card_title": "Pain-free whitening for sensitive smiles.",
-        "card_text": "<p>Skip the trip to the dentist (and the painful peroxide) with this pain-free Whitening Kit.</p>",
-        "button_text": "Shop Now",
-        "button_url": "shopify://products/rapid-radiance-teeth-whitening-kit",
-        "padding_top": 0,
-        "padding_bottom": 36,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
       }
     },
     "image_with_text_FnxcDy": {
@@ -695,20 +648,30 @@
         "padding_top_mobile": 36,
         "padding_bottom_mobile": 36
       }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "color_scheme": "custom",
+        "custom_background_color": "#ffffff",
+        "custom_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "image_with_text_XDigpT",
-    "banner",
-    "featured_collection_HD8r3D",
+    "product-grid",
     "rich_text_7jAHMk",
     "video_slideshow_Ec9amq",
-    "product-grid",
     "image_with_text_FnxcDy",
     "image_with_text_yBtTxx",
     "image_banner_8xz9cF",
     "collapsible_content_NzBCN4",
     "image_banner_3RwNNJ",
-    "e1c2be8a-c503-489a-b63e-982e50c35a28"
+    "e1c2be8a-c503-489a-b63e-982e50c35a28",
+    "banner"
   ]
 }
