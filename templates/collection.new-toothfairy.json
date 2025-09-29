@@ -50,7 +50,7 @@
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "overlap",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "section_background_color": "#ffffff",
         "custom_background_color": "#000000",
