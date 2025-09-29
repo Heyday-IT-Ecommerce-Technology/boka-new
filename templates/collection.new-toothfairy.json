@@ -46,7 +46,7 @@
       "settings": {
         "image": "shopify://shop_images/Top_Banner_800x800_26987000-64f4-4a78-86d7-9390f89724eb.webp",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
