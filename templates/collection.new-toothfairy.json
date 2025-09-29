@@ -118,7 +118,7 @@
           "settings": {
             "image": "shopify://shop_images/Promo_Banner_Desktop.webp",
             "image_mobile": "shopify://shop_images/Promo_Banner_Mobile.webp",
-            "heading": "Get Ready for a <em>Bright New School Year</em>",
+            "heading": "Get Ready for a Bright New School Year",
             "image_link": "",
             "heading_size": "h1",
             "heading_tag": "default",
@@ -237,7 +237,7 @@
         "heading_txnNBx": {
           "type": "heading",
           "settings": {
-            "heading": "Fun Learning for <em>Your Little Ones",
+            "heading": "Fun Learning for Your Little Ones",
             "heading_size": "h1",
             "heading_tag": "default"
           }
