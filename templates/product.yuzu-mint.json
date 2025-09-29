@@ -40,19 +40,6 @@
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
         },
-        "boka_subs_widget_GrPqyY": {
-          "type": "boka_subs_widget",
-          "settings": {
-            "otp_label": "One-time purchase",
-            "subscription_label": "Subscribe & Save",
-            "subscription_sub_label": "Save 20% on every subscription",
-            "default_selection": "subs",
-            "border_color": "#e1e0e0",
-            "text_color": "#000000",
-            "selected_bgcolor": "#fafaf5",
-            "selected_border": "#000000"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -63,15 +50,6 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": false
-          }
-        },
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>1, 2 or 3 Tubes of Toothpaste</strong>, 4oz<br/></p>",
-            "text_style": "body",
-            "quick_add_hide": false
           }
         },
         "custom_liquid_WUtxqU": {
@@ -135,10 +113,8 @@
         "price",
         "variant_picker",
         "recharge_subscriptions_subscription_widget_v2_bmDTCE",
-        "boka_subs_widget_GrPqyY",
         "quantity_selector",
         "buy_buttons",
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
         "custom_liquid_WUtxqU",
         "description",
         "af067451-b82f-4114-8006-9a547e9c2157",
