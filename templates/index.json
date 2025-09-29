@@ -95,27 +95,6 @@
       ],
       "settings": {}
     },
-    "custom_hero_klaviyo_8Deyyw": {
-      "type": "custom-hero-klaviyo",
-      "disabled": true,
-      "name": "Custom Hero with Klaviyo",
-      "settings": {
-        "desktop_media_type": "gif",
-        "desktop_gif": "shopify://shop_images/Probiotics-HP-Teaser-Desktop.gif",
-        "desktop_video": "https://www.boka.com/pages/new-product-teaser",
-        "mobile_media_type": "gif",
-        "mobile_gif": "shopify://shop_images/Probiotics-HP-Teaser-Mobile.gif",
-        "mobile_video": "https://www.boka.com/pages/new-product-teaser",
-        "heading": "",
-        "description": "",
-        "desktop_content_position": "overlay",
-        "desktop_alignment": "left",
-        "klaviyo_form_id": "Vx3PJi",
-        "custom_embed_code": "<div class=\"klaviyo-form-Vx3PJi\"></div>",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "e88125fd-54b1-4dc4-a7be-094d886854f5": {
       "type": "video-slideshow",
       "blocks": {
@@ -375,7 +354,7 @@
         "heading_g8Hktf": {
           "type": "heading",
           "settings": {
-            "heading": "Powered by <em>Nature.<br>\nBacked by <em>Science.</em></em>",
+            "heading": "Powered by Nature.<br>\nBacked by Science.",
             "heading_size": "h1",
             "heading_tag": "default"
           }
@@ -963,7 +942,6 @@
   "order": [
     "quick_button_caEbwf",
     "d0c5cff0-67a0-44b2-909d-a8de23fae9f1",
-    "custom_hero_klaviyo_8Deyyw",
     "e88125fd-54b1-4dc4-a7be-094d886854f5",
     "multicolumn_BWCRzU",
     "rich_text_fiC9M9",
