@@ -465,64 +465,6 @@
         "padding_bottom_mobile": 20
       }
     },
-    "6f7f3f41-c0cd-4ccc-959f-70c21729812b": {
-      "type": "video-slideshow",
-      "blocks": {
-        "5cf37aee-fda8-45af-be01-89c02f1550fe": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/HP_Featured_Banner_Desktop_2_1.webp",
-            "image_mobile": "shopify://shop_images/HP_Featured_Banner_Mobile_2_result_result_5e0318d9-9676-4efe-af64-319947986e0b.webp",
-            "heading": "Give Back with Every Brush",
-            "image_link": "https://www.boka.com/collections/kids",
-            "heading_size": "h1",
-            "heading_tag": "default",
-            "subheading": "With each new Boka Kids subscription , we donate oral care kits to children in need. Because every child deserves a healthy smile.",
-            "button_label": "SUBSCRIBE & DONATE A KIT",
-            "link": "https://www.boka.com/collections/kids",
-            "button_style_secondary": false,
-            "button_label2": "",
-            "link2": "",
-            "button_style_secondary2": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "custom",
-            "custom_background_color": "#ffffff",
-            "custom_text_color": "#000000",
-            "mobile_custom_text_color": "#000000",
-            "button_background_color": "#000000",
-            "button_foreground_color": "#ffffff",
-            "button_background_color_mobile": "#000000",
-            "button_foreground_color_mobile": "#ffffff",
-            "bottom_text_background_color": "#000000",
-            "bottom_text_foreground_color": "#000000",
-            "text_alignment_mobile": "center",
-            "mobile_content_position": "center"
-          }
-        }
-      },
-      "block_order": [
-        "5cf37aee-fda8-45af-be01-89c02f1550fe"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media only screen and (max-width: 749px) {.banner__buttons {width: 100%; justify-content: center; } .banner__buttons > a.button.button--primary {max-width: 155px; }}"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "none",
-        "enable_video_buttons": true,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "fadein_enabled": false,
-        "show_text_below": true,
-        "accessibility_info": "Video showing Boka Brush products"
-      }
-    },
     "custom_liquid_Pw6kPw": {
       "type": "custom-liquid",
       "custom_css": [
@@ -641,7 +583,7 @@
         "template--15124824358955__9862c4aa-f495-4304-9fba-832988e68c27-featured_collection-3"
       ],
       "settings": {
-        "title": "<p>Say <em>hello </em>to n-Ha toothpaste.</p>",
+        "title": "<p>Say hello<em> </em>to n-Ha toothpaste.</p>",
         "heading_alignment": "center",
         "heading_size": "h1",
         "heading_tag": "default",
@@ -950,7 +892,6 @@
     "rich_text_AU4LYa",
     "rich_text_Bh9cg6",
     "3d719ebc-5747-4557-bde5-5de02b7b2fc5",
-    "6f7f3f41-c0cd-4ccc-959f-70c21729812b",
     "custom_liquid_Pw6kPw",
     "6395b3fc-f553-46f1-ba02-561f193e1d1e",
     "9862c4aa-f495-4304-9fba-832988e68c27",
