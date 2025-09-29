@@ -156,7 +156,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Featured_Banner_Citrus_Mint_1.webp",
-            "title": "<strong>Say </strong><em><strong>Hello</strong></em><strong> to Citrus Mint Probiotic Toothpaste</strong>",
+            "title": "<strong>Say hello to Citrus Mint Probiotic Toothpaste</strong>",
             "text": "<p>Invigorate your senses with a blend of orange, lime, eucalyptus, and subtle nutmeg.</p>",
             "link_label": "SHOP NOW",
             "link": "shopify://products/citrus-mint-probiotic-n-ha-toothpaste"
@@ -166,7 +166,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Featured_Banner_Peppermint_Blossom_1.webp",
-            "title": "<strong>Say </strong><em><strong>Hello</strong></em><strong> to Peppermint Blossom Probiotic Toothpaste</strong>",
+            "title": "<strong>Say hello to Peppermint Blossom Probiotic Toothpaste</strong>",
             "text": "<p>Calm and soothe with a blend of peppermint and spearmint that dances with floral Ylang-ylang.</p>",
             "link_label": "SHOP NOW",
             "link": "shopify://products/peppermint-blossom-probiotic-n-ha-toothpaste"
