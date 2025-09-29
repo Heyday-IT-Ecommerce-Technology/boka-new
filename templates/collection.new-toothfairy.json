@@ -46,11 +46,11 @@
       "settings": {
         "image": "shopify://shop_images/Top_Banner_800x800_26987000-64f4-4a78-86d7-9390f89724eb.webp",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "section_background_color": "#ffffff",
         "custom_background_color": "#000000",
