@@ -34,19 +34,6 @@
           "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
           "settings": {}
         },
-        "boka_subs_widget_dat8cD": {
-          "type": "boka_subs_widget",
-          "settings": {
-            "otp_label": "One-time purchase",
-            "subscription_label": "Subscribe & Save",
-            "subscription_sub_label": "Save 20% on every subscription",
-            "default_selection": "subs",
-            "border_color": "#e1e0e0",
-            "text_color": "#000000",
-            "selected_bgcolor": "#fafaf5",
-            "selected_border": "#000000"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -136,7 +123,6 @@
         "yotpo_product_reviews_star_rating_jUVfkT",
         "variant_picker",
         "recharge_subscriptions_subscription_widget_v2_FrYmQD",
-        "boka_subs_widget_dat8cD",
         "buy_buttons",
         "price",
         "quantity_selector",
