@@ -28,24 +28,8 @@
             "hide_on_subscription_products": false
           }
         },
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p><strong>30 Chewable Tablets</strong><br/><strong>Flavor Profile: </strong>Peppermint</p>",
-            "text_style": "body",
-            "quick_add_hide": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "color_names": "white, blue, mint, pink",
-            "color_hex": "#FFFFFF, #46627B, #D5EBCD, #F4B6B7"
-          }
-        },
-        "recharge_subscriptions_subscription_widget_v2_Y3VetV": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+        "quantity_selector": {
+          "type": "quantity_selector",
           "settings": {}
         },
         "buy_buttons": {
@@ -55,10 +39,13 @@
             "show_gift_card_recipient": false
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
+        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><strong>30 Chewable Tablets</strong><br/><strong>Flavor Profile: </strong>Peppermint</p>",
+            "text_style": "body",
+            "quick_add_hide": false
+          }
         },
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515": {
           "type": "richtext",
@@ -150,11 +137,9 @@
         "title",
         "yotpo_product_reviews_star_rating_nRVwYV",
         "price",
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
-        "variant_picker",
-        "recharge_subscriptions_subscription_widget_v2_Y3VetV",
-        "buy_buttons",
         "quantity_selector",
+        "buy_buttons",
+        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
         "description",
         "af067451-b82f-4114-8006-9a547e9c2157",
