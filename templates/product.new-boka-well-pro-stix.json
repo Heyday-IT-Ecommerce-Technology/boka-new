@@ -24,9 +24,8 @@
         },
         "price": {
           "type": "price",
-          "disabled": true,
           "settings": {
-            "hide_on_subscription_products": true
+            "hide_on_subscription_products": false
           }
         },
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
@@ -35,32 +34,6 @@
             "text": "<p><strong>30 Stick Packs</strong><br/><strong>Flavor Profile: </strong>Lemon Lavender</p>",
             "text_style": "body",
             "quick_add_hide": false
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "color_names": "white, blue, mint, pink",
-            "color_hex": "#FFFFFF, #46627B, #D5EBCD, #F4B6B7"
-          }
-        },
-        "recharge_subscriptions_subscription_widget_v2_aCdRx6": {
-          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
-          "settings": {}
-        },
-        "boka_subs_widget_Rq7gaC": {
-          "type": "boka_subs_widget",
-          "disabled": true,
-          "settings": {
-            "otp_label": "One-time purchase",
-            "subscription_label": "Subscribe & Save",
-            "subscription_sub_label": "Save 20% on every subscription",
-            "default_selection": "subs",
-            "border_color": "#e1e0e0",
-            "text_color": "#000000",
-            "selected_bgcolor": "#fafaf5",
-            "selected_border": "#000000"
           }
         },
         "buy_buttons": {
@@ -166,9 +139,6 @@
         "yotpo_product_reviews_star_rating_jRG7CT",
         "price",
         "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
-        "variant_picker",
-        "recharge_subscriptions_subscription_widget_v2_aCdRx6",
-        "boka_subs_widget_Rq7gaC",
         "buy_buttons",
         "quantity_selector",
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
