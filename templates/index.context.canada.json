@@ -96,21 +96,6 @@
         }
       }
     },
-    "6f7f3f41-c0cd-4ccc-959f-70c21729812b": {
-      "settings": {},
-      "blocks": {
-        "5cf37aee-fda8-45af-be01-89c02f1550fe": {
-          "settings": {
-            "image": "shopify://shop_images/BOK_1205_HPBanner_WhiteningToothpaste1pk_Opt2_Desktop.jpg",
-            "image_mobile": "shopify://shop_images/BOK_1205_HPBanner_WhiteningToothpaste1pk_Opt2_Mobile.png",
-            "heading": "Now Shipping to Canada",
-            "subheading": "We are excited to offer shipping to Canada for all Boka toothpaste!",
-            "button_label": "Shop n-Ha Toothpaste",
-            "link": "shopify://collections/nano-hydroxyapatite_n-ha_toothpaste"
-          }
-        }
-      }
-    },
     "multicolumn_BWCRzU": {
       "disabled": true,
       "settings": {},

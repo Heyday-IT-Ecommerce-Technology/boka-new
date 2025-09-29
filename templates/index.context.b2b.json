@@ -1,1 +1,57 @@
-{"parent":"index.json","context":{"b2b":true},"sections":{"d0c5cff0-67a0-44b2-909d-a8de23fae9f1":{"disabled":true,"settings":{},"blocks":{"announcement_D4r3x":{"type":"announcement","disabled":false,"settings":{"text":"Welcome to our wholesale store","fadein_enabled":true,"text_alignment":"center","color_scheme":"background-1","link":"","header-51eb169a437ba218de07f9515b7681b4":null,"custom_background_color":"#333333","custom_text_color":"#FFFFFF"}},"template--15124824358955__d0c5cff0-67a0-44b2-909d-a8de23fae9f1-16836973977ea3509a-0":{"disabled":true,"settings":{}}},"block_order":["template--15124824358955__d0c5cff0-67a0-44b2-909d-a8de23fae9f1-16836973977ea3509a-0","announcement_D4r3x"]}},"order":["d0c5cff0-67a0-44b2-909d-a8de23fae9f1","e88125fd-54b1-4dc4-a7be-094d886854f5","c6a93dd1-8311-4974-b863-f220a9ebe858","3d719ebc-5747-4557-bde5-5de02b7b2fc5","6f7f3f41-c0cd-4ccc-959f-70c21729812b","6395b3fc-f553-46f1-ba02-561f193e1d1e","9862c4aa-f495-4304-9fba-832988e68c27","486363a0-4f38-49ec-8de8-3bcdfd569298","featured_collection","a43145cd-9270-46e8-8a1e-04c26bb15842","7bdc6d37-1f4e-420c-8fbe-90c6654468b5"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "index.json",
+  "context": {
+    "b2b": true
+  },
+  "sections": {
+    "d0c5cff0-67a0-44b2-909d-a8de23fae9f1": {
+      "disabled": true,
+      "settings": {},
+      "blocks": {
+        "announcement_D4r3x": {
+          "type": "announcement",
+          "disabled": false,
+          "settings": {
+            "text": "Welcome to our wholesale store",
+            "fadein_enabled": true,
+            "text_alignment": "center",
+            "color_scheme": "background-1",
+            "link": "",
+            "header-51eb169a437ba218de07f9515b7681b4": null,
+            "custom_background_color": "#333333",
+            "custom_text_color": "#FFFFFF"
+          }
+        },
+        "template--15124824358955__d0c5cff0-67a0-44b2-909d-a8de23fae9f1-16836973977ea3509a-0": {
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--15124824358955__d0c5cff0-67a0-44b2-909d-a8de23fae9f1-16836973977ea3509a-0",
+        "announcement_D4r3x"
+      ]
+    }
+  },
+  "order": [
+    "d0c5cff0-67a0-44b2-909d-a8de23fae9f1",
+    "e88125fd-54b1-4dc4-a7be-094d886854f5",
+    "c6a93dd1-8311-4974-b863-f220a9ebe858",
+    "3d719ebc-5747-4557-bde5-5de02b7b2fc5",
+    "6395b3fc-f553-46f1-ba02-561f193e1d1e",
+    "9862c4aa-f495-4304-9fba-832988e68c27",
+    "486363a0-4f38-49ec-8de8-3bcdfd569298",
+    "featured_collection",
+    "a43145cd-9270-46e8-8a1e-04c26bb15842",
+    "7bdc6d37-1f4e-420c-8fbe-90c6654468b5"
+  ]
+}
