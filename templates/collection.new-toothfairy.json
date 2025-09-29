@@ -23,7 +23,7 @@
         "text_mHAAEP": {
           "type": "text",
           "settings": {
-            "text": "<p>Through our partnership with <strong>America’s ToothFairy,</strong> we’re helping underserved children gain access to essential oral care. <strong>For every new subscription to Boka Kids' Toothpaste</strong>, we’ll donate dental hygiene kits and help teach kids how to prevent tooth decay.</p>",
+            "text": "<p>Through our partnership with America’s ToothFairy,<strong> </strong>we’re helping underserved children gain access to essential oral care. For every new subscription to Boka Kids' Toothpaste, we’ll donate dental hygiene kits and help teach kids how to prevent tooth decay.</p>",
             "text_style": "body"
           }
         },
