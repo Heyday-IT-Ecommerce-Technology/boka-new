@@ -128,6 +128,15 @@
             "image_ratio": "square",
             "enable_quick_add": true
           }
+        },
+        "collapsible_tab_VN89c8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "icon": "none",
+            "content": "<p><strong>Refresh Mint Whitening* n-Ha Toothpaste:</strong> Glycerin, Water, Hydrated Silica, Sorbitol, Sodium Bicarbonate (Baking Soda), Hydroxyapatite (nano), Xanthan Gum, Xylitol, Cocos Nucifera (Coconut) Oil, Elettaria Cardamomum Seed Oil, Persea Gratissima (Avocado) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Camellia Sinensis (Tea) Leaf Extract, Illicium Verum (Anise) Oil, Mentha Piperita (Peppermint) Oil, Gaultheria Procumbens (Wintergreen) Leaf Oil, Mentha Spicata (Spearmint) Leaf Oil, Aloe Barbadensis Leaf Juice, Stevia Rebaudiana Leaf Extract, Menthol, Dimethyl Sulfone, Sodium Lauroyl Sarcosinate.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -144,7 +153,8 @@
         "description",
         "af067451-b82f-4114-8006-9a547e9c2157",
         "b4620176-8a50-42c9-8121-6df15e9ca481",
-        "8f4ac970-3a15-4b7d-823a-82ce6560b8df"
+        "8f4ac970-3a15-4b7d-823a-82ce6560b8df",
+        "collapsible_tab_VN89c8"
       ],
       "custom_css": [
         "@media only screen and (max-width: 1200px) {.product-card-wrapper .card__content .cta-buttons {order: 1 !important; }}"
@@ -407,44 +417,6 @@
         "padding_bottom_tablet": 30,
         "padding_top_mobile": 0,
         "padding_bottom_mobile": 0
-      }
-    },
-    "085f1055-2d3e-4d54-be2a-a41bb92a1ad9": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15159059087403__085f1055-2d3e-4d54-be2a-a41bb92a1ad9-168749917871881e00-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Ingredients",
-            "heading_size": "h1",
-            "heading_tag": "default"
-          }
-        },
-        "410d7acd-d64a-417f-84c8-18dc7dcfcaca": {
-          "type": "caption",
-          "settings": {
-            "caption": "Glycerin, Water, Hydrated Silica, Sorbitol, Sodium Bicarbonate (Baking Soda), Hydroxyapatite (nano), Xanthan Gum, Xylitol, Cocos Nucifera (Coconut) Oil, Elettaria Cardamomum Seed Oil, Persea Gratissima (Avocado) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Mangifera Indica (Mango) Fruit Extract, Camellia Sinensis (Tea) Leaf Extract, Illicium Verum (Anise) Oil, Mentha Piperita (Peppermint) Oil, Gaultheria Procumbens (Wintergreen) Leaf Oil, Mentha Spicata (Spearmint) Leaf Oil, Aloe Barbadensis Leaf Juice, Stevia Rebaudiana Leaf Extract, Menthol, Dimethyl Sulfone, Sodium Lauroyl Sarcosinate.",
-            "text_style": "subtitle",
-            "text_size": "medium"
-          }
-        }
-      },
-      "block_order": [
-        "template--15159059087403__085f1055-2d3e-4d54-be2a-a41bb92a1ad9-168749917871881e00-0",
-        "410d7acd-d64a-417f-84c8-18dc7dcfcaca"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "fadein_enabled": false,
-        "color_scheme": "background-1",
-        "custom_background_color": "#333333",
-        "custom_text_color": "#ffffff",
-        "full_width": false,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "padding_top_mobile": 36,
-        "padding_bottom_mobile": 36
       }
     },
     "13bf477d-9ff5-4e98-aa65-67538cea8e94": {
@@ -1597,7 +1569,6 @@
     "9b1024e4-3a86-4b1c-aa31-f83e584dd2b8",
     "related-products",
     "a02ced5f-9a2c-4bfd-989c-12be8442c58a",
-    "085f1055-2d3e-4d54-be2a-a41bb92a1ad9",
     "13bf477d-9ff5-4e98-aa65-67538cea8e94",
     "672bfbbb-3f35-4988-bf92-66ed4484892b",
     "rich_text_BkYWCm",
