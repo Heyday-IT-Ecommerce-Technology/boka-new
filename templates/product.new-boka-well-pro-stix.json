@@ -28,13 +28,9 @@
             "hide_on_subscription_products": false
           }
         },
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p><strong>30 Stick Packs</strong><br/><strong>Flavor Profile: </strong>Lemon Lavender</p>",
-            "text_style": "body",
-            "quick_add_hide": false
-          }
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -43,17 +39,11 @@
             "show_gift_card_recipient": false
           }
         },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
-        "ab30e277-8d13-4c9c-b973-b5f18ebcc515": {
+        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "text": "<h3><a href=\"/collections/nano-hydroxyapatite_n-ha_toothpaste\" title=\"Nano-hydroxyapatite (N-Ha) Toothpaste\">Shop Other Flavors</a></h3>",
-            "text_style": "subtitle",
+            "text": "<p><strong>30 Stick Packs</strong><br/><strong>Flavor Profile: </strong>Lemon Lavender</p>",
+            "text_style": "body",
             "quick_add_hide": false
           }
         },
@@ -91,20 +81,6 @@
             "padding_bottom": 0
           }
         },
-        "8f4ac970-3a15-4b7d-823a-82ce6560b8df": {
-          "type": "complementary",
-          "disabled": true,
-          "settings": {
-            "block_heading": "Pairs well with",
-            "make_collapsible_row": true,
-            "icon": "price_tag",
-            "product_list_limit": 10,
-            "products_per_page": 3,
-            "pagination_style": "counter",
-            "image_ratio": "square",
-            "enable_quick_add": true
-          }
-        },
         "collapsible_tab_9Ri3zn": {
           "type": "collapsible_tab",
           "disabled": true,
@@ -138,14 +114,12 @@
         "title",
         "yotpo_product_reviews_star_rating_jRG7CT",
         "price",
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
-        "buy_buttons",
         "quantity_selector",
-        "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
+        "buy_buttons",
+        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
         "description",
         "af067451-b82f-4114-8006-9a547e9c2157",
         "b4620176-8a50-42c9-8121-6df15e9ca481",
-        "8f4ac970-3a15-4b7d-823a-82ce6560b8df",
         "collapsible_tab_9Ri3zn",
         "collapsible_tab_iwBANr",
         "collapsible_tab_NnPN3E"
