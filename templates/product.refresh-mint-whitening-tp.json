@@ -54,14 +54,6 @@
             "show_gift_card_recipient": false
           }
         },
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p><strong>1, 2 or 3 Tubes of Toothpaste</strong>, 4oz<br/><strong>Flavor Profile, </strong>Peppermint</p>",
-            "text_style": "body",
-            "quick_add_hide": false
-          }
-        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -146,7 +138,6 @@
         "recharge_subscriptions_subscription_widget_v2_FrYmQD",
         "boka_subs_widget_dat8cD",
         "buy_buttons",
-        "76b0a144-e4d8-4d75-b59d-b96b0674c3a3",
         "price",
         "quantity_selector",
         "ab30e277-8d13-4c9c-b973-b5f18ebcc515",
