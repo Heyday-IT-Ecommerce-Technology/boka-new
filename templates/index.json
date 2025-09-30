@@ -101,8 +101,8 @@
         "image_RJU7Ux": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Boka_PB_Home-page-banner.png",
-            "image_mobile": "shopify://shop_images/Probiotics_HP_Mobile.webp",
+            "image": "shopify://shop_images/Probiotics_HP_Desktop_1.webp",
+            "image_mobile": "shopify://shop_images/Probiotics_HP_Mobile_1.webp",
             "heading": "Nourish & Flourish",
             "image_link": "shopify://collections/boka-probiotics",
             "heading_size": "h1",
@@ -115,7 +115,7 @@
             "link2": "shopify://collections/boka-probiotics",
             "button_style_secondary2": false,
             "box_align": "middle-left",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "custom",
@@ -129,7 +129,7 @@
             "bottom_text_background_color": "#000000",
             "bottom_text_foreground_color": "#000000",
             "text_alignment_mobile": "center",
-            "mobile_content_position": "bottom"
+            "mobile_content_position": "top"
           }
         }
       },
@@ -145,7 +145,7 @@
         "change_slides_speed": 3,
         "image_behavior": "none",
         "fadein_enabled": false,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "A customers review."
       }
     },
