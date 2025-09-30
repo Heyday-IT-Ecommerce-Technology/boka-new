@@ -1,7 +1,14 @@
-a.button--primary:focus, .select__select:focus, #recharge-customer-portal *[tabindex="0"]:focus, #recharge-customer-portal select:focus, ._16omeme0:focus-within{
+body.keyboard-only a.button--primary:focus,
+body.keyboard-only .select__select:focus, 
+body.keyboard-only #recharge-customer-portal *[tabindex="0"]:focus, 
+body.keyboard-only #recharge-customer-portal select:focus, 
+ ._16omeme0:focus-within{
   outline: 5px auto -webkit-focus-ring-color !important;
 }
-.recharge-section-next-order-actions button:focus, #recharge-customer-portal a:focus, #recharge-customer-portal button:focus{
+body.keyboard-only .recharge-section-next-order-actions button:focus, 
+body.keyboard-only #recharge-customer-portal a:focus, 
+body.keyboard-only #recharge-customer-portal button:focus
+{
   outline: 5px auto -webkit-focus-ring-color !important;
   outline-offset: -3px;
 }
@@ -60,7 +67,7 @@ a.button--primary:focus, .select__select:focus, #recharge-customer-portal *[tabi
   background: white !important;
 }
 
-*:focus{
+body.keyboard-only *:focus{
   border: 2px solid black !important;
 }
 
@@ -233,3 +240,9 @@ span.yotpo-star-rating-reviews-summary-text:focus
   top:5px !important;
 }
 
+.copyright__content a{
+  text-decoration: underline !important;
+}
+.rc-login--header-media svg path{
+  fill: black;
+}

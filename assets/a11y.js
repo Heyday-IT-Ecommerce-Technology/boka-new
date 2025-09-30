@@ -1,4 +1,13 @@
 window.addEventListener("DOMContentLoaded", function () {
+
+  document.addEventListener('keydown', function () {
+  document.body.classList.add('keyboard-only');
+});
+
+document.addEventListener('mousemove', function () {
+  document.body.classList.remove('keyboard-only');
+});
+
   console.log("ally start");
 
   // $("div.sidebar-wrap").attr("role", "list");
@@ -589,10 +598,11 @@ if ($closeButton.length && $emptyContent.length) {
 //       }
 // });
 
-$('.header__icon--menu').on('click', function () {
-        var expanded = $(this).attr('aria-expanded') === 'true';
-        $(this).attr('aria-expanded', !expanded);
-});
+// $('.header__icon--menu').on('click', function () {
+//   console.log($(this).parent().attr('open'));
+//         var expanded = $(this).attr('aria-expanded') === 'true';
+//         $(this).attr('aria-expanded', !expanded);
+// });
 
 const $drawer = $('#Details-menu-drawer-container');
   const $menuDrawer = $('#menu-drawer');

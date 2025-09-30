@@ -743,7 +743,7 @@ quick-add-modal .rc_radio {
         font-size: calc(var(--font-body-scale) * 1.6rem);
     }
     .product-card-wrapper .card__content .cta-buttons {
-        order: 1;
+        order: -1;
     }
     .product-card-wrapper .card__content .cta-buttons .button {
         font-size: calc(var(--font-body-scale) * 1rem);

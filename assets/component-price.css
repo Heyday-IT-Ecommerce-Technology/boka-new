@@ -68,11 +68,6 @@
   display: none;
 }
 
-.price__sale__pdp{
-  display: flex;
-  align-items: center;
-}
-
 .price--on-sale .price__sale {
   display: initial;
   flex-direction: row;
