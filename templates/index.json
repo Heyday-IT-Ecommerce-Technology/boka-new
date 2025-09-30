@@ -373,7 +373,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "fadein_enabled": true,
+        "fadein_enabled": false,
         "color_scheme": "custom",
         "custom_background_color": "#fafaf5",
         "custom_text_color": "#212529",
