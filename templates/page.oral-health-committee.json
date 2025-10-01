@@ -66,6 +66,12 @@
         "section_background_color": "rgba(0,0,0,0)",
         "custom_background_color": "#ffffff",
         "custom_text_color": "#000000",
+        "heading_font_size_mobile": 28,
+        "heading_font_size_desktop": 48,
+        "text_font_size_mobile": 16,
+        "text_font_size_desktop": 18,
+        "caption_font_size_mobile": 14,
+        "caption_font_size_desktop": 16,
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "padding_top": 0,
@@ -211,13 +217,26 @@
             "cta_link": "",
             "cta_label": "Clickable Link"
           }
+        },
+        "member_BNtbae": {
+          "type": "member",
+          "settings": {
+            "photo": "shopify://shop_images/Victoria.webp",
+            "quote": "“Oral health is the gateway to overall well-being—protecting teeth today can help prevent systemic problems in the future. Fluoride has supported strong teeth for generations, and new innovations like nano-hydroxyapatite (n-HA) are giving us even more ways to care for and protect our smiles.”",
+            "name": "Dr. Victoria Sampson",
+            "short_bio": "",
+            "full_bio": "Dr. Victoria Sampson is a functional dentist and researcher based in central London. She obtained her Bachelor in Dental Surgery from Barts and The London and is now known for her work in developing salivary diagnostics and microbiome testing. Her work has been acknowledged worldwide resulting in her becoming a scientific advisor, board member and clinical lead of multiple dental companies globally as well as a topical team member of the European Space Agency and NASA. Victoria has published numerous papers and was the first dentist in the world to link gum disease with worse COVID complications. Victoria is also the first dentist to shortlist for Forbes 30 under 30 in Healthcare and Science in Europe and has launched her own oral microbiome test, ORALIS 1, which assesses the saliva for bacteria, inflammatory markers, and genetic mutations. Her aim is to help predict and treat patients at risk of oral diseases, as well as help patients achieve full body health through the mouth first. She has also cofounded a multidisciplinary health centre in London aimed at putting the mouth back in the body and connecting the oral microbiome with general health.",
+            "cta_link": "https://www.thehealthsociety.co.uk/",
+            "cta_label": "Clickable Link"
+          }
         }
       },
       "block_order": [
         "member_rcCqpD",
         "member_YAfRq4",
         "member_wf4JkE",
-        "member_K3mtjf"
+        "member_K3mtjf",
+        "member_BNtbae"
       ],
       "custom_css": [
         ".custom-multicolumn-wrapper {background-color: #fafaf5;}"
